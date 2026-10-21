@@ -53,3 +53,22 @@ automatic learning or continuous assistant access was added.
 Once the new public repository exists and the source is uploaded to its main branch, its push
 trigger can run the full build on standard hosted runners. Actual run results must be recorded
 before describing the new app as built or tested.
+
+## Publication and build outcome — 2026-10-21
+
+The owner created the separate public repository [M1-0/safw](https://github.com/M1-0/safw).
+Its source tree matched the reviewed 68-file snapshot exactly
+(`da5c00ab1d04e8d03e415e71fc85d204bbf6ad6d`). Its source commit
+`ff20035c20de6e703af5a5dbf3e8cdce9889e57a` has only the new repository's README commit as a parent;
+the former private repository's history was not imported.
+
+[Run 39654069505](https://github.com/M1-0/safw/actions/runs/39654069505) passed all six jobs, including the aggregate `verified` gate.
+It produced a real build 439 IPA and 44 synthetic iPhone 13 simulator captures. The downloaded
+IPA's SHA-256 matched its build manifest; app/widget build numbers, bundle identities, OAuth callback
+scheme and permitted background identifier were checked in the packaged plists. The Today, Sleep,
+normal comparison and large-text comparison captures were visually inspected.
+
+Exact artifact and validation details are recorded in [build-439.json](build-439.json). The original
+private repository remains private. Real WHOOP authorization, physical strap operation, independent
+baselines and physiological accuracy remain untested. Publishing and compiling the code does not
+establish sleep-stage or recovery accuracy.

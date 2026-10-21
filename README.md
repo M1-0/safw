@@ -3,15 +3,17 @@
 Build 439 prepares a clean public source snapshot and freezes the first timely nightly comparison.
 The public source has no WHOOP exports or imported Git history. The combined workflow checks Python,
 Swift packages, both Apple targets, and iPhone 13 simulator launches; it produces an unsigned IPA
-only after the real Apple build succeeds. Public publication and the 439 Apple build are pending.
-See [Audit/PUBLICATION.md](Audit/PUBLICATION.md) for the exact verification boundary.
+only after the real Apple build succeeds. Build 439 passed the full public workflow on source
+`ff20035c20de6e703af5a5dbf3e8cdce9889e57a`, producing a real unsigned IPA and 44 iPhone 13 simulator screen captures.
+See [Audit/build-439.json](Audit/build-439.json) and [Audit/PUBLICATION.md](Audit/PUBLICATION.md).
 
 Build 438 work is documented in [Audit/SAFW-438.md](Audit/SAFW-438.md). It preserves the installed bundle ID and the full upstream foundation. Build status is recorded separately; source changes are not proof of a successful IPA.
 
 The optional [automatic personal comparison](Validation/README.md) collects local computed results
 and compares them with the owner's official WHOOP reference without daily transcription. Its receiver
-tests pass locally; its new Apple code has not been compiled, authorized with an account, or shipped
-as an IPA. It requires one-time receiver/TLS/OAuth setup and explicit phone opt-in. The receiver
+tests and Apple compilation pass in public CI; build 439 is available as an unsigned IPA. A real
+WHOOP account connection and physical strap remain untested. It requires one-time receiver/TLS/OAuth
+setup and explicit phone opt-in. The receiver
 is user-owned; neither this repository nor the assistant provides an always-running hosted service.
 
 # Personal iPhone build
@@ -59,6 +61,19 @@ Keep the original remote. Fetch and review a selected release in a separate work
 
 ## Status and acceptance
 
-See `Audit/SAFW-438.md` for the current checkpoint and `Audit/REPORT.md` for historical validation. Build 438 source is saved, but its CI jobs failed before any steps; no 438 IPA has been built. This checkpoint is **not a claim of a fully Arabic or daily-use-validated app**. Build 436 passed the full configured Apple/package/Python gates and produced an IPA. Build 437 also produced a real Release IPA, but the protocol rerun jobs and new simulator job did not start; the aggregate 437 gate is not green. See the audit for the exact evidence boundary. Its iPhone 13 simulator audit captured 19 screens; those images revealed the ring appearance, a reversed NOOP wordmark and clipped Arabic units, addressed in build 437. No physical strap or HealthKit authorization test has been performed. A green package suite is not an iOS app build. The GitHub Actions `verified` job requires every configured job to pass; an IPA artifact alone is not that gate.
+Build 439 passed [public CI run 39654069505](https://github.com/M1-0/safw/actions/runs/39654069505) on source `ff20035c20de6e703af5a5dbf3e8cdce9889e57a`:
+31 personal Python tests, 338 upstream Tools tests, 234 capture-tool tests, both Swift-package
+matrix jobs, upstream macOS app tests, runtime/language checks, the synthetic import round trip,
+Release iOS packaging and the simulator job. The final aggregate gate passed.
+
+The iPhone 13 simulator used iOS 26.5, retained Arabic defaults and captured 44 screens after
+checking each launch survived eight seconds. Four representative Today, Sleep and comparison
+captures were visually reviewed, including large comparison text. This is not an interaction
+test of every screen, a complete Arabic rollout, real OAuth validation, hardware validation or
+physiological accuracy evidence. Static catalog coverage is 2659/4490 (59.22%).
+
+The IPA has the existing personal bundle id and a new build number. SideStore signs it for the
+owner's phone. Comparison remains disabled until its receiver and WHOOP authorization are
+configured. Historical build 436–438 evidence remains in the dated audit files.
 
 After installing a successfully built IPA: verify opening, Arabic/RTL, Bluetooth permission, WHOOP 5 scan/connect/HR/battery, reconnection after locking, ZIP import and repeated import, restart persistence, HealthKit read consent, and a night interrupted at Fajr. Compare days/sources against WHOOP without treating WHOOP as ground truth. Do not install over the existing upstream or official app; verify the separate bundle identity first.

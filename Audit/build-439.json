@@ -1,0 +1,99 @@
+{
+  "build": "439",
+  "date": "2026-10-21",
+  "repository": "M1-0/safw",
+  "visibility": "public",
+  "source_commit": "ff20035c20de6e703af5a5dbf3e8cdce9889e57a",
+  "upstream_commit": "9f98f811a6849ebcc333f51c0b37917f8d1f437e",
+  "workflow": {
+    "run_id": 39654069505,
+    "url": "https://github.com/M1-0/safw/actions/runs/39654069505",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "id": 119409580493,
+        "name": "checks",
+        "conclusion": "success"
+      },
+      {
+        "id": 119411178629,
+        "name": "simulator",
+        "conclusion": "success"
+      },
+      {
+        "id": 119411178644,
+        "name": "packages (Packages/WhoopStore Packages/StrandImport Packages/StrandAnalytics Personal/Research)",
+        "conclusion": "success"
+      },
+      {
+        "id": 119411178677,
+        "name": "packages (Packages/WhoopProtocol Packages/OuraProtocol Packages/PolarProtocol Packages/StrandDesi...",
+        "conclusion": "success"
+      },
+      {
+        "id": 119411178928,
+        "name": "apple",
+        "conclusion": "success"
+      },
+      {
+        "id": 119425687240,
+        "name": "verified",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "checks": {
+    "python_personal_tests": 31,
+    "python_upstream_tools_tests": 338,
+    "python_capture_tests": 234,
+    "swift_package_matrix": "passed",
+    "macos_app_tests": "passed",
+    "language_defaults_runtime_checks": "passed",
+    "synthetic_whoop_import_round_trip": "passed",
+    "ios_release_build": "passed",
+    "ipa_hash_bundle_build_and_callback_checks": "passed"
+  },
+  "simulator": {
+    "device": "iPhone 13",
+    "runtime": "iOS 26.5",
+    "screens": 44,
+    "each_launch_survived_seconds": 8,
+    "arabic_defaults_persisted": true,
+    "artifact_id": 12372756979,
+    "visually_reviewed": [
+      "04-liquidtoday",
+      "06-sleep",
+      "flow-validation",
+      "large-validation"
+    ],
+    "all_interactions_tested": false,
+    "fixtures": "synthetic"
+  },
+  "ipa": {
+    "file_name": "Safw-12.0.0-439-unsigned.ipa",
+    "size_bytes": 24732410,
+    "sha256": "a1fcea4abf41229bfa8c46e9a6606d5f84b03524d35f0974600eb468342f4c37",
+    "artifact_id": 12371388674,
+    "bundle_id": "app.m1.mynoop.noop",
+    "widget_bundle_id": "app.m1.mynoop.noop.widgets",
+    "widget_build": "439",
+    "signing": "unsigned; SideStore signs for the owner's device"
+  },
+  "localization": {
+    "scope": "Static catalog coverage, not complete screen coverage",
+    "translated": 2659,
+    "total": 4490,
+    "percent": 59.22
+  },
+  "hardware_tested": false,
+  "real_whoop_oauth_tested": false,
+  "receiver_deployed": false,
+  "baseline_independence_verified": false,
+  "physiological_accuracy_measured": false,
+  "limitations": [
+    "No new physiological scorer or trained model was added.",
+    "WHOOP comparison requires one-time receiver/TLS/OAuth setup and phone opt-in.",
+    "Nightly stage totals are agreement measurements, not epoch-level sleep-stage accuracy.",
+    "iOS background refresh is best effort; the assistant has no standing access to the receiver."
+  ]
+}

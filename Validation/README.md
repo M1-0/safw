@@ -4,7 +4,8 @@ This is an opt-in feature for the personal iPhone fork, not an upstream NOOP fea
 It collects a comparison without daily screenshots, transcription or switching between apps.
 It **does not implement a new recovery or sleep algorithm**, automatically train a model, or prove
 clinical accuracy. Installation alone is insufficient: the receiver, TLS and WHOOP OAuth app must
-be configured once. No new IPA has been built or this connection tested with a real account.
+be configured once. Build 439 passed Apple CI and simulator launches and produced a real unsigned
+IPA. The connection has not been tested with a real WHOOP account or physical strap.
 
 ## Data flow
 
@@ -104,10 +105,11 @@ Fixtures are synthetic. The tests cover OAuth state/expiry/replay, refresh rotat
 reference publication, bounds/auth checks, encryption, revisions and comparison exclusions.
 They do not make requests to a real WHOOP account or certify Apple API behavior.
 
-Before shipping, build both Apple targets with Xcode, exercise browser authorization and background
-expiration on an iPhone 13, verify the exact WHOOP redirect in the developer dashboard, and inspect
-the Arabic screen. The public-build workflow runs Apple jobs only after public-repository checks;
-the existing private Actions quota blockade is not retried.
+Build 439 compiled both Apple targets and passed the configured tests in public CI; its iPhone 13
+simulator run captured 44 screens, including comparison at normal and large text sizes. Before
+claiming real device operation, exercise browser authorization and background expiration on the
+physical iPhone 13 and verify the exact WHOOP redirect in the developer dashboard. The public
+workflow runs Apple jobs only after public-repository checks. No private billing gate was retried.
 This feature is intentionally iPhone-only; no upstream schema, Kotlin scorer, BLE command, shared
 backup whitelist or standard NOOP computation changes.
 
