@@ -1,0 +1,48 @@
+{
+  "build": "438",
+  "display_name": "صفو",
+  "bundle_id": "app.m1.mynoop.noop",
+  "upstream_commit": "9f98f811a6849ebcc333f51c0b37917f8d1f437e",
+  "checks": {
+    "clean_overlay_apply": "passed",
+    "translation_placeholders": "passed",
+    "legal_byte_identity": "passed",
+    "python_overlay_tests": {
+      "passed": 3
+    },
+    "upstream_tools_tests": {
+      "passed": 338,
+      "duration_seconds": 95.581
+    },
+    "new_swift_research_tests": {
+      "authored": 15,
+      "run": false
+    },
+    "swift_packages": "blocked before runner steps",
+    "ios_release": "not built",
+    "simulator": "not run",
+    "hardware": "not tested"
+  },
+  "localization": {
+    "scope": "Static catalog coverage, not visual screen coverage",
+    "total": 4457,
+    "arabic": 2626,
+    "percent": 58.92,
+    "uncatalogued_occurrences": 106,
+    "uncatalogued_unique": 105
+  },
+  "ci_blocker": {
+    "run_id": 37925160762,
+    "latest_apple_job": 113802221129,
+    "steps_started": 0,
+    "cause": "GitHub account billing gate: failed recent payments or spending limit reached. The specific account-side condition is not established.",
+    "evidence": "User-provided GitHub Actions annotations screenshot, reviewed 2026-10-09. All four jobs show the same billing message.",
+    "action": "Account owner must review Billing and payments / Budgets and alerts. Do not retry the workflow or alter paid budgets automatically before the account-side block is resolved."
+  },
+  "ipa": null,
+  "last_built_ipa": {
+    "build": "437",
+    "name": "MyNOOP-12.0.0-437-unsigned.ipa",
+    "is_this_revision": false
+  }
+}

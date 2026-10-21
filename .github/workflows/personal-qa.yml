@@ -1,0 +1,75 @@
+name: Safw simulator and Android audit
+on:
+  workflow_dispatch:
+  push:
+    branches: ['qa/mynoop-*']
+permissions:
+  contents: read
+jobs:
+  simulator:
+    if: ${{ github.event.repository.private == false }}
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: personal
+          persist-credentials: false
+      - uses: actions/checkout@v5
+        with:
+          repository: ryanbr/noop
+          ref: 9f98f811a6849ebcc333f51c0b37917f8d1f437e
+          path: noop
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: brew install xcodegen
+      - run: python3 -m pip install PyYAML==6.0.3
+      - run: python3 personal/apply.py noop
+      - name: Mount reviewed Arabic flows in the Debug screenshot harness
+        run: python3 personal/Tests/prepare_simulator.py noop
+      - name: Build simulator app
+        working-directory: noop
+        run: |
+          xcodegen generate --spec project.personal.generated.yml
+          xcodebuild -project Strand.xcodeproj -scheme NOOPiOS -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' -derivedDataPath build/personal-simulator \
+            ARCHS=arm64 ONLY_ACTIVE_ARCH=YES CODE_SIGNING_ALLOWED=YES \
+            CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM='' build
+      - name: iPhone 13 launch and screen captures
+        run: python3 personal/Tests/simulator_smoke.py noop
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Safw-iPhone13-simulator-audit
+          path: noop/build/personal-screenshots/
+          if-no-files-found: warn
+          retention-days: 7
+  android-baseline:
+    # The pinned source already passed on run 37582743703; simulator-only repairs do not rerun it.
+    if: github.event_name == 'workflow_dispatch' && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          repository: ryanbr/noop
+          ref: 9f98f811a6849ebcc333f51c0b37917f8d1f437e
+          persist-credentials: false
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/wrapper-validation@v5
+      - uses: gradle/actions/setup-gradle@v5
+      - name: Build and test the unchanged Android implementation
+        working-directory: android
+        run: ./gradlew assembleFullDebug testFullDebugUnitTest --no-build-cache --rerun-tasks
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: NOOP-upstream-Android-test-results
+          path: android/app/build/test-results/testFullDebugUnitTest/
+          if-no-files-found: warn
+          retention-days: 7

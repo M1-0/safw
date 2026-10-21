@@ -1,0 +1,9 @@
+{
+  "upstream": "ryanbr/noop",
+  "upstream_commit": "9f98f811a6849ebcc333f51c0b37917f8d1f437e",
+  "upstream_release": "v12.0.0",
+  "bundle_prefix": "app.m1.mynoop",
+  "name": "صفو",
+  "build": "439",
+  "artifact_name": "Safw"
+}

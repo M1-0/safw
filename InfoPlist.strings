@@ -1,0 +1,8 @@
+"CFBundleDisplayName" = "صفو";
+"NSBluetoothAlwaysUsageDescription" = "يتصل صفو بسوار WHOOP عبر Bluetooth لقراءة نبض القلب والفواصل بين النبضات والبطارية وبيانات المستشعرات. تُحفظ البيانات على جهازك.";
+"NSHealthShareUsageDescription" = "يقرأ صفو القياسات التي تسمح بها من Apple Health لعرض بياناتك وحساب مؤشرات النوم والتعافي والجهد على جهازك.";
+"NSHealthUpdateUsageDescription" = "يتيح لك صفو حفظ القياسات المستخرجة من سوارك في Apple Health، عند سماحك بذلك.";
+"NSLocationWhenInUseUsageDescription" = "يسجل صفو مسار تمرينك الخارجي لعرض المسافة والسرعة والخريطة، ويستمر أثناء إطفاء الشاشة. يُحفظ المسار على جهازك.";
+"NSMotionUsageDescription" = "يقرأ صفو عدد خطوات iPhone لعرضها في ملخص تمرين المشي أو الجري. تبقى البيانات على جهازك.";
+"NSSpeechRecognitionUsageDescription" = "يحوّل صفو سؤالك الصوتي إلى نص على iPhone لتتمكن من سؤال المدرّب. لا يُرسل التسجيل خارج الجهاز.";
+"NSMicrophoneUsageDescription" = "يستخدم صفو الميكروفون لسؤالك الصوتي للمدرّب. يُحوَّل التسجيل إلى نص على جهازك.";

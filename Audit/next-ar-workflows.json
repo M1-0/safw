@@ -1,0 +1,747 @@
+[
+  {
+    "file": "Strand/App/TermsGateView.swift",
+    "line": 21,
+    "key": "Before you use NOOP"
+  },
+  {
+    "file": "Strand/App/TermsGateView.swift",
+    "line": 24,
+    "key": "Please read the points below, then confirm each statement."
+  },
+  {
+    "file": "Strand/App/TermsGateView.swift",
+    "line": 52,
+    "key": "Please confirm each of these:"
+  },
+  {
+    "file": "Strand/App/TermsGateView.swift",
+    "line": 68,
+    "key": "The full terms are in TERMS.md, shipped with NOOP. This is not legal advice."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 16,
+    "key": "Independent: not affiliated with WHOOP"
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 17,
+    "key": "NOOP is an unofficial project: not affiliated with, endorsed by, or sponsored by WHOOP, Inc. \"WHOOP\" is their trademark, used only to name the hardware NOOP works with."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 18,
+    "key": "Using NOOP may breach WHOOP's Terms of Service"
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 19,
+    "key": "Use it only with a device you own, to read your own data. Whether to use it (and any effect on your WHOOP account, subscription, device, or warranty) is your decision, and your risk alone."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 20,
+    "key": "Experimental: at your own risk"
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 21,
+    "key": "NOOP talks to your strap's firmware over an unofficial, independently-mapped protocol. There is a residual risk to the device, its data, and its connection to official services. You assume that risk."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 22,
+    "key": "Not a medical device, not medical advice"
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 23,
+    "key": "Every metric is an unvalidated approximation. Don't use NOOP to diagnose, treat, or make any health decision. Always consult a qualified professional."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 24,
+    "key": "No warranty; liability limited"
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 25,
+    "key": "NOOP is free and provided \"as is\", with no warranty. Liability is limited to the maximum extent the law that applies to you allows, and nothing here removes protections your local law won't let us remove."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 35,
+    "key": "I am not a WHOOP employee, contractor, or affiliate, and I am not using NOOP on WHOOP's behalf."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 36,
+    "key": "I own the WHOOP device I will use with NOOP and will only use it to access my own data. Doing so is my decision and my risk, including any effect on my WHOOP account, subscription, device, or warranty, and it may breach WHOOP's Terms of Service."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 37,
+    "key": "I understand NOOP is unofficial and experimental, is provided free and \"as is\" with no warranty, and is not a medical device or medical advice."
+  },
+  {
+    "file": "Strand/App/Terms.swift",
+    "line": 38,
+    "key": "To the fullest extent the law allows, I will not hold the NOOP project or its contributors liable for any loss or damage arising from my use of it."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 157,
+    "key": "%@ / %@"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 189,
+    "key": "I understand"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 191,
+    "key": "I'm wearing it"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 194,
+    "key": "Save & Continue"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 198,
+    "key": "Enter NOOP"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 287,
+    "key": "all your data, none of the cloud"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 291,
+    "key": "A private window into your recovery, sleep and strain. Read straight from your strap, kept only on %@."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 318,
+    "key": "See recovery, beautifully"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 319,
+    "key": "A signature ring distils HRV, resting heart rate and sleep into one calm read on whether to push or rest."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 322,
+    "key": "Watch your heart, live"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 323,
+    "key": "Connect a WHOOP, a heart-rate strap or a gym machine and watch each beat in real time: heart rate, variability and zones as they happen. Already have history elsewhere? Import it from WHOOP, Apple Health, Oura, Fitbit or Garmin."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 326,
+    "key": "Own your data, offline"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 327,
+    "key": "Everything lives on %@. No account, no sync, no cloud. Your thread is yours alone."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 331,
+    "key": "What NOOP does"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 331,
+    "key": "Three quiet promises."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 381,
+    "key": "What to expect"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 382,
+    "key": "A few honest words, so nothing's a surprise."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 413,
+    "key": "Installed outside the App Store"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 414,
+    "key": "On iPhone this is a sideloaded build. Re-sign it about every 7 days on a free Apple ID (longer on a paid account). After your phone reboots, unlock it once so NOOP can read and sync its data."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 459,
+    "key": "A quick word before we connect"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 460,
+    "key": "%@ will ask for Bluetooth in a moment."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 480,
+    "key": "Nothing leaves your %@"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 481,
+    "key": "NOOP talks to your strap directly over Bluetooth Low Energy. There's no server in the middle. The connection is local, and so is every reading it pulls in."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 484,
+    "key": "When the system prompt appears, choose Allow so NOOP can find your strap."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 499,
+    "key": "Put your strap on"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 500,
+    "key": "And make sure it's charged."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 514,
+    "key": "Wear it snug on your wrist or bicep, sensor against skin."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 515,
+    "key": "Give it a few minutes of charge if the battery is low."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 516,
+    "key": "Keep it within about a metre of %@."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 540,
+    "key": "Bonded. You're set."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 540,
+    "key": "Pick your strap below, then tap Scan. NOOP will find it."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 549,
+    "key": "Which strap are you pairing?"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 564,
+    "key": "WHOOP 5.0/MG pairs with one app at a time. If nothing's found, unpair it in the official WHOOP app and fully close that app, then Scan."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 578,
+    "key": "Don't see it?"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 585,
+    "key": "No WHOOP? You can still continue. Pair a heart-rate strap (Polar, Wahoo, Coospo, Garmin HRM…) or a gym machine under Devices, or import from WHOOP, Apple Health, Oura, Fitbit, Garmin and more under Data Sources. You can do either any time."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 639,
+    "key": "Don't see it? That's normal."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 644,
+    "key": "WHOOP straps don't appear in your %@'s Bluetooth settings. They advertise on a custom profile that only apps like NOOP can find, so there's nothing to pair there, and you shouldn't try."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 652,
+    "key": "It's charged and worn. The sensor needs skin contact to wake."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 653,
+    "key": "It isn't held by the WHOOP phone app. Only one host at a time: close the app or turn off its Bluetooth."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 654,
+    "key": "It's within about a metre of %@."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 658,
+    "key": "Try again"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 703,
+    "key": "You're connected."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 719,
+    "key": "Your strap is bonded · %lld%% battery."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 721,
+    "key": "Your strap is bonded and ready to stream."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 743,
+    "key": "Male"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 743,
+    "key": "Female"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 744,
+    "key": "Other"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 748,
+    "key": "About you"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 749,
+    "key": "So your zones, calories and baselines are accurate."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 757,
+    "key": "Date of birth"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 758,
+    "key": "%lld yrs"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 765,
+    "key": "Sex"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 782,
+    "key": "Metric"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 783,
+    "key": "Imperial"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 792,
+    "key": "Exercise distance & pace"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 794,
+    "key": "Kilometres"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 795,
+    "key": "Miles"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 823,
+    "key": "Estimated max heart rate · %lld bpm"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 841,
+    "key": "Optional: import now, or continue and return to Data Sources later."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 855,
+    "key": "History fills the dashboard immediately"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 856,
+    "key": "A WHOOP export backfills recovery, strain, sleep and workouts. Apple Health can add HR, HRV, sleep, SpO₂, steps, workouts and weight."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 862,
+    "key": "Importing…"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 862,
+    "key": "Import WHOOP export"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 869,
+    "key": "Working…"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 869,
+    "key": "Import Apple Health export"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 972,
+    "key": "Stay in the loop"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 973,
+    "key": "NOOP can tap your wrist when your %@ needs you. No glance at the screen required."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 998,
+    "key": "A buzz, not a banner"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 999,
+    "key": "NOOP taps your strap so an alert lands on your wrist instead of your screen. No need to reach for it. Everything stays on %@."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1003,
+    "key": "Strain nudges and your smart alarm tap your wrist the moment they fire."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1004,
+    "key": "It all stays on your strap and %@: no account, no cloud."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1012,
+    "key": "When the %@ apps you choose send a notification, NOOP taps your strap: Slack, Calendar, Messages, whatever matters. Everything stays on %@."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1016,
+    "key": "Pick which apps reach your wrist in Settings → Notifications."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1017,
+    "key": "Strain nudges and your smart alarm tap your wrist the same way."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1054,
+    "key": "Your thread starts here."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1057,
+    "key": "Every beat, every night, every day, woven into one quiet picture of you. Welcome to NOOP."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1084,
+    "key": "Make it yours"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1085,
+    "key": "Choose how NOOP looks. The whole app updates as you tap. You can change this any time in Settings → Appearance."
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 1093,
+    "key": "System follows your %@'s light or dark setting."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 128,
+    "key": "Remove Apple Health imported data?"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 132,
+    "key": "This permanently deletes everything imported from Apple Health: heart rate, HRV, sleep, steps, workouts and more. Your live strap data is untouched. This can't be undone."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 138,
+    "key": "WHOOP Export"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 142,
+    "key": "Import your full WHOOP history (recovery, strain, sleep, workouts) from a data export (.zip). Works for WHOOP 4.0, 5.0 and MG. Get one at app.whoop.com → Data Management."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 148,
+    "key": "Importing…"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 159,
+    "key": "%lld days · %lld sleeps stored"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 167,
+    "key": "Import an Apple Health export (Health app → profile → Export All Health Data → export.zip). 7 years of HR, HRV, sleep, SpO₂, steps and more, streamed locally. Large exports take a minute or two."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 171,
+    "key": "Working…"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 189,
+    "key": "Removing…"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 189,
+    "key": "Remove imported data"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 193,
+    "key": "Remove Apple Health imported data"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 206,
+    "key": "Import your Mi Band history (steps, heart rate, resting HR, sleep stages, SpO₂, stress and sleep score) straight from the Mi Fitness app. On your iPhone: Files → On My iPhone → Mi Fitness, long-press the folder → Compress, then choose the .zip here. Fully offline; no Xiaomi account or Bluetooth needed. Smart Band 8/9/10."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 210,
+    "key": "Choose Mi Fitness export…"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 224,
+    "key": "Nutrition (.csv)"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 226,
+    "key": "Import daily nutrition totals from a Cronometer or MacroFactor CSV export: calories in, protein, carbs, fat (and weight if present). Other trackers work too if the file has a date column and daily totals."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 243,
+    "key": "Lifting log (Hevy / Liftosaur)"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 245,
+    "key": "Import your strength-training history from a Hevy CSV export or a Liftosaur JSON export. Each workout becomes a Strength session with a training-volume estimate (weight × reps). It's a volume figure, not a measured strain. It never changes your Effort."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 262,
+    "key": "Workout file (GPX / TCX / FIT)"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 264,
+    "key": "Import a single exported workout file from any brand (Garmin, Coros, Suunto, Wahoo, Polar, Strava, Apple) straight off your device. GPS route, distance, heart rate and calories come in where the file has them. Fully offline; nothing leaves %@."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 267,
+    "key": "Choose .gpx / .tcx / .fit…"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 281,
+    "key": "Oura / Fitbit / Garmin export"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 283,
+    "key": "Import your own data export from Oura, Fitbit or Garmin: sleep, resting heart rate, HRV, steps and more, where the export has them. Download it from the brand's app (Oura: Account → Export Data; Fitbit: Google Takeout; Garmin: Export Your Data), then choose the file here. Fully offline; nothing leaves %@. Each brand's own readiness or sleep score is kept for reference only. Your scores stay yours."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 311,
+    "key": "Import again"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 313,
+    "key": "Forget Oura access"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 323,
+    "key": "Add your Oura app credentials to OuraSecrets.xcconfig to enable this."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 402,
+    "key": "No usable rows found. Check the file has a date column (yyyy-MM-dd) and daily totals."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 409,
+    "key": "Couldn't open the local store."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 417,
+    "key": "Imported %lld days (%lld values)"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 422,
+    "key": "1 row skipped"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 429,
+    "key": "Import failed: %@"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 451,
+    "key": "No workouts found. Point at a Hevy CSV export or a Liftosaur JSON export."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 484,
+    "key": "Imported 1 workout"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 485,
+    "key": "Imported %lld workouts"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 487,
+    "key": "%@ kg total volume"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 494,
+    "key": "%lld skipped"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 532,
+    "key": "That file is too large to import."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 540,
+    "key": "No usable activity found. Point at a .gpx, .tcx or .fit workout file."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 734,
+    "key": "Removed all Apple Health imported data."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 737,
+    "key": "Couldn't remove the data: %@"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 820,
+    "key": "Broadcast HR from this phone"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 823,
+    "key": "Re-share your live strap heart rate over Bluetooth as a standard heart-rate sensor, so a gym treadmill, bike, Zwift, Peloton or any fitness app nearby can read it. Local Bluetooth only. Nothing leaves %@. Off by default."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 831,
+    "key": "Broadcast heart rate as a Bluetooth sensor"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 835,
+    "key": "Acts as a standard Bluetooth heart-rate strap. Pair NOOP from your treadmill, bike or app to see your strap's heart rate there."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 858,
+    "key": "1 device reading your heart rate"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 859,
+    "key": "%lld devices reading your heart rate"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 863,
+    "key": "Sharing %lld bpm. Waiting for a device to pair."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 867,
+    "key": "No live heart rate yet. Open Live to pair your strap."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 882,
+    "key": "Broadcasts the strap's own live heart rate over Bluetooth."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 884,
+    "key": "Broadcasts the live heart rate NOOP derives from the strap once connected."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 911,
+    "key": "%@: %@"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 932,
+    "key": "WHOOP Strap (Live BLE)"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 935,
+    "key": "Pairs directly with your strap over Bluetooth: no WHOOP app, no cloud."
+  }
+]

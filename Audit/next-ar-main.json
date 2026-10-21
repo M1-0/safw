@@ -1,0 +1,770 @@
+[
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "strap estimate (unverified)"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Strap battery charging, no reading yet"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Strap battery, no reading yet"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Strap battery, strap not connected"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": " EFFORT"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": " bpm"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "%"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "5-minute average · since midnight"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Avg"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Connect your strap to see live heart rate"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Consistency"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Edit Key Metrics"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Good afternoon"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Good evening"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Good morning"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "HRV"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "KEY METRICS"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "LAST WORKOUTS"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Last 14 nights"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Last night"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Live · beat by beat"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Maintain"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Metrics"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "NOOP"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Night detail"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "No cardio load yet. Effort builds once your heart rate climbs into your effort zone (around 50% of your heart-rate reserve). A calm day honestly reads near zero."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "No workouts yet"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Not enough nights yet."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Opens the full-day heart rate timeline"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Profile and settings"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Provenance"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Push"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Quick actions"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Respiratory"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Rest HR"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Several recovery signals are down. Prioritise rest today."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Show all metrics"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Signals are down a touch. Keep it easy today."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Skin Temp"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Sky behind cards"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Sleep-debt ledger"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Stages vs typical"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Start a live session. Beta. Silent strap coaching against today's Charge."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Start session"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Still learning your baseline. A few more nights and this fills in."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Strap battery"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Strap history"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Strap not connected"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Stress through the day"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Synced from"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Syncing strap history"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "View sources"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Waiting for a live heartbeat…"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Waiting for the strap"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "You're in a good spot for training."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "You're primed. A hard session should land well today."
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "bpm"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "from profile"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "hide"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "latest"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "show"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "~1 day left"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "°C"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "–"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "—"
+  },
+  {
+    "file": "Strand/Liquid/LiquidTodayView.swift",
+    "key": "Reduce motion in NOOP"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Autonomic rigidity from your heart-rate rhythm. Higher means a more rigid, stressed rhythm."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Baevsky Stress Index"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "HF power"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "HRV has dropped well below your baseline, pointing to elevated stress or fatigue. Ease off and give your body time to recover."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "HRV is above baseline, a sign of a relaxed, well-recovered nervous system. Stress is low."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Markers"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "No intraday stress data yet today."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Not enough recent days to chart a trend yet. Import a history or keep wearing your strap."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Parasympathetic (rest) band of your HRV."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Resting HR is elevated and HRV is below your baseline, both classic signs of high activation. Prioritise rest, hydration and an easy day."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Resting heart rate and HRV are sitting at or below baseline: low physiological stress. You're in a calm, recovered state."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Resting heart rate is low and HRV is up. Your nervous system looks well-recovered and calm. A great day to push if you want to."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Resting heart rate is running high versus your norm. Your body is under load today. Keep effort light."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Slightly off baseline (HRV is a little low), so you're moderately activated. Nothing alarming; just don't overreach."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Slightly off baseline (resting HR is a touch high), so you're moderately activated. Nothing alarming; just don't overreach."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Start a Breathe session"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Stress is derived from two autonomic signals."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Stress · M"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Sustained high stress"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Sympathetic vs parasympathetic tone from frequency-domain HRV. Higher leans sympathetic (stress-ward)."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "The line is each waking hour's 0-3 proxy, scored against your own calm hours today. The bar below splits your day into calm, moderate and high stress time."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "These are extra, on-demand HRV lenses computed from today's R-R intervals. They are informational and do not change the stress score above."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "We compare today's resting heart rate and HRV to your own 30-day baseline. A higher-than-usual resting HR and a lower-than-usual HRV both push the score up, classic signs the body is activated. The combined shift is mapped onto a 0-3 scale: 0 is calm, 1.5 sits at your baseline, 3 is highly activated."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "You're sitting around your typical autonomic baseline: moderate stress, a normal, balanced day."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "Your autonomic markers are skewed toward stress today. Treat it as a recovery-focused day."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "needs history"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "on demand · today's R-R"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "vs 30-day baseline"
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "1 hour excluded — you were moving."
+  },
+  {
+    "file": "Strand/Screens/StressView.swift",
+    "key": "The line is each waking hour's 0-3 proxy, scored against your personal daytime baseline (how your own days usually run). The bar below splits your day into calm, moderate and high stress time."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connected, authenticating…"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connected, waiting for live heart rate."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connecting to the ring…"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Live heart rate is flowing from the ring."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Reconnect drops the current link, if any, and connects to the ring again. To pair or switch bands, open Devices."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Reconnect ring"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Ring not connected."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "HR"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Bonded · streaming"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Buzz strap"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "CONNECTING"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Can't connect: your strap's pairing was reset"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connect the strap first, then mark a workout from the live stream."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connect to read wear state"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connect your strap first. The reading needs the live R-R stream."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Connected, waiting for a streaming state."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Controls unlocked"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Current physiology, strap trust, and session controls in one working view."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Eligible for live physiology"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Encrypted"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Encrypted stream: deep controls and history sync available."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Event"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "FULL BOND"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Fire a test haptic buzz on the strap (requires an active strap connection)"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Frame"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Full strap stream is active."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "HRV reading"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Heart rate stream is active."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "LIVE HR ONLY"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "LIVE PHYSIOLOGY"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Last offload completed"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Last reported by strap"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Last reported by the ring"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Last sync"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Live Body Console"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Live HR works. Free the strap to unlock buzz, alarms & sync"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Live heart rate appears here once a strap is connected."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Live heart rate is flowing; full strap controls need an encrypted bond."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Manage devices"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Missing"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Needs interval frames"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Never"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "No"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "No active stream"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "No completed offload yet"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "No live stream."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "OFFLINE"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Off wrist"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Offline"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "On wrist"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Open Test Centre"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Open Test Centre to report a bug"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Open live view"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Opens the Devices screen, where you pair and switch bands."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Other metrics (R-R, frames, battery, history) need a full sync."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "PAIRED"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Paired · idle"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Partial"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Paused"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Proof that the console is current"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "R-R intervals"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "RECORDING"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "RECORDING WORKOUT"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "RMSSD"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Radio connected, stream not yet trusted."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Re-scan"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Ready for a marked effort."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Record or inspect the current stream"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Refresh"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Refresh strap battery and connection state."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Return to workout"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "STRAP LOG"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "STREAMING"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Save…"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Scan & Connect"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Scan & connect"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Session"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Signal Trust"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Standard HR is not a full bond"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Standard HR mode (low bandwidth)"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Start a live stream"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Start a workout when the stream matters. NOOP records the interval, HR, peak, average and effort from the same live feed."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Start workout"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Strap"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Streaming now"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Take a 60-second seated HRV reading from the live R-R stream."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Take an HRV reading"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "This stops recording and saves what's captured so far. It can't be resumed."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Track a workout manually. Records heart rate and effort until you end it."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Unknown"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "WHOOP 5.0/MG pairs with one app at a time. If a scan finds nothing, unpair it in the official WHOOP app and fully close that app, then Scan again."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Waiting for R-R intervals."
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Wear state"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Wear the strap for scoring"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Worn"
+  },
+  {
+    "file": "Strand/Screens/LiveView.swift",
+    "key": "Yes"
+  }
+]

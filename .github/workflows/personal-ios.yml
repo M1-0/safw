@@ -1,0 +1,173 @@
+name: Safw personal iOS
+on:
+  workflow_dispatch:
+  public:
+  push:
+    branches: ['main', 'personal/**']
+permissions:
+  contents: read
+concurrency:
+  group: personal-${{ github.ref }}
+  cancel-in-progress: true
+env:
+  UPSTREAM_SHA: 9f98f811a6849ebcc333f51c0b37917f8d1f437e
+jobs:
+  checks:
+    if: ${{ github.event.repository.private == false }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: personal
+          persist-credentials: false
+      - uses: actions/checkout@v5
+        with:
+          repository: ryanbr/noop
+          ref: ${{ env.UPSTREAM_SHA }}
+          path: noop
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install PyYAML==6.0.3 -r personal/Validation/requirements.txt
+      - name: Check the publication file boundary
+        run: python3 personal/Tools/public_source_check.py personal
+      - run: python3 personal/apply.py noop
+      - run: python3 -m unittest discover -s personal/Tests -p 'test_*.py'
+      - run: python3 -m unittest discover -s Tools -p 'test_*.py'
+        working-directory: noop
+      - run: python3 -m unittest discover -s Tools/linux-capture -p 'test_*.py'
+        working-directory: noop
+      - run: python3 Tools/doc_comment_lint.py
+        working-directory: noop
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Safw-localization-audit
+          path: noop/Personal/localization-audit.json
+  packages:
+    needs: checks
+    runs-on: macos-15
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        path:
+          - 'Packages/WhoopProtocol Packages/OuraProtocol Packages/PolarProtocol Packages/StrandDesign Packages/NoopLocalAccess Tools/SleepBench Tools/SleepPSG Tools/Backfill'
+          - 'Packages/WhoopStore Packages/StrandImport Packages/StrandAnalytics Personal/Research'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: personal
+          persist-credentials: false
+      - uses: actions/checkout@v5
+        with:
+          repository: ryanbr/noop
+          ref: ${{ env.UPSTREAM_SHA }}
+          path: noop
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install PyYAML==6.0.3 -r personal/Validation/requirements.txt
+      - run: python3 personal/apply.py noop
+      - name: Build and test
+        working-directory: noop
+        run: |
+          set -euo pipefail
+          for package in ${{ matrix.path }}; do
+            swift build --package-path "$package"
+            if grep -q 'testTarget' "$package/Package.swift"; then
+              swift test --package-path "$package"
+            fi
+          done
+  apple:
+    needs: checks
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: personal
+          persist-credentials: false
+      - uses: actions/checkout@v5
+        with:
+          repository: ryanbr/noop
+          ref: ${{ env.UPSTREAM_SHA }}
+          path: noop
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: brew install xcodegen
+      - run: python3 -m pip install PyYAML==6.0.3 -r personal/Validation/requirements.txt
+      - run: python3 personal/apply.py noop
+      - name: Verify shared app code and upstream macOS tests
+        working-directory: noop
+        run: |
+          xcodegen generate
+          xcodebuild -project Strand.xcodeproj -scheme Strand -destination 'platform=macOS' CODE_SIGNING_ALLOWED=NO test
+      - name: Language, defaults, and RTL gestures
+        run: |
+          swiftc noop/Strand/App/AppLanguage.swift personal/Runtime/PersonalDefaults.swift personal/Tests/RuntimeChecks.swift -o /tmp/personal-runtime-tests
+          /tmp/personal-runtime-tests
+      - name: WHOOP import round trip using upstream synthetic fixtures
+        run: |
+          python3 personal/prepare-probe.py noop
+          mkdir -p noop/build/probe-fixture
+          for file in physiological_cycles sleeps workouts journal_entries; do
+            cp "noop/Packages/StrandImport/Tests/StrandImportTests/Resources/$file.csv" noop/build/probe-fixture/
+          done
+          swift run --package-path noop/build/personal-import-probe ImportProbe "$PWD/noop/build/probe-fixture"
+      - name: Build and package Release IPA
+        run: bash personal/build.sh "$PWD/noop"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Safw-iOS-${{ github.sha }}
+          path: noop/build/personal-dist/*
+          if-no-files-found: error
+          retention-days: 7
+  simulator:
+    needs: checks
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          path: personal
+          persist-credentials: false
+      - uses: actions/checkout@v5
+        with:
+          repository: ryanbr/noop
+          ref: ${{ env.UPSTREAM_SHA }}
+          path: noop
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: brew install xcodegen
+      - run: python3 -m pip install PyYAML==6.0.3 -r personal/Validation/requirements.txt
+      - run: python3 personal/apply.py noop
+      - run: python3 personal/Tests/prepare_simulator.py noop
+      - name: Build the iOS simulator app
+        working-directory: noop
+        run: |
+          xcodegen generate --spec project.personal.generated.yml
+          xcodebuild -project Strand.xcodeproj -scheme NOOPiOS -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' -derivedDataPath build/personal-simulator \
+            ARCHS=arm64 ONLY_ACTIVE_ARCH=YES CODE_SIGNING_ALLOWED=YES \
+            CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM='' build
+      - name: Launch and capture iPhone 13 screens using synthetic data
+        run: python3 personal/Tests/simulator_smoke.py noop
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Safw-iPhone13-simulator-${{ github.sha }}
+          path: noop/build/personal-screenshots/
+          if-no-files-found: warn
+          retention-days: 7
+  verified:
+    needs: [checks, packages, apple, simulator]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'All configured checks passed. Device validation is still required.'

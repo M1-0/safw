@@ -1,0 +1,57 @@
+[
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 604,
+    "key": "Searching"
+  },
+  {
+    "file": "Strand/Onboarding/OnboardingWizard.swift",
+    "line": 606,
+    "key": "Ready to scan"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 83,
+    "key": "Everything stays on %@. Bring your history in once, then it's yours."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 140,
+    "key": "Nothing imported"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 165,
+    "key": "Apple Health"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 816,
+    "key": "Broadcasting"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 816,
+    "key": "Starting…"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 822,
+    "key": "Off"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 924,
+    "key": "Bonded, streaming."
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 926,
+    "key": "Live HR (not fully paired)"
+  },
+  {
+    "file": "Strand/Screens/DataSourcesView.swift",
+    "line": 930,
+    "key": "Not connected. Open Live to pair."
+  }
+]

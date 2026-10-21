@@ -1,0 +1,2587 @@
+
+Consciously Connected Breathing (CCB): inhale and exhale in one continuous loop with no hold at the top or bottom. Find a comfortable rhythm — connectedness matters more than intensity. Typical practice is about 15 minutes, twice daily. Regular is the sustainable starter tempo; Mid is a quicker start for later rounds; Punching Through is only when you need to push through drowsiness or stuckness (not a beginner default).
+	التنفس الواعي المتصل (CCB): شهيق وزفير متتابعان دون حبس للنفس بينهما. اختر إيقاعًا مريحًا؛ الاستمرارية أهم من الشدة. الممارسة المعتادة نحو 15 دقيقة مرتين يوميًا. الإيقاع المنتظم بداية مريحة، والمتوسط أسرع للمراحل اللاحقة، أما السريع فهو لتجاوز النعاس ولا يُنصح به كبداية.
+ %@ · typically %@ to %@, %@.	 %@ · المعتاد من %@ إلى %@، %@.
+ %@ · typically %@ to %@, %lld.	 %@ · المعتاد من %@ إلى %@، %lld.
+ EFFORT	 الجهد
+ bpm	 نبضة/دقيقة
+ · filtered	 · بعد التصفية
+%	%
+%.0f%% eff	الكفاءة %.0f%%
+%.1f br/min	%.1f نفس/دقيقة
+%.2f V	%.2f V
+%@	%@
+%@ %@	%@ %@
+%@ %@ relationship (r = %@, n = %lld).	العلاقة %@ %@ (معامل الارتباط %@، وعدد الأيام %lld).
+%@ (Beta)	%@ (تجريبي)
+%@ (experimental)	%@ (تجريبي)
+%@ / %@	⁦%@ / %@⁩
+%@ Cohen's d %@. Exploratory, not yet significant.	%@، حجم الأثر وفق Cohen’s d: %@. نتيجة استكشافية لم تبلغ الدلالة الإحصائية بعد.
+%@ Cohen's d %@. Statistically significant.	%@، حجم الأثر وفق Cohen’s d: %@. دالّ إحصائيًا.
+%@ Effort	الجهد %@
+%@ No clear relationship. They move largely independently.	%@ لا توجد علاقة واضحة. يتغير كل منهما بشكل مستقل إلى حد كبير.
+%@ When %@ rises, %@ tends to fall, a %@ %@ link.	%@ عندما يرتفع %@، يميل %@ إلى الانخفاض؛ الارتباط %@ %@.
+%@ When %@ rises, %@ tends to rise, a %@ %@ link.	%@ عندما يرتفع %@، يميل %@ إلى الارتفاع؛ الارتباط %@ %@.
+%@ average steps per observed day	متوسط ⁨%@⁩ خطوة لكل يوم تتوفر له بيانات
+%@ bpm	⁨%@⁩ نبضة/دقيقة
+%@ breaths per minute: %@	%@ نفس/دقيقة: %@
+%@ earlier than your body clock	مبكر %@ عن ساعتك البيولوجية
+%@ h avg	المتوسط %@ س
+%@ in bed	الوقت في السرير: ⁨%@⁩
+%@ in bed · %@ efficiency	%@ في السرير · الكفاءة %@
+%@ in bed · %@ efficiency · %@	%@ في السرير · الكفاءة %@ · %@
+%@ is %@ better than baseline on days you logged this behaviour.	تحسّن %@ بمقدار %@ مقارنةً بمعدلك المعتاد في أيام تسجيل هذه العادة.
+%@ is %@ worse than baseline on days you logged this behaviour.	تراجع %@ بمقدار %@ مقارنةً بمعدلك المعتاد في أيام تسجيل هذه العادة.
+%@ is flat against baseline on logged intervention days.	لم يتغير %@ بوضوح مقارنةً بمعدلك المعتاد في الأيام التي سجّلت فيها العادة.
+%@ is larger than the %@ NOOP restores without asking. That limit guards against a malicious archive expanding to fill this %@ — a backup you exported yourself is not that. Restoring it needs the space the database will take. You'll be asked to choose the file again.	حجم %@ يتجاوز حد الاستعادة التلقائي %@. يحمي هذا الحد جهاز %@ من أرشيف ضار يتمدد ليملأ المساحة. إذا كانت نسختك التي صدّرتها، تأكد من توفر مساحة قاعدة البيانات ثم اختر الملف مجددًا للتأكيد.
+%@ is larger than the %@ NOOP restores without asking. You can still restore it from Settings → Backup & restore → Import, which will ask you to confirm.	حجم %@ يتجاوز حد الاستعادة دون تأكيد، وهو %@. يمكنك استعادته من الإعدادات › النسخ الاحتياطي والاستعادة › استيراد، حيث سيُطلب تأكيدك.
+%@ kcal	%@ kcal
+%@ kg total volume	حجم التدريب الإجمالي: ⁨%@⁩ كجم
+%@ later than your body clock	متأخر %@ عن ساعتك البيولوجية
+%@ slept	مدة النوم: ⁨%@⁩
+%@ steps	⁨%@⁩ خطوة
+%@ steps per motion unit	%@ خطوة لكل وحدة حركة
+%@ trend	اتجاه %@
+%@ versus %@, r equals %@, %lld days	%@ مقارنةً بـ%@، معامل الارتباط %@، خلال %lld أيام
+%@ vs %@ %@	%@ مقارنةً بـ%@ %@
+%@ vs start · peak %@ ms	%@ مقارنة بالبداية · أعلى قيمة %@ ms
+%@ will ask for Bluetooth in a moment.	سيطلب ⁨%@⁩ إذن استخدام Bluetooth بعد قليل.
+%@ wrist alerts	تنبيهات %@ على السوار
+%@ · %@	%@ · %@
+%@ · n = %lld	%@ · n = %lld
+%@ ↔ %@	%@ ↔ %@
+%@ ↔ %@: r = %@ (%@ %@) over %lld shared days.	%@ ↔ %@: معامل الارتباط %@ (%@ %@) خلال %lld أيام مشتركة.
+%@%@	%@%@
+%@%@ C vs your normal	%@%@ °C مقارنةً بمعدلك المعتاد
+%@%@ vs typ	%@%@ مقارنةً بالمعتاد
+%@%@%@ vs typical	%@%@%@ مقارنةً بالمعتاد
+%@%lld vs base	⁨%@%lld⁩ عن المعتاد
+%@, %@	%@، %@
+%@, %@, %@	%@، %@، %@
+%@, %@, no data	%@، %@، لا توجد بيانات
+%@, %@. %@	%@، %@. %@
+%@, %@. See how it is scored.	%@، %@. تعرّف على طريقة الحساب.
+%@, %@: %@	%@، %@: %@
+%@, correlation %@, %lld days	%@، معامل الارتباط %@، خلال %lld يومًا
+%@, range %@ to %@	%@، النطاق من %@ إلى %@
+%@-%@	%@–%@
+%@. %@	%@. %@
+%@. Imported, can't be merged.	%@. مستوردة، لا يمكن دمجها.
+%@. Not selected.	%@. غير محددة.
+%@. Selected.	%@. محددة.
+%@. Swipe or tap to change day	%@. اسحب أو اضغط لتغيير اليوم
+%@. Tap to pick a day, swipe to change day.	%@. اضغط لاختيار يوم، أو اسحب لتغييره.
+%@: %@	⁨%@⁩: ⁨%@⁩
+%@: %@ %@	%@: %@ %@
+%@: %@ last night, %lld percent of the night	%@: %@ الليلة الماضية، %lld بالمئة من الليلة
+%@: %@ last night, %lld percent of the night, typical %@	%@: %@ الليلة الماضية، %lld بالمئة من الليلة، والمعتاد %@
+%@: %@ litres	%@: %@ لتر
+%@: %@, %@	%@: %@، %@
+%@: %@, %lld percent of the night	%@: %@، %lld بالمئة من الليلة
+%@: %@. %@, %@. %@.	%@: %@. %@، %@. %@.
+%@: %@. %@. %@.	%@: %@. %@. %@.
+%@: %@. Fix in Settings.	%@: %@. يمكنك تعديله من الإعدادات.
+%@: %@. Not enough history yet for a typical range.	%@: %@. السجل غير كافٍ لتحديد نطاقك المعتاد بعد.
+%@: estimated %lld steps, phone %lld steps, %lld percent difference	%@: التقدير %lld خطوة، الهاتف %lld خطوة، الفرق %lld بالمئة
+%@: no data	%@: لا توجد بيانات
+%@h	%@ س
+%lld added	عدد الإضافات: %lld
+%lld apps on	%lld تطبيقات مفعّلة
+%lld bpm	⁨%lld⁩ نبضة/دقيقة
+%lld breaths	عدد الأنفاس: %lld
+%lld cards shown	عدد البطاقات الظاهرة: %lld
+%lld daily %@ · %@	⁨%lld⁩ %@ · بيانات يومية · ⁨%@⁩
+%lld days	عدد الأيام: ⁨%lld⁩
+%lld days ago	عدد الأيام الماضية: ⁨%lld⁩
+%lld days without it	%lld أيام دونها
+%lld days your phone also counted	عدد الأيام المشتركة مع الهاتف: %lld
+%lld days · %@	%lld أيام · %@
+%lld days · %@ · some sparse series widened	%lld أيام · %@ · وُسّع نطاق بعض القراءات المتباعدة
+%lld days · %lld sleeps stored	الأيام المحفوظة: ⁨%lld⁩ · جلسات النوم: ⁨%lld⁩
+%lld devices reading your heart rate	الأجهزة التي تقرأ نبض قلبك: ⁨%lld⁩
+%lld ease-off	تنبيهات لتخفيف الجهد: %lld
+%lld hours	عدد الساعات: ⁨%lld⁩
+%lld hours excluded — you were moving.	استُبعدت %lld ساعة بسبب الحركة.
+%lld logged days	%lld أيام مسجلة
+%lld metrics shown	عدد المقاييس الظاهرة: %lld
+%lld millilitres from Apple Health. Edit it in the app that logged it.	%lld مل من صحة Apple. عدّلها في التطبيق الذي سجّلها.
+%lld min	%lld د
+%lld minutes	عدد الدقائق: ⁨%lld⁩
+%lld ml	%lld مل
+%lld monthly %@ · average per observed day · %@	⁨%lld⁩ %@ · متوسط شهري للأيام التي تتوفر لها بيانات · ⁨%@⁩
+%lld months · averages per observed day	عدد الأشهر: ⁨%lld⁩ · متوسطات للأيام التي تتوفر لها بيانات
+%lld more nights of wear and we can show your Fitness Age.	نحتاج %lld ليالٍ إضافية من ارتداء السوار لعرض عمر لياقتك.
+%lld more nights of wear, plus your age and sex below, and we can show your Fitness Age.	نحتاج %lld ليالٍ إضافية من ارتداء السوار، مع إضافة عمرك وجنسك أدناه، لعرض عمر لياقتك.
+%lld ms	⁨%lld⁩ مللي ثانية
+%lld new days of history landed. Open Trends to see them.	أُضيفت بيانات %lld أيام إلى السجل. افتح صفحة الاتجاهات لعرضها.
+%lld nights to go	تبقّت %lld ليالٍ
+%lld observed days	أيام تتوفر لها بيانات: ⁨%lld⁩
+%lld of %lld days	%lld من %lld أيام
+%lld of %lld nights	%lld من %lld ليالٍ
+%lld of %lld sessions	%lld من %lld جلسات
+%lld of 1 session	%lld من جلسة واحدة
+%lld of 30 days	⁨%lld⁩ من 30 يومًا
+%lld of 7 days had data	توفرت بيانات في %lld أيام من أصل 7
+%lld of the last %lld nights recorded no HRV. Check the strap is worn overnight and syncing.	لم يُسجّل HRV في %lld من آخر %lld ليلة. تأكد من ارتداء السوار ليلًا وإكمال المزامنة.
+%lld or older	%lld أو أكثر
+%lld or younger	%lld أو أقل
+%lld overlapping days · %@ %@ correlation	%lld أيام مشتركة · ارتباط %@ %@
+%lld pages behind at connect	تأخر بمقدار %lld صفحة عند الاتصال
+%lld paired	عدد الأجهزة المقترنة: %lld
+%lld pairs	%lld أزواج
+%lld percent	%lld بالمئة
+%lld points, mean %@, range %@ to %@	عدد النقاط ⁨%lld⁩، المتوسط ⁨%@⁩، المدى من ⁨%@⁩ إلى ⁨%@⁩
+%lld pt	%lld نقطة
+%lld pts	%lld نقاط
+%lld push	تنبيهات لزيادة الجهد: %lld
+%lld readings	عدد القراءات: ⁨%lld⁩
+%lld readings across %lld · %@	%lld قراءات خلال %lld · %@
+%lld readings across %lld · %@ · sparse widened	%lld قراءات خلال %lld · %@ · وُسّع النطاق لتباعد القراءات
+%lld readings · %@	عدد القراءات: %lld · %@
+%lld readings · sparse, widened to %@	قراءات قليلة (%lld)؛ وسّعنا العرض إلى %@
+%lld rows skipped	عدد الصفوف المتجاوزة: ⁨%lld⁩
+%lld series	%lld سلاسل بيانات
+%lld sessions	%lld جلسات
+%lld sessions guarded	عدد الجلسات الموجّهة: %lld
+%lld sessions · %@	%lld جلسات · %@
+%lld sessions · sparse, widened to %@	%lld جلسات · وُسّعت الفترة إلى %@ لقلة البيانات
+%lld skipped	السجلات المتجاوزة: ⁨%lld⁩
+%lld sleeps	%lld جلسات نوم
+%lld sports	%lld رياضات
+%lld total	الإجمالي %lld
+%lld weekly %@ · average per observed day · %@	⁨%lld⁩ %@ · متوسط أسبوعي للأيام التي تتوفر لها بيانات · ⁨%@⁩
+%lld weeks ago	قبل %lld أسابيع
+%lld weeks · averages per observed day	عدد الأسابيع: ⁨%lld⁩ · متوسطات للأيام التي تتوفر لها بيانات
+%lld workouts	عدد التمارين: ⁨%lld⁩
+%lld years older than your age	أكبر من عمرك بـ%lld سنوات
+%lld years younger than your age	أصغر من عمرك بـ%lld سنوات
+%lld yrs	⁨%lld⁩ سنة
+%lld yrs older	أكبر بـ%lld سنوات
+%lld yrs younger	أصغر بـ%lld سنوات
+%lld%%	%lld%%
+%lld%% Charge	التعافي %lld%%
+%lld%% of today's goal	%lld%% من هدف اليوم
+%lld-minute average	متوسط خلال %lld د
+%lld-second average	متوسط خلال %lld ث
+%lld/7 days	%lld/7 أيام
+%lldd ago	قبل ⁨%lld⁩ يوم
+%lldh	⁨%lld⁩ س
+%lldh %lldm	⁨%lld⁩ س ⁨%lld⁩ د
+%lldh ago	قبل ⁨%lld⁩ س
+%lldh elevated	ارتفاع لمدة %lld س
+%lldm	⁨%lld⁩ د
+%lldm ago	قبل ⁨%lld⁩ د
+%lldm in zone	%lld د في المنطقة
+%llds left · %lld beats	متبقٍ %lld ث · %lld نبضات
+%lld–%lld bpm	%lld–%lld نبضة/دقيقة
+%lld′ %lld″	%lld′ %lld″
+* on-device estimate: skin temp is a nightly ±°C deviation (firmware-dependent); no steps over BLE on a 4.0. No SpO₂ % off the strap; import a WHOOP CSV for a real %.	* تقدير محلي: حرارة الجلد تغير ليلي ±°C حسب البرنامج الثابت. لا يرسل WHOOP 4.0 الخطوات عبر BLE. لا تصل نسبة SpO₂ من السوار؛ استوردها من WHOOP CSV.
+* on-device estimate: skin temp is a nightly ±°C deviation, steps are a raw motion count (#78). No SpO₂ % off the strap; import a WHOOP CSV for a real %.	* تقدير محلي: حرارة الجلد تغير ليلي ±°C، والخطوات مبنية على عدّاد الحركة الخام (#78). لا تصل نسبة SpO₂ من السوار؛ استورد ملف WHOOP CSV للحصول عليها.
++%lld pt	+%lld نقطة
++%lld pts	+%lld نقاط
+0 pts	0 نقاط
+0m	0 د
+1 app on	تطبيق واحد مفعّل
+1 day	يوم واحد
+1 day your phone also counted	يوم واحد عدّ فيه الهاتف أيضًا
+1 day · %@	يوم واحد · %@
+1 day · %@ · some sparse series widened	يوم واحد · %@ · وُسّع نطاق بعض القراءات المتباعدة
+1 device reading your heart rate	جهاز واحد يقرأ نبض قلبك
+1 hour	ساعة واحدة
+1 hour excluded — you were moving.	استُبعدت ساعة واحدة بسبب الحركة.
+1 min	دقيقة واحدة
+1 minute	دقيقة واحدة
+1 month	شهر واحد
+1 month · averages per observed day	شهر واحد · متوسطات للأيام التي تتوفر لها بيانات
+1 more night of wear and we can show your Fitness Age.	ارتدِ السوار ليلة إضافية لعرض عمر لياقتك.
+1 more night of wear, plus your age and sex below, and we can show your Fitness Age.	نحتاج ليلة إضافية من ارتداء السوار، مع إضافة عمرك وجنسك أدناه، لعرض عمر لياقتك.
+1 new day of history landed. Open Trends to see it.	أُضيف يوم جديد إلى السجل. افتح صفحة الاتجاهات لعرضه.
+1 night to go	تبقّت ليلة واحدة
+1 observed day	يوم واحد تتوفر له بيانات
+1 pair	زوج واحد
+1 paired	جهاز واحد مقترن
+1 reading across %lld · %@	قراءة واحدة خلال %lld · %@
+1 reading across %lld · %@ · sparse widened	قراءة واحدة خلال %lld · %@ · وُسّع النطاق لتباعد القراءات
+1 reading · %@	قراءة واحدة · %@
+1 reading · sparse, widened to %@	قراءة واحدة فقط؛ وسّعنا العرض إلى %@
+1 row skipped	تم تجاوز سجل واحد
+1 session	جلسة واحدة
+1 session guarded	جلسة واحدة بتوجيه
+1 session · %@	جلسة واحدة · %@
+1 session · sparse, widened to %@	جلسة واحدة · وُسّعت الفترة إلى %@ لقلة البيانات
+1 sport	رياضة واحدة
+1 week	أسبوع واحد
+1 week · averages per observed day	أسبوع واحد · متوسطات للأيام التي تتوفر لها بيانات
+1 workout	تمرين واحد
+1 year	سنة واحدة
+1 year older than your age	أكبر من عمرك بسنة
+1 year younger than your age	أصغر من عمرك بسنة
+1 yr older	أكبر بسنة
+1 yr younger	أصغر بسنة
+10 min	10 د
+12-hour	12 ساعة
+14 days	14 يومًا
+14-day trend	اتجاه آخر 14 يومًا
+14d	14 يومًا
+15 min	15 د
+15 minutes once you are using Mid as your starter.	15 دقيقة عند اعتماد الإيقاع المتوسط نقطة بداية.
+15 minutes, twice daily (Presence Process frame).	15 دقيقة، مرتين يوميًا ضمن تمارين الحضور.
+15–30 minutes is traditional; start shorter.	المدة التقليدية 15–30 دقيقة؛ ابدأ بأقل من ذلك.
+180 DAYS	180 يومًا
+1Y	سنة
+1m %lld	دقيقة: %lld
+2 days	يومان
+2 min	2 د
+2 weeks	أسبوعان
+24-hour	24 ساعة
+28d	28 يومًا
+2W	أسبوعان
+2m %lld	دقيقتان: %lld
+2s in · 2s out · rhythmic	شهيق ثانيتان · زفير ثانيتان
+3 months	3 أشهر
+3 weeks	3 أسابيع
+30 DAYS	30 يومًا
+30 days	30 يومًا
+30-day step average	متوسط الخطوات خلال 30 يومًا
+30-day trend	اتجاه آخر 30 يومًا
+30D	30 يومًا
+365 DAYS	365 يومًا
+3M	3 أشهر
+3W	3 أسابيع
+5 min	5 د
+5-minute average · selected day	متوسط كل 5 دقائق · اليوم المحدد
+5-minute average · since midnight	متوسط كل 5 دقائق · منذ منتصف الليل
+5m %lld	5 دقائق: %lld
+5–10 minutes daily is a common starting point.	بداية شائعة: 5–10 دقائق يوميًا.
+6 months	6 أشهر
+6M	6 أشهر
+6s in · 6s out · ~5 br/min	شهيق 6 ث · زفير 6 ث · نحو 5 أنفاس/دقيقة
+7 DAYS	7 أيام
+7 days	7 أيام
+7-day trend	اتجاه آخر 7 أيام
+7D	7 أيام
+7d	7 أيام
+7d %@ / 28d %@	7 أيام %@ / 28 يومًا %@
+90 DAYS	90 يومًا
+90D	90 يومًا
+A 60-second snapshot of your beat-to-beat (R-R) intervals from the strap, cleaned (range and ectopic-beat filtering) before computing RMSSD the same way your overnight HRV is computed.	قراءة لمدة 60 ثانية للفواصل بين نبضاتك (R-R) من السوار. تُنقّى الفواصل الخارجة عن النطاق والنبضات غير المنتظمة، ثم يُحسب RMSSD بالطريقة نفسها المستخدمة لقياس HRV الليلي.
+A WHOOP export backfills recovery, strain, sleep and workouts. Apple Health can add HR, HRV, sleep, SpO₂, steps, workouts and weight.	يضيف ملف WHOOP تاريخ التعافي والجهد والنوم والتمارين. ويمكن لبيانات Apple Health إضافة نبض القلب وتقلبه والنوم والأكسجين في الدم والخطوات والتمارين والوزن.
+A badge shows whether a number was scored on-device by NOOP, or imported from Whoop or Apple Health.	توضح شارة المصدر إن كانت القيمة محسوبة محليًا في صفو، أو مستوردة من WHOOP أو صحة Apple.
+A baseline-normalized recovery score: your resting heart rate, sleep quality and night-to-night consistency, weighted against your own baseline, with heart-rate variability (rMSSD) leading wherever the strap gives us a clean reading.	درجة تعافٍ مقارنةً بمعدلك المعتاد: تجمع نبض الراحة وجودة النوم وانتظامه، مع إعطاء تقلب نبض القلب (rMSSD) الدور الأكبر عندما يوفر السوار قراءة جيدة.
+A blend of how long you slept versus your personal need (the biggest factor), how efficiently (asleep versus in bed), how much was restorative (deep + REM sleep), and how consistent your sleep and wake timing is.	يجمع بين مدة نومك مقارنة باحتياجك الشخصي، وهي العامل الأكبر، وكفاءة النوم مقارنة بالوقت في السرير، ونسبة النوم العميق ونوم حركة العين السريعة، وانتظام مواعيد النوم والاستيقاظ.
+A buzz, not a banner	اهتزاز تشعر به
+A cardiovascular load from time in heart-rate zones (Edwards TRIMP): each zone is weighted so harder ones count for more, summed into one daily figure. Settings offers an exponential alternative (Banister) that credits short, hard efforts more.	حمل على القلب والدورة الدموية يُحسب من الوقت في مناطق النبض بطريقة Edwards TRIMP. للمناطق الأعلى وزن أكبر، ثم تُجمع في قيمة يومية. ويمكن اختيار طريقة Banister من الإعدادات، وهي تعطي الجهد القصير والشديد وزنًا أكبر.
+A daily estimate, not a live reading	تقدير يومي، وليس قراءة لحظية
+A few honest words, so nothing's a surprise.	نقاط مهمة نوضحها لك من البداية.
+A few minutes is enough; build gradually.	بضع دقائق تكفي؛ زد المدة تدريجيًا.
+A few more days and we can show your Fitness Age.	نحتاج بيانات بضعة أيام إضافية لعرض عمر لياقتك.
+A few more days and we can show your Vitality.	نحتاج بيانات بضعة أيام إضافية لعرض مؤشر حيويتك.
+A few more nights of data and your readiness read will sharpen.	تتحسن دقة تقدير استعدادك بعد جمع بيانات بضع ليالٍ إضافية.
+A five-minute signal window, evaluated once per minute. This experimental estimate is separate from NOOP's daily score and is not validated against WHOOP. Motion and missing data remain gaps.	نحلّل خمس دقائق من الإشارة كل دقيقة. هذا تقدير تجريبي مستقل عن درجة صفو اليومية، ولم تُختبر دقته مقابل WHOOP بعد. الحركة ونقص البيانات يبقيان فجوات واضحة.
+A lower resting heart rate usually means a higher charge.	انخفاض نبض الراحة يرتبط عادةً بتعافٍ أفضل.
+A marker starts the selected phase and ends the previous one. This only timestamps the local capture file; it sends nothing to the strap.	تبدأ العلامة المرحلة المحددة وتنهي السابقة. تُسجّل توقيتًا في ملف الالتقاط المحلي فقط، ولا ترسل شيئًا إلى السوار.
+A one-time import of your own Oura history over the Oura API. Runs only when you tap it.	استيراد سجلك الشخصي من Oura عبر واجهتها البرمجية. يُنفّذ مرة واحدة عند طلبك فقط.
+A paced Tummo-inspired cycle using mid-range timings: short forced exhale, empty hold, slow inhale, full hold, slow exhale. Advanced and intense — keep sessions short and stop if strained.	دورة مستوحاة من Tummo: زفير قصير قوي، حبس بعد الزفير، شهيق بطيء، حبس، ثم زفير بطيء. تمرين متقدم ومكثف؛ اجعل الجلسة قصيرة وتوقف عند الإجهاد.
+A private window into your recovery, sleep and strain. Read straight from your strap, kept only on %@.	تعرّف على استشفائك ونومك وجهدك بخصوصية. تُقرأ البيانات مباشرةً من سوارك وتبقى على ⁨%@⁩ فقط.
+A quick word before we connect	قبل توصيل السوار
+A read-only export of the decoded sensor streams NOOP already stores. Works on any strap. Nothing is written to your device, and nothing is uploaded.	تصدير للقراءات المفككة المخزّنة بالفعل. يعمل مع أي سوار، دون كتابة على الجهاز أو رفع للبيانات.
+A relaxation rhythm, not cardiac control. It never paces below a safe rate and you can stop anytime. If your heart rate doesn't settle, we'll say so plainly.	إيقاع للاسترخاء، وليس للتحكم في القلب. له حد أدنى محافظ ويمكنك إيقافه متى أردت. سنوضح لك إذا لم يهدأ النبض.
+A shareable one-page PDF of recovery, sleep, HRV, resting HR and strain over a range, saved on your %@.	تقرير PDF من صفحة واحدة قابل للمشاركة، يلخص التعافي والنوم وHRV ونبض الراحة والجهد خلال فترة تختارها. يُحفظ على %@.
+A signature ring distils HRV, resting heart rate and sleep into one calm read on whether to push or rest.	مؤشر يجمع تقلب نبض القلب ونبض الراحة والنوم، ليساعدك على فهم متى يناسبك بذل الجهد ومتى تحتاج إلى الراحة.
+A simple calming pace: inhale for 4 seconds, exhale for 6. The longer exhale tends to favour a rest-and-digest feel. Use it when you want an easy downshift without holds.	إيقاع بسيط للهدوء: شهيق 4 ثوانٍ وزفير 6 ثوانٍ. قد يساعد الزفير الأطول على الاسترخاء. مناسب عندما تريد تهدئة سهلة دون حبس النفس.
+A simple goal that adjusts to your effort. General wellness guidance, not medical advice.	هدف بسيط يتكيّف مع جهدك. إرشاد عام للعافية، وليس توصية طبية.
+A standalone companion for your WHOOP. Everything stays on this device: your history, your live stream, your numbers. Nothing is uploaded. NOOP is an independent, experimental project, not the WHOOP app.	تطبيق مستقل لسوار WHOOP. تاريخك وقراءاتك وأرقامك تبقى على هذا الجهاز، دون رفع تلقائي. صفو مشروع مستقل وتجريبي، وليس تطبيق WHOOP الرسمي.
+A training read, separate from your Charge score.	مؤشر للتدريب، يُحسب بشكل مستقل عن درجة التعافي.
+A transparent cardiorespiratory recipe that recovers deep and REM better than the older V1 staging, and is now the default. It only changes how already-detected nights are split into stages (detection and scores are unchanged); turn it off to fall back to V1. Takes effect on the next nights staged.	طريقة قابلة للتفسير تعتمد على القلب والتنفس، وتحسّن تمييز النوم العميق وREM مقارنة بـV1، وهي الافتراضية الآن. تغيّر تقسيم الليالي المكتشفة إلى مراحل فقط، دون اكتشاف النوم أو درجاته. أوقفها للعودة إلى V1. تسري على الليالي المصنّفة لاحقًا.
+A typical recent day	يوم حديث معتاد
+A wellness estimate from your habits, not a clinical biological age.	تقدير للعافية بناءً على عاداتك، وليس قياسًا طبيًا للعمر البيولوجي.
+A workout must be at least 1 minute.	يجب أن تكون مدة التمرين دقيقة واحدة على الأقل.
+ADVANCED	متقدم
+AI Coach	المدرّب الذكي
+ALL	الكل
+ALL TIME	كامل المدة
+ALL-OUT	أقصى جهد
+API key	مفتاح API
+API key (optional)	مفتاح API (اختياري)
+AVG	المتوسط
+AVG HR	متوسط النبض
+AVG/SESS	متوسط الجلسة
+About	حول التطبيق
+About 5 minutes per session; repeat as needed.	نحو 5 دقائق للجلسة، وتُكرر حسب الحاجة.
+About Apple Watch data	حول بيانات Apple Watch
+About the same as your age	قريب من عمرك الفعلي
+About this nap	حول هذه القيلولة
+About this pace	عن هذا الإيقاع
+About you	معلوماتك
+About your main sleep	حول نومك الأساسي
+Above band	أعلى من النطاق
+Above your band.	نبضك أعلى من النطاق المستهدف.
+Accent	اللون الرئيسي
+Accent colour	اللون الرئيسي
+Accept & Continue	موافقة ومتابعة
+Active	نشط
+Active Energy	طاقة النشاط
+Active calories	سعرات النشاط
+Active energy	طاقة النشاط
+Active · Live	نشط · مباشر
+Active-calorie heatmap, last 13 weeks	خريطة كثافة سعرات النشاط خلال آخر 13 أسبوعًا
+Activity	النشاط
+Activity & Energy	النشاط والطاقة
+Activity Breakdown	توزيع الأنشطة
+Activity Cost	أثر النشاط على التعافي
+Activity excluded	مستبعد بسبب الحركة
+Acts as a standard Bluetooth heart-rate strap. Pair NOOP from your treadmill, bike or app to see your strap's heart rate there.	يظهر صفو كمستشعر قياسي لنبض القلب عبر Bluetooth. أقرنه من جهاز السير أو الدراجة أو التطبيق لعرض نبض سوارك هناك.
+Acute (7-day) vs chronic (28-day) training load. 0.8–1.3 is the sweet spot.	الحمل التدريبي خلال 7 أيام مقارنةً بـ28 يومًا. النطاق المرجعي للنسبة هو 0.8–1.3.
+Add	إضافة
+Add Workout	إضافة تمرين
+Add a device	إضافة جهاز
+Add a metric to compare	إضافة مؤشر للمقارنة
+Add a nap	إضافة قيلولة
+Add a workout	إضافة تمرين
+Add about %@ to your base sleep target tonight. Meeting that complete sleep need clears the displayed debt; recent shortfalls carry forward at a reduced weight.	أضف نحو %@ إلى مدة نومك الأساسية الليلة. بلوغ هذا الاحتياج الكامل يصفّر دين النوم المعروض؛ وتُحتسب ساعات النوم الناقصة مؤخرًا بوزن يتناقص مع الوقت.
+Add exercise	إضافة تمرين
+Add metric	إضافة مقياس
+Add nap	إضافة قيلولة
+Add workout	إضافة تمرين
+Add your Oura app credentials to OuraSecrets.xcconfig to enable this.	لتفعيل الربط، أضف بيانات تطبيق Oura إلى ملف OuraSecrets.xcconfig.
+Add your age and sex below and we can show your Fitness Age.	أضف عمرك وجنسك أدناه لعرض عمر لياقتك.
+Add your waist for a more accurate VO₂max	أضف محيط خصرك لتحسين تقدير VO₂ max
+Added Cards	البطاقات المضافة
+Added to Today	أُضيفت إلى شاشة اليوم
+Adds a fluid log and an effort-adjusted daily goal. Log a sip, cup or bottle to fill your progress ring. Data stays on this device.	يضيف سجل السوائل وهدفًا يوميًا يتكيف مع الجهد. سجّل رشفة أو كوبًا أو عبوة لملء مؤشر تقدمك. تبقى البيانات على الجهاز.
+Adds a water-log card to your dashboard	يضيف بطاقة لتسجيل الماء إلى شاشتك
+Adjust amount	تعديل الكمية
+Adjust manually	ضبط يدوي
+Adjust this session's details.	عدّل تفاصيل هذه الجلسة.
+Advanced	متقدم
+Advanced HRV	تحليل HRV المتقدم
+Advanced. Avoid if pregnant, cardiovascular issues, or unwell. Not medical advice.	للمتمرسين. يُتجنب أثناء الحمل أو عند وجود مشكلات قلبية أو وعائية أو تعب. ليس نصيحة طبية.
+Advanced: use your own key	متقدم: استخدام مفتاحك الخاص
+Aerobic	هوائي
+After a sync, NOOP looks over your recent heart rate for a sustained, raised stretch that looks like exercise and offers to save it. It only ever suggests. Nothing is saved until you tap Save, and you can dismiss any suggestion. Turning this off stops future suggestions but keeps your existing workout history. Deliberately conservative, so the odd workout may be missed. On %@ only.	بعد المزامنة، يبحث صفو عن فترات نبض مرتفع ومستمر تشبه التمرين، ويقترح حفظها. لا يُحفظ شيء حتى تضغط «حفظ»، ويمكنك تجاهل أي اقتراح. إيقاف الميزة يمنع الاقتراحات الجديدة ويبقي سجل التمارين. الاكتشاف محافظ وقد يفوّت بعض التمارين. يعمل على %@ فقط.
+After tonight's sleep	بعد نوم الليلة
+After your iPhone reboots, unlock it once. Until you do, iOS keeps NOOP's files locked (Data Protection), so new history can't be written or synced.	بعد إعادة تشغيل iPhone، افتح قفله مرة واحدة. قبل ذلك تحمي iOS ملفات صفو بالقفل، فلا يمكن كتابة سجل جديد أو مزامنته.
+Alarms	المنبهات
+Alcohol	الكحول
+Alert	تنبيه
+Alerts	التنبيهات
+All	الكل
+All Sessions	كل الجلسات
+All activities	كل الأنشطة
+All history	السجل كاملًا
+All sources	كل المصادر
+All sports	كل الرياضات
+Allow Apple Health access	السماح بالوصول إلى Apple Health
+Allow access	السماح بالوصول
+Already clean.	لا توجد ملفات تحتاج إلى تنظيف.
+Also imports water from Apple Health when connected and allowed to read water data. Drinks logged in NOOP are not written to Apple Health.	يستورد الماء أيضًا من صحّة Apple عند الاتصال والسماح بقراءته. المشروبات التي تسجّلها في صفو لا تُكتب إلى صحّة Apple.
+Alternate Nostril	التنفس بالتناوب بين فتحتي الأنف
+Alternate-nostril breathing: inhale left, hold, exhale right, inhale right, hold, exhale left — about 4 seconds each step. Use a finger to gently close one nostril at a time. Labels cue which side; go at a calm pace.	شهيق من اليسار، حبس، زفير من اليمين، شهيق من اليمين، حبس، ثم زفير من اليسار؛ نحو 4 ثوانٍ لكل مرحلة. أغلق فتحة واحدة بلطف بإصبعك، واتبع الإرشاد بإيقاع هادئ.
+Amount	الكمية
+Amount in millilitres	الكمية بالملليلتر
+An HRV reading needs the live R-R stream. Open the Live screen and connect your strap, then come back.	تحتاج قراءة HRV إلى بث فواصل R-R المباشر. افتح شاشة «مباشر» ووصّل السوار، ثم عد إلى هنا.
+An estimated VO2max from the Nes / HUNT Fitness Study model (resting heart rate, age and activity), read against population norms to express it as a fitness age.	تقدير VO₂ max بنموذج Nes / HUNT اعتمادًا على نبض الراحة والعمر والنشاط، ثم مقارنته بقيم مرجعية للتعبير عنه كعمر لياقة.
+An optional reference check for your own data.	مقارنة اختيارية لنتائجك مع بياناتك المرجعية.
+And make sure it's charged.	وتأكد من أن بطاريته مشحونة.
+App	التطبيق
+App icon	أيقونة التطبيق
+Appearance	المظهر
+Apple	Apple
+Apple Health	صحّة Apple
+Apple Health (Live)	صحة Apple (مباشر)
+Apple Health isn't available on %@.	صحة Apple غير متاحة على %@.
+Apple Watch. Needs more data to score this yet.	Apple Watch. نحتاج بيانات إضافية لحساب هذا المؤشر.
+Apple-logged	مسجّل في صحة Apple
+Archived	الأرشيف
+Arrange Today	ترتيب شاشة اليوم
+Ask Coach about your data…	اسأل المدرّب عن بياناتك…
+Ask about your charge, effort, rest and workouts, grounded in your own numbers.	اسأل عن تعافيك وجهدك ونومك وتمارينك، بالاستناد إلى بياناتك.
+Ask your first question	اطرح سؤالك الأول
+Asks the strap for config VALUES: GET_DEVICE_CONFIG_VALUE (0x79) and GET_FF_VALUE (0x80), one key per round-trip. Both commands may simply not exist in this firmware — finding that out is the point. Read-only — no value is written, and the SET commands are never sent from this probe. The result is shown here and written to the strap log.	يطلب قيم الإعدادات عبر GET_DEVICE_CONFIG_VALUE ‏(0x79) وGET_FF_VALUE ‏(0x80)، مفتاحًا واحدًا في كل مرة. قد لا يدعم البرنامج الثابت هذين الأمرين؛ وهذا ما نختبره. قراءة فقط، بلا تغيير قيم أو إرسال أوامر SET. تظهر النتائج هنا وفي سجل السوار.
+Asks the strap to list the feature-flag NAMES its own firmware knows: START_FF_KEY_EXCHANGE (0x75) then SEND_NEXT_FF (0x76) until the strap says it's done. Read-only — no flag value is written, and the SET commands are never sent from this probe. The list is shown here and written to the strap log.	يطلب أسماء خيارات البرنامج الثابت عبر START_FF_KEY_EXCHANGE ‏(0x75)، ثم SEND_NEXT_FF ‏(0x76) حتى نهاية القائمة. قراءة فقط؛ لا يغيّر أي قيمة ولا يرسل أوامر SET. تظهر القائمة هنا وتُحفظ في سجل السوار.
+Asleep	نائم
+Asleep Time	وقت النوم الفعلي
+Asleep duration	مدة النوم الفعلية
+At least %lld years older than your age	أكبر من عمرك بـ%lld سنوات على الأقل
+At least %lld years younger than your age	أصغر من عمرك بـ%lld سنوات على الأقل
+At least 1 year older than your age	أكبر من عمرك بسنة على الأقل
+At least 1 year younger than your age	أصغر من عمرك بسنة على الأقل
+Attach this to a bug report.	أرفقه بتقرير المشكلة.
+Audio cues	تنبيهات صوتية
+Auto	تلقائي
+Auto · %@ confidence	تلقائي · درجة الثقة %@
+Auto · %lld bpm (Tanaka)	تلقائي · %lld نبضة/دقيقة (Tanaka)
+Auto-backup hasn't run in a few days. Check the backup folder is still available — a moved or disconnected cloud folder stops backups silently.	لم يعمل النسخ التلقائي منذ بضعة أيام. تأكد أن مجلد النسخ ما زال متاحًا؛ نقله أو انقطاع اتصاله السحابي قد يوقف النسخ دون تنبيه.
+Auto-detect workouts	اكتشاف التمارين تلقائيًا
+Automatic	تلقائي
+Automatic comparison	المقارنة التلقائية
+Automation	إجراء تلقائي
+Automations	الإجراءات التلقائية
+Autonomic balance (LF/HF)	التوازن الفسيولوجي (LF/HF)
+Autonomic load	العبء الفسيولوجي
+Autonomic load across your waking day	مؤشر التوتر الجسدي خلال ساعات اليقظة
+Autonomic load through the day	التوتر الجسدي خلال اليوم
+Autonomic load today: %@	التوتر الجسدي اليوم: %@
+Autonomic rigidity from your heart-rate rhythm. Higher means a more rigid, stressed rhythm.	مؤشر لمدى ثبات إيقاع نبضك. ارتفاعه يعني تنوعًا أقل بين النبضات، وقد يعكس توترًا جسديًا أكبر.
+Available	متاح
+Average	المتوسط
+Average HR must be 25-250 bpm.	يجب أن يكون متوسط النبض بين 25 و250 نبضة/دقيقة.
+Average Heart Rate	متوسط نبض القلب
+Average heart rate	متوسط نبض القلب
+Average heart rate in beats per minute, optional	متوسط النبض بالدقيقة، اختياري
+Avg	المتوسط
+Avg HR	متوسط النبض
+Avg HR is shown as typed. The HR graph, zones and Effort stay from the recorded session.	يظهر متوسط النبض كما أدخلته. يبقى الرسم ومناطق النبض والجهد مستندة إلى الجلسة المسجلة.
+Avg pace	متوسط الوتيرة
+Awaiting strap	بانتظار السوار
+Awake	مستيقظ
+BANISTER TRIMP / HR ZONES	Banister TRIMP / مناطق النبض
+BEATS PER MINUTE	نبضات في الدقيقة
+BETA	تجريبي
+BMI	BMI
+BPM	BPM
+Back	رجوع
+Back up now	نسخ احتياطي الآن
+Backed up	تم النسخ الاحتياطي
+Background Bluetooth has OS limits: iOS may pause NOOP when it's not in the foreground, so keep it open while syncing a fresh strap.	تفرض iOS قيودًا على Bluetooth في الخلفية، وقد توقف صفو مؤقتًا. أبقِ التطبيق مفتوحًا عند مزامنة سوار جديد.
+Background scaling	ملاءمة صورة الخلفية
+Background sync depends on iOS. Opening Safw also catches up automatically; continuous operation is not guaranteed.	المزامنة في الخلفية بحسب سماح iOS. يحدّث صفو المقارنة تلقائيًا أيضًا عند فتحه؛ التشغيل المستمر غير مضمون.
+Backs up to your folder about once a day and keeps the latest %lld. On this platform it runs when you next open NOOP.	يحفظ نسخة في مجلدك مرة يوميًا تقريبًا، ويحتفظ بأحدث %lld نسخ. على هذا الجهاز، يتم النسخ عند فتح صفو مجددًا.
+Backup & Sync	النسخ الاحتياطي والمزامنة
+Backup & Sync to a folder…	النسخ الاحتياطي والمزامنة مع مجلد…
+Backup & restore	النسخ الاحتياطي والاستعادة
+Backup exported	تم تصدير النسخة الاحتياطية
+Backup failed - re-pick the folder and try again.	تعذّر النسخ الاحتياطي. اختر المجلد مجددًا وحاول مرة أخرى.
+Backup failed: %@	تعذّر النسخ الاحتياطي: %@
+Backup folder	مجلد النسخ الاحتياطي
+Backup imported	تم استيراد النسخة الاحتياطية
+Backup problem	مشكلة في النسخ الاحتياطي
+Backups will be saved inside NOOP. Open the Files app → On My iPhone → NOOP → Backups to see them, or drag that folder into iCloud Drive to read it on your Mac. To use a different folder later, tap Change folder.	ستُحفظ النسخ داخل صفو. للوصول إليها، افتح «الملفات» ثم «على الـiPhone» ثم «صفو» ثم Backups. يمكنك نقل المجلد إلى iCloud Drive لفتحه على Mac. ولاختيار مجلد آخر لاحقًا، اضغط «تغيير المجلد».
+Baevsky Stress Index	مؤشر بايفسكي للتوتر الجسدي
+Balanced	متوازن
+Band	النطاق المستهدف
+Bars	أعمدة
+Baseline	معدلك المعتاد
+Baseline unavailable	لم يتوفر معدلك المعتاد
+Baselines are learned on-device over your first 14 days. Until then, typical ranges apply.	يتعلّم جهازك معدلاتك المعتادة خلال أول 14 يومًا. قبل ذلك، تُستخدم نطاقات مرجعية عامة.
+Battery	البطارية
+Battery %lld percent	البطارية: ⁨%lld⁩ بالمئة
+Battery %lld%%	البطارية: ⁦%lld%%⁩
+Battery %lld%% · Charging	البطارية: ⁦%lld%%⁩ · قيد الشحن
+Battery alerts	تنبيهات البطارية
+Battery voltage %.2f volts	جهد البطارية %.2f فولت
+Battery-info probe (#592 RE)	اختبار معلومات البطارية (#592)
+Battery-info probe (#592 RE)…	اختبار معلومات البطارية (#592)…
+Battery-info probe result (#592)	نتيجة استعلام البطارية (#592)
+Beats	النبضات
+Beats per minute	نبضات في الدقيقة
+Beats per minute across the session	نبض القلب خلال الجلسة
+Bedtime	وقت النوم
+Before you use NOOP	قبل استخدام صفو
+Behaviour	طريقة التنبيه
+Behaviour Effects	أثر العادات
+Belly breath · soft pause	تنفّس بالبطن مع وقفة خفيفة
+Belly in	شهيق إلى البطن
+Belly out	زفير من البطن
+Below Zone 1	أقل من المنطقة 1
+Below band	أقل من النطاق
+Below need	أقل من احتياجك
+Below your band.	نبضك أقل من النطاق المستهدف.
+Beta	تجريبي
+Beta feature	ميزة تجريبية
+Beta. * is an on-device estimate. Skin temp is a trend versus your own baseline, and HRV needs you to be still. No Oura Readiness or SpO₂ percentage comes off the ring (import an Oura file for those).	تجريبي. * تعني تقديرًا محليًا. حرارة الجلد تغيرٌ عن معدلك المعتاد، وHRV يحتاج إلى السكون. لا يرسل الخاتم استعداد Oura أو نسبة SpO₂؛ يمكن استيرادهما من ملف Oura.
+Bhastrika	Bhastrika
+Bhastrika (bellows): forceful 1-second nasal inhale and exhale. Energising and intense. Keep rounds short and rest between them.	تنفّس Bhastrika: شهيق وزفير أنفيان قويان، ثانية لكل منهما. تمرين منشّط ومكثف؛ اجعل الجولات قصيرة واسترح بينها.
+Blood Oxygen	الأكسجين في الدم
+Blood Oxygen: strap estimate (WHOOP 5/MG, Oura)	الأكسجين في الدم: تقدير السوار (WHOOP 5/MG وOura)
+Blood O₂	الأكسجين في الدم
+Blood oxygen	الأكسجين في الدم
+Blood oxygen (SpO₂)	الأكسجين في الدم (SpO₂)
+Blood pressure	ضغط الدم
+Body	الجسم
+Body Age	العمر البدني
+Body Age %lld	عمر الجسم %lld
+Body Composition	تكوين الجسم
+Body Fat	دهون الجسم
+Body clock	الساعة البيولوجية
+Body clock dial	عداد الساعة البيولوجية
+Body fat	دهون الجسم
+Body measurement units	وحدات قياس الجسم
+Body measurements	قياسات الجسم
+Body-location probe (#690 RE)	استعلام موضع الارتداء (#690)
+Body-location probe (#690 RE)…	اختبار موضع الارتداء (#690)…
+Body-location probe result (#690)	نتيجة استعلام موضع الارتداء (#690)
+Bonded · streaming	مقترن · يستقبل البيانات
+Bonded, streaming.	اكتمل الاقتران، والقراءات تصل مباشرةً.
+Bonded. You're set.	اكتمل الاقتران، وأصبح السوار جاهزًا.
+Bottle	قارورة
+Bounce back	استعادة المعدل المعتاد
+Box (square) breathing: inhale, hold, exhale, hold — each for 4 seconds. A structured rhythm often used for focus and settling under stress. Sit comfortably and keep the counts even.	شهيق، ثم حبس، ثم زفير، ثم حبس؛ كل مرحلة 4 ثوانٍ. إيقاع منظم يُستخدم للتركيز والتهدئة. اجلس براحة وحافظ على تساوي العدّ.
+Box 4-4-4-4	تنفّس مربع 4–4–4–4
+Breathe	التنفس
+Breathe in	شهيق
+Breathe in…	خذ شهيقًا…
+Breathe mode	نمط التنفس
+Breathe now	تنفّس الآن
+Breathe out	زفير
+Breathe out…	أخرج الزفير…
+Breaths per minute	أنفاس في الدقيقة
+Bring your history	أضف سجلك السابق
+Broadcast HR from this phone	بث نبض القلب من هذا الهاتف
+Broadcast heart rate as a Bluetooth sensor	بث نبض القلب كمستشعر Bluetooth
+Broadcasting	جارٍ البث
+Broadcasts the live heart rate NOOP derives from the strap once connected.	يبث نبض القلب الذي يستخلصه صفو من السوار بعد الاتصال به.
+Broadcasts the strap's own live heart rate over Bluetooth.	يبث قراءة نبض القلب التي يرسلها السوار مباشرةً عبر Bluetooth.
+Browse files	تصفّح الملفات
+Building	قيد التعلّم
+Building your baseline	جارٍ التعرّف على معدلك المعتاد
+Building, moves as you do	قيد التكوّن، ويتغير مع نشاطك
+Building, wear it tonight	قيد التعلّم، ارتدِ السوار الليلة
+Built from published methods (Nes/HUNT) on %@. It's a fitness comparison against an average peer your age, not a biological or medical age.	يُحسب على %@ بمناهج منشورة (Nes/HUNT). يقارن لياقتك بمتوسط أقرانك، ولا يمثل عمرًا بيولوجيًا أو طبيًا.
+Built on	بُني بالاستفادة من
+Built on NOOP	مبني على NOOP
+Buteyko	Buteyko
+Buteyko Reduced	Buteyko المخفف
+Buteyko-style reduced breathing: small nasal inhale (~2.5s), relaxed nasal exhale (~3.5s), short comfortable hold (~3.5s). Keep it quiet and light — not a big gasp.	تنفس خفيف بأسلوب Buteyko: شهيق أنفي صغير لنحو 2.5 ثانية، زفير مرتخٍ لنحو 3.5 ثانية، ثم حبس مريح لنحو 3.5 ثانية. اجعله هادئًا وخفيفًا، دون شهقات كبيرة.
+Buzz strap	اهتزاز السوار
+Buzzes your wrist	ينبهك باهتزاز السوار
+CADENCE	معدل التكرار
+CALIBRATING	جارٍ التعرّف على معدلك المعتاد
+CCB · ~1.9s / 1.9s · push-through	CCB · نحو 1.9 ث لكل مرحلة · لتجاوز النعاس
+CCB · ~2.4s / 2.4s · ~12.4 br/min	CCB · نحو 2.4 ث لكل مرحلة · 12.4 نفس/دقيقة
+CCB · ~3.8s / 3.8s · ~7.8 br/min	CCB · نحو 3.8 ث لكل مرحلة · 7.8 نفس/دقيقة
+COMPLETE	مكتملة
+CONNECTED	متصل
+CONNECTING	جارٍ الاتصال
+CSV exported	تم تصدير CSV
+Cached	محفوظ سابقًا
+Caffeine	الكافيين
+Calculating last night's sleep…	جارٍ تحليل نوم الليلة الماضية…
+Calculation version	نسخة الحساب
+Calendar	التقويم
+Calibrate steps estimate	معايرة تقدير الخطوات
+Calibrate the steps estimate	معايرة تقدير عدد الخطوات
+Calibrate your steps	عاير خطواتك
+Calibrating	جارٍ التعرّف على معدلك المعتاد
+Calibrating, %lld of %lld nights	قيد المعايرة، %lld من %lld ليالٍ
+Calibrating, no data yet	المعايرة لم تبدأ؛ لا توجد بيانات بعد
+Calibrating, no heart rate banked yet today	قيد المعايرة، لم تُحفظ قراءات نبض لليوم بعد
+Calibrating. Building your baseline. About %lld more nights until your scores are personal.	قيد المعايرة. نتعلّم معدلك المعتاد؛ نحتاج نحو %lld ليالٍ إضافية لتخصيص مؤشراتك.
+Calibrating. Building your baseline. About 1 more night until your scores are personal.	قيد المعايرة. نتعلّم معدلك المعتاد؛ نحتاج ليلة إضافية تقريبًا لتخصيص مؤشراتك.
+Calibration	المعايرة
+Calm	هادئ
+Calm me	ساعدني على الهدوء
+Calm me · 3 min	ساعدني على الهدوء · 3 د
+Calm time	وقت الهدوء
+Calories	السعرات الحرارية
+Calories In	السعرات المتناولة
+Calories in kilocalories, optional	السعرات الحرارية بوحدة kcal، اختيارية
+Calories must be 0-20,000.	يجب أن تكون السعرات الحرارية بين 0 و20,000.
+Can't connect: your strap's pairing was reset	تعذّر الاتصال: أُعيد ضبط اقتران السوار
+Cancel	إلغاء
+Capturing	جارٍ القياس
+Capturing. %lld seconds remaining, %lld beats collected.	جارٍ القياس. متبقٍ %lld ثانية، وجُمعت %lld نبضات.
+Carbs	الكربوهيدرات
+Card transparency	شفافية البطاقات
+Category	الفئة
+Change	التغير
+Change folder	تغيير المجلد
+Change photo	تغيير الصورة
+Changes the Bluetooth name your WHOOP 4.0 advertises (what you see when pairing). The strap reboots to apply, so the new name appears the next time it connects. WHOOP 4.0 only.	يغيّر اسم Bluetooth الذي يعلنه WHOOP 4.0 عند الاقتران. يُعاد تشغيل السوار لتطبيقه، ويظهر الاسم عند الاتصال التالي. خاص بـWHOOP 4.0.
+Charge	التعافي
+Charge %lld today, so your band is %lld–%lld bpm.	تعافيك اليوم %lld، لذا نطاق نبضك المستهدف %lld–%lld نبضة/دقيقة.
+Charge (all history)	التعافي (كل السجل)
+Charge (past year)	التعافي (السنة الماضية)
+Charge / Effort / Rest	التعافي / الجهد / النوم
+Charge baseline calibrating. %@, %@. %@.	نتعلّم معدلك المعتاد للتعافي. %@، %@. %@.
+Charge baseline recalibrating	جارٍ إعادة معايرة التعافي
+Charge is low and sleep was consistent.	التعافي منخفض، والنوم منتظم.
+Charge is low but sleep ran short.	التعافي منخفض، والنوم أقل من احتياجك.
+Charge is low.	استشفاؤك منخفض اليوم.
+Charge is steady and sleep was consistent.	التعافي مستقر، والنوم منتظم.
+Charge is steady but sleep ran short.	التعافي مستقر، لكن النوم أقل من احتياجك.
+Charge is steady.	استشفاؤك مستقر.
+Charge is strong and sleep was consistent.	التعافي جيد، والنوم منتظم.
+Charge is strong but sleep ran short.	التعافي جيد، لكن النوم أقل من احتياجك.
+Charge is strong.	استشفاؤك جيد اليوم.
+Charge scale, depleted to peaked	مقياس التعافي، من منخفض جدًا إلى أعلى مستوى
+Charge trend	اتجاه التعافي
+Charge · %@ pts	التعافي · %@ نقاط
+Charge · Effort · Rest	التعافي · الجهد · النوم
+Charge → Next-day charge	التعافي ← تعافي اليوم التالي
+Charge, Effort and Rest (and how they differ from WHOOP).	التعافي والجهد والنوم، وكيف تختلف عن WHOOP.
+Charge, Effort and Rest are scored on your own device from your strap data. Charge needs about four nights of sleep to learn your baseline (that's "Calibrating", counted as nights of 4 on the ring), and keeps sharpening over your first couple of weeks. On a WHOOP 5 or MG the strap banks little history, so that count can sit at 0 of 4 until you have worn it across a few nights. That's the strap's sync limit, not a fault. Before there's a number, NOOP shows what it can without faking one.	تُحسب درجات التعافي والجهد والنوم على جهازك من بيانات السوار. يحتاج التعافي إلى نحو أربع ليالٍ لتعلّم معدلك المعتاد؛ هذه مرحلة «المعايرة» التي تعرض عدد الليالي من أصل أربع. ويتحسن التقدير خلال الأسبوعين الأولين. قد يبقى العدّاد عند 0 من 4 مع WHOOP 5 أو MG حتى تجمع بيانات عدة ليالٍ، بسبب حدود مزامنة سجل السوار. قبل توفر درجة، يعرض صفو البيانات المتاحة دون اختلاق أرقام.
+Charge, Effort and Rest become personal after a few nights of wear.	تصبح مؤشرات التعافي والجهد والنوم مخصّصة لك بعد ارتداء السوار لبضع ليالٍ.
+Charge, Effort and Rest build over your next few nights of wear.	تتكوّن مؤشرات التعافي والجهد والنوم خلال الليالي القادمة من ارتداء السوار.
+Charge: how recovered are you?	التعافي: هل استعدت طاقتك؟
+Charging	قيد الشحن
+Chart colours	ألوان الرسوم البيانية
+Check automatically	التحقق تلقائيًا
+Check for updates	التحقق من التحديثات
+Check the HTTPS service URL and pairing token.	تحقق من رابط الخدمة الآمن HTTPS ورمز الاقتران.
+Check the values and try again.	راجع القيم وحاول مجددًا.
+Checking…	جارٍ التحقق…
+Checks the project's home (GitHub) for the latest version when you tap. Nothing else is sent.	يتحقق من أحدث إصدار على GitHub عند الضغط فقط، دون إرسال أي بيانات أخرى.
+Choose	اختيار
+Choose .csv…	اختيار ملف CSV…
+Choose .gpx / .tcx / .fit…	اختر ملف GPX أو TCX أو FIT…
+Choose Light, Dark, or follow your system. Dark is the signature near-black; Light keeps the same clean look on a bright canvas.	اختر المظهر الفاتح أو الداكن أو اتبع إعداد الجهاز. يحتفظ المظهران بوضوح البطاقات وترتيبها.
+Choose Mi Fitness export…	اختر ملف Mi Fitness…
+Choose a backup	اختيار نسخة احتياطية
+Choose a different file	اختيار ملف آخر
+Choose a file	اختيار ملف
+Choose body measurements and exercise distance separately. Your data is always stored the same way; these settings only change its display.	اختر وحدات قياسات الجسم ومسافة التمرين كلًّا على حدة. يؤثر الاختيار في العرض فقط؛ تُحفظ البيانات بالطريقة نفسها.
+Choose export.zip…	اختيار export.zip…
+Choose export…	اختيار ملف التصدير…
+Choose folder	اختيار مجلد
+Choose from Photos	اختيار من الصور
+Choose how NOOP looks. The whole app updates as you tap. You can change this any time in Settings → Appearance.	اختر مظهر صفو وشاهد التغيير مباشرةً. يمكنك تغييره في أي وقت من «الإعدادات»، ثم «المظهر».
+Choose photo	اختيار صورة
+Choose the buzz pattern for %@	اختر نمط اهتزاز %@
+Choose which Key Metrics show and reorder them	اختر المؤشرات الأساسية التي تظهر ورتّبها
+Choose which cards show and reorder them	اختر البطاقات التي تظهر ورتّبها
+Classic	كلاسيكي
+Classic 4-7-8: quiet nasal inhale for 4, hold for 7, long mouth exhale for 8. Often used to wind down. Start with a few cycles; stop if you feel light-headed.	شهيق هادئ من الأنف لمدة 4، حبس 7، وزفير طويل من الفم لمدة 8. يُستخدم للتهدئة. ابدأ بعدد قليل من الدورات وتوقف إذا شعرت بدوخة.
+Clean up	تنظيف
+Clean up leftover import files	تنظيف ملفات الاستيراد المؤقتة
+Clean up now	تنظيف الآن
+Cleaning up…	جارٍ التنظيف…
+Clear	مسح
+Clear all	مسح الكل
+Clear filters	مسح عوامل التصفية
+Clear flags on strap	مسح الخيارات من السوار
+Clear search	مسح البحث
+Clear the R22 flags on your strap?	مسح خيارات R22 المكتوبة على السوار؟
+Clock	تنسيق الوقت
+Clock latched: %@ · last frame %@	ساعة السوار: %@ · آخر رسالة %@
+Close	إغلاق
+Close HRV reading	إغلاق قراءة HRV
+Close coach settings	إغلاق إعدادات المدرّب
+Coach	المدرّب
+Coach is thinking…	جارٍ تحضير الرد…
+Coach settings	إعدادات المدرّب
+Coherence 5.5	تناسق 5.5
+Coherence estimate	تقدير التناسق
+Coherent	إيقاع متناسق
+Coherent 6-6	تناسق 6–6
+Coherent breathing at six seconds in and six seconds out (~5 breaths per minute). A slow equal pace aimed at calm and HRV-friendly rhythm — estimate only, not a clinical reading.	شهيق وزفير متساويان، 6 ثوانٍ لكل منهما، أي نحو 5 أنفاس في الدقيقة. إيقاع هادئ لمتابعة استجابة HRV؛ تقدير للاسترشاد وليس قياسًا سريريًا.
+Collapsed	مطوي
+Collect a few logged intervention days before reading the effect. Baseline and imported metrics stay in place.	سجّل عدة أيام من تطبيق العادة قبل تقييم أثرها. يبقى معدلك المعتاد والمؤشرات المستوردة كما هي.
+Compare	المقارنة
+Compare needs at least two metrics with history. Import your WHOOP export in Data Sources first.	تحتاج المقارنة إلى مؤشرين على الأقل لهما سجل بيانات. استورد ملف WHOOP من «مصادر البيانات» أولًا.
+Compare sources	مقارنة المصادر
+Comparison service URL	رابط خدمة المقارنة
+Compliance	الالتزام
+Computed live from your Apple Watch via Health. Recovery needs about a week of nights to calibrate, and every watch-derived score is labelled with its confidence. Only the metrics your watch actually records are listed above.	تُحسب القيم محليًا من بيانات Apple Watch في تطبيق صحّة Apple. يحتاج التعافي إلى نحو أسبوع من الليالي للمعايرة، وتظهر درجة الثقة بجانب النتائج. لا تظهر إلا المقاييس التي تسجّلها ساعتك فعلًا.
+Confidence	درجة الثقة
+Confidence: calibrating	الثقة: قيد المعايرة
+Confidence: estimate	الثقة: تقديرية
+Confidence: reliable	الثقة: موثوقة
+Connect	اتصال
+Connect Apple Health	ربط Apple Health
+Connect WHOOP account	ربط حساب WHOOP
+Connect a WHOOP, a heart-rate strap or a gym machine and watch each beat in real time: heart rate, variability and zones as they happen. Already have history elsewhere? Import it from WHOOP, Apple Health, Oura, Fitbit or Garmin.	اربط سوار WHOOP أو حزام قياس نبض القلب أو جهازًا رياضيًا، وتابع نبضك وتقلبه ومناطق شدته أثناء التسجيل. لديك بيانات سابقة؟ استوردها من WHOOP أو Apple Health أو Oura أو Fitbit أو Garmin.
+Connect the strap first, then mark a workout from the live stream.	صِل السوار أولًا، ثم ابدأ تسجيل تمرين من البيانات المباشرة.
+Connect to read wear state	صِل السوار لمعرفة حالة ارتدائه
+Connect your strap first.	صِل سوارك أولًا.
+Connect your strap first. The reading needs the live R-R stream.	صِل السوار أولًا. يحتاج القياس إلى بيانات الفواصل بين النبضات مباشرة.
+Connect your strap for haptic guidance. You'll feel one pulse on the inhale, two on the exhale, so you can breathe with your eyes closed.	صِل سوارك للتوجيه بالاهتزاز: نبضة عند الشهيق ونبضتان عند الزفير، لتتنفس وعيناك مغمضتان.
+Connect your strap for the felt cue. The sweep paces you with one buzz on the inhale, two on the exhale.	صِل السوار لتشعر بالتوجيه: اهتزاز واحد عند الشهيق واهتزازان عند الزفير.
+Connect your strap on the Live screen to take a reading.	وصّل السوار من شاشة «مباشر» لأخذ قراءة.
+Connect your strap to see live heart rate	صِل السوار لعرض نبض القلب مباشرة
+Connect your strap to sync its stored history. Until then, only imported data shows here.	وصّل السوار لمزامنة سجله المحفوظ. حتى ذلك الحين، تظهر هنا البيانات المستوردة فقط.
+Connect your strap to test	وصّل السوار لتجربة الاهتزاز
+Connect your strap. Calm me is a felt rhythm on the wrist, so it needs a bonded connection.	صِل سوارك. هذا التوجيه يعتمد على اهتزاز المعصم ويتطلب اقترانًا آمنًا.
+Connected	متصل
+Connected now	متصل الآن
+Connected, authenticating…	متصل، جارٍ التحقق من الاتصال…
+Connected, but not paired	متصل، لكن الاقتران غير مكتمل
+Connected, waiting for a streaming state.	متصل، بانتظار بدء استقبال البيانات.
+Connected, waiting for live heart rate.	متصل، بانتظار قراءة مباشرة لنبض القلب.
+Connected.	متصل.
+Connected. Finishing the secure pairing handshake…	متصل. جارٍ إكمال الاقتران الآمن…
+Connected. History sync is experimental on 5.0.	متصل. مزامنة السجل على WHOOP 5.0 ما زالت تجريبية.
+Connected. New strap data is written automatically, with periodic background refresh when iOS allows it.	متصل. تُكتب بيانات السوار الجديدة تلقائيًا، مع تحديث دوري في الخلفية عندما يسمح iOS بذلك.
+Connected. No live heart rate or synced history yet this session.	متصل. لا توجد قراءات نبض مباشرة أو بيانات سجل متزامنة في جلسة الاتصال هذه بعد.
+Connected; strap history sync is experimental on this strap	متصل؛ مزامنة السجل ما زالت تجريبية على هذا الجهاز
+Connecting to the ring…	جارٍ الاتصال بالخاتم…
+Connecting…	جارٍ الاتصال…
+Connection	الاتصال
+Connection setup	إعداد الاتصال
+Consistency	الانتظام
+Continue	متابعة
+Continuous HRV capture	التقاط HRV المستمر
+Contributors	المساهمون
+Controls unlocked	أدوات التحكم متاحة
+Cooler than your baseline	أبرد من معدلك المعتاد
+Copied!	تم النسخ
+Copy	نسخ
+Could not save the minute record. Try again after syncing.	تعذر حفظ سجل الدقائق. حاول مجددًا بعد المزامنة.
+Couldn't change the app icon	تعذر تغيير أيقونة التطبيق
+Couldn't check. Try again.	تعذر التحقق. حاول مجددًا.
+Couldn't lock today	لم نتمكن من تحديده اليوم
+Couldn't open the local store.	تعذّر فتح قاعدة البيانات المحلية.
+Couldn't remove the data: %@	تعذّر حذف البيانات: ⁨%@⁩
+Couldn't restore that backup.	تعذّرت استعادة هذه النسخة الاحتياطية.
+Counter ticks per step. Leave at 1.0 unless your steps run high. On a WHOOP 5/MG they can run very high (10× or more), so this goes up to 30. Walk a known 1,000 steps and divide NOOP's count by the real count to get your value.	عدد نبضات العدّاد لكل خطوة. اتركه 1.0 ما لم يكن عدّك مرتفعًا. في WHOOP 5/MG قد يزيد عشرة أضعاف أو أكثر، لذا يصل الإعداد إلى 30. امشِ 1000 خطوة معدودة، ثم اقسم قراءة صفو على العدد الفعلي.
+Coupled view	العرض الموحّد
+Coverage	تغطية الإشارة
+Cues sent	تنبيهات التوجيه
+Cup	كوب
+Current	الحالية
+Current calibration	حالة المعايرة
+Current charge	التعافي الحالي
+Current physiology, strap trust, and session controls in one working view.	قراءات جسمك الحالية وحالة اتصال السوار وأدوات الجلسة في شاشة واحدة.
+Current: %@	الحالي: %@
+Custom	مخصص
+Custom %lld ml	كمية مخصصة: %lld مل
+Custom HR zones	نطاقات نبض مخصصة
+Custom accent colour	لون رئيسي مخصص
+Custom colour	لون مخصص
+Custom size	سعة مخصصة
+Customise your cards	تخصيص بطاقاتك
+Customize	تخصيص
+Customize Today	تخصيص شاشة اليوم
+DATA SOURCES	مصادر البيانات
+DATE	التاريخ
+DAY %lld/%lld	اليوم %lld/%lld
+DEPLETED	منخفض جدًا
+DIST	المسافة
+DONE	تم
+DUR	المدة
+DURATION + EFFICIENCY + STAGES	المدة + الكفاءة + المراحل
+Daily 0-3 proxy	تقدير يومي من 0 إلى 3
+Daily 0–3 proxy	تقدير يومي على مقياس 0–3
+Daily auto-backup	نسخ احتياطي يومي تلقائي
+Daily estimate and recorded daytime history	التقدير اليومي وسجل القراءات النهارية
+Daily estimate from %@	تقدير يومي بتاريخ %@
+Daily signals	المؤشرات اليومية
+Dark	داكن
+Data	البيانات
+Data & App	البيانات والتطبيق
+Data Sources	مصادر البيانات
+Data kept	البيانات محفوظة
+Data sources	مصادر البيانات
+Date	التاريخ
+Date of birth	تاريخ الميلاد
+Date of birth, age %lld years	تاريخ الميلاد، العمر %lld سنة
+Day	اليوم
+Day Strain	الجهد اليومي
+Day Stress	التوتر خلال اليوم
+Day cycle	بداية اليوم
+Day starts	يبدأ اليوم عند
+Day strain	الجهد اليومي
+Day-cycle background	خلفية أوقات اليوم
+Days	الأيام
+Daytime sleep	النوم خلال النهار
+Deep	نوم عميق
+Deep (SWS) Sleep	النوم العميق (SWS)
+Deep Breathing	تنفّس عميق
+Deep Timeline	السجل التفصيلي
+Deep Timeline, every second of your day, zoomable	التفاصيل الزمنية، لعرض يومك ثانية بثانية والتكبير
+Deep breathing with a short pause: inhale 4s, hold 2s, exhale 6s. Breathe through the nose when you can, fill the lungs without forcing, and let the longer exhale slow you down.	شهيق 4 ثوانٍ، حبس ثانيتين، ثم زفير 6 ثوانٍ. تنفّس من الأنف إن أمكن، دون إجبار نفسك على ملء الرئتين، واترك الزفير الأطول يهدّئ الإيقاع.
+Deep calm	هدوء عميق
+Deep data is on — open NOOP near your strap and let it sync its motion history (a full first-run sync can take a while). Once a day or two of motion lands, your step estimate and the calibration below fill in.	البيانات التفصيلية مفعّلة. افتح صفو قرب السوار واترك سجل الحركة يتزامن؛ قد يطول النقل الأول. بعد وصول يوم أو يومين ستظهر معايرة الخطوات وتقديراتها.
+Deep sleep	النوم العميق
+Deep sleep difference (min)	متوسط فرق النوم العميق (دقيقة)
+Default	الافتراضي
+Default. Steps and in-progress Effort restart at the beginning of detected main sleep. Naps do not start a new day; missing sleep falls back to local midnight.	الافتراضي. يبدأ عدّ الخطوات والجهد الجاري من بداية النوم الرئيسي المكتشف. القيلولة لا تبدأ يومًا جديدًا، وعند غياب النوم يُستخدم منتصف الليل المحلي.
+Delete	حذف
+Delete (%lld)	حذف (%lld)
+Delete all of this device's data?	حذف كل بيانات هذا الجهاز؟
+Delete data	حذف البيانات
+Delete the %lld millilitre drink logged at %@	حذف المشروب بكمية %lld مل المسجّل في %@
+Delete this device's data…	حذف بيانات هذا الجهاز…
+Delete this sleep	حذف فترة النوم
+Delete this sleep session?	هل تريد حذف فترة النوم هذه؟
+Depleted	منخفض جدًا
+Detailed tiles	بطاقات تفصيلية
+Details	التفاصيل
+Detected	مكتشف تلقائيًا
+Device	الجهاز
+Device actions for %@	إجراءات الجهاز %@
+Device name	اسم الجهاز
+Device, iOS build, Data Protection and sideload status, for bug reports.	الجهاز وإصدار iOS وحماية البيانات وحالة التثبيت الجانبي، لإرفاقها بتقارير المشكلات.
+Device-config read probe (#103 RE)	استعلام إعدادات الجهاز (#103)
+Device-config read probe (#103 RE)…	قراءة إعدادات الجهاز (#103)…
+Device-config read probe result (#103)	نتيجة استعلام إعدادات الجهاز (#103)
+Devices	الأجهزة
+Diagnostics	التشخيص
+Diaphragmatic	تنفّس بطني
+Diaphragmatic (belly) breathing: expand the abdomen on the inhale more than the chest, optional short hold, then gently contract on the exhale. Same 4–2–6 timing as deep breathing, with attention on the diaphragm.	وسّع البطن عند الشهيق أكثر من الصدر، ثم وقفة قصيرة اختيارية، وزفير لطيف. التوقيت نفسه 4–2–6، مع التركيز على حركة الحجاب الحاجز.
+Diastolic	الانبساطي
+Disconnect	قطع الاتصال
+Disconnected	غير متصل
+Dismiss (not a workout)	تجاهل (ليس تمرينًا)
+Dismiss to Updates	إخفاء وحفظ في المستجدات
+Distance	المسافة
+Distance must be 0–1,000 km.	يجب أن تكون المسافة بين 0 و1,000 كم.
+Distance must be 0–621 mi.	يجب أن تكون المسافة بين 0 و621 ميلًا.
+Distance, optional	المسافة، اختيارية
+Don't see it?	لم يظهر السوار؟
+Don't see it? That's normal.	لم يظهر في إعدادات Bluetooth؟ هذا طبيعي.
+Done	تم
+Done customising dashboard	تم تخصيص لوحة اليوم
+Done. Save this reading to keep it in your trends.	اكتملت القراءة. احفظها لتظهر ضمن اتجاهاتك.
+Double tap to collapse	اضغط مرتين للطي
+Double tap to expand	اضغط مرتين للتوسيع
+Double-tap to select	اضغط مرتين للتحديد
+Download	تنزيل
+Drag to pan · double-tap to reset	اسحب لتحريك الرسم · اضغط مرتين لإعادة ضبطه
+Drag to reorder. Move an item to Hidden to remove it from Today without deleting it.	اسحب لترتيب العناصر. انقل العنصر إلى «مخفي» لإزالته من شاشة اليوم مع الاحتفاظ به.
+Drives your Fitness Age	يؤثر في عمر لياقتك
+Dumps the last 24 hours of decoded per-sample sensor streams (heart rate, R-R, motion, steps, SpO₂, skin temperature, respiration, events) to a single CSV. All on %@, nothing uploaded. Share it to help prototype and test sleep, activity and strength algorithms.	يصدّر آخر 24 ساعة من قراءات النبض وR-R والحركة والخطوات وSpO₂ والحرارة والتنفس والأحداث إلى ملف CSV واحد. يبقى على %@ دون رفع. يمكنك مشاركته للمساعدة في اختبار خوارزميات النوم والنشاط والقوة.
+Duplicate as manual…	إنشاء نسخة كإدخال يدوي…
+Duration	المدة
+Duration in minutes	المدة بالدقائق
+EARLY SIGNAL	إشارة أولية
+ECG capture (MG, experimental)…	تسجيل ECG ‏(MG، تجريبي)…
+ECG capture probe result	نتيجة اختبار تسجيل ECG
+EFFORT	الجهد
+EFFORT BUILDING	الجهد يتراكم
+EST.	تقديري
+EXPLORATORY	استكشافي
+EXPORT	تصدير
+Each line min-max normalized within %@ · %@	كل خط على مقياس موحّد بين أدنى وأعلى قيمة خلال %@ · %@
+Each line shows how many beats per minute your heart rate changed after exercise. Only high-intensity workouts with recorded post-workout heart rate are included.	يوضح كل خط مقدار تغير نبضك بالدقيقة بعد التمرين. تُعرض فقط التمارين عالية الشدة التي تتوفر لها قراءات نبض بعد الانتهاء.
+Each score follows a published method, computed on your device. We name the method family so you can read up on it, and we never claim to reproduce another company's number exactly.	تُحسب كل درجة على جهازك اعتمادًا على منهج منشور. نذكر اسم المنهج لتتمكن من الاطلاع عليه، ولا ندّعي مطابقة أرقام أي شركة أخرى تمامًا.
+Earlier beats cannot be scored	لا يمكن حساب الدرجة من النبضات القديمة
+Edit	تعديل
+Edit %@	تعديل %@
+Edit Key Metrics	تعديل المقاييس الأساسية
+Edit Workout	تعديل التمرين
+Edit details…	تعديل التفاصيل…
+Edit drink	تعديل المشروب
+Edit nap times	تعديل أوقات القيلولة
+Edit nap times (edited)	تعديل أوقات القيلولة (معدّلة)
+Edit sleep times	تعديل أوقات النوم
+Edit sleep times (edited)	تعديل أوقات النوم (معدّلة)
+Edit…	تعديل…
+Effect size	حجم الأثر
+Efficiency	الكفاءة
+Effort	الجهد
+Effort %@	الجهد %@
+Effort %@ %@	الجهد %@ %@
+Effort (0–100)	الجهد (0–100)
+Effort scale	مقياس الجهد
+Effort this %@	الجهد خلال %@
+Effort: exponential intensity scale	الجهد: مقياس شدة أُسّي
+Effort: how hard did your heart work?	الجهد: ما مقدار الحمل على قلبك؟
+Elapsed	الوقت المنقضي
+Elapsed time	الوقت المنقضي
+Eligible for live physiology	الإشارة مناسبة للقياسات المباشرة
+Enable Apple Health	تفعيل Apple Health
+Enable automatic comparison	تفعيل المقارنة التلقائية
+Enable minute research	تفعيل تحليل الدقائق
+Enable wrist alerts	تفعيل تنبيهات السوار
+Encrypted	مشفّر
+Encrypted stream: deep controls and history sync available.	اتصال مشفّر: أدوات البيانات المتقدمة ومزامنة السجل متاحة.
+End	النهاية
+End can't be in the future.	لا يمكن أن يكون وقت الانتهاء في المستقبل.
+End date and time	تاريخ ووقت الانتهاء
+End must be after the start.	يجب أن يكون وقت الانتهاء بعد وقت البدء.
+End session	إنهاء الجلسة
+End the experiment plan. Journal and metric history stay untouched.	إنهاء خطة التجربة. تبقى اليوميات وسجلات المؤشرات محفوظة.
+End this workout?	هل تريد إنهاء التمرين؟
+End workout	إنهاء التمرين
+Enter NOOP	افتح صفو
+Enter a sport.	أدخل نوع الرياضة.
+Equal breath · ~5.5 br/min coherence	شهيق وزفير متساويان · نحو 5.5 نفس/دقيقة
+Equal inhale and exhale at about 5.5 breaths per minute — a common coherence / resonance starting point. Steady, balanced pacing for settling heart-rate variability during a session.	شهيق وزفير متساويان بنحو 5.5 نفس في الدقيقة؛ نقطة بداية شائعة للتنفس المتناسق. إيقاع ثابت ومتوازن لمتابعة استجابة تقلب النبض خلال الجلسة.
+Error: %@	حدث خطأ: %@
+Est.	التقدير
+Estimate	تقدير
+Estimate (partial data)	تقدير من بيانات جزئية
+Estimate from PPG-derived R-R: relaxation guidance, not a clinical reading. Your pace drifts, so we date it and you can re-measure anytime.	تقدير من فواصل R-R المشتقة ضوئيًا، للاسترشاد في الاسترخاء وليس قياسًا سريريًا. قد يتغير إيقاعك، لذا نحفظ تاريخ القياس ويمكنك إعادته متى أردت.
+Estimate only — not medical advice. Stop if you feel unwell.	تقدير للاسترشاد، وليس نصيحة طبية. توقف إذا شعرت بتعب.
+Estimate only: a higher RMSSD while paced usually means your parasympathetic "rest" branch is engaging. It is not a clinical reading; trends over a session matter more than any single number.	تقدير فقط: ارتفاع RMSSD أثناء التنفس الموجّه قد يشير إلى نشاط جانب الراحة من الجهاز العصبي. ليست قراءة سريرية؛ تغيّر القيمة خلال الجلسة أهم من رقم منفرد.
+Estimated from R-R interval	مقدّر من الفاصل بين نبضتين (R-R)
+Estimated from your WHOOP's motion, calibrated to your phone. Not a measured step count.	تقدير من حركة سوار WHOOP، مُعاير على هاتفك؛ وليس عدًّا مباشرًا للخطوات.
+Estimated max heart rate · %lld bpm	أقصى نبض مقدّر · ⁨%lld⁩ نبضة/دقيقة
+Estimated vs your phone	التقدير مقارنة بالهاتف
+Evening type	تميل إلى المساء
+Event	حدث
+Every beat, every night, every day, woven into one quiet picture of you. Welcome to NOOP.	كل نبضة وكل ليلة وكل يوم تساعدك على فهم جسمك بصورة أوضح. أهلًا بك في صفو.
+Every metric is an unvalidated approximation. Don't use NOOP to diagnose, treat, or make any health decision. Always consult a qualified professional.	القياسات تقديرات تقريبية لم تُعتمد طبيًا. لا تستخدم صفو للتشخيص أو العلاج أو اتخاذ قرار صحي. استشر دائمًا مختصًا مؤهلًا.
+Every score carries a small honesty label. Calibrating means NOOP is still learning your baseline, or doesn't have enough data yet. Building means there's enough to show, but it's thin. Solid means full inputs are present. When NOOP can't compute a score honestly, it shows nothing rather than a fake number.	ترافق كل درجة حالة توضّح مدى اكتمال بياناتها. «جارٍ المعايرة» تعني أن صفو ما زال يتعلّم معدلك المعتاد أو ينتظر بيانات كافية. «قيد التعلّم» تعني أن البيانات تكفي لتقدير أولي، لكنها محدودة. «موثوق» تعني اكتمال المدخلات المطلوبة. إذا لم تتوفر بيانات تسمح بالحساب، لا يعرض التطبيق رقمًا مصطنعًا.
+Every second of your day, zoomable.	تفاصيل يومك ثانية بثانية، مع إمكانية التكبير.
+Every signal, one tap deep.	كل قياس، وتفاصيله بلمسة.
+Everyone has a breathing pace (usually between 4.5 and 7 breaths a minute) where the heart's rhythm swings the most with each breath. We pace you through a few candidate paces, measure how your HRV responds, and lock the one that resonates best for you.	لكل شخص إيقاع تنفس يستجيب فيه النبض بوضوح لكل نفس، وغالبًا يكون بين 4.5 و7 أنفاس في الدقيقة. سنجرّب عدة إيقاعات ونقيس استجابة HRV، ثم نحفظ الأنسب لك.
+Everything else, one tap away	كل ما تحتاجه، في مكان واحد
+Everything lives on %@. No account, no sync, no cloud. Your thread is yours alone.	تبقى كل البيانات على ⁨%@⁩. لا حساب ولا مزامنة سحابية. سجلك لك وحدك.
+Everything stays on %@. Bring your history in once, then it's yours.	تبقى بياناتك على ⁨%@⁩. استورد سجلك السابق ليصبح محفوظًا لديك.
+Exact model unknown. Shows what every WHOOP can do. * on-device estimate · no SpO₂ % off the strap (import a WHOOP CSV for that).	الطراز غير محدد؛ نعرض الإمكانات المشتركة لأجهزة WHOOP. * تقدير محلي. نسبة SpO₂ غير متاحة من السوار، ويمكن استيرادها من WHOOP CSV.
+Exercise	التمرين
+Exercise distance & pace	مسافة التمرين ووتيرته
+Exercise distance and pace units	وحدات مسافة التمرين والوتيرة
+Exercises	التمارين
+Exhale left	زفير من اليسار
+Exhale right	زفير من اليمين
+Expanded	موسّع
+Experiment behaviour	العادة التي تختبرها
+Experiment outcome metric	المؤشر الذي تتابعه
+Experiment progress	تقدّم التجربة
+Experiment window length	مدة التجربة
+Experimental	تجريبي
+Experimental estimate	تقدير تجريبي
+Experimental minute research	تحليل الدقائق التجريبي
+Experimental · Oura ring all-day heart rate	تجريبي · نبض Oura طوال اليوم
+Experimental: at your own risk	تجريبي، واستخدامه على مسؤوليتك
+Experimental: live heart rate where the band exposes it. Some bands need a pairing we can't do yet. NOOP will say so honestly and never show a made-up number. No sleep, recovery, skin temp, SpO₂ or steps.	تجريبي: نبض مباشر إذا أتاحه السوار. بعض الأجهزة تحتاج إلى اقتران لا ندعمه بعد؛ سنوضّح ذلك دون اختلاق أرقام. لا يشمل النوم أو التعافي أو حرارة الجلد أو SpO₂ أو الخطوات.
+Explore	استكشاف
+Export	تصدير
+Export CSV…	تصدير CSV…
+Export NOOP backup	تصدير نسخة احتياطية من صفو
+Export NOOP data as CSV	تصدير بيانات صفو بصيغة CSV
+Export PDF	تصدير PDF
+Export failed	تعذّر التصدير
+Export failed: %@	تعذّر التصدير: %@
+Export frames…	تصدير الإطارات…
+Export problem	مشكلة في التصدير
+Export raw + log	تصدير البيانات الخام والسجل
+Export raw sensor data (CSV)	تصدير بيانات الحساسات الخام (CSV)
+Export route	تصدير المسار
+Export trends report	تصدير تقرير الاتجاهات
+Exporting…	جارٍ التصدير…
+Export…	تصدير…
+Extends the sky behind the whole Today screen, so lowering Card transparency lets it show through every card. Needs the day-cycle background on.	يمد الخلفية وراء شاشة «اليوم» كاملة، لتظهر عبر البطاقات عند زيادة شفافيتها. يتطلب تفعيل خلفية أوقات اليوم.
+FIT — Garmin Connect	FIT — Garmin Connect
+FULL BOND	اقتران كامل
+FW %@	FW %@
+Fair	مقبول
+Fallback	إيقاع بديل
+Fat	الدهون
+Fat burn	حرق الدهون
+Feature-flag probe (#761 RE)	استعلام خيارات البرنامج الثابت (#761)
+Feature-flag probe (#761 RE)…	اختبار خيارات البرنامج الثابت (#761)…
+Feature-flag probe result (#761)	نتيجة استعلام الخيارات (#761)
+Features	المزايا
+Female	أنثى
+File	الملف
+Fill	ملء
+Filled	ممتلئ
+Filter by source	تصفية حسب المصدر
+Filter by sport	تصفية حسب الرياضة
+Find your resonance pace	ابحث عن إيقاع تنفسك الأنسب
+Find your strap	ابحث عن سوارك
+Fine-tune when alerts reach your wrist.	حدّد متى تصلك التنبيهات على السوار.
+Finish	إنهاء
+Finish selecting	إنهاء التحديد
+Finishing the pairing handshake. Sync now becomes available once the strap is paired.	جارٍ إكمال الاقتران. يتاح «مزامنة الآن» بعد اقتران السوار.
+Fire a single haptic pulse on the strap (requires a bonded connection)	يرسل اهتزازًا واحدًا إلى السوار، ويتطلب اقترانًا آمنًا
+Fire a test buzz now	تجربة الاهتزاز الآن
+Fire a test haptic buzz on the strap (requires an active strap connection)	اختبار اهتزاز السوار؛ يتطلب اتصالًا نشطًا به
+Firmware version %@	إصدار البرنامج الثابت %@
+Fit	ملاءمة
+Fitness Age	العمر البدني
+Fitness Age %@%lld, %@. Tap to see the trend.	عمر اللياقة %@%lld، %@. اضغط لعرض الاتجاه.
+Fitness Age stops here. VO₂max keeps moving.	بلغ عمر اللياقة حد المقياس، لكن VO₂ max يمكن أن يستمر في التغير.
+Fitted from	تمت المعايرة من
+Fix in Settings	تعديل من الإعدادات
+Follow body	حسب وحدات الجسم
+Follow the cue…	اتبع الإشارة…
+For a WHOOP 4.0, which sends no step count: NOOP estimates steps from motion, calibrated to your phone. Tap to see how close it is and adjust it.	لـWHOOP 4.0 الذي لا يرسل عدد الخطوات: يقدّر صفو الخطوات من الحركة ويعايرها على عدّ الهاتف. اضغط للمقارنة والتعديل.
+Force out	زفير قوي
+Forced exhale · holds · slow in/out	زفير قوي · حبس · تنفّس بطيء
+Forceful 1s in · 1s out	شهيق قوي ثانية · زفير ثانية
+Forget Oura access	إلغاء ربط Oura
+Forget device	إلغاء اقتران الجهاز
+Forget device…	إلغاء اقتران الجهاز…
+Forget this device?	إلغاء اقتران هذا الجهاز؟
+Frame	حزمة بيانات
+From	من
+From Apple Health	من Apple Health
+Frosted	زجاجي
+Full strap stream is active.	استقبال بيانات السوار الكاملة نشط.
+Full sweep · ~13 min	اختبار كامل · نحو 13 د
+Fully quit and reopen NOOP to load it.	أغلق صفو تمامًا، ثم افتحه مجددًا لتحميل البيانات المستعادة.
+GPX — Strava, Garmin, most apps	GPX — Strava وGarmin ومعظم التطبيقات
+Garmin Fill	تعبئة Garmin
+Gentle Qi Gong-style pacing: inhale ~4.5s, optional short hold, exhale ~4.5s, optional short hold. Soft belly focus; no force.	إيقاع لطيف: شهيق نحو 4.5 ثانية، وقفة قصيرة اختيارية، ثم زفير نحو 4.5 ثانية ووقفة اختيارية. ركّز على البطن دون إجبار.
+Gentle nasal · light air hunger	تنفس أنفي خفيف مع وقفة مريحة
+Get Started	ابدأ
+Getting your devices ready	جارٍ تجهيز أجهزتك
+GitHub: code, releases, issues and the wiki.	GitHub: الشيفرة والإصدارات والمشكلات والتوثيق.
+Give %@ %@ a name you'll recognise.	اختر اسمًا يسهل عليك تمييز %@ %@ به.
+Give it a few minutes of charge if the battery is low.	إذا كانت البطارية منخفضة، اشحنه لبضع دقائق.
+Going to sleep	سأنام الآن
+Good	جيد
+Good afternoon	طاب يومك
+Good evening	مساء الخير
+Good morning	صباح الخير
+Got it	فهمت
+Grab this when you report a bug. It tells me what the app saw. (The full live log is also on the Live screen.)	أرفق هذا السجل عند الإبلاغ عن مشكلة؛ فهو يوضح ما رصده التطبيق. السجل المباشر الكامل متاح أيضًا في شاشة «مباشر».
+Grant Health access	السماح بالوصول إلى البيانات الصحية
+Guarding your session. Silence means you're on track.	نتابع جلستك. غياب التنبيه يعني أنك ضمن النطاق المستهدف.
+Guided	موجّه
+Guided timer	مؤقت موجّه
+Guided · continuous connected	إرشاد نصي · تنفس متصل
+Guided · rapid belly pulses	إرشاد نصي · زفير بطني سريع
+Guided · rhythmic rapid	إرشاد نصي · إيقاع سريع
+Guided · rounds + holds	إرشاد نصي · جولات مع حبس النفس
+Gym equipment (FTMS)	أجهزة النادي (FTMS)
+HEART RATE	نبض القلب
+HF power	قدرة الترددات العالية (HF)
+HIGH	مرتفع
+HOURS OF SLEEP	ساعات النوم
+HR	نبض القلب
+HR ZONE	منطقة النبض
+HR Zones	مناطق نبض القلب
+HR Zones (All)	مناطق النبض (الكل)
+HRV	HRV
+HRV %lld%% over baseline	تقلب نبض قلبك أعلى من معدلك المعتاد بنسبة ⁦%lld%%⁩.
+HRV %lld%% under baseline	تقلب نبض قلبك أقل من معدلك المعتاد بنسبة ⁦%lld%%⁩.
+HRV (RMSSD)	HRV ‏(RMSSD)
+HRV Reading	قراءة HRV
+HRV has dropped well below your baseline, pointing to elevated stress or fatigue. Ease off and give your body time to recover.	تقلب نبض قلبك أقل بكثير من معدلك المعتاد، وقد يشير إلى إجهاد أو تعب. خفّف الجهد وأعطِ جسمك وقتًا للتعافي.
+HRV is above baseline, a sign of a relaxed, well-recovered nervous system. Stress is low.	تقلب نبض قلبك أعلى من المعتاد، وهو مؤشر على الهدوء والتعافي. تقدير التوتر الجسدي منخفض.
+HRV is below your baseline, so ease into the day	تقلب نبض قلبك أقل من معدلك المعتاد؛ ابدأ يومك بهدوء
+HRV reading	قياس تقلب نبض القلب
+HRV reading not started	لم تبدأ قراءة HRV
+HRV window	فترة قياس HRV
+HRV ↔ Charge	HRV ↔ التعافي
+Haptic-paced breathing · find your pace · calm down	تنفّس مع الاهتزاز، وابحث عن إيقاعك الهادئ
+Haptics on	الاهتزاز مفعّل
+Health	الصحة
+Health Monitor	متابعة الصحة
+Health database	قاعدة البيانات الصحية
+Health insights	رؤى صحية
+Heart & Vitals	القلب والمؤشرات الحيوية
+Heart Rate	نبض القلب
+Heart Rate Recovery	انخفاض النبض بعد التمرين
+Heart Rate Variability	تقلب معدل نبض القلب
+Heart rate	نبض القلب
+Heart rate %lld bpm	نبض القلب: ⁨%lld⁩ نبضة/دقيقة
+Heart rate (live, best-effort)	نبض القلب (مباشر، حسب ما يتيحه الجهاز)
+Heart rate during %@	نبض القلب أثناء %@
+Heart rate not available	قراءة نبض القلب غير متاحة
+Heart rate recovery at %@, %lld beats per minute	انخفاض النبض بعد %@، %lld نبضة/دقيقة
+Heart rate recovery at %@, not available	انخفاض النبض بعد %@، غير متاح
+Heart rate stream is active.	استقبال نبض القلب نشط.
+Heart rate variability	تقلب معدل نبض القلب
+Heart rate · HRV (live)* · Strain	نبض القلب · HRV مباشر* · الجهد
+Heart rate · HRV · Skin temp* · Resp rate* · Sleep · Strain · Battery	نبض القلب · HRV · حرارة الجلد* · معدل التنفس* · النوم · الجهد · البطارية
+Heart rate · HRV · Skin temp* · Resp rate* · Steps* · Sleep · Strain · Battery	نبض القلب · HRV · حرارة الجلد* · معدل التنفس* · الخطوات* · النوم · الجهد · البطارية
+Heart rate · HRV* · Sleep · Resting HR · Skin temp* · Battery	نبض القلب · HRV* · النوم · نبض الراحة · حرارة الجلد* · البطارية
+Heart rate* · HRV* · Sleep* · Resting HR* · Skin temp* · Battery*	نبض القلب* · HRV* · النوم* · نبض الراحة* · حرارة الجلد* · البطارية*
+Heart rate, 24 hours	نبض القلب خلال 24 ساعة
+Heart rate, no reading	نبض القلب، لا توجد قراءة
+Heart-rate recovery trend in beats per minute	اتجاه انخفاض نبض القلب بعد التمرين، بالنبضات في الدقيقة
+Heart-rate strap	حزام نبض القلب
+Heart-rate variability	تقلب نبض القلب
+Heart-rate variability as the engine behind your charge score.	تقلب نبض القلب كعامل أساسي في درجة تعافيك.
+Heart-rate zone split: %@	توزيع مناطق نبض القلب: %@
+Heart-rate-only estimate; daytime wrist HRV is not used until its quality is validated.	تقدير يعتمد على النبض فقط؛ لا نُدخل HRV النهاري من المعصم قبل التحقق من جودته.
+Height	الطول
+Height in centimetres	الطول بالسنتيمتر
+Height in inches	الطول بالبوصة
+Height, %lld feet %lld inches	الطول، %lld قدمًا و%lld بوصة
+Help & Contact	المساعدة والتواصل
+Helping most: %@	الأكثر دعمًا لك: %@
+Hidden	مخفي
+Hidden items remain available here and can be restored at any time.	تبقى العناصر المخفية هنا، ويمكنك إظهارها متى أردت.
+Hide %@	إخفاء %@
+Hide bar when scrolling	إخفاء الشريط أثناء التمرير
+Hide data source detail	إخفاء تفاصيل مصدر البيانات
+High	مرتفع
+Historical record layout v%lld	صيغة السجل التاريخي v%lld
+Historical trend	التغيّر عبر الوقت
+History	السجل
+History fills the dashboard immediately	ابدأ بسجلك السابق
+History sync	مزامنة السجل
+History synced	تمت مزامنة السجل
+History synced %@	تمت مزامنة السجل %@
+Hold empty	احبس بعد الزفير
+Hold full	احبس بعد الشهيق
+Holding you back: %@	الأكثر تأثيرًا سلبًا: %@
+Holds the liquid gauges, the sky and the tilt response still, and turns off the motion sensor that drives them. Saves battery. Low Power Mode and the system Reduce Motion setting already do this.	يثبّت حركة الماء والخلفية والاستجابة لميل الجهاز، ويوقف حساس الحركة الخاص بها لتوفير البطارية. يعمل ذلك تلقائيًا أيضًا مع نمط الطاقة المنخفضة أو «تقليل الحركة» في إعدادات الجهاز.
+Holds the screen awake while NOOP pulls stored history from your strap, so you can watch a long sync finish without the phone locking. Only applies while a sync is running and NOOP is open. The screen sleeps normally the rest of the time. It uses a bit more battery while the screen stays on.	يبقي الشاشة مضاءة ما دامت المزامنة جارية والتطبيق مفتوحًا، لتتابع نقل السجل حتى النهاية. يعود القفل الطبيعي بعد ذلك. تستهلك الشاشة المضاءة بطارية إضافية.
+Holds the screen awake while you're recording a workout, so your live heart rate stays visible without the device dimming. Only applies during a recording. The screen sleeps normally the rest of the time. Leaving it on does use a bit more battery, and means your unlocked screen stays visible for the whole workout, so flip it off if that's a concern.	يبقي الشاشة مضاءة أثناء تسجيل التمرين لتتابع نبضك دون انطفائها. يعود القفل الطبيعي بعد التسجيل. يستهلك بطارية إضافية قليلًا، وتبقى الشاشة مفتوحة طوال التمرين؛ يمكنك إيقافه متى أردت.
+Hold…	احبس النفس…
+Holotropic	Holotropic
+Holotropic-style work is continuous, often rapid connected breathing in a supported setting. NOOP only offers a session timer and education — not an auto-pacer — because intensity varies widely and is normally facilitated.	تنفس متصل وغالبًا سريع، ويُمارس عادةً بإشراف. يوفر صفو مؤقتًا ومعلومات فقط، دون فرض إيقاع؛ فالشدة تختلف كثيرًا بين الأشخاص.
+Hours asleep	ساعات النوم
+Hours asleep trend	اتجاه ساعات النوم
+Hours vs Needed	النوم الفعلي مقارنة باحتياجك
+How %@ is calculated	كيف يُحسب %@؟
+How Charge is calculated	كيف يُحسب التعافي
+How Charge is calculated. The method behind the score.	كيف نحسب التعافي؟ تعرّف على طريقة الحساب.
+How Effort is calculated	كيف يُحسب الجهد
+How NOOP behaves while it pulls stored history from your strap.	طريقة عمل صفو أثناء نقل السجل المخزّن على السوار.
+How NOOP works	كيف يعمل صفو
+How They Move Together	كيف تتغير المؤشرات معًا؟
+How accurate is this?	ما مدى دقة هذا التقدير؟
+How accurate is this? Hide the data behind your Fitness Age	ما مدى دقته؟ إخفاء البيانات التي بُني عليها عمر لياقتك
+How accurate is this? Show the data behind your Fitness Age	ما مدى دقته؟ عرض البيانات التي بُني عليها عمر لياقتك
+How closely a good night tracks next-morning charge.	مدى ارتباط النوم الجيد بتعافي الصباح التالي.
+How much one day's charge carries into the next.	مدى ارتباط تعافي يوم بتعافي اليوم الذي يليه.
+How recovered you are, led by HRV versus your personal baseline.	مدى تعافيك، بالاعتماد أساسًا على HRV مقارنة بمعدلك المعتاد.
+How restorative your sleep was: duration, efficiency, deep+REM, timing.	مدى استعادة نشاطك بالنوم: المدة والكفاءة والنوم العميق وREM والمواعيد.
+How see-through the cards (Heart Rate, Key Metrics, Recovery Vitals, …) are. Left = solid, right = clear.	درجة شفافية بطاقات النبض والمقاييس والتعافي وغيرها. من معتمة إلى شفافة.
+How sure is NOOP?  ·  Solid · Building · Calibrating	ما درجة الثقة؟ · موثوق · قيد التعلّم · جارٍ المعايرة
+How this is computed	كيف يُحسب هذا المؤشر
+How this is measured	كيف يُقاس هذا المؤشر؟
+How this score is calculated	كيف تُحسب هذه الدرجة؟
+How this works	كيف يعمل؟
+How your scores are computed	كيف تُحسب درجاتك؟
+How your scores work	كيف تُحسب درجاتك؟
+How your sleep is sorted	كيف نميّز النوم الرئيسي عن القيلولة؟
+Hydration	شرب الماء
+Hydration today	شرب الماء اليوم
+Hydration tracking	تتبع شرب الماء
+I am not a WHOOP employee, contractor, or affiliate, and I am not using NOOP on WHOOP's behalf.	لست موظفًا أو متعاقدًا أو جهة تابعة لـWHOOP، ولا أستخدم صفو نيابةً عنها.
+I own the WHOOP device I will use with NOOP and will only use it to access my own data. Doing so is my decision and my risk, including any effect on my WHOOP account, subscription, device, or warranty, and it may breach WHOOP's Terms of Service.	أملك جهاز WHOOP الذي سأستخدمه مع صفو، وسأستخدمه للوصول إلى بياناتي فقط. هذا قراري وعلى مسؤوليتي، بما في ذلك أي أثر على حسابي أو اشتراكي أو جهازي أو ضمانه، وأدرك أن ذلك قد يتعارض مع شروط خدمة WHOOP.
+I understand	فهمت
+I understand NOOP is unofficial and experimental, is provided free and "as is" with no warranty, and is not a medical device or medical advice.	أفهم أن صفو مشروع غير رسمي وتجريبي، يُقدّم مجانًا كما هو وبلا ضمان، وأنه ليس جهازًا طبيًا ولا يقدم نصيحة طبية.
+I'm awake	استيقظت
+I'm wearing it	ارتديت السوار
+IDLE	غير نشط
+Idle	غير نشط
+If you don't see the prompt, enable NOOP under Settings › Health › Data Access & Devices.	إذا لم يظهر طلب الإذن، فعّل صفو من الإعدادات › صحتي › الوصول إلى البيانات والأجهزة.
+If you feel dizzy or uncomfortable, stop and breathe normally.	إذا شعرت بدوخة أو انزعاج، توقف وتنفس طبيعيًا.
+Imperial	رطل وميل
+Import	استيراد
+Import Apple Health export	استيراد ملف Apple Health
+Import WHOOP export	استيراد ملف WHOOP
+Import a single exported workout file from any brand (Garmin, Coros, Suunto, Wahoo, Polar, Strava, Apple) straight off your device. GPS route, distance, heart rate and calories come in where the file has them. Fully offline; nothing leaves %@.	استورد ملف تمرين واحد من جهازك، صادر عن Garmin أو Coros أو Suunto أو Wahoo أو Polar أو Strava أو Apple. تُضاف بيانات المسار والمسافة والنبض والسعرات عند توفرها في الملف. تتم العملية محليًا، وتبقى البيانات على ⁨%@⁩.
+Import again	استيراد مجددًا
+Import an Apple Health export (Health app → profile → Export All Health Data → export.zip). 7 years of HR, HRV, sleep, SpO₂, steps and more, streamed locally. Large exports take a minute or two.	استورد سجل Apple Health: افتح تطبيق «صحتي»، ثم ملفك الشخصي، واختر «تصدير جميع البيانات الصحية»، وحدّد ملف export.zip هنا. تُقرأ البيانات محليًا، بما فيها النبض وتقلبه والنوم والأكسجين والخطوات. يدعم السجلات الطويلة، وقد تستغرق الملفات الكبيرة دقيقة أو دقيقتين.
+Import daily nutrition totals from a Cronometer or MacroFactor CSV export: calories in, protein, carbs, fat (and weight if present). Other trackers work too if the file has a date column and daily totals.	استورد إجماليات التغذية اليومية من ملف CSV صادر عن Cronometer أو MacroFactor: السعرات المتناولة والبروتين والكربوهيدرات والدهون والوزن إن وُجد. يمكن استخدام ملفات تطبيقات أخرى إذا تضمنت عمودًا للتاريخ وإجماليات يومية.
+Import failed: %@	تعذّر الاستيراد: ⁨%@⁩
+Import your Mi Band history (steps, heart rate, resting HR, sleep stages, SpO₂, stress and sleep score) straight from the Mi Fitness app. On your iPhone: Files → On My iPhone → Mi Fitness, long-press the folder → Compress, then choose the .zip here. Fully offline; no Xiaomi account or Bluetooth needed. Smart Band 8/9/10.	استورد تاريخ Mi Band من تطبيق Mi Fitness، بما فيه الخطوات والنبض ونبض الراحة ومراحل النوم والأكسجين والتوتر ودرجة النوم. على iPhone، افتح «الملفات»، ثم «على الـiPhone الخاص بي»، ثم Mi Fitness. اضغط مطولًا على المجلد واختر «ضغط»، ثم حدّد ملف ZIP هنا. يعمل محليًا دون حساب Xiaomi أو اتصال Bluetooth. يدعم Smart Band 8 و9 و10.
+Import your Oura history	استيراد سجلك من Oura
+Import your full WHOOP history (recovery, strain, sleep, workouts) from a data export (.zip). Works for WHOOP 4.0, 5.0 and MG. Get one at app.whoop.com → Data Management.	استورد تاريخ التعافي والجهد والنوم والتمارين من ملف WHOOP بصيغة ZIP. يدعم WHOOP 4.0 و5.0 وMG. يمكنك طلب الملف من قسم إدارة البيانات في app.whoop.com.
+Import your history first. A WHOOP export in Data Sources fills every metric you can explore here in about a minute.	ابدأ باستيراد تاريخك من WHOOP عبر «مصادر البيانات» لتملأ المقاييس المتاحة هنا خلال نحو دقيقة.
+Import your own data export from Oura, Fitbit or Garmin: sleep, resting heart rate, HRV, steps and more, where the export has them. Download it from the brand's app (Oura: Account → Export Data; Fitbit: Google Takeout; Garmin: Export Your Data), then choose the file here. Fully offline; nothing leaves %@. Each brand's own readiness or sleep score is kept for reference only. Your scores stay yours.	استورد ملف بياناتك من Oura أو Fitbit أو Garmin لإضافة ما يتوفر فيه من نوم ونبض راحة وتقلب نبض وخطوات وغيرها. اطلبه من «تصدير البيانات» في حساب Oura، أو Google Takeout لـFitbit، أو «تصدير بياناتك» لدى Garmin، ثم حدّده هنا. تبقى البيانات على ⁨%@⁩. تُحفظ درجات الاستعداد والنوم الخاصة بكل شركة للمقارنة فقط، وتظل درجات صفو مستقلة.
+Import your strength-training history from a Hevy CSV export or a Liftosaur JSON export. Each workout becomes a Strength session with a training-volume estimate (weight × reps). It's a volume figure, not a measured strain. It never changes your Effort.	استورد تمارين المقاومة من ملف CSV صادر عن Hevy أو ملف JSON صادر عن Liftosaur. يُضاف كل تمرين كجلسة مقاومة مع تقدير لحجم التدريب: الوزن × التكرارات. هذا حجم العمل التدريبي، وليس قياسًا للجهد الفسيولوجي، ولا يغيّر درجة الجهد لديك.
+Imported	مستورد
+Imported %lld days (%lld values)	تم الاستيراد · الأيام: ⁨%lld⁩ · القيم: ⁨%lld⁩
+Imported %lld workouts	عدد التمارين المستوردة: ⁨%lld⁩
+Imported 1 workout	تم استيراد تمرين واحد
+Imported history can't be merged	لا يمكن دمج الجلسات المستوردة
+Importing overwrites everything currently on %@. Your old data is kept in a side file just in case. NOOP needs a relaunch for an import to take effect. Export CSV writes a WHOOP-format zip of your days, sleeps, workouts and journal that re-imports into NOOP on Mac, iPhone, or Android. On-device computed rows are marked APPROXIMATE in its Source column; the full backup stays the lossless restore path.	الاستيراد يستبدل كل ما على %@، مع حفظ البيانات السابقة في ملف جانبي احتياطي. يلزم إعادة فتح صفو لتطبيقه. تصدير CSV ينشئ ملف ZIP بصيغة WHOOP للأيام والنوم والتمارين واليوميات، ويمكن استيراده إلى صفو على Mac أو iPhone أو Android. تحمل القيم المحسوبة محليًا علامة APPROXIMATE في عمود Source؛ وتبقى النسخة الاحتياطية الكاملة طريقة الاستعادة دون فقد.
+Importing…	جارٍ الاستيراد…
+Import…	استيراد…
+In and out, but the band won more than it lost.	خرجت من النطاق أحيانًا، لكنك بقيت داخله معظم الوقت.
+In band	ضمن النطاق
+In sync with your body clock	متوافق مع ساعتك البيولوجية
+In your band. On track.	نبضك ضمن النطاق المستهدف. استمر.
+In your range	ضمن نطاقك المعتاد
+Independent: not affiliated with WHOOP	مشروع مستقل وغير تابع لـWHOOP
+Inhale 4 · hold 7 · exhale 8	شهيق 4 · حبس 7 · زفير 8
+Inhale left	شهيق من اليسار
+Inhale right	شهيق من اليمين
+Insights	رؤى
+Installed outside the App Store	تطبيق مُثبّت من خارج App Store
+Insufficient signal	الإشارة غير كافية
+Intelligence	تحليل بياناتك
+Intensity Minutes	دقائق النشاط المكثف
+Intermediate type	نمط متوسط
+Intervals	الفترات
+Intervention	العادة المختبَرة
+Intraday	خلال اليوم
+It all stays on your strap and %@: no account, no cloud.	كل شيء يبقى على سوارك و⁨%@⁩، دون حساب أو خدمات سحابية.
+It isn't held by the WHOOP phone app. Only one host at a time: close the app or turn off its Bluetooth.	تأكد من عدم اتصال تطبيق WHOOP به. يقبل السوار اتصالًا واحدًا في الوقت نفسه؛ أغلق التطبيق الرسمي أو عطّل إذن Bluetooth الخاص به.
+It's charged and worn. The sensor needs skin contact to wake.	تأكد من شحن السوار وارتدائه؛ يحتاج المستشعر إلى ملامسة الجلد ليستيقظ.
+It's within about a metre of %@.	تأكد من وجوده على بُعد نحو متر أو أقل من ⁨%@⁩.
+Journal	اليوميات
+Journal reminder	تذكير اليوميات
+Just stop sending	إيقاف إرسالها فقط
+KCAL	kcal
+KEY METRICS	المقاييس الأساسية
+Kapalabhati	Kapalabhati
+Kapalabhati uses rapid, active belly exhales with passive inhales. Timing varies by person — this mode gives you a timer and coaching text only, not a forced metronome. Practice seated, short rounds, rest between.	زفير سريع ونشط من البطن، مع شهيق تلقائي. يختلف التوقيت بين الأشخاص، لذا يوفر هذا النمط مؤقتًا وإرشادًا نصيًا فقط، دون إيقاع إلزامي. مارسه جالسًا بجولات قصيرة وراحة بينها.
+Keep it within about a metre of %@.	أبقِ السوار على بُعد نحو متر أو أقل من ⁨%@⁩.
+Keep last snapshots	عدد النسخ التي يُحتفظ بها
+Keep screen on during a workout	إبقاء الشاشة مضاءة أثناء التمرين
+Keep screen on while syncing	إبقاء الشاشة مضاءة أثناء المزامنة
+Keep your bloods, BP and body numbers private, on %@.	احفظ تحاليلك وضغط دمك وقياسات جسمك بخصوصية على %@.
+Keeps the detailed beat-to-beat heart-rate stream running all day and night, not just while a live screen is open, so NOOP captures much more for overnight HRV, recovery and sleep. Uses more battery: your strap streams heart rate continuously while connected.	يبقي تدفق الفواصل بين النبضات نشطًا ليلًا ونهارًا، وليس فقط أثناء فتح شاشة مباشرة، لتحسين تغطية HRV الليلي والتعافي والنوم. يستهلك بطارية السوار أكثر بسبب استمرار البث أثناء الاتصال.
+Key Metrics	المقاييس الأساسية
+Kick in at (strap battery)	التفعيل عند وصول بطارية السوار إلى
+Kilometres	كيلومترات
+LAST WORKOUTS	آخر التمارين
+LIGHT	خفيف
+LIVE HR ONLY	نبض مباشر فقط
+LIVE PHYSIOLOGY	القياسات المباشرة
+LIVE SESSION	جلسة مباشرة
+LOCAL ONLY	على جهازك فقط
+LOW	منخفض
+LOW SIGNAL	إشارة ضعيفة
+Lab Book	دفتر التجارب
+Language	اللغة
+Language changes take effect after you reopen NOOP.	يسري تغيير اللغة بعد إعادة فتح صفو.
+Last %lld beats	آخر %lld نبضة
+Last 14 nights	آخر 14 ليلة
+Last 7 days	آخر 7 أيام
+Last backup: %@	آخر نسخة احتياطية: %@
+Last comparison upload	آخر إرسال للمقارنة
+Last night	الليلة الماضية
+Last night against your clock	الليلة الماضية مقارنةً بساعتك البيولوجية
+Last night · %@	الليلة الماضية · ⁨%@⁩
+Last night's sleep hasn't synced	لم تتم مزامنة نوم الليلة الماضية
+Last night's sleep wasn't detected	لم يُكتشف نوم الليلة الماضية
+Last night, %@. Tonight's lands after you sleep with the strap on.	الليلة الماضية، %@. تظهر بيانات الليلة الجديدة بعد النوم وأنت ترتدي السوار.
+Last offload completed	اكتمل آخر نقل للسجل
+Last recorded %@	آخر قراءة محفوظة %@
+Last reported by strap	آخر قراءة أرسلها السوار
+Last reported by the ring	آخر قراءة أرسلها الخاتم
+Last seen %@	آخر اتصال %@
+Last session: %@	آخر جلسة: %@
+Last sync	آخر مزامنة
+Last synced %@.	آخر مزامنة %@.
+Last synced %lld minutes ago. Reconnect to pull the latest.	آخر مزامنة قبل %lld دقائق. أعد الاتصال للحصول على أحدث البيانات.
+Last week	الأسبوع الماضي
+Latest	أحدث قراءة
+Latest Workouts	آخر التمارين
+Latest reading	أحدث قراءة
+Latest sleep · %@	آخر نوم · %@
+Latest sleep, %@. This is your last scored session. Wear the strap overnight for a fresh score.	آخر نوم، %@. هذه آخر جلسة حُسبت درجتها. ارتدِ السوار أثناء النوم للحصول على درجة جديدة.
+Lean Body Mass	كتلة الجسم دون الدهون
+Lean body mass	كتلة الجسم الخالية من الدهون
+Learning your baseline, %lld of %lld nights.	نتعلّم معدلك المعتاد: %lld من %lld ليلة.
+Leave none active	المتابعة دون سوار نشط
+Led by your heart-rate variability (HRV) measured against your own personal baseline, plus resting heart rate, last night's Rest, breathing rate, and a skin-temperature signal (an early illness or overreach flag). Higher HRV versus your baseline means more Charge. NOOP needs a few nights to learn your baseline first. Until then you'll see “Calibrating”.	يعتمد التعافي أساسًا على تقلب نبض القلب (HRV) مقارنة بمعدلك المعتاد، إلى جانب نبض الراحة ونوم الليلة الماضية ومعدل التنفس وحرارة الجلد، التي قد تشير إلى بداية تعب أو مرض. ارتفاع HRV عن المعتاد يرفع تقدير التعافي. يحتاج صفو إلى عدة ليالٍ ليتعلّم نمطك أولًا؛ وخلالها تظهر عبارة «جارٍ المعايرة».
+Left wrist	المعصم الأيسر
+Less	أقل
+Let the background show through every card. Tune how much just below.	أظهر الخلفية من وراء البطاقات، واضبط درجة الشفافية أدناه.
+Lift Log	سجل تمارين القوة
+Lift Log session	جلسة تمارين القوة
+Lifting	تمارين المقاومة
+Lifting log (Hevy / Liftosaur)	سجل تمارين المقاومة (Hevy / Liftosaur)
+Light	نوم خفيف
+Light Sleep	نوم خفيف
+Lighter · longer soft hold	تنفّس أخف ووقفة أطول مريحة
+Line	خط
+Liquid Today (prototype)	واجهة اليوم المائية (تجريبية)
+Listening for the strap's reply…	بانتظار رد السوار…
+Live	مباشر
+Live Body Console	القياسات المباشرة
+Live HR	نبض القلب المباشر
+Live HR (not fully paired)	نبض مباشر (الاقتران غير مكتمل)
+Live HR + R-R only · no sleep, recovery, skin temp, SpO₂, steps or battery (those are WHOOP-only).	نبض وفواصل R-R مباشرة فقط؛ دون نوم أو تعافٍ أو حرارة جلد أو SpO₂ أو خطوات أو بطارية كما في WHOOP.
+Live HR works. Free the strap to unlock buzz, alarms & sync	النبض المباشر يعمل. حرّر اتصال السوار لإتاحة الاهتزاز والمنبهات والمزامنة
+Live Session	جلسة مباشرة
+Live Sessions (beta)	الجلسات المباشرة (تجريبية)
+Live heart rate	نبض القلب المباشر
+Live heart rate appears here once a strap is connected.	تظهر قراءات نبض القلب هنا مباشرة بعد توصيل السوار.
+Live heart rate is flowing from the ring.	تصل قراءات نبض القلب مباشرة من الخاتم.
+Live heart rate is flowing; full strap controls need an encrypted bond.	تصل قراءات النبض مباشرة؛ تحتاج أدوات التحكم الكاملة إلى اقتران مشفّر.
+Live heart rate is streaming, but your strap is not fully paired. The encrypted pairing is what carries motion, skin temperature, SpO₂ and respiratory rate — without it, sleep is staged from heart rate alone. Buzz, alarms and history sync need it too.	يصل النبض مباشرة، لكن الاقتران غير مكتمل. الاقتران المشفّر يتيح إشارات الحركة والحرارة وSpO₂ والتنفس بحسب دعم الجهاز؛ وبدونه يعتمد تصنيف النوم على النبض وحده. الاهتزاز والمنبّهات ومزامنة السجل تحتاج إليه أيضًا.
+Live heart rate over time	نبض القلب المباشر مع الوقت
+Live machine data over Bluetooth FTMS. No sleep, recovery, skin temp or SpO₂. Effort needs the machine's heart rate; without it the session logs the machine metrics only.	قراءات مباشرة عبر Bluetooth FTMS، دون نوم أو تعافٍ أو حرارة جلد أو SpO₂. حساب الجهد يحتاج إلى نبض القلب؛ وإلا تُحفظ مقاييس الجهاز فقط.
+Live notifications	الأنشطة المباشرة
+Live now. Your scores are building.	القراءات المباشرة متاحة. نعمل على تكوين مؤشراتك.
+Live · beat by beat	مباشر · نبضة بنبضة
+Loading the day…	جارٍ تحميل بيانات اليوم…
+Loading your history…	جارٍ تحميل سجلك…
+Loading your sessions…	جارٍ تحميل جلساتك…
+Loading your sleep history…	جارٍ تحميل سجل نومك…
+Locked	محفوظ
+Locked %@ · paces drift, re-measure anytime.	حُفظ %@؛ قد يتغير إيقاعك، ويمكنك إعادة القياس متى أردت.
+Locked %@. Switch to Breathe to use it, or re-measure above.	حُفظ %@. انتقل إلى «التنفس» لاستخدامه، أو أعد القياس أعلاه.
+Log %@	تسجيل %@
+Log a session you tracked elsewhere.	سجّل تمرينًا تابعتَه في تطبيق أو جهاز آخر.
+Log at least one behaviour above before starting an experiment.	سجّل عادة واحدة على الأقل أعلاه قبل بدء التجربة.
+Log behaviours above. After a few days of answers, NOOP ranks how each one moves your charge, HRV and rest. Importing a WHOOP export (which includes its journal) backfills history instantly.	سجّل عاداتك أعلاه. بعد بضعة أيام، يرتّب صفو علاقتها بالتعافي وHRV والنوم. ويمكن استيراد سجل WHOOP، بما فيه اليوميات، لإضافة تاريخك مباشرةً.
+Log custom %lld millilitres	تسجيل كمية مخصصة: %lld مل
+Log going to sleep	تسجيل وقت الذهاب للنوم
+Log journal	تدوين يومياتي
+Log waking up	تسجيل وقت الاستيقاظ
+Logged %lld millilitres at %@	سُجّلت %lld مل في %@
+Logged as a nap. Wrong? Tap Edit to adjust your sleep and wake times.	سُجّل كقيلولة. إذا لم يكن ذلك صحيحًا، اضغط «تعديل» لتصحيح وقت النوم والاستيقاظ.
+Logged sessions across %@.	الجلسات المسجلة خلال %@.
+Logged today	المسجّل اليوم
+Long exhale · downshift to rest	زفير أطول للتهدئة
+Long press to show or hide your heart rate.	اضغط مطولًا لإظهار نبضك أو إخفائه.
+Longer ranges unlock as more history builds.	تتوفر فترات أطول كلما تراكم تاريخك.
+Longest: %lld days	الأطول: %lld يومًا
+Longest: 1 day	الأطول: يوم واحد
+Low	منخفض
+Low confidence	درجة الثقة منخفضة
+Low confidence staging. This night scored high efficiency but very little deep or REM, more likely an estimate miss than a real restorative shortfall.	الثقة في مراحل النوم منخفضة. كفاءة هذه الليلة مرتفعة، لكن تقدير النوم العميق وحركة العين السريعة منخفض جدًا؛ قد يكون السبب خطأً في التقدير.
+Low refresh	تقليل وتيرة التحديث
+M	شهر
+MEDIUM	متوسط
+METHOD	طريقة الحساب
+MODERATE	متوسط
+Main sleep	النوم الرئيسي
+Maintain	حافظ على الوتيرة
+Make %@ your active strap? From now on it provides your live data. %@'s history stays exactly as it is. Only new days come from %@.	هل تريد استخدام %@ للقراءات المباشرة؟ سيبقى سجل %@ كما هو، وتأتي الأيام الجديدة فقط من %@.
+Make active	تعيين جهاز نشط
+Make it yours	اختر المظهر الذي يناسبك
+Make this your active strap?	تعيين هذا السوار مصدرًا نشطًا؟
+Male	ذكر
+Manage devices	إدارة الأجهزة
+Manual	يدوي
+Manual (you set this by hand)	يدوي، حسب اختيارك
+Manual override	تحديد يدوي
+Manual steps coefficient	معامل الخطوات اليدوي
+Map of your %@ route, %@.	خريطة مسار %@، %@.
+Mark done today	تسجيل إتمامها اليوم
+Mark optical experiment phase	تحديد مرحلة التجربة الضوئية
+Marked: %@	تم تحديد المرحلة: %@
+Marker wasn't saved. Keep frame recording on and try again.	لم تُحفظ العلامة. أبقِ تسجيل الرسائل مفعّلًا وحاول مجددًا.
+Markers	المؤشرات
+Matched nights: %lld	الليالي المطابقة: %lld
+Max	الأعلى
+Max 4	4 كحد أقصى
+Max HR	أقصى نبض
+Max Heart Rate	أقصى نبض للقلب
+Max heart rate	أعلى نبض للقلب
+Max heart rate override	تحديد أقصى نبض يدويًا
+Max heart rate override, %@	أقصى نبض محدد يدويًا، %@
+Maximum	الأعلى
+May be incomplete	قد يكون غير مكتمل
+Mean HR	متوسط النبض
+Measuring…	جارٍ حساب المساحة…
+Medium	متوسط
+Menstrual Cycle	الدورة الشهرية
+Menu and settings	القائمة والإعدادات
+Merge	دمج
+Merge (%lld)	دمج (%lld)
+Metric	متري
+Metric Relationships	العلاقات بين المؤشرات
+Metrics	المقاييس
+Mi Band	Mi Band
+Mid session tempo (~2.4s / 2.4s) is a starting pace for later passes through the procedure; once settled you may slow deeper or switch to Punching Through.	إيقاع أسرع للمراحل اللاحقة، نحو 2.4 ثانية لكل مرحلة. بعد الاستقرار يمكنك الانتقال إلى تنفّس أبطأ وأعمق أو إلى الإيقاع السريع.
+Midnight	منتصف الليل
+Miles	أميال
+Min	الأدنى
+Min-max normalized · sparse series widened past %@ · %@	القيم على مقياس موحّد بين أدناها وأعلاها · وُسّع نطاق القراءات المتباعدة خارج %@ · %@
+Mind	الذهن
+Mint	نعناعي
+Minute research is experimental; input quality is not a probability of accuracy.	تحليل الدقائق تجريبي؛ جودة المدخلات ليست نسبة لدقة النتيجة.
+Minutes with readings	دقائق بقراءات
+Missing	غير متوفر
+Moderate	متوسط
+Mood	المزاج
+More	المزيد
+Morning type	تميل إلى الصباح
+Most Active	الأكثر نشاطًا
+Mostly %@ (%@).	النشاط الغالب: %@ (%@).
+Mostly over the band — harder than today's Charge could pay for.	تجاوزت النطاق غالبًا؛ كان الجهد أعلى مما يناسب تعافيك اليوم.
+Mostly under the band — there was more in the tank today.	بقيت أقل من النطاق غالبًا؛ كان لديك مجال لجهد أكبر اليوم.
+Motion unavailable	إشارة الحركة غير متاحة
+Motion-aware wake refinement	تنقيح الاستيقاظ باستخدام الحركة
+Move all your NOOP data to another machine. Export saves everything (history, sleeps, workouts, settings) to a single file you can copy across; import replaces %@'s data with a backup.	انقل كل بيانات صفو إلى جهاز آخر. يحفظ التصدير التاريخ والنوم والتمارين والإعدادات في ملف واحد؛ أما الاستيراد فيستبدل بيانات %@ بالنسخة الاحتياطية.
+Move anyway	تغيير الوقت رغم ذلك
+Move this sleep?	تغيير وقت هذا النوم؟
+Move, relative to tonight	الحركة مقارنةً بهذه الليلة
+Movement during sleep	الحركة أثناء النوم
+Mute wrist alerts overnight.	كتم تنبيهات السوار أثناء الليل.
+My WHOOP	سوار WHOOP الخاص بي
+NES / HUNT VO2MAX	Nes / HUNT · VO₂ max
+NO DATA	لا توجد بيانات
+NOOP	صفو
+NOOP Limitations	حدود صفو
+NOOP can tap your wrist when your %@ needs you. No glance at the screen required.	يمكن لـصفو تنبيهك باهتزاز السوار عند وجود تنبيه من ⁨%@⁩، دون الحاجة إلى النظر إلى الشاشة.
+NOOP computed	محسوب في صفو
+NOOP didn't get a folder back from the picker. If the Open button won't do anything, tap "Use NOOP's own folder" below to back up inside NOOP instead — you can read those backups from the Files app.	لم يُحدَّد مجلد للحفظ. إذا لم يستجب زر «فتح»، اضغط «استخدام مجلد صفو» أدناه للحفظ داخل التطبيق. يمكنك الوصول إلى النسخ من تطبيق «الملفات».
+NOOP estimates your steps from your WHOOP's motion, calibrated to your phone's step count. It's an estimate, not a step counter. A WHOOP 4.0 doesn't transmit steps.	يقدّر صفو الخطوات من حركة سوار WHOOP ويعايرها على عدّ الهاتف. هذا تقدير للحركة؛ فسوار WHOOP 4.0 لا يرسل عدد الخطوات.
+NOOP gives you three daily scores (Charge, Effort and Rest), each on a 0-100 scale. They're built from your strap's raw signals using published, peer-reviewed sport science, and computed entirely on your device. They are NOT WHOOP's scores: we don't have WHOOP's private algorithms and don't pretend to. They aim at the same three questions using open science, so they'll usually track WHOOP's in direction, but won't match number-for-number. And that's the point.	يعطيك صفو ثلاث درجات يومية: التعافي والجهد والنوم، من 0 إلى 100. تُحسب على جهازك من إشارات السوار الخام، بالاستعانة بطرق منشورة في أبحاث علوم الرياضة. هذه ليست درجات WHOOP؛ خوارزمياته الخاصة غير متاحة لنا. نقيس جوانب متشابهة بطرق مستقلة، وقد تتفق حركة النتائج دون أن تتطابق أرقامها.
+NOOP is an unofficial project: not affiliated with, endorsed by, or sponsored by WHOOP, Inc. "WHOOP" is their trademark, used only to name the hardware NOOP works with.	صفو مشروع غير رسمي؛ ليس تابعًا لشركة WHOOP ولا معتمدًا أو مدعومًا منها. اسم WHOOP علامة تجارية تخص الشركة، ويُستخدم هنا لتحديد الأجهزة التي يعمل معها صفو فقط.
+NOOP is free and provided "as is", with no warranty. Liability is limited to the maximum extent the law that applies to you allows, and nothing here removes protections your local law won't let us remove.	يُقدّم صفو مجانًا كما هو، دون أي ضمان. تُحدّد المسؤولية بأقصى ما يسمح به القانون الذي ينطبق عليك. ولا يلغي هذا النص أي حماية لا يسمح قانونك المحلي بإلغائها.
+NOOP is not a medical device. It is for informational and personal-insight purposes only and is not intended to diagnose, treat, cure or prevent any condition. Talk to a clinician for medical advice.	صفو ليس جهازًا طبيًا. يساعدك في فهم بياناتك الشخصية، ولا يُستخدم لتشخيص حالة أو علاجها أو الوقاية منها. استشر مختصًا للحصول على نصيحة طبية.
+NOOP is opening your on-device data. Your paired bands will appear here in a moment.	يفتح صفو بياناتك المحلية. ستظهر الأجهزة المقترنة بعد قليل.
+NOOP looks for known notification apps on %@: Mail, Outlook, WhatsApp, Teams, Messages, Slack and similar. Install one and it'll appear here automatically.	يبحث صفو عن تطبيقات الإشعارات المعروفة على %@، مثل البريد وOutlook وWhatsApp وTeams والرسائل وSlack. تظهر التطبيقات المدعومة هنا تلقائيًا بعد تثبيتها.
+NOOP never makes up a number. When it can't compute one honestly it tells you what's missing and what to do, rather than showing a fake value.	لا يختلق صفو أرقامًا. عندما لا تكفي البيانات لحساب قيمة، يوضح ما ينقص وما يمكنك فعله.
+NOOP never shows you a number it had to make up. If a score isn't ready, it tells you why and what to do next. Everything here runs on your device, from your strap.	لا يختلق صفو أرقامًا لإكمال الشاشة. إذا لم تتوفر درجة، يوضح السبب وما يمكنك فعله. تُجرى الحسابات على جهازك من بيانات سوارك.
+NOOP pairs directly with your WHOOP over Bluetooth: no WHOOP app, no cloud.	يتصل صفو بسوار WHOOP مباشرة عبر Bluetooth، دون الحاجة إلى تطبيق WHOOP أو السحابة.
+NOOP picks your main sleep as your longest real block, and (once it has learned your usual hours) the one nearest your normal sleep time. Everything else that day is a nap. You can always edit bed and wake times.	يختار صفو نومك الرئيسي من أطول جلسات النوم الفعلية، ويراعي قربها من موعدك المعتاد بعد تعلّمه. تُعد بقية جلسات اليوم قيلولات. ويمكنك دائمًا تعديل وقت النوم والاستيقاظ.
+NOOP removes this device from your list and deletes its recorded data here. You can re-pair the strap to pull its recent history back.	سيزيل صفو الجهاز من القائمة ويحذف بياناته المسجّلة هنا. يمكنك إقرانه مجددًا لاسترجاع ما تبقى من سجله الحديث على السوار.
+NOOP talks to your strap directly over Bluetooth Low Energy. There's no server in the middle. The connection is local, and so is every reading it pulls in.	يتصل صفو بسوارك مباشرةً عبر Bluetooth منخفض الطاقة. لا يوجد خادم وسيط؛ الاتصال والقراءات كلها محلية.
+NOOP talks to your strap's firmware over an unofficial, independently-mapped protocol. There is a residual risk to the device, its data, and its connection to official services. You assume that risk.	يتواصل صفو مع البرنامج الداخلي لسوارك عبر بروتوكول غير رسمي جرى فهمه بصورة مستقلة. تبقى هناك مخاطر محتملة على الجهاز وبياناته واتصاله بالخدمات الرسمية، وأنت تتحمل هذه المخاطر.
+NOOP taps your strap so an alert lands on your wrist instead of your screen. No need to reach for it. Everything stays on %@.	ينبهك صفو باهتزاز السوار لتشعر بالتنبيه على معصمك دون الرجوع إلى الشاشة. تبقى كل البيانات على ⁨%@⁩.
+NOOP will re-learn your baseline from tonight's data onward. Your history is kept, and it takes a few nights to settle.	سيتعلّم صفو معدلك المعتاد من بيانات الليلة وما بعدها. يبقى تاريخك محفوظًا، ويحتاج التقدير إلى عدة ليالٍ ليستقر.
+NOOP: all your data, none of the cloud.	صفو: بياناتك كلها على جهازك.
+Nadi Shodhana · left/right cycle	Nadi Shodhana · بالتناوب بين اليسار واليمين
+Name	الاسم
+Name the merged session	تسمية الجلسة المدمجة
+Nap(s)	القيلولات
+Naps	القيلولات
+Navy	كحلي
+Needs interval frames	يحتاج إلى بيانات الفواصل بين النبضات
+Needs more data	يحتاج بيانات إضافية
+Needs the strap	يتطلب بيانات السوار
+Needs the strap. No data for today. Was your strap worn and connected overnight?	نحتاج بيانات السوار؛ لا توجد بيانات لليوم. هل ارتديته وكان متصلًا أثناء الليل؟
+Neutral	محايد
+Never	لم يحدث بعد
+Never practice in water or while driving. Stop if dizzy. Not medical advice.	لا تمارسه في الماء أو أثناء القيادة. توقف عند الدوخة. ليس نصيحة طبية.
+Never push into panic or strong air hunger.	لا تدفع نفسك إلى الذعر أو ضيق شديد في النفس.
+New data added	أُضيفت بيانات جديدة
+New strap name	اسم السوار الجديد
+Next	التالي
+Next day	اليوم التالي
+Next morning	الصباح التالي
+Next night	الليلة التالية
+Next week	الأسبوع التالي
+Night	الليل
+Night detail	تفاصيل الليلة
+No	لا
+No %@ here	لا توجد بيانات لـ%@ في هذه الفترة
+No Charge banked today, so your band takes a careful middle course: %lld–%lld bpm.	لا توجد درجة تعافٍ لليوم، لذا نستخدم نطاقًا متوسطًا محافظًا: %lld–%lld نبضة/دقيقة.
+No Charge breakdown yet	تفاصيل التعافي غير متاحة بعد
+No Data	لا توجد بيانات
+No HRV value	لا تتوفر قيمة HRV
+No RMSSD · not enough R-R data	RMSSD غير متاح؛ بيانات R-R غير كافية
+No SpO₂ import or Health value	لا تتوفر قيمة SpO₂ مستوردة أو من صحة Apple
+No WHOOP? You can still continue. Pair a heart-rate strap (Polar, Wahoo, Coospo, Garmin HRM…) or a gym machine under Devices, or import from WHOOP, Apple Health, Oura, Fitbit, Garmin and more under Data Sources. You can do either any time.	ليس لديك WHOOP؟ يمكنك المتابعة وإقران حزام لنبض القلب مثل Polar أو Wahoo أو Coospo أو Garmin HRM، أو جهاز رياضي من صفحة «الأجهزة». ويمكنك استيراد تاريخك من WHOOP وApple Health وOura وFitbit وGarmin وغيرها من «مصادر البيانات» في أي وقت.
+No active stream	لا يوجد استقبال نشط
+No backup yet.	لا توجد نسخة احتياطية بعد.
+No backups found	لم نعثر على نسخ احتياطية
+No biometrics yet. Import your WHOOP export (and Apple Health if you have it) in Data Sources to fill this in.	لا توجد قياسات حيوية بعد. استورد بيانات WHOOP، وصحة Apple إن توفرت، من «مصادر البيانات» لعرضها هنا.
+No cardio load yet. Effort builds once your heart rate climbs into your effort zone (around 50% of your heart-rate reserve). A calm day honestly reads near zero.	لم يُسجّل جهد قلبي بعد. يبدأ الجهد بالتراكم عندما يرتفع نبضك إلى نطاق الجهد، عند نحو 50% من احتياطي نبض القلب. من الطبيعي أن يقترب الرقم من الصفر في يوم هادئ.
+No completed offload yet	لم يكتمل نقل أي سجل بعد
+No data	لا توجد بيانات
+No data for these metrics in %@. Widen the range or pick metrics you've logged.	لا توجد بيانات لهذه المؤشرات خلال %@. وسّع الفترة أو اختر مؤشرات سبق تسجيلها.
+No days yet where both NOOP and your phone counted steps. Once your phone logs a few days alongside the strap, they'll appear here so you can see how close the estimate is.	لا توجد أيام مشتركة بين عدّ صفو والهاتف بعد. عندما يسجّل الهاتف عدة أيام إلى جانب السوار ستظهر هنا للمقارنة.
+No deep sleep detected	لم يُكتشف نوم عميق
+No drinks logged yet. Tap Sip, Cup or Bottle to start.	لم تسجّل مشروبات بعد. اضغط «رشفة» أو «كوب» أو «قارورة» للبدء.
+No earlier night stored yet. Earlier nights sync in the morning.	لا توجد ليالٍ أقدم محفوظة بعد. تُزامَن الليالي السابقة في الصباح.
+No folder chosen yet. Pick one your cloud app already syncs, or any local folder.	لم تختر مجلدًا بعد. اختر مجلدًا محليًا أو مجلدًا تتم مزامنته أصلًا عبر تطبيقك السحابي.
+No folder selected	لم يُحدَّد مجلد
+No heart rate for this day	لا توجد قراءات نبض لهذا اليوم
+No heart-rate data	لا توجد بيانات لنبض القلب
+No heart-rate detail for this night	لا توجد تفاصيل نبض لهذه الليلة
+No history yet.	لا يوجد سجل بعد.
+No iOS diagnostics available.	لا تتوفر معلومات تشخيص iOS.
+No intraday stress data yet today.	لا توجد بيانات للتوتر الجسدي خلال اليوم بعد.
+No live heart rate yet. Open Live to pair your strap.	لا توجد قراءة مباشرة للنبض بعد. افتح صفحة «مباشر» لإقران سوارك.
+No live reading. Coaching is paused until the strap comes back.	لا توجد قراءة مباشرة. يعود التوجيه عند اتصال السوار.
+No live reading. Coaching is paused.	لا توجد قراءة مباشرة. التوجيه متوقف مؤقتًا.
+No live stream.	لا تصل بيانات مباشرة.
+No measured temperature for these nights — showing the difference from your baseline instead. A re-score refills temperatures for nights that have one.	لا تتوفر حرارة مقاسة لهذه الليالي، لذا نعرض تغيرها عن معدلك المعتاد. إعادة الحساب تسترجع الحرارة لليالي التي تتوفر فيها.
+No metrics yet. Import your Whoop export or wear the strap to begin.	لا توجد مؤشرات بعد. ابدأ باستيراد بيانات WHOOP أو ارتداء السوار.
+No minute readings yet. Leave the app connected and let history sync. This view uses recorded samples, not the number currently displayed on Live.	لا توجد قراءات للدقائق بعد. أبقِ التطبيق متصلًا وانتظر المزامنة. يستخدم هذا العرض عينات محفوظة، وليس رقم النبض الظاهر الآن في «مباشر».
+No motion synced yet	لم تصل بيانات الحركة بعد
+No movement detail for this night	لا توجد تفاصيل حركة لهذه الليلة
+No movement detail recorded for this night	لم تُسجّل تفاصيل الحركة لهذه الليلة
+No naps recorded for this day.	لا توجد قيلولات مسجلة لهذا اليوم.
+No new nights from your strap for %lld days. Check it's connected and saving data.	لم تصل ليالٍ جديدة من السوار منذ %lld يومًا. تأكد من الاتصال وحفظ البيانات.
+No nightly skin-temp yet — needs ~4 worn nights (or import a WHOOP CSV)	لا تتوفر حرارة الجلد الليلية بعد؛ تحتاج نحو 4 ليالٍ من ارتداء السوار، أو استيراد ملف WHOOP CSV
+No nights here yet. Import your WHOOP export in Data Sources to see every night, your sleep stages and trends straight away. Or open Intelligence to see last night computed from the strap after you wear it to bed.	لا توجد ليالٍ هنا بعد. استورد ملف WHOOP من «مصادر البيانات» لعرض سجل النوم ومراحله واتجاهاته مباشرةً. أو ارتدِ السوار أثناء النوم، ثم افتح صفحة التحليل لعرض تقدير الليلة الماضية.
+No nights with sleep data yet. Your ledger fills in as you wear the strap to bed.	لا توجد بيانات نوم بعد. يكتمل سجل التوازن مع ارتداء السوار أثناء النوم.
+No profile photo set	لم تُحدّد صورة شخصية
+No raw SpO₂ decode for the night	لا توجد قراءة SpO₂ خام مفككة لهذه الليلة
+No readings recorded.	لا توجد قراءات مسجلة.
+No readings this week	لا توجد قراءات لهذا الأسبوع
+No reliable score yet	لا يوجد تقدير موثوق بعد
+No respiratory-rate value	لا تتوفر قيمة لمعدل التنفس
+No resting HR value	لا تتوفر قيمة لنبض الراحة
+No sources yet	لا توجد مصادر بعد
+No stage data recorded for this night.	لم تُسجّل بيانات مراحل النوم لهذه الليلة.
+No strap connected	لا يوجد سوار متصل
+No strap connected. Put your WHOOP nearby and tap Re-scan to pair.	لا يوجد سوار متصل. ضع WHOOP قريبًا واضغط «إعادة البحث» للاقتران.
+No stress history yet. Import your WHOOP export in Data Sources to see it.	لا يوجد سجل للتوتر بعد. أضف ملف WHOOP من مصادر البيانات لعرض التقديرات اليومية.
+No supported apps found	لم نعثر على تطبيقات مدعومة
+No usable activity found. Point at a .gpx, .tcx or .fit workout file.	لم نعثر على نشاط قابل للاستيراد. اختر ملف تمرين بصيغة GPX أو TCX أو FIT.
+No usable rows found. Check the file has a date column (yyyy-MM-dd) and daily totals.	لم نعثر على سجلات قابلة للاستيراد. تأكد من وجود عمود للتاريخ بصيغة ⁦yyyy-MM-dd⁩ وإجماليات يومية.
+No warranty; liability limited	بلا ضمان، وبمسؤولية محدودة
+No workouts found. Point at a Hevy CSV export or a Liftosaur JSON export.	لم نعثر على تمارين. اختر ملف CSV صادرًا عن Hevy أو ملف JSON صادرًا عن Liftosaur.
+No workouts yet	لا توجد تمارين بعد
+No workouts yet. They come from your WHOOP and Apple Health history. Import in Data Sources to bring them in, or add one you tracked elsewhere.	لا توجد تمارين بعد. استورد سجلك من WHOOP أو صحة Apple عبر «مصادر البيانات»، أو أضف تمرينًا سجلته في مكان آخر.
+Non-binary	غير ثنائي
+None added yet	لم تُضف أي بطاقة بعد
+None — silence, start to finish	بلا تنبيهات طوال الجلسة
+Normalized overlay	مقارنة على مقياس موحّد
+Not a medical device, not medical advice	ليس جهازًا طبيًا ولا يقدم نصيحة طبية
+Not available	غير متاح
+Not calibrated	لم تتم المعايرة
+Not calibrated yet	لم تتم المعايرة بعد
+Not connected	غير متصل
+Not connected. Open Live to pair.	غير متصل. افتح «مباشر» لإقران السوار.
+Not enough clean beat data to lock a pace today. Try again rested, sitting still with the strap snug. For now we'll pace you at 5.5 br/min (coherence).	بيانات النبض النظيفة لا تكفي لتحديد إيقاعك اليوم. حاول وأنت مرتاح وجالس، مع إحكام السوار. سنستخدم مؤقتًا إيقاعًا متناسقًا قدره 5.5 نفس/دقيقة.
+Not enough clean beats. Sit still and try again.	النبضات الصالحة للتحليل غير كافية. اجلس بهدوء وحاول مجددًا.
+Not enough clean beats. Sit still and try again. %lld of %lld beats survived filtering (need %lld).	النبضات الصالحة غير كافية. اجلس بهدوء وحاول مجددًا. تبقّت %lld من %lld نبضات بعد التنقية، ونحتاج %lld.
+Not enough data	البيانات غير كافية
+Not enough data for this window.	البيانات غير كافية لهذه الفترة.
+Not enough nights yet.	لم تتوفر ليالٍ كافية بعد.
+Not enough overlap between your journal answers and %@ to measure an effect yet. Keep logging. Effects need days both with and without each behaviour.	لا توجد أيام مشتركة كافية بين يومياتك و%@ لتقدير الأثر. واصل التسجيل؛ نحتاج أيامًا مارست فيها كل عادة وأيامًا لم تمارسها فيها.
+Not enough overlapping days between these metrics in %@. Widen the range.	لا توجد أيام مشتركة كافية بين هذه المؤشرات خلال %@. جرّب توسيع الفترة.
+Not enough overlapping history to correlate your metrics yet.	لا توجد بيانات مشتركة كافية لحساب الارتباط بين مؤشراتك بعد.
+Not enough paired data	لا توجد أزواج كافية بعد
+Not enough recent days to chart a trend yet. Import a history or keep wearing your strap.	لا توجد أيام كافية لعرض الاتجاه بعد. استورد سجلك السابق أو استمر في ارتداء السوار.
+Not for DIY high-intensity sessions if you have trauma history, cardiovascular issues, or pregnancy without professional guidance.	لا تبدأ جلسة مكثفة بمفردك دون إرشاد مهني عند وجود تاريخ صدمات نفسية أو مشكلات قلبية ووعائية أو حمل.
+Not now	ليس الآن
+Not recommended as a beginner default unless the goal is to overcome drowsiness.	لا يُنصح به كبداية للمبتدئين إلا إذا كان الهدف تجاوز النعاس.
+Not recording. Strap not connected. Tap to connect.	التسجيل متوقف؛ السوار غير متصل. اضغط للاتصال.
+Not set	غير محدد
+Not synced yet	لم تتم المزامنة بعد
+Nothing here yet. Tap Enable Apple Health above to read your data live, or import a Health export .zip in Data Sources.	لا توجد بيانات بعد. اضغط «تفعيل صحة Apple» بالأعلى لقراءة بياناتك مباشرةً، أو استورد ملف ‎.zip من «مصادر البيانات».
+Nothing here yet. This sideloaded install can't read Apple Health directly. Import a Health export .zip in Data Sources, or turn on Shortcuts Export to bring your strap data into Health.	لا توجد بيانات بعد. هذه النسخة المثبّتة جانبيًا لا تدعم قراءة صحة Apple مباشرةً. استورد ملف ‎.zip من «مصادر البيانات»، أو فعّل التصدير عبر «الاختصارات» لإرسال بيانات السوار إلى «صحتي».
+Nothing hidden	لا توجد عناصر مخفية
+Nothing imported	لم تُستورد بيانات بعد
+Nothing imported yet. On an iPhone: Health app, tap your photo, Export All Health Data, then import the .zip here in Data Sources.	لم تُستورد بيانات بعد. على iPhone، افتح «صحتي»، واضغط صورتك ثم «تصدير كافة البيانات الصحية». بعد ذلك استورد ملف ‎.zip هنا من «مصادر البيانات».
+Nothing in the catalog moves clearly with %@ over this window. Widen the range to surface relationships.	لا يظهر ارتباط واضح بين %@ والمقاييس الأخرى في هذه الفترة. جرّب فترة أطول.
+Nothing leaves your %@	تبقى بياناتك على ⁨%@⁩
+Nothing offloaded for this window yet.	لم تصل بيانات هذه الفترة من السوار بعد.
+Nothing selected yet.	لم تختر شيئًا بعد.
+Nothing to reclaim right now. NOOP already cleans up import scratch space automatically.	لا توجد ملفات متبقية للتنظيف. ينظّف صفو ملفات الاستيراد المؤقتة تلقائيًا.
+Nothing's flagging. Train to feel - your body's holding steady.	مؤشراتك مستقرة. تمرّن بما يناسب شعورك وقدرتك اليوم.
+Notifications	الإشعارات
+Nutrition	التغذية
+Nutrition (.csv)	بيانات التغذية (CSV)
+OFFLINE	غير متصل
+OK	حسنًا
+Ocean	المحيط
+Ocean breath · soft throat	تنفّس كالموج مع ارتخاء الحلق
+Off	متوقف
+Off baseline	خارج معدلك المعتاد
+Off wrist	خارج المعصم
+Offers to save a workout when it spots sustained elevated heart rate	يقترح حفظ تمرين عند ملاحظة ارتفاع مستمر في النبض
+Offline	غير متصل
+Often 20+ minutes; pick a length that fits.	غالبًا 20 دقيقة أو أكثر؛ اختر مدة تناسبك.
+Older backups beyond this many are pruned, oldest first (≈ that many days). If data ever corrupts, restore the newest.	تُحذف النسخ الأقدم عند تجاوز هذا العدد، بدءًا بالأقدم، ليبقى سجل يقارب هذا العدد من الأيام. عند تلف البيانات، يمكنك استعادة أحدث نسخة سليمة.
+On a beta version of iOS, things can break that work on the release build.	قد تظهر مشكلات على إصدارات iOS التجريبية لا تظهر في الإصدارات المستقرة.
+On iPhone this is a sideloaded build. Re-sign it about every 7 days on a free Apple ID (longer on a paid account). After your phone reboots, unlock it once so NOOP can read and sync its data.	هذه النسخة مثبتة جانبيًا على iPhone. إذا كنت تستخدم حساب Apple مجانيًا، فجدّد توقيعها كل 7 أيام تقريبًا؛ وتكون المدة أطول للحساب المدفوع. بعد إعادة تشغيل الهاتف، افتح قفله مرة واحدة ليتمكن صفو من قراءة البيانات ومزامنتها.
+On target	يلبّي احتياجك
+On the days your phone also counted steps, NOOP learns how much your motion maps to steps, then applies that to the strap-only days. The more matching days it has, the more it trusts the estimate.	يتعلّم العلاقة بين الحركة والخطوات من الأيام التي عدّ فيها الهاتف أيضًا، ثم يطبّقها على أيام السوار وحده. تتحسن الثقة مع زيادة الأيام المشتركة.
+On wrist	على المعصم
+On-device	محسوب على الجهاز
+On-device footprint	المساحة المستخدمة على الجهاز
+Once NOOP has 14 nights of history, in-range compares each vital to your own baseline (approximate, not medical advice); until then, typical adult ranges apply.	بعد توفر 14 ليلة من البيانات، يقارن صفو كل علامة حيوية بمعدلك المعتاد بشكل تقريبي، وليس كتقييم طبي. قبل ذلك، تُستخدم نطاقات عامة للبالغين.
+Once a day, NOOP asks GitHub for the latest version number and puts a note in Updates if there's a newer one. Nothing about you is sent, and it never installs anything.	يسأل صفو ‏GitHub عن رقم أحدث إصدار مرة يوميًا، ويعرض تنبيهًا إذا توفر تحديث. لا يرسل بيانات عنك ولا يثبّت شيئًا تلقائيًا.
+One of your signals is flagging. You can train, but keep it controlled and bank the recovery.	أحد مؤشراتك أقل من المعتاد. خفّف شدة التمرين وأعطِ التعافي حقه.
+Only %lld%% of this night's window has stage data. The stage totals cover only that part of the night.	تتوفر بيانات مراحل النوم لـ%lld%% فقط من فترة هذه الليلة. إجمالي المراحل يغطّي هذا الجزء وحده.
+Only buzz when worn	الاهتزاز أثناء ارتداء السوار فقط
+Only nights with a measured temperature are shown — the others only have a baseline difference.	تظهر فقط الليالي التي تتوفر فيها حرارة مقاسة؛ بقية الليالي لديها فرق عن المعتاد فقط.
+Open	مفتوحة
+Open Backup and Sync to a folder	فتح النسخ الاحتياطي والمزامنة مع مجلد
+Open Data Sources	فتح مصادر البيانات
+Open Live	فتح القراءات المباشرة
+Open NOOP near the strap and let WHOOP 5/MG history finish syncing. The step estimate and calibration fill in once enough stored motion has arrived; the legacy R22 experiment is not required.	افتح صفو قرب السوار وانتظر اكتمال مزامنة WHOOP 5/MG. يظهر تقدير الخطوات والمعايرة عند وصول حركة كافية؛ تجربة R22 القديمة غير مطلوبة.
+Open NOOP near your strap and let it catch up (a full history sync can take a while on first run). Once a day or two of motion lands, your step estimate and the calibration below will start to fill in.	افتح صفو قرب السوار واترك المزامنة تكتمل؛ قد يستغرق أول نقل كامل بعض الوقت. بعد وصول يوم أو يومين من الحركة سيبدأ ظهور التقدير والمعايرة.
+Open Test Centre	فتح مركز الاختبار
+Open Test Centre to report a bug	فتح مركز الاختبار للإبلاغ عن مشكلة
+Open live view	فتح القياسات المباشرة
+Open-source BLE reverse-engineering work. Thank you.	أعمال مفتوحة المصدر لفهم بروتوكول BLE. شكرًا للمساهمين.
+Opens the Devices screen, where you pair and switch bands.	يفتح شاشة الأجهزة لإقران جهاز أو التبديل بين الأجهزة.
+Opens the full %@ metric.	يفتح تفاصيل مؤشر %@.
+Opens the full Charge metric.	يفتح تفاصيل مؤشر التعافي.
+Opens the full-day heart rate timeline	يفتح سجل نبض القلب لليوم كاملًا
+Opens the trend and readings	يفتح الاتجاه والقراءات
+Opens workout detail	يفتح تفاصيل التمرين
+Optimal	مثالي
+Optional trackers, off by default. Turn them on to add their cards. Everything stays on %@.	متتبعات اختيارية، متوقفة افتراضيًا. فعّلها لإضافة بطاقاتها. تبقى البيانات على %@.
+Optional. Add a photo for your avatar. It stays on %@ and is never uploaded.	اختياري. أضف صورة لحسابك؛ تبقى على %@ ولا تُرفع إلى أي جهة.
+Optional. Use your own photo behind every tab, in place of the day-cycle sky. It stays on %@ and is never uploaded. Pair it with Transparent cards above to let it show through.	اختياري. استخدم صورتك خلف التبويبات بدل خلفية أوقات اليوم. تبقى على %@ ولا تُرفع. فعّل شفافية البطاقات لتظهر من خلفها.
+Optional: VO₂max builds from about 4 nights of heart rate; a waist makes it more accurate. The Fitness Age itself doesn't need it. Measure around your middle, at the navel.	اختياري: يبدأ تقدير VO₂max بعد نحو أربع ليالٍ من بيانات النبض، ومحيط الخصر يساعد في تحسينه. حساب العمر البدني لا يشترطه. قِس محيط خصرك عند السرة.
+Optional: import now, or continue and return to Data Sources later.	خطوة اختيارية: استورد بياناتك الآن، أو تابع وعد إلى «مصادر البيانات» لاحقًا.
+Other	آخر
+Other metrics (R-R, frames, battery, history) need a full sync.	تحتاج البيانات الأخرى، مثل فواصل النبض والحزم والبطارية والسجل، إلى مزامنة كاملة.
+Other sources don’t offload raw per-second data on-device.	المصادر الأخرى لا تنقل إشارات خامًا لكل ثانية إلى الجهاز.
+Oura / Fitbit / Garmin export	ملف Oura أو Fitbit أو Garmin
+Oura history import	استيراد سجل Oura
+Oura ring only. Keeps your ring measuring heart rate through the day, standing it down only for your night. A WHOOP strap is not affected.	خاص بخاتم Oura: يبقي قياس النبض نهارًا ويوقف طلبه ليلًا. لا يؤثر في سوار WHOOP.
+Oura ring: all-day heart rate & HRV	خاتم Oura: النبض وHRV طوال اليوم
+Outcome	النتيجة
+Outcome metric	المؤشر المتابَع
+Outside range	خارج النطاق المرجعي
+Over-reports R-R, so no value is shown	قراءات R-R مبالغ فيها، لذلك لا نعرض قيمة
+Overlay	مقارنة على رسم واحد
+Overlay signals, draw conclusions.	قارن القراءات على رسم واحد لتفهم العلاقة بينها.
+Overnight only	ليلًا فقط
+Override the automatic fit with your own steps-per-motion value. Useful if your phone has no step history to learn from, or the estimate runs consistently high or low. Set it back to auto by dragging to the far left.	استبدل المعايرة التلقائية بمعامل تختاره للخطوات لكل وحدة حركة. يفيد عند غياب تاريخ الهاتف أو استمرار زيادة التقدير أو نقصه. أعد المؤشر إلى أدنى قيمة للرجوع إلى التلقائي.
+Own your data, offline	بياناتك ملكك، حتى دون إنترنت
+Owned	جهازي
+PAIRED	مقترن
+PEAK	الذروة
+POWER	القدرة
+PRIMED	جاهز
+PROVENANCE	أصل البيانات
+Pace	الوتيرة
+Pair and manage the bands NOOP reads from.	أقرن الأجهزة التي يقرأ منها صفو وأدرها من هنا.
+Paired	مقترن
+Paired locally. NOOP owns this ring while it holds the key. If you reset it again or set it up in the Oura app, NOOP no longer owns it and you would re-add it to take it over.	اقتران محلي. يحتفظ صفو بالتحكم في الخاتم ما دام لديه المفتاح. إعادة ضبط الخاتم أو إعداده في تطبيق Oura تلغي هذا التحكم؛ وستحتاج إلى إضافته من جديد.
+Paired measurements: %lld	القياسات المقارنة: %lld
+Paired · idle	مقترن · في الانتظار
+Pairing token	رمز الاقتران
+Pairing…	جارٍ الاقتران…
+Pairs directly with your strap over Bluetooth: no WHOOP app, no cloud.	يتصل بسوارك مباشرةً عبر Bluetooth، دون الحاجة إلى تطبيق WHOOP أو خدمات سحابية.
+Parasympathetic (rest) band of your HRV.	نطاق تقلب نبض القلب المرتبط بنشاط الجهاز العصبي المسؤول عن الراحة.
+Partial	جزئي
+Partly recorded	مسجّل جزئيًا
+Passive	تلقائي
+Pause	إيقاف مؤقت
+Pause HRV capture	إيقاف تسجيل HRV مؤقتًا
+Paused	متوقف مؤقتًا
+Peak	الذروة
+Peak %lld bpm	أعلى نبض %lld نبضة/دقيقة
+Peaked	في أعلى مستوى
+Pearson r over the visible window · |r| ≥ 0.30, n ≥ 10	ارتباط Pearson خلال الفترة المعروضة · |r| ≥ 0.30، n ≥ 10
+Pending sync · strap history still offloading	بانتظار المزامنة · جارٍ نقل سجل السوار
+Per night, trailing 30 days	لكل ليلة خلال آخر 30 يومًا
+Per-night sleep balance: %lld nights, net %@	توازن النوم لكل ليلة: %lld ليالٍ، الصافي %@
+Personal Experiment	تجربة شخصية
+Phone	الهاتف
+Pick %@	اختيار %@
+Pick a date	اختيار تاريخ
+Pick a new active strap	اختيار سوار نشط آخر
+Pick one behaviour you log, one outcome, and a short window. NOOP compares the days you log the behaviour against your behaviour-free days before the start.	اختر عادة تسجلها، ومؤشرًا تريد متابعته، وفترة قصيرة. يقارن صفو أيام تسجيل العادة بالأيام السابقة لبدء التجربة التي لم تسجلها فيها.
+Pick which apps reach your wrist in Settings → Notifications.	اختر التطبيقات التي تنبهك على معصمك من «الإعدادات»، ثم «الإشعارات».
+Pick your strap below, then tap Scan. NOOP will find it.	اختر سوارك أدناه، ثم اضغط «بحث» ليعثر عليه صفو.
+Picked as your main sleep because it started near your usual sleep time.	اختير كنومك الرئيسي لأنه بدأ قرب موعد نومك المعتاد.
+Picked as your main sleep because it was your longest block (%@), near your usual bedtime.	اختير كنومك الرئيسي لأنه أطول جلسة (%@) وقريب من موعد نومك المعتاد.
+Picked as your main sleep because it was your longest block (%@).	اختير كنومك الرئيسي لأنه أطول جلسة نوم لك (%@).
+Pinch to zoom · drag to pan	باعد بين إصبعيك للتكبير · اسحب للتحريك
+Pinch to zoom · drag to pan · hold to read	باعد إصبعيك للتكبير · اسحب للتنقل · اضغط مطولًا للقراءة
+Please confirm each of these:	يرجى تأكيد كل ما يلي:
+Please read the points below, then confirm each statement.	اقرأ النقاط التالية، ثم أكّد موافقتك على كل عبارة.
+Points	النقاط
+Poor	ضعيف
+Power saving	توفير الطاقة
+Power saving mode	وضع توفير الطاقة
+Powers Charge, Effort, Rest and Sleep	يتيح حساب التعافي والجهد وتحليل النوم
+Powers Charge, Effort, Rest, Sleep + Health Monitor	يتيح التعافي والجهد والنوم ومراقبة المؤشرات الصحية
+Powers Effort now; Charge and Rest once enough nights and decode are confirmed	يتيح حساب الجهد الآن، والتعافي والنوم بعد توفر ليالٍ كافية والتأكد من فك الإشارات
+Powers Rest, Effort, Fitness Age and steps, plus Charge once recovery calibrates	يتيح النوم والجهد والعمر البدني والخطوات، والتعافي بعد المعايرة
+Powers the live console + Effort. No Charge, Rest or Sleep	يشغّل العرض المباشر وحساب الجهد، دون التعافي أو تحليل النوم
+Prefer guided settings for intense practice.	يفضل الإشراف في الممارسات المكثفة.
+Presence Mid	الحضور · متوسط
+Presence Punching	الحضور · سريع
+Presence Regular	الحضور · منتظم
+Preset	نمط جاهز
+Previous day	اليوم السابق
+Previous night	الليلة السابقة
+Previous week	الأسبوع السابق
+Previously paired but not currently connected. Re-scan to reconnect.	سبق إقرانه لكنه غير متصل الآن. أعد البحث للاتصال.
+Primed	جاهز
+Profile	الملف الشخصي
+Profile and settings	الملف الشخصي والإعدادات
+Progress toward today's goal	التقدم نحو هدف اليوم
+Progress while NOOP pulls history from the strap.	التقدم أثناء نقل السجل من السوار.
+Project home & source	موقع المشروع والشيفرة
+Project home and source code on GitHub	المشروع والشيفرة المصدرية على GitHub
+Proof that the console is current	حالة وصول أحدث البيانات
+Protein	البروتين
+Protocol info	عن هذا النمط
+Provenance	أصل البيانات
+Pulling your strap's stored history. This drains oldest-first; a deep backlog now continues automatically across passes instead of waiting between syncs.	جارٍ نقل السجل المحفوظ في السوار، بدءًا بالأقدم. إذا كان السجل كبيرًا، يستمر النقل تلقائيًا على دفعات دون انتظار مزامنة جديدة.
+Punching Through (~1.9s / 1.9s) is for sleepiness or feeling stuck — not the beginner default. After you are “in it”, you may return to a slower, deeper connected breath.	إيقاع نحو 1.9 ثانية لكل مرحلة، مخصص لتجاوز النعاس أو الجمود، وليس بداية للمبتدئين. يمكنك العودة بعده إلى تنفّس متصل أبطأ وأعمق.
+Push	زد الجهد
+Put your strap on	ارتدِ سوارك
+QUICK ACTIONS	إجراءات سريعة
+Qi Gong Breath	تنفّس Qi Gong
+Quality exclusions: %lld	المستبعدة لجودة البيانات: %lld
+Quick actions	إجراءات سريعة
+Quick sweep · ~7 min	اختبار سريع · نحو 7 د
+Quiet hours	ساعات الهدوء
+Quiet hours end	نهاية ساعات الهدوء
+Quiet hours start	بداية ساعات الهدوء
+R-R intervals	الفواصل بين النبضات (R-R)
+RECORDING	جارٍ التسجيل
+RECORDING WORKOUT	جارٍ تسجيل التمرين
+RECOVERY	التعافي
+RECOVERY VITALS	مؤشرات التعافي
+REL.	موثوق
+REM	REM
+REM Sleep	نوم حركة العين السريعة (REM)
+REM difference (min)	متوسط فرق REM (دقيقة)
+REM sleep	نوم حركة العين السريعة (REM)
+REMOVED	تمت الإزالة
+REST	النوم
+RESTING HR + SLEEP + HRV	نبض الراحة + النوم + HRV
+RESTORATIVE SLEEP	النوم المُرمّم
+RMSSD %.0f ms now vs your ~%.0f ms baseline (estimate from PPG-derived R-R).	RMSSD الآن %.0f ms مقارنةً بمعدلك المعتاد، نحو %.0f ms (تقدير من فواصل R-R المستخرجة من PPG).
+RMSSD %@	RMSSD %@
+RMSSD %lld milliseconds	RMSSD بقيمة %lld مللي ثانية
+RSA RESPONSE BY PACE	استجابة النبض لكل إيقاع تنفس
+RSA response by pace	استجابة RSA حسب إيقاع التنفس
+Radio connected, stream not yet trusted.	اتصال البلوتوث قائم؛ لم يُتحقق من البيانات بعد.
+Ranked, lag-aware: which of your habits actually move your Charge, plus your personal alcohol/caffeine dose-response.	ترتيب للعادات المرتبطة بتغير تعافيك، مع مراعاة تأخر أثرها، وتحليل استجابتك الشخصية لكميات الكافيين والكحول.
+Raw SpO₂	SpO₂ خام
+Raw counts only — needs an import	قيم خام فقط — يحتاج بيانات مستوردة
+Raw on-device stages	مراحل خام من الجهاز
+Raw on-device stages. This split is the ring's raw on-device classification read over Bluetooth, not the adjusted stages the Oura app shows. Expect more awake and less deep or REM here than in the Oura app for the same night.	مراحل خام من الجهاز. نقرأ تصنيف الخاتم مباشرةً عبر Bluetooth قبل تعديلات تطبيق Oura. قد يظهر استيقاظ أكثر ونوم عميق وحركة عين سريعة أقل لليلة نفسها.
+Raw · per second	بيانات خام · كل ثانية
+Re-label as	تغيير النوع إلى
+Re-scan	إعادة البحث
+Re-share your live strap heart rate over Bluetooth as a standard heart-rate sensor, so a gym treadmill, bike, Zwift, Peloton or any fitness app nearby can read it. Local Bluetooth only. Nothing leaves %@. Off by default.	أعد بث النبض المباشر من سوارك عبر Bluetooth كمستشعر قياسي لنبض القلب، لتتمكن أجهزة السير والدراجات وتطبيقات مثل Zwift وPeloton من قراءته بالقرب منك. الاتصال محلي عبر Bluetooth من ⁨%@⁩، وهذه الميزة متوقفة افتراضيًا.
+Read your heart rate, HRV, blood oxygen, respiratory rate, sleep, steps and energy straight from Apple Health, and write NOOP's strap data back: sleep with full stages, continuous heart rate, workouts, and nightly vitals. Everything stays on %@.	اقرأ نبض القلب وHRV والأكسجين والتنفس والنوم والخطوات والطاقة مباشرةً من صحة Apple، وأرسل إليها بيانات السوار: النوم بمراحله، والنبض المستمر، والتمارين، والعلامات الحيوية الليلية. تبقى البيانات على %@.
+Readiness	الاستعداد
+Readiness: %@	الاستعداد: %@
+Readiness: %@. %@	الاستعداد: %@. %@
+Reading complete	اكتملت القراءة
+Reading incomplete	القراءة غير مكتملة
+Reading today's heart rate…	جارٍ قراءة نبض قلبك خلال اليوم…
+Reading your %@…	جارٍ قراءة بيانات %@…
+Reading your Apple Health history…	جارٍ قراءة سجلك من صحة Apple…
+Reading your Fitness Age…	جارٍ قراءة عمر لياقتك…
+Reading your Vitality…	جارٍ قراءة مؤشر حيويتك…
+Reading your heart-rate variability and resting heart rate…	جارٍ قراءة تقلب نبض القلب ونبض الراحة…
+Reading your history…	جارٍ قراءة سجلك…
+Reading your journal and outcomes…	جارٍ قراءة يومياتك ومؤشراتك…
+Readings	القراءات
+Ready	جاهز
+Ready for a marked effort.	جاهز لتسجيل تمرين.
+Ready to scan	جاهز للبحث
+Ready to sync	جاهز للمزامنة
+Reboot probe (4.0 RE)…	اختبار إعادة التشغيل (4.0)…
+Recalibrate	إعادة المعايرة
+Recalibrate Charge baseline	إعادة معايرة التعافي
+Recalibrate your Charge baseline?	إعادة معايرة معدلك المعتاد للتعافي؟
+Recent	الأخيرة
+Reclaimed %@.	تم تحرير %@.
+Reconnect drops the current link, if any, and connects to the ring again. To pair or switch bands, open Devices.	تُغلق إعادة الاتصال الرابط الحالي إن وُجد، ثم تتصل بالخاتم من جديد. لإقران جهاز أو التبديل بين الأجهزة، افتح الأجهزة.
+Reconnect help: %@	المساعدة في إعادة الاتصال: %@
+Reconnect ring	إعادة الاتصال بالخاتم
+Record or inspect the current stream	تسجيل البيانات الحالية أو فحصها
+Recording status, not shown for a past day	حالة التسجيل، لا تُعرض للأيام السابقة
+Recording workout	جارٍ تسجيل التمرين
+Recording. Your strap is connected and saving data.	جارٍ التسجيل. سوارك متصل وتُحفظ البيانات.
+Records & sources	السجلات والمصادر
+Records a live machine workout, Effort-scored from HR when the machine reports it	يسجّل التمرين مباشرة، ويحسب الجهد من النبض عندما يوفّره الجهاز
+Recovery	التعافي
+Recovery Trend	اتجاه انخفاض النبض بعد التمرين
+Recovery Vitals	مؤشرات التعافي
+Recovery calendar, %lld days, average %lld, low %lld, high %lld	تقويم التعافي: ⁨%lld⁩ يومًا، المتوسط ⁨%lld⁩، الأدنى ⁨%lld⁩، الأعلى ⁨%lld⁩
+Recovery calendar, no data	تقويم التعافي، لا توجد بيانات
+Recovery difference (points)	متوسط فرق التعافي (نقطة)
+Recovery, strain and sleep in one glance	التعافي والجهد والنوم في نظرة واحدة
+Reduce motion in NOOP	تقليل الحركة في صفو
+Reduced Buteyko-style: ~2s gentle inhale, ~3s exhale, then a 3–5s hold with mild air hunger only. Stay relaxed in the face and shoulders.	شهيق لطيف نحو ثانيتين، زفير 3 ثوانٍ، ثم وقفة 3–5 ثوانٍ مع احتياج خفيف فقط للهواء. أرخِ الوجه والكتفين.
+Refresh	تحديث
+Refresh Fitness Age	تحديث العمر البدني
+Refresh Fitness Age now	تحديث عمر اللياقة الآن
+Refresh strap battery and connection state.	تحديث قراءة البطارية وحالة اتصال السوار.
+Regular tempo (~3.8s in / 3.8s out) is the default sustainable pace for a first pass and for staying the full 15 minutes.	الإيقاع المنتظم، نحو 3.8 ثانية للشهيق ومثلها للزفير، هو البداية الافتراضية المريحة لمواصلة الجلسة 15 دقيقة.
+Relax 4-6	استرخاء 4–6
+Relaxation guidance from your own numbers: not a health alert, and not a diagnosis. Trends matter more than any single number.	إرشاد للاسترخاء بناءً على قراءاتك، وليس تنبيهًا صحيًا أو تشخيصًا. تغير المؤشرات مع الوقت أهم من قراءة واحدة.
+Reload minute history	تحديث سجل الدقائق
+Remove	إزالة
+Remove %@	إزالة %@
+Remove %@? NOOP will stop connecting to it. Its recorded data is kept and you can re-add it any time.	هل تريد إزالة %@؟ سيتوقف صفو عن الاتصال به، مع الاحتفاظ ببياناته المسجّلة. يمكنك إضافته مجددًا متى أردت.
+Remove Apple Health imported data	حذف البيانات المستوردة من Apple Health
+Remove Apple Health imported data?	حذف البيانات المستوردة من Apple Health؟
+Remove image	إزالة الصورة
+Remove imported data	حذف البيانات المستوردة
+Remove photo	إزالة الصورة
+Remove this device?	إزالة هذا الجهاز؟
+Removed	تمت الإزالة
+Removed all Apple Health imported data.	حُذفت جميع البيانات المستوردة من Apple Health.
+Removed · data kept	تمت الإزالة · البيانات محفوظة
+Removes this recorded sleep and recomputes the day without it. NOOP won't re-detect sleep in this window. You can undo for a few seconds after.	يحذف هذا النوم ويعيد حساب اليوم بدونه. لن يعيد صفو اكتشاف النوم في هذه الفترة. يمكنك التراجع خلال ثوانٍ قليلة بعد الحذف.
+Removes this sleep and recomputes the day without it. You can undo for a few seconds after.	يحذف هذا النوم ويعيد حساب اليوم بدونه. يمكنك التراجع خلال ثوانٍ قليلة بعد الحذف.
+Removing…	جارٍ الحذف…
+Rename	تغيير الاسم
+Rename device	تغيير اسم الجهاز
+Replace all current data with the backup %@? This cannot be undone.	هل تريد استبدال كل بياناتك الحالية بالنسخة الاحتياطية %@؟ لا يمكن التراجع عن ذلك.
+Replace all current data with the backup from %@? This cannot be undone.	هل تريد استبدال كل بياناتك الحالية بالنسخة الاحتياطية بتاريخ %@؟ لا يمكن التراجع عن ذلك.
+Replace all data	استبدال كل البيانات
+Replace from Photos	استبدال من الصور
+Replace this device's data with one of the backups in your folder. This overwrites current data, so back up first if you're unsure.	استبدل بيانات هذا الجهاز بنسخة من مجلدك. ستُستبدل البيانات الحالية؛ احفظ نسخة منها أولًا إذا أردت الاحتفاظ بها.
+Replaces the Today tab with the prototype redesign. Turn it off any time to return to the classic dashboard. Reads the same live data from your strap.	تستبدل شاشة «اليوم» بالتصميم التجريبي. يمكنك إيقافها للعودة إلى الواجهة التقليدية. تستخدم بيانات السوار نفسها.
+Requires Live Sessions to be enabled in Settings.	فعّل الجلسات المباشرة من الإعدادات أولًا.
+Research history is saved locally per device and algorithm version. Turning this off stops new calculations and keeps existing records.	يُحفظ السجل محليًا لكل جهاز وإصدار خوارزمية. الإيقاف يمنع الحسابات الجديدة ويبقي السجل السابق.
+Reset	إعادة الضبط
+Reset This Layout	استعادة ترتيب هذه القائمة
+Reset to Default	استعادة الترتيب الافتراضي
+Reset to default	استعادة الترتيب الافتراضي
+Resonance	إيقاعك الأنسب
+Resp Rate	معدل التنفس
+Respiration	التنفس
+Respiratory	التنفس
+Respiratory Rate	معدل التنفس
+Respiratory rate	معدل التنفس
+Rest	النوم
+Rest HR	نبض الراحة
+Rest baseline	معدل النوم المعتاد
+Rest ↔ Charge	النوم ↔ التعافي
+Rest: how restorative was your sleep?	النوم: إلى أي حد ساعدك على استعادة نشاطك؟
+Restart	إعادة التشغيل
+Restart %@? It disconnects for about 30 seconds while it reboots, then reconnects on its own. Your recorded data is kept.	هل تريد إعادة تشغيل %@؟ ينقطع اتصاله لنحو 30 ثانية ثم يعود تلقائيًا. تبقى بياناتك المسجّلة محفوظة.
+Restart strap…	إعادة تشغيل السوار…
+Restart this strap?	إعادة تشغيل هذا السوار؟
+Restarted when you recalibrated on %@ — no need to tap it again.	بدأ التعلّم من جديد عند إعادة المعايرة بتاريخ %@؛ لا تحتاج إلى تكرارها.
+Restarts the roughly 4-night build-up for Charge and your HRV baseline from tonight. Use it if a bad first week set your baseline off. Your history stays.	يبدأ تعلّم التعافي وHRV من الليلة خلال نحو أربع ليالٍ. يفيد عند وجود خلل في الأسبوع الأول، ولا يحذف تاريخك.
+Resting HR	نبض الراحة
+Resting HR is elevated and HRV is below your baseline, both classic signs of high activation. Prioritise rest, hydration and an easy day.	نبض الراحة أعلى من المعتاد، وتقلب نبض قلبك أقل من معدلك المعتاد. قد يعكس ذلك زيادة في الحمل على جسمك. اهتم بالراحة وشرب الماء، وخفّف الجهد اليوم.
+Resting HR ↔ Charge	نبض الراحة ↔ التعافي
+Resting Heart Rate	نبض الراحة
+Resting heart rate	نبض الراحة
+Resting heart rate and HRV are sitting at or below baseline: low physiological stress. You're in a calm, recovered state.	تشير قراءات نبض الراحة وتقلب النبض مقارنة بمعدلك المعتاد إلى توتر جسدي منخفض وحالة أقرب إلى الهدوء والتعافي.
+Resting heart rate is low and HRV is up. Your nervous system looks well-recovered and calm. A great day to push if you want to.	نبض الراحة منخفض وتقلب النبض مرتفع. تشير هذه القراءات إلى تعافٍ جيد وهدوء، وقد يناسبك تمرين أقوى إذا كنت تشعر أنك بخير.
+Resting heart rate is running high versus your norm. Your body is under load today. Keep effort light.	نبض الراحة أعلى من المعتاد اليوم، وقد يعكس حملًا إضافيًا على جسمك. حافظ على جهد خفيف.
+Restorative	النوم المُرمّم
+Restorative Sleep	النوم المجدّد للنشاط
+Restore	استعادة
+Restore backup %@	استعادة النسخة %@
+Restore backup from %@	استعادة نسخة بتاريخ %@
+Restore from a backup…	استعادة نسخة احتياطية…
+Restore problem	مشكلة في الاستعادة
+Restore this backup?	استعادة هذه النسخة الاحتياطية؟
+Restored	تمت الاستعادة
+Resume	متابعة
+Return to workout	العودة إلى التمرين
+Reveal in Finder	إظهار في Finder
+Reverts to the default profile icon	العودة إلى رمز الملف الشخصي الافتراضي
+Reviews each scored wake block for real evidence of getting up (walking cadence, a change in body position) instead of just a heart-rate rise. A wake block with no locomotion and a stable posture — a hot night, a brief turn-over — is folded back into light sleep; a real get-up is left alone. Self-checks how much motion detail your strap actually recorded and stays off on a night that's too sparse to trust (older WHOOP 4.0 firmware, mainly). Off by default; takes effect on the next nights staged.	يراجع فترات الاستيقاظ بحثًا عن دليل على النهوض، مثل إيقاع المشي أو تغير الوضعية، بدل الاعتماد على ارتفاع النبض وحده. إذا غابت الحركة وبقيت الوضعية ثابتة، يعيد الفترة إلى النوم الخفيف؛ أما النهوض الحقيقي فيبقى استيقاظًا. لا يعمل إذا كانت إشارات الحركة قليلة أو غير موثوقة، خاصة في بعض برامج WHOOP 4.0 القديمة. متوقف افتراضيًا ويسري على الليالي التالية.
+Rhythm	إيقاع يومك
+Ribbon	شريطي
+Right wrist	المعصم الأيمن
+Ring battery %lld percent	بطارية الخاتم %lld بالمئة
+Ring battery %lld percent, charging	بطارية الخاتم %lld بالمئة، جارٍ الشحن
+Ring not connected.	الخاتم غير متصل.
+Rolling average over the last 30 days	متوسط متجدد لآخر 30 يومًا
+Route	المسار
+Run a clean personal test	ابدأ تجربة شخصية واضحة
+Run down	مرهق
+Running	جري
+Runs the continuous HRV stream only during your quiet hours window (22:00–07:00 by default), roughly halving the battery cost. Daytime Stress readings will be sparser. Note: continuous background HRV capture (including daytime naps) is paused outside this window. For on-demand daytime HRV readings (including naps), use the "Take an HRV reading" button on the Live screen.	يشغّل تدفق HRV المستمر خلال ساعات الهدوء فقط، افتراضيًا 22:00–07:00، لتقليل استهلاك البطارية بنحو النصف. تصبح قراءات التوتر النهارية أقل، ويتوقف الالتقاط المستمر خارج هذه الفترة، بما فيه القيلولة. لقراءة نهارية عند الطلب استخدم زر «أخذ قراءة HRV» في شاشة «مباشر».
+SCORES	الدرجات
+SENSOR	المستشعر
+SESSIONS	الجلسات
+SIGNIFICANT	دالّ إحصائيًا
+SILENT GUARDIAN	توجيه بهدوء
+SLEEP	النوم
+SOURCE	المصدر
+SPEED	السرعة
+SPORT	الرياضة
+STEPS ESTIMATE	تقدير الخطوات
+STRAP LOG	سجل اتصال السوار
+STREAMING	جارٍ استقبال البيانات
+STRENUOUS	جهد شديد
+STRONGER SIGNAL	إشارة أوضح
+SYNTHESIS	قراءة مجمّعة
+Safw	صفو
+Same cardiovascular-load idea as WHOOP's Day Strain (0-21). We rescaled the top of the ladder from 21 to 100 so all three scores share one scale. The rungs didn't move, so a 100 is as rare as a 21.0 was.	الفكرة مشابهة للحمل القلبي في جهد WHOOP اليومي من 0 إلى 21. أعاد صفو عرض المقياس من 0 إلى 100 ليتوافق مع المؤشرين الآخرين؛ الوصول إلى 100 يبقى نادرًا مثل الوصول إلى 21.
+Same core idea as WHOOP's Recovery % (HRV-led recovery), but our weighting and baseline maths are our own, and openly documented.	يشترك مع تعافي WHOOP في الاعتماد الأساسي على HRV، لكن أوزان العوامل وطريقة حساب معدلك المعتاد خاصة بـصفو وموثّقة علنًا.
+Save	حفظ
+Save & Continue	حفظ ومتابعة
+Save changes	حفظ التغييرات
+Save connection	حفظ الاتصال
+Save exercise	حفظ التمرين
+Save this route as a standard file you can import into Strava, Garmin Connect, and other apps.	احفظ المسار بملف قياسي لاستيراده إلى Strava وGarmin Connect وتطبيقات أخرى.
+Save workout	حفظ التمرين
+Saved	تم الحفظ
+Saved a backup to your folder.	حُفظت نسخة احتياطية في مجلدك.
+Saved to %@. Copy this file to your other %@ and use Import there to restore everything.	حُفظ في %@. انسخه إلى %@ الآخر واستخدم «استيراد» لاستعادة البيانات.
+Saved to %@. The zip re-imports into NOOP (Data Sources → WHOOP Export) on any Mac, iPhone, or Android device.	حُفظ في %@. يمكنك استيراد ZIP في صفو عبر «مصادر البيانات ← تصدير WHOOP» على Mac أو iPhone أو Android.
+Saved to %@. Your database is %@, over the %@ NOOP restores without asking — the backup is complete and valid, and restoring it will ask you to confirm once.	حُفظت في %@. حجم قاعدة بياناتك %@، أكبر من حد الاستعادة التلقائي %@. النسخة كاملة وصالحة؛ ستحتاج فقط إلى تأكيد عند استعادتها.
+Save…	حفظ…
+Saving to: %@	الحفظ في: %@
+Saving…	جارٍ الحفظ…
+Scaling	ملاءمة الصورة
+Scan	بحث
+Scan & Connect	البحث والاتصال
+Scan & connect	البحث والاتصال
+Scanning the catalog…	جارٍ البحث في المقاييس…
+Scanning your data…	جارٍ مراجعة بياناتك…
+Scanning…	جارٍ البحث…
+Scope	النطاق
+Scores Effort on an exponential intensity curve (Banister TRIMP) instead of the default heart-rate zones (Edwards). The default earns nothing below half of your heart-rate reserve, so an hour of lifting — where hard sets average out against the rests — can score close to zero. The exponential curve has no floor and weights short, hard efforts far more heavily. Re-scores your history, and both scales reach the same maximum. Off by default.	يحسب الجهد بمنحنى أُسّي للشدة (Banister TRIMP) بدل مناطق النبض الافتراضية (Edwards). الطريقة الافتراضية لا تحتسب الجهد دون نصف احتياطي النبض، لذا قد تعطي تمارين القوة نتيجة منخفضة عند موازنة الجولات الشديدة بفترات الراحة. المنحنى الأُسّي يبدأ بلا حد أدنى ويعطي الجهود القصيرة الشديدة وزنًا أكبر. يعيد حساب تاريخك، ويصل المقياسان إلى الحد الأقصى نفسه. متوقف افتراضيًا.
+Scroll to zoom · drag to pan	مرّر للتكبير واسحب للتنقل
+Search sport	البحث عن رياضة
+Searching	جارٍ البحث
+See recovery, beautifully	صورة واضحة لاستشفائك
+See what shaped your Charge	اعرف ما الذي أثّر في تعافيك
+Select	تحديد
+Select sessions to merge or delete	حدّد جلسات لدمجها أو حذفها
+Send probe (read-only)	إرسال الاستعلام فقط
+Sends the read-only GET_BODY_LOCATION_AND_STATUS (0x54) and shows the strap's full raw reply, decoding the body-location record (revision / location / confidence / status) on WHOOP 4.0. Nothing is written to the strap, and it never changes wear detection or scoring.	يرسل أمر القراءة GET_BODY_LOCATION_AND_STATUS ‏(0x54) ويعرض الرد الخام، مع فك سجل الموضع في WHOOP 4.0: الإصدار والموضع والثقة والحالة. لا يكتب على السوار ولا يغيّر اكتشاف الارتداء أو حساب الدرجات.
+Session	جلسة
+Session length	مدة الجلسة
+Session live	الجلسة جارية
+Session summary	ملخص الجلسة
+Sessions	الجلسات
+Set custom container size	تحديد سعة مخصصة
+Set the BPM where each zone begins. Turn off to restore the default percentage-of-max zones.	حدد نبض البداية لكل منطقة. أوقف الخيار لاستعادة المناطق الافتراضية كنسبة من أقصى نبض.
+Set which wrist you wear it on…	تحديد معصم الارتداء…
+Settings	الإعدادات
+Settling	تهدئة تدريجية
+Setup	الإعداد
+Several recovery signals are down. Prioritise rest today.	عدة مؤشرات للتعافي أقل من المعتاد. أعطِ الراحة أولوية اليوم.
+Several signals are down at once. Treat today as recovery - easy movement, real sleep tonight.	عدة مؤشرات أقل من المعتاد. اجعل اليوم للتعافي: حركة خفيفة ونوم كافٍ الليلة.
+Sex	الجنس
+Shamanic Breath	Shamanic Breath
+Shamanic-style rhythmic breathing is context-dependent and often facilitated. Use this as a quiet timer with education only — set your own safe intensity.	أساليب التنفس الإيقاعي السريع تختلف حسب السياق وتُمارس غالبًا بإشراف. استخدمه مؤقتًا هادئًا مع معلومات فقط، واختر شدة آمنة لك.
+Share	مشاركة
+Share of imported zone time, duration-weighted across sessions (approximate).	حصة كل منطقة من وقت النبض المستورد، مرجّحة بمدة الجلسات (تقديريًا).
+Share recap	مشاركة الملخص
+Sharing %lld bpm. Waiting for a device to pair.	يُبث الآن ⁨%lld⁩ نبضة/دقيقة. بانتظار اقتران جهاز.
+Sharpens your VO₂max	يحسّن تقدير VO₂ max
+Shortcuts Export	التصدير عبر الاختصارات
+Show %@	إظهار %@
+Show a Today card reminding you to log your journal	عرض بطاقة في «اليوم» لتذكيرك بتدوين يومياتك
+Show all metrics	عرض كل المقاييس
+Show all metrics, %lld more	عرض كل المؤشرات، %lld إضافية
+Show custom background	عرض خلفية مخصصة
+Show fewer	عرض أقل
+Show fewer metrics	عرض مؤشرات أقل
+Shown	ظاهر
+Shown on Today	ظاهرة في شاشة اليوم
+Shown on the Lock Screen and in the Dynamic Island. A switch only hides one: NOOP still measures and records everything.	تظهر على شاشة القفل وفي Dynamic Island. إيقاف مفتاح يخفي نشاطه فقط؛ يبقى القياس والتسجيل مستمرين.
+Shows a soft sunrise, day, dusk and night scene behind the Today screen. Turn it off for a plain dark canvas. Your cards stay exactly as readable.	تعرض خلفية هادئة تتغير من الشروق إلى النهار والغروب والليل. أوقفها لخلفية داكنة بسيطة؛ وتبقى البطاقات واضحة.
+Shows the advanced settings sections	إظهار أقسام الإعدادات المتقدمة
+Signal Trust	موثوقية الإشارة
+Signal quality	جودة الإشارة
+Signals are down a touch. Keep it easy today.	مؤشراتك أقل قليلًا من المعتاد. خفّف الجهد اليوم.
+Silence-first strap coaching during workouts.	توجيه باهتزاز السوار أثناء التمرين، مع الهدوء عندما يكون نبضك مناسبًا.
+Silent strap coaching against today's Charge.	إرشادات باهتزاز السوار تناسب تعافيك اليوم.
+Similar in spirit to WHOOP's Sleep Performance %; our composite is our own.	يقيس جانبًا مشابهًا لأداء النوم في WHOOP، لكن طريقة جمع العوامل خاصة بـصفو.
+Simple rhythmic connected pacing at 2 seconds in and 2 seconds out — useful when you want a steady musical-feel loop without holds.	تنفس متصل بإيقاع بسيط: ثانيتان للشهيق وثانيتان للزفير. حلقة ثابتة دون حبس للنفس.
+Sip	رشفة
+Sip %lld ml · Cup %lld ml · Bottle %lld ml	رشفة %lld مل · كوب %lld مل · قارورة %lld مل
+Siri & Shortcuts	Siri والاختصارات
+Sit still and breathe normally. Tap below to take a 60-second reading.	اجلس بهدوء وتنفس بشكل طبيعي. اضغط أدناه لأخذ قراءة مدتها 60 ثانية.
+Sit still and breathe with the buzz. You can stop anytime; a stopped sweep won't lock a pace.	اجلس بهدوء وتنفس مع الاهتزاز. يمكنك التوقف متى أردت؛ ولن يُحفظ إيقاع إذا توقفت قبل النهاية.
+Sit still, breathe normally. Keep your wrist relaxed and steady.	اجلس بهدوء وتنفس طبيعيًا. أبقِ معصمك مسترخيًا وثابتًا.
+Skin Temp	حرارة الجلد
+Skin Temp Δ	تغيّر حرارة الجلد
+Skin Temperature	حرارة الجلد
+Skin temp	حرارة الجلد
+Skin temperature	حرارة الجلد
+Skin temperature %@. %@. Reliable.	حرارة الجلد %@. %@. قراءة موثوقة.
+Skin temperature display	عرض حرارة الجلد
+Skip alerts when the strap is off your wrist.	تجاهل التنبيهات عندما لا ترتدي السوار.
+Skip if pregnant, dizzy, or have uncontrolled hypertension. Stop if strained.	يُتجنب أثناء الحمل أو الدوخة أو ارتفاع الضغط غير المنضبط. توقف عند الإجهاد.
+Skip today	تجاوز اليوم
+Skips sessions that overlap a saved or imported workout, including workouts from Apple Health.	يتجاهل الفترات المتداخلة مع تمرين محفوظ أو مستورد، بما في ذلك تمارين صحّة Apple.
+Sky behind cards	خلفية السماء خلف البطاقات
+Sleep	النوم
+Sleep Consistency	انتظام النوم
+Sleep Debt	دين النوم
+Sleep Efficiency	كفاءة النوم
+Sleep Need	احتياج النوم
+Sleep Performance	جودة النوم
+Sleep Score	درجة النوم
+Sleep and recovery without copying daily numbers	النوم والتعافي دون نقل الأرقام يوميًا
+Sleep chart	رسم النوم
+Sleep deleted.	حُذف النوم.
+Sleep deleted. NOOP won't detect sleep between %@ and %@ again.	حُذف النوم. لن يعيد صفو اكتشاف النوم بين %@ و%@.
+Sleep marks	علامات النوم
+Sleep or workout excluded	نوم أو تمرين مستبعد
+Sleep performance	جودة النوم
+Sleep performance %lld of 100	أداء النوم ⁨%lld⁩ من 100
+Sleep performance %lld of 100, %@	أداء النوم ⁨%lld⁩ من 100، %@
+Sleep result updated	تم تحديث نتيجة النوم
+Sleep scored from how long you slept versus how much you needed, how efficient the night was, and the restorative (deep and REM) share of it.	تُحسب جودة النوم من مدته مقارنةً باحتياجك، وكفاءته، وحصة النوم العميق وحركة العين السريعة منه.
+Sleep sorting, scores, recording, and where your numbers come from.	تنظيم النوم وحساب الدرجات والتسجيل ومصادر أرقامك.
+Sleep stage breakdown: deep %lld percent, light %lld percent, REM %lld percent, awake %lld percent	مراحل النوم: نوم عميق ⁨%lld⁩ بالمئة، نوم خفيف ⁨%lld⁩ بالمئة، نوم حركة العين السريعة ⁨%lld⁩ بالمئة، يقظة ⁨%lld⁩ بالمئة
+Sleep stages	مراحل النوم
+Sleep stages, %@	مراحل النوم، %@
+Sleep stages, no data	مراحل النوم، لا توجد بيانات
+Sleep staging	تصنيف مراحل النوم
+Sleep staging (V2)	تصنيف مراحل النوم (V2)
+Sleep · scores · recording · where your numbers come from	النوم · الدرجات · التسجيل · مصادر أرقامك
+Sleep-debt ledger	سجل دين النوم
+Sleeping heart rate through the night	نبض القلب أثناء النوم طوال الليلة
+Slightly off baseline (HRV is a little low), so you're moderately activated. Nothing alarming; just don't overreach.	تقلب نبض قلبك أقل قليلًا من المعتاد. تقدير التوتر الجسدي متوسط؛ خذ ذلك في الحسبان ولا تبالغ في الجهد.
+Slightly off baseline (resting HR is a touch high), so you're moderately activated. Nothing alarming; just don't overreach.	نبض الراحة أعلى قليلًا من المعتاد اليوم. تقدير التوتر الجسدي متوسط؛ خذ ذلك في الحسبان ولا تبالغ في الجهد.
+Slow in · soft holds · slow out	شهيق بطيء · وقفات خفيفة · زفير بطيء
+Slow inhale · soft hold · long exhale	شهيق بطيء · وقفة قصيرة · زفير طويل
+Slows background strap-sync (every 45 min instead of 15) while your strap's battery is low. No data loss — the strap banks everything, so sync just batches into larger, less frequent pulls.	يقلّل مزامنة السوار في الخلفية إلى كل 45 دقيقة بدلًا من 15 عند انخفاض بطاريته. تبقى البيانات في السوار وتُنقل على دفعات أكبر وأقل تكرارًا.
+So your zones, calories and baselines are accurate.	لتخصيص مناطق نبض القلب وتقديرات السعرات ومعدلاتك المعتادة.
+Soft tone on each phase · respects silent mode	نغمة خفيفة لكل مرحلة، مع احترام الوضع الصامت
+Solid	موثوق
+Soma	Soma
+Source	المصدر
+Source Apple Health	المصدر: صحة Apple
+Source Whoop	المصدر: WHOOP
+Source imported activity file	المصدر: ملف نشاط مستورد
+Source imported lifting log	المصدر: سجل مقاومة مستورد
+Source manual entry	المصدر: إدخال يدوي
+Source on-device detected	المصدر: اكتشاف محلي على الجهاز
+Source: %@	المصدر: %@
+Source: Apple Watch	المصدر: Apple Watch
+Sparse, widened to %@ · %lld readings	قراءات قليلة؛ وسّعنا العرض إلى %@ · عددها %lld
+Speed · Cadence · Power · Distance · Energy · Heart rate (if the machine sends it)	السرعة · معدل الحركة · القدرة · المسافة · الطاقة · نبض القلب إذا أرسله الجهاز
+Sport	نوع الرياضة
+Square breath · steady focus	أربع مراحل متساوية للتركيز
+Stage breakdown	توزيع مراحل النوم
+Stages	مراحل النوم
+Stages vs typical	مراحل النوم مقارنة بالمعتاد
+Standard HR is not a full bond	استقبال النبض القياسي لا يعني اقترانًا كاملًا
+Standard HR mode (low bandwidth)	وضع النبض القياسي (بيانات محدودة)
+Start	بدء
+Start ECG capture	بدء تسجيل ECG
+Start a Breathe session	بدء جلسة تنفّس
+Start a live session. Beta. Silent strap coaching against today's Charge.	ابدأ جلسة مباشرة. ميزة تجريبية ترشدك باهتزازات السوار بحسب استشفائك اليوم.
+Start a live stream	بدء استقبال البيانات مباشرة
+Start a local experiment using today's date as day one.	ابدأ تجربة محفوظة على جهازك، ويكون اليوم أول أيامها.
+Start a workout when the stream matters. NOOP records the interval, HR, peak, average and effort from the same live feed.	ابدأ تمرينًا لتسجيل بياناته مباشرة. يحفظ صفو مدته ونبضك وأعلى نبض والمتوسط والجهد من المصدر المباشر نفسه.
+Start can't be in the future.	لا يمكن أن يكون وقت البدء في المستقبل.
+Start date and time	تاريخ ووقت البدء
+Start experiment	بدء التجربة
+Start session	بدء جلسة
+Start workout	بدء تمرين
+Started %@ · testing %@	بدأت %@ · تختبر %@
+Started at %lld bpm · the rhythm trails your heart down.	بدأت عند %lld نبضة/دقيقة؛ يتدرج الإيقاع مع انخفاض نبضك.
+Starting…	جارٍ التشغيل…
+Stay in a comfortable range; never force breath holds.	ابقَ ضمن راحتك؛ لا تُجبر نفسك على حبس النفس.
+Stay in the loop	تنبيهات على معصمك
+Steady	مستقر
+Step back to a day the strap was worn.	انتقل إلى يوم كنت ترتدي فيه السوار.
+Step calibration	معايرة الخطوات
+Step calibration, %@ counter ticks per step	معايرة الخطوات: %@ نبضة عدّاد لكل خطوة
+Steps	الخطوات
+Steps (estimated)	الخطوات (تقديرية)
+Steps chart, %lld daily %@, latest %lld steps, %@	رسم الخطوات: ⁨%lld⁩ %@ للبيانات اليومية. أحدث قيمة: ⁨%lld⁩ خطوة. ⁨%@⁩
+Steps chart, %lld monthly %@, latest %lld average steps per observed day, %@	رسم الخطوات: ⁨%lld⁩ %@ للمتوسطات الشهرية. أحدث متوسط: ⁨%lld⁩ خطوة لكل يوم تتوفر له بيانات. ⁨%@⁩
+Steps chart, %lld weekly %@, latest %lld average steps per observed day, %@	رسم الخطوات: ⁨%lld⁩ %@ للمتوسطات الأسبوعية. أحدث متوسط: ⁨%lld⁩ خطوة لكل يوم تتوفر له بيانات. ⁨%@⁩
+Steps chart, no data	رسم الخطوات، لا توجد بيانات
+Steps estimate	تقدير الخطوات
+Steps estimate calibration. %@. Opens the calibration screen.	معايرة تقدير الخطوات. %@. يفتح شاشة المعايرة.
+Steps, heart, sleep, body composition and VO₂ max, read locally on %@.	قراءة الخطوات والقلب والنوم وتكوين الجسم وVO₂ max محليًا على %@.
+Still	سكون
+Still learning your baseline. A few more nights and this fills in.	ما زلنا نتعرّف على معدلك المعتاد. ستظهر هذه القراءة بعد بضع ليالٍ إضافية.
+Stop	إيقاف
+Stop ECG capture	إيقاف تسجيل ECG
+Stop if dizzy. Avoid with high blood pressure, pregnancy, or recent surgery unless cleared by a clinician.	توقف إذا شعرت بدوخة. يُتجنب مع ارتفاع ضغط الدم أو الحمل أو بعد جراحة حديثة، إلا بموافقة مختص.
+Stop session	إيقاف الجلسة
+Stop sweep	إيقاف الاختبار
+Stop sync	إيقاف المزامنة
+Stops recording and saves what's captured so far	يوقف التسجيل ويحفظ ما سُجّل حتى الآن
+Stops the screen dimming while a workout is recording	يمنع تعتيم الشاشة أثناء تسجيل تمرين
+Stops the screen locking while your strap's history syncs	يمنع قفل الشاشة أثناء مزامنة سجل السوار
+Storage	التخزين
+Storage unavailable	تعذّر الوصول إلى معلومات التخزين
+Strain	الجهد
+Strain nudges and your smart alarm tap your wrist the moment they fire.	تنبيهات الجهد والمنبه الذكي تُشعرك باهتزاز السوار عند حلول وقتها.
+Strain nudges and your smart alarm tap your wrist the same way.	تنبيهات الجهد والمنبه الذكي تستخدم اهتزاز السوار أيضًا.
+Strained	إجهاد مرتفع
+Strap	السوار
+Strap battery	بطارية السوار
+Strap battery %lld percent	بطارية السوار: ⁨%lld⁩ بالمئة
+Strap battery %lld percent%@%@	بطارية السوار %lld بالمئة%@%@
+Strap battery %lld percent, charging	بطارية السوار %lld بالمئة، جارٍ الشحن
+Strap battery charging, no reading yet	بطارية السوار تُشحن؛ لا توجد قراءة بعد
+Strap battery, no reading yet	لا توجد قراءة لبطارية السوار بعد
+Strap battery, strap not connected	بطارية السوار غير متاحة؛ السوار غير متصل
+Strap connected	السوار متصل
+Strap history	سجل السوار
+Strap history synced %@ ago	تمت مزامنة سجل السوار منذ %@
+Strap idle	السوار غير نشط
+Strap live	السوار يبث مباشرةً
+Strap name	اسم السوار
+Strap needed	يلزم اتصال السوار
+Strap not connected	السوار غير متصل
+Strap not worn	السوار غير مرتدى
+Strap sync	مزامنة السوار
+Streak	الاستمرارية
+Streaming live	بث مباشر
+Streaming now	تصل البيانات الآن
+Strength Activity Time	وقت تمارين القوة
+Stress	التوتر الجسدي
+Stress %@ of 3	التوتر الجسدي ⁨%@⁩ من 3
+Stress %@ of 3, %@	التوتر الجسدي ⁨%@⁩ من 3، %@
+Stress Trend	اتجاه التوتر الجسدي
+Stress check-in	متابعة التوتر الجسدي
+Stress is derived from two autonomic signals.	يُقدّر التوتر الجسدي من مؤشرين مرتبطين بالجهاز العصبي اللاإرادي.
+Stress monitor	مؤشر التوتر الجسدي
+Stress monitor and timeline	عداد التوتر وسجل اليوم
+Stress monitor unavailable	قراءة التوتر غير متاحة
+Stress through the day	التوتر الجسدي خلال اليوم
+Stress trend	اتجاه التوتر الجسدي
+Stress · %@	التوتر الجسدي · %@
+Stress · M	التوتر الجسدي · شهر
+Stretch	تمديد
+Strong	قوي
+Support	الدعم
+Sustained high stress	توتر جسدي مرتفع لفترة ممتدة
+Sweep progress	تقدم الاختبار
+Sweeping…	جارٍ اختبار الإيقاعات…
+Swipe	اسحب
+Sympathetic vs parasympathetic tone from frequency-domain HRV. Higher leans sympathetic (stress-ward).	مقارنة نشاط فرعي الجهاز العصبي اللاإرادي باستخدام ترددات تقلب النبض. تميل القيم الأعلى نحو النشاط الودّي المرتبط بالتنبه والتوتر الجسدي.
+Sync	مزامنة
+Sync Strap	مزامنة السوار
+Sync comparison now	مزامنة المقارنة الآن
+Sync didn't start	لم تبدأ المزامنة
+Sync in the background every hour instead of every 15 minutes, whatever the strap's charge — fewer reconnections is the biggest saving on a WHOOP 4.0. Nothing is lost: the strap banks everything and hands it over in larger batches. Pull to sync still runs straight away, and live heart rate is untouched.	مزامنة في الخلفية كل ساعة بدلًا من كل 15 دقيقة، مهما كان شحن السوار. تقليل إعادة الاتصال يوفر الطاقة خصوصًا على WHOOP 4.0، مع بقاء البيانات محفوظة للنقل على دفعات أكبر. المزامنة اليدوية فورية، ولا يتغير بث النبض المباشر.
+Sync interrupted	توقفت المزامنة
+Sync now	مزامنة الآن
+Synced	تمت المزامنة
+Synced %@	تمت المزامنة %@
+Synced %@ ago	آخر مزامنة منذ %@
+Synced from	تمت المزامنة من
+Synced from: %@	تمت المزامنة من: %@
+Syncing	جارٍ المزامنة
+Syncing strap history	جارٍ مزامنة سجل السوار
+Syncing strap history, %lld chunks	جارٍ مزامنة سجل السوار، %lld دفعة
+Syncing strap history, %lld chunks, %@	جارٍ مزامنة سجل السوار، %lld دفعة، %@
+Syncing strap history, chunk %lld	جارٍ مزامنة سجل السوار، الجزء %lld
+Syncing your strap.	جارٍ مزامنة سوارك.
+Syncing…	جارٍ المزامنة…
+Syncing… %lld chunks	جارٍ المزامنة… %lld دفعة
+Syncs your strap's stored history right away, instead of waiting for the next automatic sync.	ينقل سجل السوار المحفوظ فورًا، دون انتظار موعد المزامنة التلقائية التالية.
+Synthesis	قراءة مجمّعة
+Synthesis. %@	قراءة مجمّعة. %@
+System	حسب الجهاز
+System default	إعداد الجهاز
+System follows your %@'s light or dark setting.	خيار «النظام» يتبع المظهر الفاتح أو الداكن على ⁨%@⁩.
+Systolic	الانقباضي
+THE BASICS	الأساسيات
+THE ONE RULE	قاعدتنا الأساسية
+THE THREE SCORES	المؤشرات الثلاثة
+TIME	الوقت
+TYPICAL EFFORT	الجهد المعتاد
+Tag a few sessions of the same activity and NOOP will learn its personal recovery cost.	صنّف عدة جلسات من النشاط نفسه ليتعلّم صفو أثره على تعافيك.
+Take a 60-second seated HRV reading from the live R-R stream.	اجلس بهدوء وخذ قياسًا لتقلب النبض لمدة 60 ثانية من الفواصل المباشرة بين نبضاتك.
+Take an HRV reading	قياس تقلب نبض القلب
+Take another reading	أخذ قراءة أخرى
+Takes effect on the next analytics pass (after the next sync).	يسري عند التحليل التالي، بعد المزامنة المقبلة.
+Tap	اضغط
+Tap a drink to edit it, or use the trash to delete.	اضغط على مشروب لتعديله، أو على سلة المهملات لحذفه.
+Tap a stage to compare with your 30-day typical.	اضغط على مرحلة لمقارنتها بمعدلك المعتاد خلال 30 يومًا.
+Tap a workout for its detail · tap ••• to re-label, edit or delete it.	اضغط على تمرين لعرض تفاصيله · واضغط ••• لتغيير نوعه أو تعديله أو حذفه.
+Tap when you're heading to bed or when you wake. Each tap is logged with the time. It doesn't change tonight's detected sleep.	اضغط عند ذهابك للنوم أو استيقاظك. تُحفظ كل ضغطة مع وقتها، دون تغيير النوم المكتشف تلقائيًا لهذه الليلة.
+Temperature	درجة الحرارة
+Temperature unit	وحدة الحرارة
+Test %@ buzz	تجربة اهتزاز %@
+Test Centre	مركز الاختبارات
+Test buzz	اختبار الاهتزاز
+That file is too large to import.	حجم الملف أكبر من الحد المسموح للاستيراد.
+That's normal. A paced breath often settles things when a metronome alone doesn't.	هذا طبيعي. قد يساعد التنفس المنتظم عندما لا يكفي الإيقاع وحده.
+The Deep sleep HRV window needs a night with deep-stage sleep to score Charge. Switch to Whole night in Settings, or wait for a night with more deep sleep.	عند اختيار قياس HRV أثناء النوم العميق، نحتاج بيانات نوم عميق لحساب التعافي. اختر «الليلة كاملة» من الإعدادات، أو انتظر ليلة تتوفر لها بيانات نوم عميق.
+The Presence Process	تمارين الحضور الذهني
+The WHOOP 4.0 reboot frame isn't confirmed — a normal Restart is ignored (#235). Send each candidate and watch BOTH the strap log and the strap itself. “no disconnect within 12s” means the strap ignored the frame. A “link dropped” line means the frame reached the strap — but a dropped link alone isn't a reboot: a real reboot also switches the strap's sensor light off for a few seconds, so if the light stayed on it was just a dropped connection, not a reboot. Non-destructive — your data is kept. Please share the log so we can pin the real frame.	لم تُؤكّد رسالة إعادة تشغيل WHOOP 4.0 بعد، والسوار يتجاهل الأمر المعتاد (#235). أرسل كل أمر مرشّح وراقب السجل والسوار معًا. «لا انقطاع خلال 12 ثانية» تعني تجاهل الرسالة. أما انقطاع الاتصال فيعني وصولها، لكنه لا يثبت إعادة التشغيل؛ يجب أن ينطفئ ضوء الحساس لبضع ثوانٍ أيضًا. الاختبار لا يحذف البيانات. مشاركة السجل تساعد في تحديد الأمر الصحيح.
+The average above was edited. The graph, zones and Effort stay from the recorded session.	عُدّل المتوسط أعلاه. يبقى الرسم ومناطق النبض والجهد مستندة إلى الجلسة المسجلة.
+The best-sourced number per metric across every band you use.	قيمة كل مؤشر من أنسب مصدر متاح بين الأجهزة التي تستخدمها.
+The change from your heart rate at the end of exercise. Positive values mean your heart rate fell; a dash means the strap did not record enough data around that minute.	التغيّر مقارنةً بنبضك عند نهاية التمرين. القيمة الموجبة تعني انخفاض النبض، والشرطة تعني أن بيانات السوار حول تلك الدقيقة غير كافية.
+The comparison did not finish. Your saved strap data is still available for a later retry.	لم تكتمل المقارنة. بيانات السوار المحفوظة باقية لإعادة المحاولة لاحقًا.
+The comparison service is not configured yet.	لم تُضبط خدمة المقارنة بعد.
+The current minute has no reliable reading. The dial does not carry an older value forward.	لا توجد قراءة موثوقة للدقيقة الحالية. لا يحمل العداد قيمة قديمة ويعرضها كأنها جديدة.
+The first upload within 24 hours of sleep is kept for comparison. Later recalculations do not replace it.	نحتفظ بأول نتيجة تُرفع خلال ٢٤ ساعة من انتهاء النوم للمقارنة، ولا نستبدلها بالحسابات اللاحقة.
+The full terms are in TERMS.md, shipped with NOOP. This is not legal advice.	تجد الشروط كاملة في ملف TERMS.md المرفق مع صفو. هذا النص ليس استشارة قانونية.
+The line breaks where the estimation method changed or was not recorded.	ينقطع الخط عندما تتغير طريقة التقدير أو لا تكون مسجّلة.
+The line is each waking hour's 0-3 proxy, scored against your own calm hours today. The bar below splits your day into calm, moderate and high stress time.	يعرض الخط تقديرًا من 0 إلى 3 لكل ساعة يقظة، مقارنة بساعاتك الهادئة اليوم. ويقسم الشريط وقتك إلى توتر جسدي منخفض ومتوسط ومرتفع.
+The line is each waking hour's 0-3 proxy, scored against your personal daytime baseline (how your own days usually run). The bar below splits your day into calm, moderate and high stress time.	يعرض الخط تقديرًا من 0 إلى 3 لكل ساعة يقظة، مقارنة بمعدلك المعتاد خلال النهار. ويقسم الشريط وقتك إلى توتر جسدي منخفض ومتوسط ومرتفع.
+The method behind the score, not today's values.	شرح طريقة الحساب، وليس تفصيل قراءات اليوم.
+The service needs a one-time setup and WHOOP authorization. Installing this app alone does not connect it.	تحتاج الخدمة إعدادًا أوليًا وموافقتك على ربط WHOOP. تثبيت التطبيق وحده لا يفعّل الربط.
+The strap buzzes a gentle rhythm just below your current heart rate, a felt metronome to relax toward. It trails your heart down rather than yanking it, and stops on its own.	يهتز السوار بإيقاع هادئ أبطأ قليلًا من نبضك الحالي ليساعدك على الاسترخاء. يتدرج مع انخفاض النبض ثم يتوقف تلقائيًا.
+The strap keeps banking data on its own, so nothing is lost — NOOP just talks to it less often to help it last until you can charge it.	يواصل السوار حفظ البيانات داخليًا. يقلّل صفو وتيرة الاتصال به لتوفير البطارية حتى تتمكن من شحنه.
+Theme	المظهر
+Theme preset	نمط المظهر الجاهز
+There are no NOOP backups in your folder yet. Use Back up now first.	لا توجد نسخ احتياطية للتطبيق في هذا المجلد بعد. اضغط «نسخ احتياطي الآن» أولًا.
+There's about %@ of leftover import scratch space to reclaim. This never removes your imported data.	يمكن استعادة نحو %@ بحذف ملفات الاستيراد المؤقتة المتبقية. لن تُحذف بياناتك المستوردة.
+These are differences from WHOOP, not clinical accuracy. The official API provides nightly stage totals, not an epoch-by-epoch sleep timeline.	هذه فروق عن WHOOP وليست دقة طبية. يوفّر الربط الرسمي مدد مراحل النوم في الليلة دون تسلسل المراحل لحظة بلحظة.
+These are extra, on-demand HRV lenses computed from today's R-R intervals. They are informational and do not change the stress score above.	هذه تحليلات إضافية تُحسب عند الطلب من الفواصل بين نبضاتك اليوم. تُعرض للمعلومة ولا تغيّر درجة التوتر الجسدي أعلاه.
+These are independent approximations from a consumer strap, built on open science: not medical advice, and not WHOOP's official scores.	هذه تقديرات مستقلة من سوار استهلاكي، وليست نصيحة طبية أو درجات WHOOP الرسمية.
+These are the days where your phone also counted steps, so NOOP can learn how your motion maps to steps. Or set the coefficient manually below.	هذه الأيام فيها عدّ من الهاتف أيضًا، ويتعلّم صفو منها العلاقة بين الحركة والخطوات. يمكنك بدلًا من ذلك تحديد المعامل يدويًا أدناه.
+These backups are unencrypted too. If this folder syncs to Drive, Dropbox or iCloud, the readable file goes there as well — only point it at a service you trust.	هذه النسخ الاحتياطية غير مشفّرة. إذا كان المجلد يتزامن مع Drive أو Dropbox أو iCloud، فسينتقل إليه ملف يمكن قراءته. اختر خدمة تثق بها.
+These days are excluded from the estimate (your phone's real count is shown instead). They're here only so you can judge the estimate's accuracy.	هذه الأيام مستبعدة من التقدير ويُعرض عدّ الهاتف الفعلي بدلًا منه. تظهر هنا فقط لتقييم دقة التقدير.
+These power your heart-rate zones, calorie estimates and recovery baselines. Keep them accurate.	تُستخدم هذه البيانات لمناطق النبض وتقدير السعرات ومعدلك المعتاد للتعافي. احرص على تحديثها بدقة.
+These sessions have no sport label yet. Pick one for the merged session.	لم يُحدَّد نوع الرياضة لهذه الجلسات بعد. اختر نوعًا للجلسة المدمجة.
+These vitals are from %@	هذه العلامات الحيوية من %@
+This install can't connect to Apple Health directly. It was signed with a profile that doesn't include Apple's Health permission, so there's nothing to enable, and NOOP won't appear under Settings › Health.	هذه النسخة لا تستطيع الاتصال بصحة Apple مباشرةً؛ توقيعها لا يتضمن صلاحية HealthKit. لذلك لن يظهر صفو ضمن إعدادات «صحتي»، ولا يوجد إذن يمكنك تفعيله هنا.
+This is a plain, unencrypted archive — anyone who gets the file can open it with any zip tool. Store it somewhere you trust.	هذا أرشيف غير مشفّر؛ يستطيع من يحصل عليه فتحه بأداة ZIP. احفظه في مكان تثق به.
+This is a sideloaded build, installed outside the App Store. It needs re-signing periodically: roughly every 7 days on a free Apple ID, about a year on a paid developer account.	هذه نسخة مثبتة خارج App Store. تحتاج إلى تجديد التوقيع دوريًا: نحو كل 7 أيام مع حساب Apple مجاني، ونحو سنة مع حساب مطوّر مدفوع.
+This is your only sleep block today.	هذه جلسة نومك الوحيدة اليوم.
+This moves the night to a time with no recorded data. Stages can't be derived there, so it may show as empty until data covers it.	سيُنقل النوم إلى فترة لا توجد لها بيانات مسجلة. لا يمكن تقدير المراحل فيها، وقد تظهر فارغة حتى تتوفر بياناتها.
+This night scored high efficiency but very little deep or REM, more likely a staging estimate miss than a real restorative shortfall. The totals are kept as-is; read the split with care.	كفاءة النوم مرتفعة هذه الليلة، لكن تقدير النوم العميق وحركة العين السريعة منخفض جدًا. قد يكون السبب خطأً في تقدير المراحل، وليس نقصًا فعليًا في النوم المُرمّم. أبقينا الإجماليات كما هي؛ تعامل بحذر مع توزيع المراحل.
+This night was recorded before NOOP labelled which WHOOP 5 transport each heartbeat came from, so its intervals mix two different units with nothing stored to tell them apart. The night stays in your history, and nights recorded from now on score normally.	سُجّلت هذه الليلة قبل أن يميّز التطبيق مسار النقل الذي جاءت منه كل نبضة في WHOOP 5. لذلك اختلطت فواصل بوحدتين مختلفتين دون معلومات تسمح بالفصل بينهما. تبقى الليلة في سجلك، وتُحسب درجات الليالي المسجلة من الآن فصاعدًا كالمعتاد.
+This one is different from the other ECG controls: it is a setting written to the strap, and it stays there after you disconnect until you change it again.	بخلاف بقية أدوات ECG، هذا إعداد يُكتب على السوار ويبقى بعد قطع الاتصال إلى أن تغيّره مرة أخرى.
+This permanently deletes all data recorded from %@. This can't be undone.	ستُحذف نهائيًا كل البيانات المسجّلة من %@. لا يمكن التراجع عن ذلك.
+This permanently deletes everything imported from Apple Health: heart rate, HRV, sleep, steps, workouts and more. Your live strap data is untouched. This can't be undone.	ستُحذف نهائيًا جميع البيانات المستوردة من Apple Health، ومنها نبض القلب وتقلبه والنوم والخطوات والتمارين. لن تتأثر بيانات السوار المسجّلة مباشرةً. لا يمكن التراجع عن الحذف.
+This restarts the roughly 4-night build-up for Charge and your HRV baseline. Your history stays. Use it if a bad first week, like wearing it while sick, set your baseline off.	يبدأ تعلّم التعافي وHRV من جديد خلال نحو أربع ليالٍ، مع إبقاء تاريخك. يفيد إذا كانت البداية غير ممثلة لمعدلك المعتاد، مثل ارتداء السوار أثناء المرض.
+This session's contribution to the day's Effort, as captured during the workout.	مساهمة هذه الجلسة في جهد اليوم، كما سُجّلت أثناء التمرين.
+This sideloaded build expired %lld days ago. Re-sign it to keep it running.	انتهى توقيع النسخة قبل %lld يومًا. جدّد التوقيع لمواصلة استخدامها.
+This sideloaded build expired 1 day ago. Re-sign it to keep it running.	انتهى توقيع النسخة قبل يوم. جدّد التوقيع لمواصلة استخدامها.
+This sideloaded build expires in %lld days. Re-sign to keep it running.	ينتهي توقيع النسخة خلال %lld يومًا. جدّده لمواصلة استخدامها.
+This sideloaded build expires in 1 day. Re-sign to keep it running.	ينتهي توقيع النسخة خلال يوم. جدّده لمواصلة استخدامها.
+This split is the ring's raw on-device classification read over Bluetooth, not the adjusted stages the Oura app shows. Expect more Awake and less Deep/REM here than in the Oura app for the same night.	هذا تصنيف المراحل الخام من الخاتم عبر Bluetooth، قبل التعديلات التي يعرضها تطبيق Oura. قد يظهر هنا استيقاظ أكثر ونوم عميق وحركة عين سريعة أقل لليلة نفسها.
+This stays on your device. It is never uploaded, never synced, never shared.	يبقى على جهازك. لا يُرفع ولا يُزامَن ولا يُشارَك تلقائيًا.
+This stops recording and saves what's captured so far. It can't be resumed.	سيتوقف التسجيل وتُحفظ البيانات المسجلة حتى الآن. لن تتمكن من استئناف هذا التسجيل.
+This strap doesn’t send SpO₂ over Bluetooth. Import a WHOOP export or Health Connect to see it.	لا يرسل هذا السوار نسبة SpO₂ عبر Bluetooth. يمكن عرضها من ملف WHOOP أو مصدر صحي يدعمها.
+This strap sends no raw respiration stream. Your estimated respiratory rate appears on the Health screen.	لا يرسل السوار تدفقًا خامًا للتنفس. يظهر معدل التنفس التقديري في شاشة «الصحة».
+This week	هذا الأسبوع
+Three quiet promises.	ثلاث مزايا أساسية.
+Threshold	العتبة
+Tile	تكرار
+Time	الوقت
+Time in Bed	الوقت في السرير
+Time in each %HRmax zone, derived from the strap's heart rate over this window (approximate).	الوقت في كل منطقة من %HRmax، مقدّر من نبض السوار خلال هذه الفترة.
+Time range	الفترة الزمنية
+Tip: choose a folder in iCloud Drive and your backups sync to all your Apple devices automatically, no account setup needed.	باختيار مجلد في iCloud Drive، تتزامن نسخك الاحتياطية تلقائيًا بين أجهزة Apple المرتبطة بحسابك، دون إعداد حساب جديد.
+To get your Apple Health data in anyway: import a Health export .zip in Data Sources, or turn on Shortcuts Export to feed your strap data into Health without the entitlement. (A build installed from the App Store or signed with a paid Apple Developer account connects directly.)	يمكنك استيراد ملف ‎.zip من صحة Apple عبر «مصادر البيانات». ولإرسال بيانات السوار إلى «صحتي» دون صلاحية HealthKit، فعّل التصدير عبر «الاختصارات». النسخة المثبّتة من App Store أو الموقّعة بحساب مطوّر Apple مدفوع تدعم الاتصال المباشر.
+To the fullest extent the law allows, I will not hold the NOOP project or its contributors liable for any loss or damage arising from my use of it.	في الحدود التي يسمح بها القانون، لن أحمّل مشروع صفو أو المساهمين فيه مسؤولية أي خسارة أو ضرر ينتج عن استخدامي له.
+Today	اليوم
+Today's Timeline	سجل اليوم
+Today's drinks	مشروبات اليوم
+Today's fluid	سوائل اليوم
+Today's stress split: calm %@, moderate %@, high %@.	توزيع اليوم: هادئ %@، متوسط %@، مرتفع %@.
+Today's value is your recorded daily stress score (0-3).	قيمة اليوم هي درجة التوتر الجسدي اليومية المسجلة لديك، على مقياس من 0 إلى 3.
+Today’s Synthesis	قراءة مجمّعة لليوم
+Tomorrow	غدًا
+Too short to judge — the band needs a few minutes to mean anything.	الجلسة أقصر من أن نقيّمها؛ نحتاج إلى بضع دقائق ضمن النطاق.
+Top sport	الرياضة الأكثر ممارسةً
+Total	الإجمالي
+Total Calories	إجمالي السعرات
+Total Distance	إجمالي المسافة
+Total Time	إجمالي الوقت
+Total Workouts	إجمالي التمارين
+Track a workout manually. Records heart rate and effort until you end it.	سجّل تمرينًا يدويًا. يُحفظ نبض القلب والجهد حتى تنهيه.
+Traditional sessions are long; use a short timer here as a check-in only.	الجلسات التقليدية طويلة؛ استخدم المؤقت القصير هنا للمتابعة فقط.
+Trailing	الفترة السابقة
+Trailing %lld days	آخر %lld أيام
+Training Load	الحمل التدريبي
+Training load	الحمل التدريبي
+Training variety	تنوع التدريب
+Transparent cards	بطاقات شفافة
+Trend	الاتجاه
+Trend chart style	شكل رسوم الاتجاهات
+Trend charts	رسوم الاتجاهات
+Trend window	فترة الاتجاه
+Trend, %lld points, latest %@, low %@, high %@	الاتجاه: عدد النقاط ⁨%lld⁩، الأحدث ⁨%@⁩، الأدنى ⁨%@⁩، الأعلى ⁨%@⁩
+Trends	الاتجاهات
+Trends need history to draw. Import your WHOOP export in Data Sources to see weeks, months and years instantly.	تحتاج الاتجاهات إلى سجل سابق. استورد ملف WHOOP من «مصادر البيانات» لعرض أسابيع أو أشهر أو سنوات من بياناتك مباشرةً.
+Try again	حاول مجددًا
+Tummo	Tummo
+Turn off	إيقاف
+Turn on a test for the thing that's wrong, wear the strap, then tap Report. Your strap log, recalibrate, scheduled export and experimental probes all live here too.	فعّل اختبار الجزء الذي لا يعمل، ثم ارتدِ السوار واضغط «تقرير». ستجد هنا أيضًا السجل وإعادة المعايرة والتصدير المجدول والأدوات التجريبية.
+Turning this switch off only stops NOOP sending the unlock. The flags it already wrote stay on the strap until something clears them. NOOP can write the off value to all 16 now and read each one back so you can see what the strap actually stores. Needs the strap connected and bonded.	إطفاء المفتاح يوقف إرسال أمر التفعيل فقط؛ أما الخيارات المكتوبة فتبقى على السوار. يمكن لـصفو إيقاف الخيارات الستة عشر الآن وقراءة كل منها للتأكد مما حُفظ. يتطلب اتصالًا واقترانًا آمنًا بالسوار.
+Two independent protocol tables disagree on the extended-battery opcode (98 vs 87). This sends the curated read-only 98 and shows the strap's full raw reply. A battery-style payload confirms 98 on your firmware; a short stub means it stays ambiguous. Nothing is written to the strap.	يختلف جدولان للبروتوكول حول أمر البطارية الموسّع (98 أو 87). يرسل هذا الاختبار أمر القراءة 98 ويعرض الرد الخام كاملًا. بيانات تشبه البطارية تؤيد الأمر على برنامج سوارك، أما الرد القصير فلا يحسمه. لا يُكتب شيء على السوار.
+Typical effort %@	الجهد المعتاد %@
+Typical effort, no data	الجهد المعتاد، لا توجد بيانات
+Typical for you	ضمن المعتاد لديك
+Typical range	ضمن النطاق المرجعي
+Ujjayi	Ujjayi
+Ujjayi (ocean) breath: slightly constrict the throat so the breath sounds like distant waves. Equal slow inhale and exhale through the nose (~4.5s each).	تنفّس Ujjayi: ضيّق الحلق قليلًا ليشبه صوت النفس أمواجًا بعيدة. شهيق وزفير بطيئان من الأنف، نحو 4.5 ثانية لكل منهما.
+Uncalibrated	لم تتم معايرته
+Undo	تراجع
+Undo sleep deletion	التراجع عن حذف النوم
+Units	الوحدات
+Unknown	غير معروف
+Unmatched or ambiguous: %lld	الليالي غير المطابقة أو الملتبسة: %lld
+Updated weekly	يُحدّث أسبوعيًا
+Updates	المستجدات
+Updates, %lld unread	المستجدات، %lld غير مقروءة
+Use NOOP with just an Apple Watch. What it's great at, and where it's lighter than a strap.	استخدام صفو بساعة Apple Watch وحدها: ما الذي توفره، وما الذي يقل عن السوار.
+Use NOOP's own folder (browse in Files)	استخدام مجلد صفو (متاح في تطبيق «الملفات»)
+Use it only with a device you own, to read your own data. Whether to use it (and any effect on your WHOOP account, subscription, device, or warranty) is your decision, and your risk alone.	استخدمه مع جهاز تملكه لقراءة بياناتك أنت فقط. قرار استخدامه ومسؤولية أي أثر على حسابك في WHOOP أو اشتراكك أو جهازك أو ضمانه تقع عليك وحدك.
+Uses a conventional local calendar day from 00:00 to 00:00.	يعتمد اليوم المحلي المعتاد، من منتصف الليل إلى منتصف الليل.
+Using NOOP may breach WHOOP's Terms of Service	قد يتعارض استخدام صفو مع شروط خدمة WHOOP
+Using NOOP on iPhone	استخدام صفو على iPhone
+Using NOOP's folder	استخدام مجلد صفو
+VO₂ Max	VO₂ Max
+VO₂ Max (estimated)	VO₂ Max (تقديري)
+VO₂max	VO₂ max
+Value	القيمة
+Version %@ is available	الإصدار %@ متاح
+View sources	عرض المصادر
+Visual only	توجيه بصري فقط
+Vital Signs	العلامات الحيوية
+Vitality	الحيوية
+Vitality %lld out of 100	الحيوية %lld من 100
+W	أسبوع
+WHAT MOVES YOU ›	ما الذي يؤثر فيك؟
+WHOOP 4.0 protocol	بروتوكول WHOOP 4.0
+WHOOP 4.0 reboot probe	اختبار إعادة تشغيل WHOOP 4.0
+WHOOP 4.0 · motion → steps	WHOOP 4.0 · تقدير الخطوات من الحركة
+WHOOP 5.0 / MG · motion → steps	WHOOP 5.0 / MG · تقدير الخطوات من الحركة
+WHOOP 5.0 protocol	بروتوكول WHOOP 5.0
+WHOOP 5.0/MG pairs with one app at a time. If a scan finds nothing, unpair it in the official WHOOP app and fully close that app, then Scan again.	يقترن WHOOP 5.0/MG بتطبيق واحد في كل مرة. إذا لم يظهر أثناء البحث، ألغِ اقترانه من تطبيق WHOOP الرسمي وأغلق التطبيق بالكامل، ثم ابحث مجددًا.
+WHOOP 5.0/MG pairs with one app at a time. If nothing's found, unpair it in the official WHOOP app and fully close that app, then Scan.	يقترن WHOOP 5.0/MG بتطبيق واحد في كل مرة. إذا لم يظهر في البحث، فألغِ اقترانه من تطبيق WHOOP الرسمي وأغلق ذلك التطبيق تمامًا، ثم أعد البحث.
+WHOOP Blue	أزرق WHOOP
+WHOOP Export	ملف بيانات WHOOP
+WHOOP MG ECG capture (experimental)	تسجيل ECG من WHOOP MG (تجريبي)
+WHOOP Strap (Live BLE)	سوار WHOOP (اتصال مباشر عبر BLE)
+WHOOP authorization needed	يلزم السماح بربط WHOOP
+WHOOP connected	حساب WHOOP متصل
+WHOOP import	مستورد من WHOOP
+WHOOP is NOOP's primary, fully-supported band. Other heart-rate straps are an early, in-development addition: they stream live heart rate and HRV, but not WHOOP's deeper sleep and recovery data.	WHOOP هو السوار الأساسي المدعوم في صفو. دعم أحزمة النبض الأخرى ما زال قيد التطوير: توفر النبض وHRV مباشرة، دون إشارات WHOOP الأعمق للنوم والتعافي.
+WHOOP reference sync needs attention. Older comparisons are not current results.	تحتاج مزامنة WHOOP المرجعية إلى مراجعة. المقارنات السابقة لا تعبّر عن نتائج محدثة.
+WHOOP straps don't appear in your %@'s Bluetooth settings. They advertise on a custom profile that only apps like NOOP can find, so there's nothing to pair there, and you shouldn't try.	لا تظهر أساور WHOOP في إعدادات Bluetooth على ⁨%@⁩؛ فهي تستخدم طريقة اتصال خاصة تتعرف عليها تطبيقات مثل صفو. ابحث عن السوار داخل التطبيق، ولا تحاول إقرانه من إعدادات النظام.
+WHOOP's imported per-zone split for this session.	توزيع مناطق النبض لهذه الجلسة كما استُورد من WHOOP.
+WORKOUT IN PROGRESS	تمرين جارٍ
+Waist (optional)	محيط الخصر (اختياري)
+Waist in centimetres	محيط الخصر بالسنتيمتر
+Waist in inches	محيط الخصر بالبوصة
+Waist not set	محيط الخصر غير محدد
+Waist, %lld centimetres	محيط الخصر، %lld سم
+Waist, %lld inches	محيط الخصر، %lld بوصة
+Waiting for R-R	بانتظار R-R
+Waiting for R-R intervals.	بانتظار بيانات الفواصل بين النبضات.
+Waiting for a live heartbeat…	بانتظار قراءة مباشرة لنبض القلب…
+Waiting for a resting heart rate. Start a live reading first, or come back when you're still.	بانتظار قراءة نبض في الراحة. ابدأ قراءة مباشرة، أو عد وأنت ساكن.
+Waiting for last night's sleep	بانتظار بيانات نوم الليلة الماضية
+Waiting for overlapping nights from both sources.	بانتظار ليالٍ متزامنة من المصدرين.
+Waiting for the strap	بانتظار السوار
+Waiting for the strap's reply…	بانتظار رد السوار…
+Wake time	وقت الاستيقاظ
+Walking	مشي
+Warm-up	الإحماء
+Warmer than your baseline	أدفأ من معدلك المعتاد
+Warming up	جارٍ الإحماء
+Warming up. Cues stay quiet for the first minute.	دقيقة للإحماء. يبدأ التوجيه بعدها.
+Warming up. Keep moving to climb into Zone 1.	مرحلة الإحماء. واصل الحركة للوصول إلى المنطقة 1.
+Watch	يستحق المتابعة
+Watch your heart, live	تابع نبضك مباشرةً
+We compare today's resting heart rate and HRV to your own 30-day baseline. A higher-than-usual resting HR and a lower-than-usual HRV both push the score up, classic signs the body is activated. The combined shift is mapped onto a 0-3 scale: 0 is calm, 1.5 sits at your baseline, 3 is highly activated.	نقارن نبض الراحة وتقلب نبضك اليوم بمعدلك المعتاد خلال 30 يومًا. ارتفاع نبض الراحة وانخفاض تقلب النبض يرفعان التقدير، وقد يعكسان زيادة في التنبه أو الحمل على الجسم. نحول هذا التغير إلى مقياس من 0 إلى 3: الصفر هدوء، و1.5 قريب من معدلك المعتاد، و3 تنبه مرتفع.
+We're not seeing any motion from your strap yet. Steps are estimated from your WHOOP's banked motion history, so your strap needs to sync that history before NOOP has anything to count.	لا نرى حركة مسجّلة من سوارك بعد. يعتمد تقدير الخطوات على سجل الحركة، لذا نحتاج إلى مزامنته أولًا.
+We're not seeing motion from your WHOOP 5.0 / MG yet. Keep NOOP connected and let strap history finish syncing; the experimental R22 flags are not required. Account or Apple Health imports do not contain the raw strap motion this estimate needs.	لم تصل حركة من WHOOP 5.0 / MG بعد. أبقِ الاتصال حتى تكتمل مزامنة السجل؛ لا تحتاج إلى خيارات R22 التجريبية. ملفات الحساب وصحّة Apple لا تحتوي حركة السوار الخام اللازمة لهذا التقدير.
+Wear it snug on your wrist or bicep, sensor against skin.	ثبّته بإحكام مريح على المعصم أو أعلى الذراع، بحيث يلامس المستشعر الجلد.
+Wear state	حالة الارتداء
+Wear the strap for scoring	ارتدِ السوار لحساب المقاييس
+Wear the strap overnight and these read from your nightly skin temperature.	ارتدِ السوار أثناء النوم لتظهر هذه القراءات من حرارة جلدك الليلية.
+Week in review	ملخص الأسبوع
+Weight	الوزن
+Weight in kilograms	الوزن بالكيلوغرام
+Weight in pounds	الوزن بالرطل
+Weight, %lld pounds	الوزن، %lld رطلًا
+Wellness score	مؤشر العافية
+What "recording" means	ما معنى «جارٍ التسجيل»؟
+What Moves You	ما الذي يؤثر عليك؟
+What NOOP does	ماذا يقدم لك صفو؟
+What correlates	ما الذي يرتبط بهذا القياس؟
+What moves you. Ranked patterns in your own data, and your dose-response.	ما الذي يؤثر فيك؟ أنماط مرتبة من بياناتك، وعلاقة الكمية باستجابتك.
+What shaped it	ما الذي أثّر فيه؟
+What shaped your Charge	ما الذي أثّر في تعافيك؟
+What to expect	ما الذي تتوقعه؟
+What's new	ما الجديد؟
+When enabled, Safw sends up to 90 days of computed sleep totals, recovery, HRV and resting heart rate to the comparison service you configure. WHOOP reference results stay separate from Safw calculations.	عند التفعيل، يرسل صفو نتائج النوم والتعافي وHRV ونبض الراحة لآخر ٩٠ يومًا كحد أقصى إلى خدمة المقارنة التي تضبطها. تبقى نتائج WHOOP المرجعية منفصلة عن حسابات صفو.
+When on, NOOP taps your wrist for the apps you pick below, so you can leave the %@ and still feel what matters.	عند التفعيل، ينبهك صفو باهتزاز السوار للتطبيقات التي تختارها أدناه، حتى وأنت بعيد عن %@.
+When the %@ apps you choose send a notification, NOOP taps your strap: Slack, Calendar, Messages, whatever matters. Everything stays on %@.	عندما ترسل التطبيقات التي اخترتها على ⁨%@⁩ إشعارًا، ينبهك صفو باهتزاز السوار؛ مثل Slack والتقويم والرسائل. تبقى كل البيانات على ⁨%@⁩.
+When the system prompt appears, choose Allow so NOOP can find your strap.	عندما يظهر طلب الإذن، اختر «السماح» ليتمكن صفو من العثور على سوارك.
+When your strap is connected NOOP is saving data live. "Last synced" tells you how fresh it is. If it says "Not recording", reconnect.	عندما يكون السوار متصلًا، يحفظ صفو البيانات مباشرةً. يوضح «آخر مزامنة» مدى حداثتها. وإذا ظهر «التسجيل متوقف»، فأعد الاتصال.
+Where NOOP's on-device space is going, and a one-tap clean-up.	تفاصيل المساحة التي يستخدمها صفو محليًا، مع أدوات تنظيف سهلة.
+Where your numbers come from	من أين تأتي أرقامك؟
+Which strap are you pairing?	ما السوار الذي تريد إقرانه؟
+Which value means “left” and which means “right” comes from WHOOP's own app and the strap firmware, not from a strap NOOP has tested. You can send it again with the other choice at any time, and it changes nothing about your recorded data.	القيم المقابلة لليمين واليسار مأخوذة من تطبيق WHOOP وبرنامجه الثابت، ولم تُختبر على سوار بواسطة صفو. يمكنك إرسال الخيار الآخر متى أردت؛ لا يؤثر ذلك في بياناتك المسجّلة.
+Which wrist do you wear it on?	على أي معصم ترتدي السوار؟
+While the strap is connected.	أثناء اتصال السوار.
+While your strap's battery is low, stop the always-on background HRV stream — the biggest continuous drain on the strap. A Live screen still shows heart rate, and it re-arms automatically once the strap is charged.	عند انخفاض بطارية السوار، يتوقف بث HRV المستمر في الخلفية، وهو من أكبر مصادر استهلاك البطارية. يبقى النبض متاحًا في شاشة «مباشر»، ويُستأنف البث تلقائيًا بعد شحن السوار.
+Whole night	الليل كاملًا
+Whole night is NOOP's default measure; Deep sleep pools HRV over slow-wave sleep only, reading lower and matching WHOOP. Switching re-scores your recent nights over the new window and takes effect right away once you have a few nights of data.	الافتراضي هو الليل كاملًا. خيار «النوم العميق» يجمع HRV خلال النوم البطيء فقط، فتكون القراءة أقل وأقرب لطريقة WHOOP. يعيد التبديل حساب الليالي الأخيرة ويُطبّق عند توفر عدة ليالٍ من البيانات.
+Whoop	WHOOP
+Why does this grow?	لماذا تزداد المساحة المستخدمة؟
+Why this is logged as a nap	لماذا سُجّل هذا النوم كقيلولة؟
+Why this is your main sleep	لماذا اعتُبر هذا نومك الرئيسي؟
+Why this sleep?	لماذا اختير هذا النوم؟
+Wim Hof	Wim Hof
+Wim Hof–style rounds typically use ~30 deeper breaths, then an empty hold, then a recovery inhale hold (~15s). Because holds and intensity are personal, this entry is guided: follow a trusted protocol you already know; NOOP times the session and shows reminders — it does not force breath holds.	تتضمن الجولات المعتادة نحو 30 نفسًا أعمق، ثم حبسًا بعد الزفير، ثم شهيق استعادة مع حبس نحو 15 ثانية. لأن الشدة ومدة الحبس شخصيتان، اتبع طريقة موثوقة تعرفها؛ يوفّر صفو المؤقت والتذكيرات فقط ولا يفرض حبس النفس.
+Window	الفترة
+With	مع العادة
+Without	دون العادة
+Woke	الاستيقاظ
+Working…	جارٍ المعالجة…
+Workout	التمرين
+Workout file (GPX / TCX / FIT)	ملف تمرين (GPX / TCX / FIT)
+Workout files	ملفات التمارين
+Workouts	التمارين
+Worn	قيد الارتداء
+Wrist alerts	تنبيهات السوار
+Wrist delivery isn't live yet. It needs a small on-device watcher (coming in an update) to read macOS notifications. Everything stays on this Mac. Your choices are saved now and will apply automatically once delivery ships.	إرسال التنبيهات إلى السوار غير متاح بعد. يحتاج إلى مكوّن محلي لقراءة إشعارات macOS، سيُضاف في تحديث لاحق. تبقى البيانات على هذا الـMac. تُحفظ اختياراتك الآن وتُطبّق عند توفر الميزة.
+Wrist temp	حرارة المعصم
+YOUR BANDS	أجهزتك
+YOUR CARDS	بطاقاتك
+YOUR DAILY SCORES	درجاتك اليومية
+YOUR READING	قراءتك
+Yes	نعم
+Yesterday	أمس
+Yesterday’s Synthesis	قراءة مجمّعة للأمس
+You held the band. Right where today wanted you.	حافظت على النطاق المناسب لتعافيك اليوم.
+You removed your active strap. Choose which paired band provides your live data, or leave none active and pair one later.	أزلت السوار النشط. اختر جهازًا مقترنًا للقراءات المباشرة، أو تابع دون جهاز وأضف واحدًا لاحقًا.
+You're connected.	السوار متصل.
+You're in a good spot for training.	مؤشراتك مناسبة للتمرين اليوم.
+You're in balance with your baseline, so moderate strain is well-judged	مؤشراتك قريبة من معدلك المعتاد؛ الجهد المعتدل مناسب اليوم
+You're on the latest (%@).	لديك أحدث إصدار (%@).
+You're primed. A hard session should land well today.	استعدادك جيد اليوم، ومؤشراتك تدعم تمرينًا أقوى.
+You're sitting around your typical autonomic baseline: moderate stress, a normal, balanced day.	قراءاتك قريبة من معدلك المعتاد: تقدير متوسط للتوتر الجسدي ويوم متوازن.
+You've effectively met your current sleep need across %@.	لبّيت احتياجك الحالي للنوم إلى حد كبير خلال %@.
+Your Cards	بطاقاتك
+Your Charge score learns a personal baseline from your heart-rate variability, resting heart rate and more over time. If a bad first week set it off, you can re-learn it from tonight. Your history stays.	يتعلّم التعافي معدلك المعتاد من HRV ونبض الراحة وبيانات أخرى مع الوقت. إذا كانت البداية غير ممثلة لك، يمكنك بدء التعلّم من الليلة مع إبقاء تاريخك.
+Your Data, Fused	بياناتك من مختلف المصادر
+Your GPS route for this session, recorded and stored on your device. Nothing leaves your phone.	مسار GPS لهذه الجلسة، مسجّل ومحفوظ على جهازك. لا تُرسل بياناته خارج هاتفك.
+Your HRV dipped while you were still. Want a minute to breathe?	انخفض تقلب نبض قلبك أثناء السكون. هل تود أخذ دقيقة للتنفس؟
+Your Oura ring only measures daytime heart rate while NOOP keeps it in that mode, and NOOP stops asking whenever the screen has been off for five minutes — which protects the ring's own sleep tracking at night, but also leaves a pocketed phone's day blank on the Heart Rate and HRV charts. On, NOOP keeps asking through the day and stops only for your usual night, learned from your sleep history (an hour before your typical bedtime to an hour after your usual wake), so the night is unchanged. Costs ring battery: the ring runs its own optical sensor all day. Until enough nights are learned it behaves as if off. Off by default.	عادةً يطلب صفو من Oura قياس النبض نهارًا، ويتوقف بعد إطفاء الشاشة بخمس دقائق لحماية تتبع النوم؛ لكن ذلك يترك فجوات عندما يكون الهاتف في جيبك. عند التفعيل يستمر الطلب نهارًا، ويتوقف من ساعة قبل موعد نومك المعتاد إلى ساعة بعد استيقاظك، حسب تاريخ نومك. يستهلك بطارية الخاتم أكثر. لا يتغير السلوك قبل تعلّم ليالٍ كافية. متوقف افتراضيًا.
+Your WHOOP 5.0/MG sends a strap-computed SpO₂ percentage (the @82 candidate byte) every second — an 8-night independent validation tracked it at corr +0.99 against the WHOOP app, but two nights on the original test device moved the OPPOSITE direction, so device/firmware variance is unresolved. An Oura ring's own SpO₂ reading runs high on the wire (over 100% on a fifth to a half of samples on a clean night); this instead surfaces the ring's mean with each sample capped at 100% first, which has matched the Oura app's own displayed value on every full night checked against it so far, though only a few nights. Turning this on surfaces whichever applies to your device as "strap estimate (unverified)" in the Blood Oxygen tile when no calibrated import exists. It never feeds recovery or illness scoring. WHOOP 4.0 has no @82 stream, so this does nothing there.	توجد في WHOOP 5.0/MG قيمة مرشّحة للأكسجين عند البايت @82 تُرسل كل ثانية. وافقت اتجاه تطبيق WHOOP بقوة في اختبار مستقل من ثماني ليالٍ، لكن ليلتين على جهاز الاختبار الأول تحركتا عكسه؛ لذا لم يُحسم اختلاف الأجهزة والبرامج الثابتة. وفي Oura قد تتجاوز القراءات الخام 100%؛ يُعرض متوسطها بعد حصر كل عينة عند 100%. وافق ذلك التطبيق في عدد قليل من الليالي الكاملة فقط. عند التفعيل تظهر القيمة باسم «تقدير الجهاز، غير متحقق» إذا لم يتوفر استيراد معاير. لا تدخل في حساب التعافي أو رصد المرض. لا يؤثر الخيار في WHOOP 4.0.
+Your autonomic markers are skewed toward stress today. Treat it as a recovery-focused day.	تميل مؤشراتك اليوم نحو توتر جسدي أعلى. اجعل التعافي أولوية.
+Your cardiovascular load. NOOP turns every second of heart rate into a training-impulse using heart-rate-reserve zones (Karvonen), weights time in harder zones more heavily (Edwards / Banister), and places it on a logarithmic 0-100 scale, so easy days sit low and an all-out day approaches 100, which stays genuinely rare. A long walk with little cardio still counts, through a steps / active-energy floor.	يقيس الحمل على القلب والدورة الدموية. يحوّل صفو كل ثانية من النبض إلى حمل تدريبي بحسب احتياطي النبض (Karvonen)، ويعطي الوقت في الشدة الأعلى وزنًا أكبر بطرق Edwards وBanister. تُعرض النتيجة على مقياس لوغاريتمي من 0 إلى 100: الأيام الخفيفة منخفضة، والوصول إلى 100 نادر ويتطلب جهدًا كبيرًا جدًا. ويُحتسب بعض أثر المشي الطويل عبر الخطوات والطاقة النشطة حتى مع نبض منخفض.
+Your cards	بطاقاتك
+Your clock	ساعتك البيولوجية
+Your current strap	سوارك الحالي
+Your curve fills in as the strap offloads its history.	يكتمل الرسم تدريجيًا مع نقل سجل السوار.
+Your data has been restored. Quit and reopen NOOP for it to take effect.	تمت استعادة بياناتك. أغلق صفو وأعد فتحه لتطبيقها.
+Your last %lld hours have stayed in the high band. A few minutes of paced breathing can help downshift your nervous system.	استمر التوتر الجسدي مرتفعًا خلال آخر %lld ساعة. قد تساعد بضع دقائق من التنفس المنتظم على الهدوء.
+Your locked pace	إيقاعك المحفوظ
+Your locked pace · %@ br/min	إيقاعك المحفوظ · %@ نفس/دقيقة
+Your locked resonance pace from the Resonance sweep.	إيقاع التنفس الأنسب المحفوظ من اختبار الإيقاعات.
+Your nervous system is well-recovered, so you're primed to push	مؤشرات جهازك العصبي تدل على تعافٍ جيد واستعداد لبذل جهد أكبر
+Your numbers, your strap, and how NOOP works. All on %@.	مقاييسك وسوارك وإعدادات صفو، كلها على %@.
+Your profile photo	صورتك الشخصية
+Your resonance pace	إيقاع التنفس الأنسب لك
+Your set, rest and heart rate, and the Lock Screen light-up on a double-tap.	الجولة والراحة والنبض، مع إضاءة شاشة القفل عند النقر مرتين.
+Your signals are aligned and your load is supported. A harder session is well backed today.	مؤشراتك متوافقة مع حملك التدريبي. تبدو مستعدًا لتمرين أقوى اليوم.
+Your strap data is computed locally. Optional connections and exports require your permission.	تُحسب بيانات السوار على جهازك. الربط والمشاركة الاختياريان يحتاجان إذنك.
+Your strap is bonded and ready to stream.	اكتمل اقتران السوار، وهو جاهز لإرسال القراءات.
+Your strap is bonded · %lld%% battery.	اكتمل اقتران السوار · البطارية ⁨%lld%%⁩.
+Your strap is paired and sending data. Open Live for a real-time heart rate.	سوارك مقترن ويرسل البيانات. افتح «مباشر» لرؤية نبضك الآن.
+Your strap recorded little movement overnight (common on WHOOP 4.0), so this night may be under-detected and the sleep total can read short. Make sure the strap fully synced; the numbers are kept as-is.	سجّل السوار قدرًا محدودًا من بيانات الحركة ليلًا، وهذا شائع مع WHOOP 4.0. قد لا يُكتشف بعض النوم فتظهر مدته أقصر. تأكد من اكتمال المزامنة؛ أبقينا الأرقام كما سُجّلت.
+Your stress monitor is here even before your first score. Sync heart-rate history or import your WHOOP history to build the daily estimate. Missing data is not zero stress.	هذا عداد التوتر، ويظهر حتى قبل أول نتيجة. زامن سجل النبض أو استورد تاريخ WHOOP لبناء التقدير اليومي. غياب البيانات لا يعني أن التوتر يساوي صفرًا.
+Your thread starts here.	تبدأ رحلتك هنا.
+Z%lld	م%lld
+Zone %lld starts	بداية المنطقة %lld
+Zone %lld starts at %lld beats per minute	تبدأ المنطقة %lld عند %lld نبضة/دقيقة
+Zone %lld · %@	المنطقة %lld · %@
+Zone %lld · %lld%%	المنطقة %lld · %lld%%
+Zone %lld: %lld-%lld bpm (%lld-%lld%% max HR)	المنطقة %lld: %lld–%lld نبضة/دقيقة (%lld–%lld%% من أقصى نبض)
+Zoomed in · drag to pan	الرسم مكبّر · اسحب لتحريكه
+Zoomed in. Drag to pan	العرض مكبّر. اسحب للتنقل
+Zoomed in. Drag to pan · hold to read	العرض مكبّر · اسحب للتنقل واضغط مطولًا للقراءة
+a moderate	متوسطة
+a strong	قوية
+a touch below baseline	أقل قليلًا من معدلك المعتاد
+a very strong	قوية جدًا
+a weak	ضعيفة
+about your age	قريب من عمرك
+about your usual	قريب من المعتاد لديك
+above your baseline - well recovered	أعلى من معدلك المعتاد — تعافٍ جيد
+above your usual	أعلى من المعتاد لديك
+all history	السجل كاملًا
+all time	كامل المدة
+all your data, none of the cloud	بياناتك كلها على جهازك
+appearance.light	فاتح
+as of %@	حتى %@
+asleep	نائم
+asleep %@	مدة النوم: ⁨%@⁩
+asleep last night	نوم الليلة الماضية
+at baseline	ضمن معدلك المعتاد
+at or below baseline	عند معدلك المعتاد أو أقل
+average %@ bpm	المتوسط: ⁨%@⁩ نبضة/دقيقة
+avg %@	المتوسط %@
+avg %@ · %lldh	المتوسط %@ · %lld س
+avg · %lldd	المتوسط · %lld أيام
+balanced	متوازن
+bar	عمود
+bars	أعمدة
+below your usual	أقل من المعتاد لديك
+bpm	نبضة/دقيقة
+br/min	نفس/دقيقة
+building	قيد التعلّم
+building fast (acute:chronic %@) - watch fatigue	الحمل التدريبي يرتفع سريعًا (النسبة %@) — انتبه للإرهاق
+close	متقارب
+cm	سم
+d = %.2f	d = %.2f
+day in a row	يوم متواصل
+days in a row	أيام متواصلة
+differs	مختلف
+down %lld points	انخفاض %lld نقاط
+down 1 point	انخفاض نقطة واحدة
+elevated - overtraining or illness can do this	مرتفع — قد يحدث مع الإفراط في التدريب أو المرض
+est. · %@	تقديري · %@
+fit from your phone	معايرة على الهاتف
+from %@	من %@
+from R-R	من فواصل R-R
+from profile	من ملفك الشخصي
+hide	إخفاء
+high	مرتفع
+hover for real values	مرّر المؤشر لعرض القيم الفعلية
+in	بوصة
+in the sweet spot (acute:chronic %@)	ضمن النطاق المرجعي (نسبة الحمل القصير إلى الطويل %@)
+in your normal range	ضمن نطاقك المعتاد
+just now	الآن
+last 30 days	آخر 30 يومًا
+last 7 days	آخر 7 أيام
+last 90 days	آخر 90 يومًا
+last night	الليلة الماضية
+last year	السنة الماضية
+latest	الأحدث
+lb	رطل
+live	مباشر
+load %@	الحمل التدريبي %@
+logged today	سُجّلت اليوم
+low	منخفض
+low - similar strain every day raises strain/illness risk	منخفض — تكرار الجهد نفسه يوميًا قد يزيد خطر الإجهاد والمرض
+low-stress days · %lldd	أيام هادئة خلال ⁨%lld⁩ يومًا
+match	متطابق
+mg	mg
+mid	متوسط
+min	الأدنى
+moderate	متوسط
+monotony %@	رتابة التدريب %@
+month	الشهر
+more overnight wear to unlock your %@ baseline	ارتدِ السوار ليالي إضافية لتحديد معدلك المعتاد لـ%@
+needs a tracked night	يحتاج تسجيل ليلة نوم
+needs baseline + logged days	يحتاج معدلًا معتادًا وأيامًا مسجلة
+needs history	يحتاج إلى سجل سابق
+no Effort recorded	لم يُسجّل جهد
+no change	دون تغير
+no data	لا توجد بيانات
+no data yet	لا توجد بيانات بعد
+no prior %@	لا توجد قراءة سابقة لـ%@
+not logged today	لم تُسجّل اليوم
+not within 7d	لم يعد خلال 7 أيام
+of %@	من %@
+of %@ L	من %@ لتر
+of 100	من 100
+of 21	من 21
+of 3	من 3
+of 3 · %@	من 3 · %@
+on demand · today's R-R	عند الطلب · فواصل النبض اليوم
+one strap	سوار واحد
+out of 100	من 100
+p < 0.05	p < 0.05
+peak %@ · %@	الأعلى %@ · %@
+quarter	ربع سنة
+r = %+.2f	r = %+.2f
+r = %@	معامل الارتباط = %@
+ramping down (acute:chronic %@) - room to build	الحمل التدريبي يتراجع (النسبة %@) — توجد مساحة لزيادته تدريجيًا
+range %@ to %@	من ⁨%@⁩ إلى ⁨%@⁩
+raw on-device stages	مراحل خام من الجهاز
+recovery	التعافي
+running a little high	أعلى قليلًا من المعتاد
+show	عرض
+sleep debt	دين النوم
+sleep duration	مدة النوم
+slightly raised vs baseline	أعلى قليلًا من معدلك المعتاد
+solid	موثوق
+sparse, widened to %@	البيانات قليلة؛ وُسّعت الفترة إلى ⁨%@⁩
+spiking (acute:chronic %@) - higher injury risk	قفزة في الحمل التدريبي (النسبة %@) — قد تزيد خطر الإصابة
+stages approximate (on-device)	مراحل تقديرية محسوبة على الجهاز
+steps / motion unit	خطوة / وحدة حركة
+steps per motion unit	خطوة لكل وحدة حركة
+still	ساكن
+strap estimate (unverified)	تقدير من السوار (غير متحقق منه)
+suppressed - a sign of autonomic fatigue	منخفض بوضوح — قد يشير إلى إجهاد الجهاز العصبي اللاإرادي
+tap or drag for real values	اضغط أو اسحب لعرض القيم الفعلية
+target	المستهدف
+the last %lld nights	آخر %lld ليالٍ
+the last 7 days	آخر 7 أيام
+the last night	الليلة الماضية
+this %@	جهاز %@ هذا
+to baseline	للعودة إلى معدلك المعتاد
+today	اليوم
+toggle ON · no estimate yet	مفعّل · لا يوجد تقدير بعد
+typically %@	المعتاد %@
+unscored	لم يُقيّم
+untouched days	أيام دون هذا النشاط
+unverified · over-reports R-R	غير متحقق منه · قراءات R-R مبالغ فيها
+up	ناهض
+up %lld points	ارتفاع %lld نقاط
+up 1 point	ارتفاع نقطة واحدة
+up vs baseline - sometimes an early sign of getting sick	أعلى من معدلك المعتاد — قد يكون أحيانًا إشارة مبكرة للمرض
+v%@	v%@
+v%lld history	سجل v%lld
+very strong	قوي جدًا
+vs 30-day baseline	مقارنة بمعدلك خلال 30 يومًا
+vs WHOOP	المقارنة مع WHOOP
+vs age %lld	مقارنةً بعمرك: %lld
+vs baseline	مقارنة بالمعتاد
+vs behaviour-free baseline	مقارنةً بأيامك المعتادة دون هذه العادة
+vs need	مقارنةً باحتياجك
+vs prev %@	مقارنةً بـ%@ السابق
+vs typical - 	مقارنةً بالمعتاد —
+wake	مستيقظ
+week	الأسبوع
+week of %@	أسبوع ⁨%@⁩
+year	السنة
+zone %lld %lld percent	المنطقة %lld، %lld بالمئة
+~%lld days left	متبقٍ نحو %lld يومًا
+~%lldh left	متبقٍ نحو %lld س
+~1 day left	متبقٍ نحو يوم
+°C	°C
+°F	°F
+± %lld yr · a fitness comparison, not a biological age	± %lld سنوات · مقارنة للياقة، وليست عمرًا بيولوجيًا
+·	·
+· %@	· %@
+· GPS	· GPS
+Δ	Δ
+Δ vs prev	التغير عن السابق
+صفو	صفو
+–	–
+—	—
+•	•
+≈ %@ steps (auto)	نحو %@ خطوة تلقائيًا
+≈ %@ steps at this setting	نحو %@ خطوة بهذا الإعداد

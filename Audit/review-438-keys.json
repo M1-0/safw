@@ -1,0 +1,4082 @@
+[
+  {
+    "id": 0,
+    "key": "%@",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift",
+      "Strand/Liquid/LiveSessionView.swift",
+      "Strand/Screens/MetricExplorerView.swift",
+      "Strand/Screens/SettingsView.swift",
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 1,
+    "key": "Charge: how recovered are you?",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 2,
+    "key": "Led by your heart-rate variability (HRV) measured against your own personal baseline, plus resting heart rate, last night's Rest, breathing rate, and a skin-temperature signal (an early illness or overreach flag). Higher HRV versus your baseline means more Charge. NOOP needs a few nights to learn your baseline first. Until then you'll see “Calibrating”.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 3,
+    "key": "Same core idea as WHOOP's Recovery % (HRV-led recovery), but our weighting and baseline maths are our own, and openly documented.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 4,
+    "key": "Effort: how hard did your heart work?",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 5,
+    "key": "Rest: how restorative was your sleep?",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 6,
+    "key": "A blend of how long you slept versus your personal need (the biggest factor), how efficiently (asleep versus in bed), how much was restorative (deep + REM sleep), and how consistent your sleep and wake timing is.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 7,
+    "key": "Similar in spirit to WHOOP's Sleep Performance %; our composite is our own.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 8,
+    "key": "YOUR DAILY SCORES",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 9,
+    "key": "How your scores work",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 10,
+    "key": "THE THREE SCORES",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 11,
+    "key": "NOOP gives you three daily scores (Charge, Effort and Rest), each on a 0-100 scale. They're built from your strap's raw signals using published, peer-reviewed sport science, and computed entirely on your device. They are NOT WHOOP's scores: we don't have WHOOP's private algorithms and don't pretend to. They aim at the same three questions using open science, so they'll usually track WHOOP's in direction, but won't match number-for-number. And that's the point.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 12,
+    "key": "vs WHOOP",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 13,
+    "key": "How sure is NOOP?  ·  Solid · Building · Calibrating",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 14,
+    "key": "Every score carries a small honesty label. Calibrating means NOOP is still learning your baseline, or doesn't have enough data yet. Building means there's enough to show, but it's thin. Solid means full inputs are present. When NOOP can't compute a score honestly, it shows nothing rather than a fake number.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 15,
+    "key": "These are independent approximations from a consumer strap, built on open science: not medical advice, and not WHOOP's official scores.",
+    "files": [
+      "Strand/Screens/ScoringGuideView.swift"
+    ]
+  },
+  {
+    "id": 16,
+    "key": "Everything else, one tap away",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 17,
+    "key": "What Moves You",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 18,
+    "key": "Intelligence",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 19,
+    "key": "Lift Log",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 20,
+    "key": "Lab Book",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 21,
+    "key": "Rhythm",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 22,
+    "key": "Your Data, Fused",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 23,
+    "key": "Apple Health",
+    "files": [
+      "StrandiOS/App/RootTabView.swift",
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 24,
+    "key": "Mi Band",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 25,
+    "key": "Backup & Sync",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 26,
+    "key": "Shortcuts Export",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 27,
+    "key": "NOOP Limitations",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 28,
+    "key": "Test Centre",
+    "files": [
+      "StrandiOS/App/RootTabView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 29,
+    "key": "Siri & Shortcuts",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 30,
+    "key": "Power saving",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 31,
+    "key": "Expanded",
+    "files": [
+      "StrandiOS/App/RootTabView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 32,
+    "key": "Collapsed",
+    "files": [
+      "StrandiOS/App/RootTabView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 33,
+    "key": "Double tap to collapse",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 34,
+    "key": "Double tap to expand",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 35,
+    "key": "QUICK ACTIONS",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 36,
+    "key": "Log journal",
+    "files": [
+      "StrandiOS/App/RootTabView.swift"
+    ]
+  },
+  {
+    "id": 37,
+    "key": "End session",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 38,
+    "key": "SILENT GUARDIAN",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 39,
+    "key": "Live Session",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 40,
+    "key": "Beta feature",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 41,
+    "key": "Long press to show or hide your heart rate.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 42,
+    "key": "—",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift",
+      "Strand/Screens/FullDayChartView.swift",
+      "Strand/Screens/MetricExplorerView.swift",
+      "Strand/Screens/DevicesView.swift",
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 43,
+    "key": "No live reading. Coaching is paused.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 44,
+    "key": "In your band. On track.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 45,
+    "key": "Below your band.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 46,
+    "key": "Above your band.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 47,
+    "key": "No live reading. Coaching is paused until the strap comes back.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 48,
+    "key": "Warming up. Cues stay quiet for the first minute.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 49,
+    "key": "Guarding your session. Silence means you're on track.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 50,
+    "key": "Charge %lld today, so your band is %lld–%lld bpm.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 51,
+    "key": "No Charge banked today, so your band takes a careful middle course: %lld–%lld bpm.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 52,
+    "key": "LIVE SESSION",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 53,
+    "key": "Session summary",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 54,
+    "key": "In band",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 55,
+    "key": "Below band",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 56,
+    "key": "Above band",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 57,
+    "key": "Cues sent",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 58,
+    "key": "Band",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 59,
+    "key": "%lld–%lld bpm",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 60,
+    "key": "1 session guarded",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 61,
+    "key": "%lld sessions guarded",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 62,
+    "key": "None — silence, start to finish",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 63,
+    "key": "%lld push",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 64,
+    "key": "%lld ease-off",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 65,
+    "key": "Too short to judge — the band needs a few minutes to mean anything.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 66,
+    "key": "You held the band. Right where today wanted you.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 67,
+    "key": "In and out, but the band won more than it lost.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 68,
+    "key": "Mostly under the band — there was more in the tank today.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 69,
+    "key": "Mostly over the band — harder than today's Charge could pay for.",
+    "files": [
+      "Strand/Liquid/LiveSessionView.swift"
+    ]
+  },
+  {
+    "id": 70,
+    "key": "Requires Live Sessions to be enabled in Settings.",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 71,
+    "key": "%lld metrics shown",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 72,
+    "key": "%lld cards shown",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 73,
+    "key": "%lld added",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 74,
+    "key": "Shown",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 75,
+    "key": "Key Metrics",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift",
+      "Strand/Data/TodayLayoutPrefs.swift"
+    ]
+  },
+  {
+    "id": 76,
+    "key": "Trend window",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 77,
+    "key": "from %@",
+    "files": [
+      "Strand/Screens/TodayCustomizationSheet.swift"
+    ]
+  },
+  {
+    "id": 78,
+    "key": "Menstrual Cycle",
+    "files": [
+      "Strand/Data/TodayLayoutPrefs.swift"
+    ]
+  },
+  {
+    "id": 79,
+    "key": "Every second of your day, zoomable.",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift",
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 80,
+    "key": "My WHOOP",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 81,
+    "key": "Owned",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 82,
+    "key": "Loading the day…",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 83,
+    "key": "No %@ here",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 84,
+    "key": "Nothing offloaded for this window yet.",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 85,
+    "key": "Other sources don’t offload raw per-second data on-device.",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 86,
+    "key": "Scroll to zoom · drag to pan",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 87,
+    "key": "Zoomed in. Drag to pan",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 88,
+    "key": "Reset",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 89,
+    "key": "Raw · per second",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 90,
+    "key": "%lld-minute average",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 91,
+    "key": "%lld-second average",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift"
+    ]
+  },
+  {
+    "id": 92,
+    "key": "%@%@",
+    "files": [
+      "Strand/Screens/FullDayChartView.swift",
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 93,
+    "key": "W",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 94,
+    "key": "M",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 95,
+    "key": "3M",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 96,
+    "key": "6M",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 97,
+    "key": "1Y",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 98,
+    "key": "quarter",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 99,
+    "key": "as of %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 100,
+    "key": "%@ %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 101,
+    "key": "%@ · %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 102,
+    "key": "Every signal, one tap deep.",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 103,
+    "key": "Scanning your data…",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 104,
+    "key": "Category",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 105,
+    "key": "Deep Timeline, every second of your day, zoomable",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 106,
+    "key": "•",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 107,
+    "key": "%@, %@, no data",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 108,
+    "key": "%@, %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 109,
+    "key": "Refresh Fitness Age",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 110,
+    "key": "Import your history first. A WHOOP export in Data Sources fills every metric you can explore here in about a minute.",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 111,
+    "key": "Reading your %@…",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 112,
+    "key": "Longer ranges unlock as more history builds.",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 113,
+    "key": "1 reading · sparse, widened to %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 114,
+    "key": "%lld readings · sparse, widened to %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 115,
+    "key": "1 reading · %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 116,
+    "key": "%lld readings · %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 117,
+    "key": "Sparse, widened to %@ · %lld readings",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 118,
+    "key": "The line breaks where the estimation method changed or was not recorded.",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 119,
+    "key": "Window",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 120,
+    "key": "Points",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 121,
+    "key": "Latest",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 122,
+    "key": "vs prev %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 123,
+    "key": "no prior %@",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 124,
+    "key": "Δ vs prev",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 125,
+    "key": "Readings",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 126,
+    "key": "Value",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 127,
+    "key": "Whoop",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 128,
+    "key": "What correlates",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 129,
+    "key": "Pearson r over the visible window · |r| ≥ 0.30, n ≥ 10",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 130,
+    "key": "Scanning the catalog…",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 131,
+    "key": "Nothing in the catalog moves clearly with %@ over this window. Widen the range to surface relationships.",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 132,
+    "key": "%@ · n = %lld",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 133,
+    "key": "%@, correlation %@, %lld days",
+    "files": [
+      "Strand/Screens/MetricExplorerView.swift"
+    ]
+  },
+  {
+    "id": 134,
+    "key": "Getting your devices ready",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 135,
+    "key": "NOOP is opening your on-device data. Your paired bands will appear here in a moment.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 136,
+    "key": "Reconnect help: %@",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 137,
+    "key": "YOUR BANDS",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 138,
+    "key": "Make this your active strap?",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 139,
+    "key": "Make %@ your active strap? From now on it provides your live data. %@'s history stays exactly as it is. Only new days come from %@.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 140,
+    "key": "Rename device",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 141,
+    "key": "Name",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 142,
+    "key": "Give %@ %@ a name you'll recognise.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 143,
+    "key": "Remove this device?",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 144,
+    "key": "Remove %@? NOOP will stop connecting to it. Its recorded data is kept and you can re-add it any time.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 145,
+    "key": "Restart this strap?",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 146,
+    "key": "Restart",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 147,
+    "key": "Restart %@? It disconnects for about 30 seconds while it reboots, then reconnects on its own. Your recorded data is kept.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 148,
+    "key": "WHOOP 4.0 reboot probe",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 149,
+    "key": "The WHOOP 4.0 reboot frame isn't confirmed — a normal Restart is ignored (#235). Send each candidate and watch BOTH the strap log and the strap itself. “no disconnect within 12s” means the strap ignored the frame. A “link dropped” line means the frame reached the strap — but a dropped link alone isn't a reboot: a real reboot also switches the strap's sensor light off for a few seconds, so if the light stayed on it was just a dropped connection, not a reboot. Non-destructive — your data is kept. Please share the log so we can pin the real frame.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 150,
+    "key": "Battery-info probe (#592 RE)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 151,
+    "key": "Send probe (read-only)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 152,
+    "key": "Two independent protocol tables disagree on the extended-battery opcode (98 vs 87). This sends the curated read-only 98 and shows the strap's full raw reply. A battery-style payload confirms 98 on your firmware; a short stub means it stays ambiguous. Nothing is written to the strap.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 153,
+    "key": "Delete all of this device's data?",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 154,
+    "key": "Delete data",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 155,
+    "key": "This permanently deletes all data recorded from %@. This can't be undone.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 156,
+    "key": "Pick a new active strap",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 157,
+    "key": "Leave none active",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 158,
+    "key": "You removed your active strap. Choose which paired band provides your live data, or leave none active and pair one later.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 159,
+    "key": "REMOVED",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 160,
+    "key": "WHOOP is NOOP's primary, fully-supported band. Other heart-rate straps are an early, in-development addition: they stream live heart rate and HRV, but not WHOOP's deeper sleep and recovery data.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 161,
+    "key": "HRV",
+    "files": [
+      "Strand/Screens/DevicesView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 162,
+    "key": "Skin temp",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 163,
+    "key": "one strap",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 164,
+    "key": "Your current strap",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 165,
+    "key": "Syncing… %lld chunks",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 166,
+    "key": "Syncing strap history, %lld chunks",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 167,
+    "key": "Synced %@ ago",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 168,
+    "key": "Strap history synced %@ ago",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 169,
+    "key": "Connected; strap history sync is experimental on this strap",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 170,
+    "key": "Removed",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 171,
+    "key": "Active · Live",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 172,
+    "key": "·",
+    "files": [
+      "Strand/Screens/DevicesView.swift",
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 173,
+    "key": "FW %@",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 174,
+    "key": "Firmware version %@",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 175,
+    "key": "%.2f V",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 176,
+    "key": "Battery voltage %.2f volts",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 177,
+    "key": "v%lld history",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 178,
+    "key": "%lld%%",
+    "files": [
+      "Strand/Screens/DevicesView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 179,
+    "key": "Rename",
+    "files": [
+      "Strand/Screens/DevicesView.swift",
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 180,
+    "key": "Delete this device's data…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 181,
+    "key": "Forget device…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 182,
+    "key": "Restart strap…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 183,
+    "key": "Stop sync",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 184,
+    "key": "Reboot probe (4.0 RE)…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 185,
+    "key": "Battery-info probe (#592 RE)…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 186,
+    "key": "Body-location probe (#690 RE)…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 187,
+    "key": "Feature-flag probe (#761 RE)…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 188,
+    "key": "ECG capture (MG, experimental)…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 189,
+    "key": "Device-config read probe (#103 RE)…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 190,
+    "key": "Device actions for %@",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 191,
+    "key": "Removed · data kept",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 192,
+    "key": "Last seen %@",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 193,
+    "key": "Paired locally. NOOP owns this ring while it holds the key. If you reset it again or set it up in the Oura app, NOOP no longer owns it and you would re-add it to take it over.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 194,
+    "key": "Gym equipment (FTMS)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 195,
+    "key": "Speed · Cadence · Power · Distance · Energy · Heart rate (if the machine sends it)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 196,
+    "key": "Records a live machine workout, Effort-scored from HR when the machine reports it",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 197,
+    "key": "Live machine data over Bluetooth FTMS. No sleep, recovery, skin temp or SpO₂. Effort needs the machine's heart rate; without it the session logs the machine metrics only.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 198,
+    "key": "Heart rate (live, best-effort)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 199,
+    "key": "Powers the live console + Effort. No Charge, Rest or Sleep",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 200,
+    "key": "Experimental: live heart rate where the band exposes it. Some bands need a pairing we can't do yet. NOOP will say so honestly and never show a made-up number. No sleep, recovery, skin temp, SpO₂ or steps.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 201,
+    "key": "Heart rate* · HRV* · Sleep* · Resting HR* · Skin temp* · Battery*",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 202,
+    "key": "Heart rate · HRV* · Sleep · Resting HR · Skin temp* · Battery",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 203,
+    "key": "Powers Effort now; Charge and Rest once enough nights and decode are confirmed",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 204,
+    "key": "Powers Charge, Effort, Rest and Sleep",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 205,
+    "key": "Beta. * is an on-device estimate. Skin temp is a trend versus your own baseline, and HRV needs you to be still. No Oura Readiness or SpO₂ percentage comes off the ring (import an Oura file for those).",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 206,
+    "key": "Wrist temp",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 207,
+    "key": "Powers Rest, Effort, Fitness Age and steps, plus Charge once recovery calibrates",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 208,
+    "key": "Computed live from your Apple Watch via Health. Recovery needs about a week of nights to calibrate, and every watch-derived score is labelled with its confidence. Only the metrics your watch actually records are listed above.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 209,
+    "key": "Heart-rate strap",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 210,
+    "key": "Heart rate · HRV (live)* · Strain",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 211,
+    "key": "Live HR + R-R only · no sleep, recovery, skin temp, SpO₂, steps or battery (those are WHOOP-only).",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 212,
+    "key": "Powers Charge, Effort, Rest, Sleep + Health Monitor",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 213,
+    "key": "mg",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 214,
+    "key": "Heart rate · HRV · Skin temp* · Resp rate* · Steps* · Sleep · Strain · Battery",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 215,
+    "key": "* on-device estimate: skin temp is a nightly ±°C deviation, steps are a raw motion count (#78). No SpO₂ % off the strap; import a WHOOP CSV for a real %.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 216,
+    "key": "Heart rate · HRV · Skin temp* · Resp rate* · Sleep · Strain · Battery",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 217,
+    "key": "* on-device estimate: skin temp is a nightly ±°C deviation (firmware-dependent); no steps over BLE on a 4.0. No SpO₂ % off the strap; import a WHOOP CSV for a real %.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 218,
+    "key": "Exact model unknown. Shows what every WHOOP can do. * on-device estimate · no SpO₂ % off the strap (import a WHOOP CSV for that).",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 219,
+    "key": "Battery-info probe result (#592)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 220,
+    "key": "Waiting for the strap's reply…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 221,
+    "key": "Forget this device?",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 222,
+    "key": "Forget device",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 223,
+    "key": "NOOP removes this device from your list and deletes its recorded data here. You can re-pair the strap to pull its recent history back.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 224,
+    "key": "Body-location probe (#690 RE)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 225,
+    "key": "Sends the read-only GET_BODY_LOCATION_AND_STATUS (0x54) and shows the strap's full raw reply, decoding the body-location record (revision / location / confidence / status) on WHOOP 4.0. Nothing is written to the strap, and it never changes wear detection or scoring.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 226,
+    "key": "Body-location probe result (#690)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 227,
+    "key": "Feature-flag probe (#761 RE)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 228,
+    "key": "Asks the strap to list the feature-flag NAMES its own firmware knows: START_FF_KEY_EXCHANGE (0x75) then SEND_NEXT_FF (0x76) until the strap says it's done. Read-only — no flag value is written, and the SET commands are never sent from this probe. The list is shown here and written to the strap log.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 229,
+    "key": "WHOOP MG ECG capture (experimental)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 230,
+    "key": "Start ECG capture",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 231,
+    "key": "Stop ECG capture",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 232,
+    "key": "Set which wrist you wear it on…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 233,
+    "key": "Feature-flag probe result (#761)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 234,
+    "key": "Which wrist do you wear it on?",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 235,
+    "key": "This one is different from the other ECG controls: it is a setting written to the strap, and it stays there after you disconnect until you change it again.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 236,
+    "key": "Which value means “left” and which means “right” comes from WHOOP's own app and the strap firmware, not from a strap NOOP has tested. You can send it again with the other choice at any time, and it changes nothing about your recorded data.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 237,
+    "key": "Left wrist",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 238,
+    "key": "Right wrist",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 239,
+    "key": "ECG capture probe result",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 240,
+    "key": "Listening for the strap's reply…",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 241,
+    "key": "Device-config read probe (#103 RE)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 242,
+    "key": "Asks the strap for config VALUES: GET_DEVICE_CONFIG_VALUE (0x79) and GET_FF_VALUE (0x80), one key per round-trip. Both commands may simply not exist in this firmware — finding that out is the point. Read-only — no value is written, and the SET commands are never sent from this probe. The result is shown here and written to the strap log.",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 243,
+    "key": "Device-config read probe result (#103)",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 244,
+    "key": "Apple",
+    "files": [
+      "Strand/Screens/DevicesView.swift"
+    ]
+  },
+  {
+    "id": 245,
+    "key": "OK",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 246,
+    "key": "Restore",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 247,
+    "key": "Recalibrate your Charge baseline?",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 248,
+    "key": "Recalibrate",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 249,
+    "key": "This restarts the roughly 4-night build-up for Charge and your HRV baseline. Your history stays. Use it if a bad first week, like wearing it while sick, set your baseline off.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 250,
+    "key": "Clear the R22 flags on your strap?",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 251,
+    "key": "Clear flags on strap",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 252,
+    "key": "Just stop sending",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 253,
+    "key": "Turning this switch off only stops NOOP sending the unlock. The flags it already wrote stay on the strap until something clears them. NOOP can write the off value to all 16 now and read each one back so you can see what the strap actually stores. Needs the strap connected and bonded.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 254,
+    "key": "Mark optical experiment phase",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 255,
+    "key": "A marker starts the selected phase and ends the previous one. This only timestamps the local capture file; it sends nothing to the strap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 256,
+    "key": "These power your heart-rate zones, calorie estimates and recovery baselines. Keep them accurate.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 257,
+    "key": "Non-binary",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 258,
+    "key": "Weight in kilograms",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 259,
+    "key": "cm",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 260,
+    "key": "Height in centimetres",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 261,
+    "key": "Optional: VO₂max builds from about 4 nights of heart rate; a waist makes it more accurate. The Fitness Age itself doesn't need it. Measure around your middle, at the navel.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 262,
+    "key": "Manual override",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 263,
+    "key": "Auto · %lld bpm (Tanaka)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 264,
+    "key": "Set the BPM where each zone begins. Turn off to restore the default percentage-of-max zones.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 265,
+    "key": "Zone %lld starts",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 266,
+    "key": "Day cycle",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 267,
+    "key": "Day starts",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 268,
+    "key": "Main sleep",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 269,
+    "key": "Uses a conventional local calendar day from 00:00 to 00:00.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 270,
+    "key": "Default. Steps and in-progress Effort restart at the beginning of detected main sleep. Naps do not start a new day; missing sleep falls back to local midnight.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 271,
+    "key": "Step calibration",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 272,
+    "key": "Step calibration, %@ counter ticks per step",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 273,
+    "key": "Counter ticks per step. Leave at 1.0 unless your steps run high. On a WHOOP 5/MG they can run very high (10× or more), so this goes up to 30. Walk a known 1,000 steps and divide NOOP's count by the real count to get your value.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 274,
+    "key": "Steps estimate",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 275,
+    "key": "Steps estimate calibration. %@. Opens the calibration screen.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 276,
+    "key": "For a WHOOP 4.0, which sends no step count: NOOP estimates steps from motion, calibrated to your phone. Tap to see how close it is and adjust it.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 277,
+    "key": "Your profile photo",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 278,
+    "key": "No profile photo set",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 279,
+    "key": "Change photo",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 280,
+    "key": "Remove photo",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 281,
+    "key": "Reverts to the default profile icon",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 282,
+    "key": "Optional. Add a photo for your avatar. It stays on %@ and is never uploaded.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 283,
+    "key": "Replace from Photos",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 284,
+    "key": "Choose from Photos",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 285,
+    "key": "Browse files",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 286,
+    "key": "Recent",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 287,
+    "key": "Show custom background",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 288,
+    "key": "Scaling",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 289,
+    "key": "Background scaling",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 290,
+    "key": "Remove image",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 291,
+    "key": "Optional. Use your own photo behind every tab, in place of the day-cycle sky. It stays on %@ and is never uploaded. Pair it with Transparent cards above to let it show through.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 292,
+    "key": "Manual",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 293,
+    "key": "Auto · %@ confidence",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 294,
+    "key": "Not calibrated",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 295,
+    "key": "lb",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 296,
+    "key": "Weight in pounds",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 297,
+    "key": "Weight, %lld pounds",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 298,
+    "key": "%lld′ %lld″",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 299,
+    "key": "Height in inches",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 300,
+    "key": "Height, %lld feet %lld inches",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 301,
+    "key": "Waist in centimetres",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 302,
+    "key": "Waist, %lld centimetres",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 303,
+    "key": "Waist not set",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 304,
+    "key": "in",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 305,
+    "key": "Waist in inches",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 306,
+    "key": "Waist, %lld inches",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 307,
+    "key": "Max heart rate override",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 308,
+    "key": "Max heart rate override, %@",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 309,
+    "key": "Zone %lld starts at %lld beats per minute",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 310,
+    "key": "Units",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 311,
+    "key": "Choose body measurements and exercise distance separately. Your data is always stored the same way; these settings only change its display.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 312,
+    "key": "Exercise distance and pace units",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 313,
+    "key": "Temperature",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 314,
+    "key": "Follow body",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 315,
+    "key": "°C",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 316,
+    "key": "°F",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 317,
+    "key": "Temperature unit",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 318,
+    "key": "Skin temperature display",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 319,
+    "key": "Effort: exponential intensity scale",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 320,
+    "key": "Scores Effort on an exponential intensity curve (Banister TRIMP) instead of the default heart-rate zones (Edwards). The default earns nothing below half of your heart-rate reserve, so an hour of lifting — where hard sets average out against the rests — can score close to zero. The exponential curve has no floor and weights short, hard efforts far more heavily. Re-scores your history, and both scales reach the same maximum. Off by default.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 321,
+    "key": "Streak",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 322,
+    "key": "day in a row",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 323,
+    "key": "days in a row",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 324,
+    "key": "Longest: 1 day",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 325,
+    "key": "Longest: %lld days",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 326,
+    "key": "Choose Light, Dark, or follow your system. Dark is the signature near-black; Light keeps the same clean look on a bright canvas.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 327,
+    "key": "System default",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 328,
+    "key": "Language changes take effect after you reopen NOOP.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 329,
+    "key": "Clock",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 330,
+    "key": "12-hour",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 331,
+    "key": "24-hour",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 332,
+    "key": "AI Coach",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 333,
+    "key": "Hide bar when scrolling",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 334,
+    "key": "Preset",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 335,
+    "key": "Theme preset",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 336,
+    "key": "Theme",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 337,
+    "key": "Sleep chart",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 338,
+    "key": "Accent",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 339,
+    "key": "Accent colour",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 340,
+    "key": "Custom colour",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 341,
+    "key": "Custom accent colour",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 342,
+    "key": "Trend charts",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 343,
+    "key": "App icon",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 344,
+    "key": "Navy",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 345,
+    "key": "Holds the liquid gauges, the sky and the tilt response still, and turns off the motion sensor that drives them. Saves battery. Low Power Mode and the system Reduce Motion setting already do this.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 346,
+    "key": "Day-cycle background",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 347,
+    "key": "Shows a soft sunrise, day, dusk and night scene behind the Today screen. Turn it off for a plain dark canvas. Your cards stay exactly as readable.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 348,
+    "key": "Extends the sky behind the whole Today screen, so lowering Card transparency lets it show through every card. Needs the day-cycle background on.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 349,
+    "key": "Transparent cards",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 350,
+    "key": "Let the background show through every card. Tune how much just below.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 351,
+    "key": "How see-through the cards (Heart Rate, Key Metrics, Recovery Vitals, …) are. Left = solid, right = clear.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 352,
+    "key": "Couldn't change the app icon",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 353,
+    "key": "NOOP pairs directly with your WHOOP over Bluetooth: no WHOOP app, no cloud.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 354,
+    "key": "Grab this when you report a bug. It tells me what the app saw. (The full live log is also on the Live screen.)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 355,
+    "key": "Strap name",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 356,
+    "key": "Current: %@",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 357,
+    "key": "New strap name",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 358,
+    "key": "Changes the Bluetooth name your WHOOP 4.0 advertises (what you see when pairing). The strap reboots to apply, so the new name appears the next time it connects. WHOOP 4.0 only.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 359,
+    "key": "Your strap is paired and sending data. Open Live for a real-time heart rate.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 360,
+    "key": "Live heart rate is streaming, but your strap is not fully paired. The encrypted pairing is what carries motion, skin temperature, SpO₂ and respiratory rate — without it, sleep is staged from heart rate alone. Buzz, alarms and history sync need it too.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 361,
+    "key": "Connected. Finishing the secure pairing handshake…",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 362,
+    "key": "Previously paired but not currently connected. Re-scan to reconnect.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 363,
+    "key": "No strap connected. Put your WHOOP nearby and tap Re-scan to pair.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 364,
+    "key": "Live notifications",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 365,
+    "key": "Shown on the Lock Screen and in the Dynamic Island. A switch only hides one: NOOP still measures and records everything.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 366,
+    "key": "Live heart rate",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 367,
+    "key": "While the strap is connected.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 368,
+    "key": "Lift Log session",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 369,
+    "key": "Your set, rest and heart rate, and the Lock Screen light-up on a double-tap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 370,
+    "key": "Strap sync",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 371,
+    "key": "Progress while NOOP pulls history from the strap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 372,
+    "key": "Your Charge score learns a personal baseline from your heart-rate variability, resting heart rate and more over time. If a bad first week set it off, you can re-learn it from tonight. Your history stays.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 373,
+    "key": "Recalibrate Charge baseline",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 374,
+    "key": "Restarts the roughly 4-night build-up for Charge and your HRV baseline from tonight. Use it if a bad first week set your baseline off. Your history stays.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 375,
+    "key": "Charge baseline recalibrating",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 376,
+    "key": "NOOP will re-learn your baseline from tonight's data onward. Your history is kept, and it takes a few nights to settle.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 377,
+    "key": "Turn on a test for the thing that's wrong, wear the strap, then tap Report. Your strap log, recalibrate, scheduled export and experimental probes all live here too.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 378,
+    "key": "Features",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 379,
+    "key": "Optional trackers, off by default. Turn them on to add their cards. Everything stays on %@.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 380,
+    "key": "Hydration tracking",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 381,
+    "key": "Adds a water-log card to your dashboard",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 382,
+    "key": "Adds a fluid log and an effort-adjusted daily goal. Log a sip, cup or bottle to fill your progress ring. Data stays on this device.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 383,
+    "key": "Also imports water from Apple Health when connected and allowed to read water data. Drinks logged in NOOP are not written to Apple Health.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 384,
+    "key": "Offers to save a workout when it spots sustained elevated heart rate",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 385,
+    "key": "After a sync, NOOP looks over your recent heart rate for a sustained, raised stretch that looks like exercise and offers to save it. It only ever suggests. Nothing is saved until you tap Save, and you can dismiss any suggestion. Turning this off stops future suggestions but keeps your existing workout history. Deliberately conservative, so the odd workout may be missed. On %@ only.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 386,
+    "key": "Skips sessions that overlap a saved or imported workout, including workouts from Apple Health.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 387,
+    "key": "Journal reminder",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 388,
+    "key": "Show a Today card reminding you to log your journal",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 389,
+    "key": "Keep screen on during a workout",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 390,
+    "key": "Stops the screen dimming while a workout is recording",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 391,
+    "key": "Holds the screen awake while you're recording a workout, so your live heart rate stays visible without the device dimming. Only applies during a recording. The screen sleeps normally the rest of the time. Leaving it on does use a bit more battery, and means your unlocked screen stays visible for the whole workout, so flip it off if that's a concern.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 392,
+    "key": "How NOOP behaves while it pulls stored history from your strap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 393,
+    "key": "Keep screen on while syncing",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 394,
+    "key": "Stops the screen locking while your strap's history syncs",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 395,
+    "key": "Holds the screen awake while NOOP pulls stored history from your strap, so you can watch a long sync finish without the phone locking. Only applies while a sync is running and NOOP is open. The screen sleeps normally the rest of the time. It uses a bit more battery while the screen stays on.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 396,
+    "key": "Continuous HRV capture",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 397,
+    "key": "Keeps the detailed beat-to-beat heart-rate stream running all day and night, not just while a live screen is open, so NOOP captures much more for overnight HRV, recovery and sleep. Uses more battery: your strap streams heart rate continuously while connected.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 398,
+    "key": "Overnight only",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 399,
+    "key": "Runs the continuous HRV stream only during your quiet hours window (22:00–07:00 by default), roughly halving the battery cost. Daytime Stress readings will be sparser. Note: continuous background HRV capture (including daytime naps) is paused outside this window. For on-demand daytime HRV readings (including naps), use the \"Take an HRV reading\" button on the Live screen.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 400,
+    "key": "HRV window",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 401,
+    "key": "Night",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 402,
+    "key": "Whole night is NOOP's default measure; Deep sleep pools HRV over slow-wave sleep only, reading lower and matching WHOOP. Switching re-scores your recent nights over the new window and takes effect right away once you have a few nights of data.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 403,
+    "key": "Liquid Today (prototype)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 404,
+    "key": "Replaces the Today tab with the prototype redesign. Turn it off any time to return to the classic dashboard. Reads the same live data from your strap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 405,
+    "key": "Live Sessions (beta)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 406,
+    "key": "Silence-first strap coaching during workouts.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 407,
+    "key": "Sleep staging",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 408,
+    "key": "Sleep staging (V2)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 409,
+    "key": "A transparent cardiorespiratory recipe that recovers deep and REM better than the older V1 staging, and is now the default. It only changes how already-detected nights are split into stages (detection and scores are unchanged); turn it off to fall back to V1. Takes effect on the next nights staged.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 410,
+    "key": "Motion-aware wake refinement",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 411,
+    "key": "Reviews each scored wake block for real evidence of getting up (walking cadence, a change in body position) instead of just a heart-rate rise. A wake block with no locomotion and a stable posture — a hot night, a brief turn-over — is folded back into light sleep; a real get-up is left alone. Self-checks how much motion detail your strap actually recorded and stays off on a night that's too sparse to trust (older WHOOP 4.0 firmware, mainly). Off by default; takes effect on the next nights staged.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 412,
+    "key": "Experimental · Oura ring all-day heart rate",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 413,
+    "key": "Oura ring only. Keeps your ring measuring heart rate through the day, standing it down only for your night. A WHOOP strap is not affected.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 414,
+    "key": "Oura ring: all-day heart rate & HRV",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 415,
+    "key": "Your Oura ring only measures daytime heart rate while NOOP keeps it in that mode, and NOOP stops asking whenever the screen has been off for five minutes — which protects the ring's own sleep tracking at night, but also leaves a pocketed phone's day blank on the Heart Rate and HRV charts. On, NOOP keeps asking through the day and stops only for your usual night, learned from your sleep history (an hour before your typical bedtime to an hour after your usual wake), so the night is unchanged. Costs ring battery: the ring runs its own optical sensor all day. Until enough nights are learned it behaves as if off. Off by default.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 416,
+    "key": "A read-only export of the decoded sensor streams NOOP already stores. Works on any strap. Nothing is written to your device, and nothing is uploaded.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 417,
+    "key": "Export raw sensor data (CSV)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 418,
+    "key": "Reveal in Finder",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 419,
+    "key": "Dumps the last 24 hours of decoded per-sample sensor streams (heart rate, R-R, motion, steps, SpO₂, skin temperature, respiration, events) to a single CSV. All on %@, nothing uploaded. Share it to help prototype and test sleep, activity and strength algorithms.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 420,
+    "key": "Move all your NOOP data to another machine. Export saves everything (history, sleeps, workouts, settings) to a single file you can copy across; import replaces %@'s data with a backup.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 421,
+    "key": "Importing overwrites everything currently on %@. Your old data is kept in a side file just in case. NOOP needs a relaunch for an import to take effect. Export CSV writes a WHOOP-format zip of your days, sleeps, workouts and journal that re-imports into NOOP on Mac, iPhone, or Android. On-device computed rows are marked APPROXIMATE in its Source column; the full backup stays the lossless restore path.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 422,
+    "key": "This is a plain, unencrypted archive — anyone who gets the file can open it with any zip tool. Store it somewhere you trust.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 423,
+    "key": "Backup & Sync to a folder…",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 424,
+    "key": "Open Backup and Sync to a folder",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 425,
+    "key": "CSV exported",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 426,
+    "key": "Saved to %@. The zip re-imports into NOOP (Data Sources → WHOOP Export) on any Mac, iPhone, or Android device.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 427,
+    "key": "Export problem",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 428,
+    "key": "Saved to %@. Copy this file to your other %@ and use Import there to restore everything.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 429,
+    "key": "Your data has been restored. Quit and reopen NOOP for it to take effect.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 430,
+    "key": "NOOP: all your data, none of the cloud.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 431,
+    "key": "NOOP",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 432,
+    "key": "v%@",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 433,
+    "key": "What's new",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 434,
+    "key": "Sleep sorting, scores, recording, and where your numbers come from.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 435,
+    "key": "Charge, Effort and Rest (and how they differ from WHOOP).",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 436,
+    "key": "Use NOOP with just an Apple Watch. What it's great at, and where it's lighter than a strap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 437,
+    "key": "Storage",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 438,
+    "key": "Where NOOP's on-device space is going, and a one-tap clean-up.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 439,
+    "key": "You're on the latest (%@).",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 440,
+    "key": "Couldn't check. Try again.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 441,
+    "key": "Once a day, NOOP asks GitHub for the latest version number and puts a note in Updates if there's a newer one. Nothing about you is sent, and it never installs anything.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 442,
+    "key": "Version %@ is available",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 443,
+    "key": "Download",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 444,
+    "key": "Checks the project's home (GitHub) for the latest version when you tap. Nothing else is sent.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 445,
+    "key": "Project home & source",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 446,
+    "key": "GitHub: code, releases, issues and the wiki.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 447,
+    "key": "Project home and source code on GitHub",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 448,
+    "key": "A standalone companion for your WHOOP. Everything stays on this device: your history, your live stream, your numbers. Nothing is uploaded. NOOP is an independent, experimental project, not the WHOOP app.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 449,
+    "key": "NOOP is not a medical device. It is for informational and personal-insight purposes only and is not intended to diagnose, treat, cure or prevent any condition. Talk to a clinician for medical advice.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 450,
+    "key": "Built on",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 451,
+    "key": "WHOOP 4.0 protocol",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 452,
+    "key": "WHOOP 5.0 protocol",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 453,
+    "key": "Open-source BLE reverse-engineering work. Thank you.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 454,
+    "key": "· %@",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 455,
+    "key": "Device, iOS build, Data Protection and sideload status, for bug reports.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 456,
+    "key": "Using NOOP on iPhone",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 457,
+    "key": "This is a sideloaded build, installed outside the App Store. It needs re-signing periodically: roughly every 7 days on a free Apple ID, about a year on a paid developer account.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 458,
+    "key": "After your iPhone reboots, unlock it once. Until you do, iOS keeps NOOP's files locked (Data Protection), so new history can't be written or synced.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 459,
+    "key": "Background Bluetooth has OS limits: iOS may pause NOOP when it's not in the foreground, so keep it open while syncing a fresh strap.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 460,
+    "key": "On a beta version of iOS, things can break that work on the release build.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 461,
+    "key": "This sideloaded build expired 1 day ago. Re-sign it to keep it running.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 462,
+    "key": "This sideloaded build expired %lld days ago. Re-sign it to keep it running.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 463,
+    "key": "This sideloaded build expires in 1 day. Re-sign to keep it running.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 464,
+    "key": "This sideloaded build expires in %lld days. Re-sign to keep it running.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 465,
+    "key": "Shows the advanced settings sections",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 466,
+    "key": "Attach this to a bug report.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 467,
+    "key": "No iOS diagnostics available.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 468,
+    "key": "STEPS ESTIMATE",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 469,
+    "key": "Calibrate your steps",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 470,
+    "key": "WHOOP 4.0 · motion → steps",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 471,
+    "key": "How this works",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 472,
+    "key": "NOOP estimates your steps from your WHOOP's motion, calibrated to your phone's step count. It's an estimate, not a step counter. A WHOOP 4.0 doesn't transmit steps.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 473,
+    "key": "On the days your phone also counted steps, NOOP learns how much your motion maps to steps, then applies that to the strap-only days. The more matching days it has, the more it trusts the estimate.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 474,
+    "key": "No motion synced yet",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 475,
+    "key": "We're not seeing any motion from your strap yet. Steps are estimated from your WHOOP's banked motion history, so your strap needs to sync that history before NOOP has anything to count.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 476,
+    "key": "Open NOOP near your strap and let it catch up (a full history sync can take a while on first run). Once a day or two of motion lands, your step estimate and the calibration below will start to fill in.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 477,
+    "key": "steps per motion unit",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 478,
+    "key": "Manual (you set this by hand)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 479,
+    "key": "Fitted from",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 480,
+    "key": "1 day your phone also counted",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 481,
+    "key": "%lld days your phone also counted",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 482,
+    "key": "Not calibrated yet",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 483,
+    "key": "These are the days where your phone also counted steps, so NOOP can learn how your motion maps to steps. Or set the coefficient manually below.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 484,
+    "key": "Estimated vs your phone",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 485,
+    "key": "No days yet where both NOOP and your phone counted steps. Once your phone logs a few days alongside the strap, they'll appear here so you can see how close the estimate is.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 486,
+    "key": "Est.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 487,
+    "key": "Phone",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 488,
+    "key": "Δ",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 489,
+    "key": "%@: estimated %lld steps, phone %lld steps, %lld percent difference",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 490,
+    "key": "These days are excluded from the estimate (your phone's real count is shown instead). They're here only so you can judge the estimate's accuracy.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 491,
+    "key": "Adjust manually",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 492,
+    "key": "Override the automatic fit with your own steps-per-motion value. Useful if your phone has no step history to learn from, or the estimate runs consistently high or low. Set it back to auto by dragging to the far left.",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 493,
+    "key": "steps / motion unit",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 494,
+    "key": "fit from your phone",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 495,
+    "key": "Manual steps coefficient",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 496,
+    "key": "%@ steps per motion unit",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 497,
+    "key": "Automatic",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 498,
+    "key": "A typical recent day",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 499,
+    "key": "≈ %@ steps at this setting",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 500,
+    "key": "≈ %@ steps (auto)",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 501,
+    "key": "Takes effect on the next analytics pass (after the next sync).",
+    "files": [
+      "Strand/Screens/SettingsView.swift"
+    ]
+  },
+  {
+    "id": 502,
+    "key": "Resonance",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 503,
+    "key": "Calm me",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 504,
+    "key": "Open",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 505,
+    "key": "5 min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 506,
+    "key": "10 min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 507,
+    "key": "15 min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 508,
+    "key": "Your locked pace · %@ br/min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 509,
+    "key": "Haptic-paced breathing · find your pace · calm down",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 510,
+    "key": "Breathe mode",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 511,
+    "key": "Session live",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 512,
+    "key": "Ready",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 513,
+    "key": "Haptics on",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 514,
+    "key": "Visual only",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 515,
+    "key": "%lld breaths",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 516,
+    "key": "Protocol info",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 517,
+    "key": "Guided",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 518,
+    "key": "Audio cues",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 519,
+    "key": "Soft tone on each phase · respects silent mode",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 520,
+    "key": "Session length",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 521,
+    "key": "Hold…",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 522,
+    "key": "Follow the cue…",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 523,
+    "key": "Estimate only — not medical advice. Stop if you feel unwell.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 524,
+    "key": "Your locked resonance pace from the Resonance sweep.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 525,
+    "key": "About this pace",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 526,
+    "key": "BPM",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 527,
+    "key": "Stop session",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 528,
+    "key": "Test buzz",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 529,
+    "key": "Fire a single haptic pulse on the strap (requires a bonded connection)",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 530,
+    "key": "No RMSSD · not enough R-R data",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 531,
+    "key": "RMSSD %@",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 532,
+    "key": "Last session: %@",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 533,
+    "key": "%",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 534,
+    "key": "Strap not worn",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 535,
+    "key": "HRV (RMSSD)",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 536,
+    "key": "Waiting for R-R",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 537,
+    "key": "Last %lld beats",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 538,
+    "key": "br/min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 539,
+    "key": "Guided timer",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 540,
+    "key": "Coherence estimate",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 541,
+    "key": "%lld percent",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 542,
+    "key": "Estimate only: a higher RMSSD while paced usually means your parasympathetic \"rest\" branch is engaging. It is not a clinical reading; trends over a session matter more than any single number.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 543,
+    "key": "Settling",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 544,
+    "key": "Coherent",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 545,
+    "key": "Deep calm",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 546,
+    "key": "Connect your strap for haptic guidance. You'll feel one pulse on the inhale, two on the exhale, so you can breathe with your eyes closed.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 547,
+    "key": "%@ vs start · peak %@ ms",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 548,
+    "key": "Find your resonance pace",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 549,
+    "key": "Everyone has a breathing pace (usually between 4.5 and 7 breaths a minute) where the heart's rhythm swings the most with each breath. We pace you through a few candidate paces, measure how your HRV responds, and lock the one that resonates best for you.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 550,
+    "key": "Estimate from PPG-derived R-R: relaxation guidance, not a clinical reading. Your pace drifts, so we date it and you can re-measure anytime.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 551,
+    "key": "Full sweep · ~13 min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 552,
+    "key": "Quick sweep · ~7 min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 553,
+    "key": "Sit still and breathe with the buzz. You can stop anytime; a stopped sweep won't lock a pace.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 554,
+    "key": "Sweeping…",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 555,
+    "key": "Sweep progress",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 556,
+    "key": "Stop sweep",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 557,
+    "key": "Your resonance pace",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 558,
+    "key": "Couldn't lock today",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 559,
+    "key": "Locked",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 560,
+    "key": "Fallback",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 561,
+    "key": "Not enough clean beat data to lock a pace today. Try again rested, sitting still with the strap snug. For now we'll pace you at 5.5 br/min (coherence).",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 562,
+    "key": "Locked %@ · paces drift, re-measure anytime.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 563,
+    "key": "Your locked pace",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 564,
+    "key": "Locked %@. Switch to Breathe to use it, or re-measure above.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 565,
+    "key": "RSA RESPONSE BY PACE",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 566,
+    "key": "RSA response by pace",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 567,
+    "key": "unscored",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 568,
+    "key": "%@ breaths per minute: %@",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 569,
+    "key": "Connect your strap for the felt cue. The sweep paces you with one buzz on the inhale, two on the exhale.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 570,
+    "key": "Strap needed",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 571,
+    "key": "The strap buzzes a gentle rhythm just below your current heart rate, a felt metronome to relax toward. It trails your heart down rather than yanking it, and stops on its own.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 572,
+    "key": "A relaxation rhythm, not cardiac control. It never paces below a safe rate and you can stop anytime. If your heart rate doesn't settle, we'll say so plainly.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 573,
+    "key": "Calm me · 3 min",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 574,
+    "key": "Connect your strap. Calm me is a felt rhythm on the wrist, so it needs a bonded connection.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 575,
+    "key": "Waiting for a resting heart rate. Start a live reading first, or come back when you're still.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 576,
+    "key": "target",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 577,
+    "key": "Started at %lld bpm · the rhythm trails your heart down.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 578,
+    "key": "That's normal. A paced breath often settles things when a metronome alone doesn't.",
+    "files": [
+      "Strand/Screens/BreathingView.swift"
+    ]
+  },
+  {
+    "id": 579,
+    "key": "this %@",
+    "files": [
+      "Strand/System/Platform.swift"
+    ]
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "file": "Strand/Screens/ScoringGuideView.swift",
+    "line": 97,
+    "literal": "Your cardiovascular load. NOOP turns every second of heart rate into a training-impulse using heart-rate-reserve zones (Karvonen), weights time in harder zones more heavily (Edwards / Banister), and places it on a logarithmic 0-100 scale, so easy days sit low and an all-out day approaches 100, which stays genuinely rare. A long walk with little cardio still counts, through a steps / active-energy floor."
+  },
+  {
+    "file": "Strand/Screens/ScoringGuideView.swift",
+    "line": 98,
+    "literal": "Same cardiovascular-load idea as WHOOP's Day Strain (0-21). We rescaled the top of the ladder from 21 to 100 so all three scores share one scale. The rungs didn't move, so a 100 is as rare as a 21.0 was."
+  },
+  {
+    "file": "Strand/Data/TodayLayoutPrefs.swift",
+    "line": 46,
+    "literal": "Charge / Effort / Rest"
+  },
+  {
+    "file": "Strand/Data/TodayLayoutPrefs.swift",
+    "line": 52,
+    "literal": "Recovery Vitals"
+  },
+  {
+    "file": "Strand/Data/TodayLayoutPrefs.swift",
+    "line": 53,
+    "literal": "Your Cards"
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 315,
+    "literal": "This strap doesn’t send SpO₂ over Bluetooth. Import a WHOOP export or Health Connect to see it."
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 318,
+    "literal": "This strap sends no raw respiration stream. Your estimated respiratory rate appears on the Health screen."
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 334,
+    "literal": "Pinch to zoom · drag to pan · hold to read"
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 334,
+    "literal": "Zoomed in. Drag to pan · hold to read"
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 468,
+    "literal": "wake"
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 469,
+    "literal": "still"
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 470,
+    "literal": "asleep"
+  },
+  {
+    "file": "Strand/Screens/FullDayChartView.swift",
+    "line": 471,
+    "literal": "up"
+  },
+  {
+    "file": "Strand/Screens/MetricExplorerView.swift",
+    "line": 1226,
+    "literal": "No measured temperature for these nights — showing the difference from your baseline instead. A re-score refills temperatures for nights that have one."
+  },
+  {
+    "file": "Strand/Screens/MetricExplorerView.swift",
+    "line": 1230,
+    "literal": "Only nights with a measured temperature are shown — the others only have a baseline difference."
+  },
+  {
+    "file": "Strand/Screens/MetricExplorerView.swift",
+    "line": 1717,
+    "literal": "\\(row.time), \\(row.value), \\(row.source)"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 112,
+    "literal": "Clock latched: \\(latched) · last frame \\(frame)"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 155,
+    "literal": "1 paired"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 156,
+    "literal": "\\(activeDevices.count) paired"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 433,
+    "literal": "Data kept"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 901,
+    "literal": "Historical record layout v\\(layout)"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 1117,
+    "literal": "Connected, but not paired"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 538,
+    "literal": "match"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 539,
+    "literal": "close"
+  },
+  {
+    "file": "Strand/Screens/DevicesView.swift",
+    "line": 540,
+    "literal": "differs"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 385,
+    "literal": "Date of birth, age \\(profile.age) years"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1261,
+    "literal": "Trend chart style"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1983,
+    "literal": "Blood Oxygen: strap estimate (WHOOP 5/MG, Oura)"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1996,
+    "literal": "Your WHOOP 5.0/MG sends a strap-computed SpO₂ percentage (the @82 candidate byte) every second — an 8-night independent validation tracked it at corr +0.99 against the WHOOP app, but two nights on the original test device moved the OPPOSITE direction, so device/firmware variance is unresolved. An Oura ring's own SpO₂ reading runs high on the wire (over 100% on a fifth to a half of samples on a clean night); this instead surfaces the ring's mean with each sample capped at 100% first, which has matched the Oura app's own displayed value on every full night checked against it so far, though only a few nights. Turning this on surfaces whichever applies to your device as \\\"strap estimate (unverified)\\\" in the Blood Oxygen tile when no calibrated import exists. It never feeds recovery or illness scoring. WHOOP 4.0 has no @82 stream, so this does nothing there."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2139,
+    "literal": "Marked: \\(phase.displayName)"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2141,
+    "literal": "Marker wasn't saved. Keep frame recording on and try again."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2314,
+    "literal": "Saved to \\(url.lastPathComponent). Your database is \\(size), over the \\(cap) NOOP restores without asking — the backup is complete and valid, and restoring it will ask you to confirm once."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2318,
+    "literal": "\\(name) is larger than the \\(cap) NOOP restores without asking. That limit guards against a malicious archive expanding to fill this \\(Platform.deviceNoun) — a backup you exported yourself is not that. Restoring it needs the space the database will take. You'll be asked to choose the file again."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 3062,
+    "literal": "WHOOP 5.0 / MG · motion → steps"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 3140,
+    "literal": "We're not seeing motion from your WHOOP 5.0 / MG yet. Keep NOOP connected and let strap history finish syncing; the experimental R22 flags are not required. Account or Apple Health imports do not contain the raw strap motion this estimate needs."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 3148,
+    "literal": "Open NOOP near the strap and let WHOOP 5/MG history finish syncing. The step estimate and calibration fill in once enough stored motion has arrived; the legacy R22 experiment is not required."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 3151,
+    "literal": "Deep data is on — open NOOP near your strap and let it sync its motion history (a full first-run sync can take a while). Once a day or two of motion lands, your step estimate and the calibration below fill in."
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 365,
+    "literal": "person.fill"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 930,
+    "literal": "ruler"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1092,
+    "literal": "circle.lefthalf.filled"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1407,
+    "literal": "antenna.radiowaves.left.and.right"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1568,
+    "literal": "bell.badge"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1605,
+    "literal": "heart.text.square"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1646,
+    "literal": "testtube.2"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1673,
+    "literal": "drop.fill"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1762,
+    "literal": "arrow.triangle.2.circlepath"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1793,
+    "literal": "waveform.path.ecg"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1879,
+    "literal": "drop.fill"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1905,
+    "literal": "shield.lefthalf.filled"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1931,
+    "literal": "bed.double.fill"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 1977,
+    "literal": "lungs.fill"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2010,
+    "literal": "waveform.path.ecg"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2037,
+    "literal": "doc.text.magnifyingglass"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2150,
+    "literal": "externaldrive.fill"
+  },
+  {
+    "file": "Strand/Screens/SettingsView.swift",
+    "line": 2341,
+    "literal": "info.circle.fill"
+  },
+  {
+    "file": "Strand/Screens/BreathingView.swift",
+    "line": 322,
+    "literal": "%.1f br/min"
+  }
+]

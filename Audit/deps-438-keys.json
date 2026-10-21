@@ -1,0 +1,1004 @@
+[
+  {
+    "id": 0,
+    "key": "VO₂ Max",
+    "files": [
+      "Strand/Screens/DashboardCards.swift",
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 1,
+    "key": "Coupled view",
+    "files": [
+      "Strand/Screens/DashboardCards.swift"
+    ]
+  },
+  {
+    "id": 2,
+    "key": "Wellness score",
+    "files": [
+      "Strand/Screens/DashboardCards.swift"
+    ]
+  },
+  {
+    "id": 3,
+    "key": "Today's fluid",
+    "files": [
+      "Strand/Screens/DashboardCards.swift"
+    ]
+  },
+  {
+    "id": 4,
+    "key": "Recovery, strain and sleep in one glance",
+    "files": [
+      "Strand/Screens/DashboardCards.swift"
+    ]
+  },
+  {
+    "id": 5,
+    "key": "Ask about your charge, effort, rest and workouts, grounded in your own numbers.",
+    "files": [
+      "Strand/Screens/DashboardCards.swift"
+    ]
+  },
+  {
+    "id": 6,
+    "key": "Mood",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 7,
+    "key": "Max Heart Rate",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 8,
+    "key": "VO₂ Max (estimated)",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 9,
+    "key": "Body Age",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 10,
+    "key": "How recovered you are, led by HRV versus your personal baseline.",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 11,
+    "key": "How restorative your sleep was: duration, efficiency, deep+REM, timing.",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 12,
+    "key": "Restorative Sleep",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 13,
+    "key": "Deep (SWS) Sleep",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 14,
+    "key": "Steps (estimated)",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 15,
+    "key": "Estimated from your WHOOP's motion, calibrated to your phone. Not a measured step count.",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 16,
+    "key": "HR Zones (All)",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 17,
+    "key": "Strength Activity Time",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 18,
+    "key": "Lean Body Mass",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 19,
+    "key": "BMI",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 20,
+    "key": "Sleep Score",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 21,
+    "key": "Intensity Minutes",
+    "files": [
+      "Strand/Data/MetricCatalog.swift"
+    ]
+  },
+  {
+    "id": 22,
+    "key": "The Presence Process",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 23,
+    "key": "\nConsciously Connected Breathing (CCB): inhale and exhale in one continuous loop with no hold at the top or bottom. Find a comfortable rhythm — connectedness matters more than intensity. Typical practice is about 15 minutes, twice daily. Regular is the sustainable starter tempo; Mid is a quicker start for later rounds; Punching Through is only when you need to push through drowsiness or stuckness (not a beginner default).\n",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 24,
+    "key": "Relax 4-6",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 25,
+    "key": "Long exhale · downshift to rest",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 26,
+    "key": "A simple calming pace: inhale for 4 seconds, exhale for 6. The longer exhale tends to favour a rest-and-digest feel. Use it when you want an easy downshift without holds.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 27,
+    "key": "Coherence 5.5",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 28,
+    "key": "Equal breath · ~5.5 br/min coherence",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 29,
+    "key": "Equal inhale and exhale at about 5.5 breaths per minute — a common coherence / resonance starting point. Steady, balanced pacing for settling heart-rate variability during a session.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 30,
+    "key": "Box 4-4-4-4",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 31,
+    "key": "Square breath · steady focus",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 32,
+    "key": "Box (square) breathing: inhale, hold, exhale, hold — each for 4 seconds. A structured rhythm often used for focus and settling under stress. Sit comfortably and keep the counts even.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 33,
+    "key": "About 5 minutes per session; repeat as needed.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 34,
+    "key": "Deep Breathing",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 35,
+    "key": "Slow inhale · soft hold · long exhale",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 36,
+    "key": "Deep breathing with a short pause: inhale 4s, hold 2s, exhale 6s. Breathe through the nose when you can, fill the lungs without forcing, and let the longer exhale slow you down.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 37,
+    "key": "5–10 minutes daily is a common starting point.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 38,
+    "key": "Diaphragmatic",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 39,
+    "key": "Belly breath · soft pause",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 40,
+    "key": "Diaphragmatic (belly) breathing: expand the abdomen on the inhale more than the chest, optional short hold, then gently contract on the exhale. Same 4–2–6 timing as deep breathing, with attention on the diaphragm.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 41,
+    "key": "Belly in",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 42,
+    "key": "Belly out",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 43,
+    "key": "Alternate Nostril",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 44,
+    "key": "Nadi Shodhana · left/right cycle",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 45,
+    "key": "Alternate-nostril breathing: inhale left, hold, exhale right, inhale right, hold, exhale left — about 4 seconds each step. Use a finger to gently close one nostril at a time. Labels cue which side; go at a calm pace.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 46,
+    "key": "Inhale left",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 47,
+    "key": "Exhale right",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 48,
+    "key": "Inhale right",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 49,
+    "key": "Exhale left",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 50,
+    "key": "Inhale 4 · hold 7 · exhale 8",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 51,
+    "key": "Classic 4-7-8: quiet nasal inhale for 4, hold for 7, long mouth exhale for 8. Often used to wind down. Start with a few cycles; stop if you feel light-headed.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 52,
+    "key": "If you feel dizzy or uncomfortable, stop and breathe normally.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 53,
+    "key": "A few minutes is enough; build gradually.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 54,
+    "key": "Buteyko",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 55,
+    "key": "Gentle nasal · light air hunger",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 56,
+    "key": "Buteyko-style reduced breathing: small nasal inhale (~2.5s), relaxed nasal exhale (~3.5s), short comfortable hold (~3.5s). Keep it quiet and light — not a big gasp.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 57,
+    "key": "Stay in a comfortable range; never force breath holds.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 58,
+    "key": "Tummo",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 59,
+    "key": "Forced exhale · holds · slow in/out",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 60,
+    "key": "A paced Tummo-inspired cycle using mid-range timings: short forced exhale, empty hold, slow inhale, full hold, slow exhale. Advanced and intense — keep sessions short and stop if strained.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 61,
+    "key": "Advanced. Avoid if pregnant, cardiovascular issues, or unwell. Not medical advice.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 62,
+    "key": "Force out",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 63,
+    "key": "Hold empty",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 64,
+    "key": "Hold full",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 65,
+    "key": "Ujjayi",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 66,
+    "key": "Ocean breath · soft throat",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 67,
+    "key": "Ujjayi (ocean) breath: slightly constrict the throat so the breath sounds like distant waves. Equal slow inhale and exhale through the nose (~4.5s each).",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 68,
+    "key": "Bhastrika",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 69,
+    "key": "Forceful 1s in · 1s out",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 70,
+    "key": "Bhastrika (bellows): forceful 1-second nasal inhale and exhale. Energising and intense. Keep rounds short and rest between them.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 71,
+    "key": "Stop if dizzy. Avoid with high blood pressure, pregnancy, or recent surgery unless cleared by a clinician.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 72,
+    "key": "Qi Gong Breath",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 73,
+    "key": "Slow in · soft holds · slow out",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 74,
+    "key": "Gentle Qi Gong-style pacing: inhale ~4.5s, optional short hold, exhale ~4.5s, optional short hold. Soft belly focus; no force.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 75,
+    "key": "15–30 minutes is traditional; start shorter.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 76,
+    "key": "Soma",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 77,
+    "key": "2s in · 2s out · rhythmic",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 78,
+    "key": "Simple rhythmic connected pacing at 2 seconds in and 2 seconds out — useful when you want a steady musical-feel loop without holds.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 79,
+    "key": "Often 20+ minutes; pick a length that fits.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 80,
+    "key": "Buteyko Reduced",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 81,
+    "key": "Lighter · longer soft hold",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 82,
+    "key": "Reduced Buteyko-style: ~2s gentle inhale, ~3s exhale, then a 3–5s hold with mild air hunger only. Stay relaxed in the face and shoulders.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 83,
+    "key": "Never push into panic or strong air hunger.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 84,
+    "key": "Coherent 6-6",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 85,
+    "key": "6s in · 6s out · ~5 br/min",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 86,
+    "key": "Coherent breathing at six seconds in and six seconds out (~5 breaths per minute). A slow equal pace aimed at calm and HRV-friendly rhythm — estimate only, not a clinical reading.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 87,
+    "key": "Kapalabhati",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 88,
+    "key": "Guided · rapid belly pulses",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 89,
+    "key": "Kapalabhati uses rapid, active belly exhales with passive inhales. Timing varies by person — this mode gives you a timer and coaching text only, not a forced metronome. Practice seated, short rounds, rest between.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 90,
+    "key": "Skip if pregnant, dizzy, or have uncontrolled hypertension. Stop if strained.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 91,
+    "key": "Holotropic",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 92,
+    "key": "Guided · continuous connected",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 93,
+    "key": "Holotropic-style work is continuous, often rapid connected breathing in a supported setting. NOOP only offers a session timer and education — not an auto-pacer — because intensity varies widely and is normally facilitated.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 94,
+    "key": "Not for DIY high-intensity sessions if you have trauma history, cardiovascular issues, or pregnancy without professional guidance.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 95,
+    "key": "Traditional sessions are long; use a short timer here as a check-in only.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 96,
+    "key": "Wim Hof",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 97,
+    "key": "Guided · rounds + holds",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 98,
+    "key": "Wim Hof–style rounds typically use ~30 deeper breaths, then an empty hold, then a recovery inhale hold (~15s). Because holds and intensity are personal, this entry is guided: follow a trusted protocol you already know; NOOP times the session and shows reminders — it does not force breath holds.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 99,
+    "key": "Never practice in water or while driving. Stop if dizzy. Not medical advice.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 100,
+    "key": "Shamanic Breath",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 101,
+    "key": "Guided · rhythmic rapid",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 102,
+    "key": "Shamanic-style rhythmic breathing is context-dependent and often facilitated. Use this as a quiet timer with education only — set your own safe intensity.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 103,
+    "key": "Prefer guided settings for intense practice.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 104,
+    "key": "Presence Regular",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 105,
+    "key": "CCB · ~3.8s / 3.8s · ~7.8 br/min",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 106,
+    "key": "Regular tempo (~3.8s in / 3.8s out) is the default sustainable pace for a first pass and for staying the full 15 minutes.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 107,
+    "key": "15 minutes, twice daily (Presence Process frame).",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 108,
+    "key": "Presence Mid",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 109,
+    "key": "CCB · ~2.4s / 2.4s · ~12.4 br/min",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 110,
+    "key": "Mid session tempo (~2.4s / 2.4s) is a starting pace for later passes through the procedure; once settled you may slow deeper or switch to Punching Through.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 111,
+    "key": "15 minutes once you are using Mid as your starter.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 112,
+    "key": "Presence Punching",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 113,
+    "key": "CCB · ~1.9s / 1.9s · push-through",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 114,
+    "key": "Punching Through (~1.9s / 1.9s) is for sleepiness or feeling stuck — not the beginner default. After you are “in it”, you may return to a slower, deeper connected breath.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 115,
+    "key": "Not recommended as a beginner default unless the goal is to overcome drowsiness.",
+    "files": [
+      "Packages/StrandAnalytics/Sources/StrandAnalytics/BreathProtocolCatalog.swift"
+    ]
+  },
+  {
+    "id": 116,
+    "key": "Custom",
+    "files": [
+      "Packages/StrandDesign/Sources/StrandDesign/Appearance.swift"
+    ]
+  },
+  {
+    "id": 117,
+    "key": "%@. Tap to pick a day, swipe to change day.",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 118,
+    "key": "Source: %@",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 119,
+    "key": "%lld total",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 120,
+    "key": "No new nights from your strap for %lld days. Check it's connected and saving data.",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 121,
+    "key": "–",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 122,
+    "key": "%@, %@. See how it is scored.",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 123,
+    "key": "Learning your baseline, %lld of %lld nights.",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 124,
+    "key": "%lld of the last %lld nights recorded no HRV. Check the strap is worn overnight and syncing.",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 125,
+    "key": "%lld pages behind at connect",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 126,
+    "key": "Syncing strap history, %lld chunks, %@",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 127,
+    "key": "Ring battery %lld percent, charging",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 128,
+    "key": "Ring battery %lld percent",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 129,
+    "key": "Strap battery %lld percent, charging",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 130,
+    "key": "Synced %@",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 131,
+    "key": "~%lldh left",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 132,
+    "key": "~%lld days left",
+    "files": [
+      "Strand/Liquid/LiquidTodayView.swift"
+    ]
+  },
+  {
+    "id": 133,
+    "key": "%lld hours excluded — you were moving.",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 134,
+    "key": "peak %@ · %@",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 135,
+    "key": "%@h",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 136,
+    "key": "avg %@ · %lldh",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 137,
+    "key": "%lldh elevated",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 138,
+    "key": "Your last %lld hours have stayed in the high band. A few minutes of paced breathing can help downshift your nervous system.",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 139,
+    "key": "Stress · %@",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 140,
+    "key": "avg %@",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 141,
+    "key": "Autonomic load today: %@",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  },
+  {
+    "id": 142,
+    "key": "Today's stress split: calm %@, moderate %@, high %@.",
+    "files": [
+      "Strand/Screens/StressView.swift"
+    ]
+  }
+]
