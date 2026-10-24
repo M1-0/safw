@@ -45,8 +45,9 @@ import SafwResearch
     }
 
     func refresh() async {
-        guard !busy, UserDefaults.standard.bool(forKey: Self.preference), available(),
-              let type = HKQuantityType.quantityType(forIdentifier: .bloodGlucose) else { return }
+        guard !busy, UserDefaults.standard.bool(forKey: Self.preference) else { return }
+        readings = [] // Also clear history if HealthKit or its entitlement becomes unavailable.
+        guard available(), let type = HKQuantityType.quantityType(forIdentifier: .bloodGlucose) else { return }
         busy = true
         generation += 1
         let request = generation

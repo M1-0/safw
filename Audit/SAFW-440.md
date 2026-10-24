@@ -42,7 +42,7 @@ be saving records to Health. No manual data entry is required by Safw.
 ## Platform and validation scope
 
 This repository is the personal iOS build overlay. Research storage and new screens remain iOS-only.
-The recovery hardening is applied to the shared Swift package and tested on both Linux and macOS;
+The recovery hardening is applied to the shared Swift package with cross-platform regression tests;
 the separate upstream Android app is not released by this overlay and is not represented as updated.
 Bluetooth commands, decoders, persistent upstream schemas, and sleep-stage model weights are unchanged.
 

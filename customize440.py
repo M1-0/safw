@@ -18,7 +18,7 @@ def apply(root, replace, catalog_keys):
         // Safw: malformed imported/computed values must not become a reassuring clamped
         // score. Validate only terms that actually participate; retain the existing formula
         // and all finite valid-input results. Zero baseline spread is allowed upstream.
-        func validBaseline(_ b: DriverBaseline) -> Bool {
+        let validBaseline: (DriverBaseline) -> Bool = { b in
             b.mean.isFinite && b.spread.isFinite && b.spread >= 0
         }
         guard hrv.isFinite, hrv > 0, validBaseline(hrvB) else { return nil }
