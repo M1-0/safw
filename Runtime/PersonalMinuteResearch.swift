@@ -41,8 +41,13 @@ import SafwResearch
             let history = try earlier.map { try JSONDecoder().decode(PersonalMinuteStress.Point.self, from: Data($0.payload.utf8)) }
             // One device and one measured stream: no Apple/import/PPG blending.
             let hr = try await minutes.personalMeasuredHR(deviceID: source, from: start - 300, to: now)
-            let gravity = try await store.gravitySamples(deviceId: source, from: start - 301, to: now, limit: 200_000)
-            let sleeps = await repo.sleepSessions(from: start - 86_400, to: now, limit: 100)
+            let gravity = try await store.gravitySamples(deviceId: source,
+                from: start - PersonalMinuteStress.warmup - PersonalMinuteStress.window - 1, to: now, limit: 200_000)
+            // The imported-only repository API omits Bluetooth-computed nights. Exclude both
+            // source partitions; a local night must never train the daytime baseline.
+            let importedSleep = try await store.sleepSessions(deviceId: source, from: start - 86_400, to: now, limit: 100)
+            let computedSleep = try await store.sleepSessions(deviceId: source + "-noop", from: start - 86_400, to: now, limit: 100)
+            let sleeps = importedSleep + computedSleep
             let workouts = await repo.workoutRows(days: 2)
             let excluded = sleeps.map { PersonalMinuteStress.Exclusion(start: $0.effectiveStartTs, end: $0.endTs) }
                 + workouts.map { PersonalMinuteStress.Exclusion(start: $0.startTs, end: $0.endTs + 15 * 60) }

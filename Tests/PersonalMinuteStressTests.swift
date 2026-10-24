@@ -94,4 +94,45 @@ final class PersonalMinuteStressTests: XCTestCase {
         let b = PersonalMinuteStress.analyze(hr: Array(heart(70).reversed()), gravity: Array(motion().reversed()), from: start, to: start + 600, history: Array(reference.reversed()))
         XCTAssertEqual(a, b)
     }
+
+    func testConflictingGravityIsMissingInBothOrders() {
+        let conflicting = motion() + motion(moving: true)
+        let a = PersonalMinuteStress.analyze(hr: heart(80), gravity: conflicting, from: start, to: start + 600, history: reference)
+        let b = PersonalMinuteStress.analyze(hr: heart(80), gravity: Array(conflicting.reversed()), from: start, to: start + 600, history: reference)
+        XCTAssertEqual(a, b)
+        XCTAssertEqual(a.last?.reason, .motionUnavailable)
+    }
+
+    func testStaleMotionCannotLookLikeCurrentStillness() {
+        let stale = motion().filter { $0.ts < start + 550 }
+        let p = PersonalMinuteStress.analyze(hr: heart(80), gravity: stale, from: start, to: start + 600, history: reference)
+        XCTAssertGreaterThan(p.last!.motionCoverage, 0.6)
+        XCTAssertEqual(p.last?.reason, .motionUnavailable)
+    }
+
+    func testMovementBeforeBoundaryStillSuppressesQuietMinutes() {
+        let g = (-1501..<600).map { offset in
+            GravitySample(ts: start + offset, x: offset < -300 && offset % 2 == 0 ? 1 : 0, y: 0, z: 1)
+        }
+        let p = PersonalMinuteStress.analyze(hr: heart(90), gravity: g, from: start, to: start + 600, history: reference)
+        XCTAssertEqual(p.last?.reason, .activity)
+        XCTAssertNil(p.last?.level)
+    }
+
+    func testMissingHRDuringMovementDoesNotDisableCooldown() {
+        let g = motion(seconds: 1200).map { p in
+            GravitySample(ts: p.ts, x: p.ts < start + 300 && p.ts % 2 == 0 ? 1 : 0, y: 0, z: 1)
+        }
+        let h = heart(90, seconds: 1200).filter { $0.ts >= start + 400 }
+        let p = PersonalMinuteStress.analyze(hr: h, gravity: g, from: start, to: start + 1200, history: reference)
+        XCTAssertEqual(p.last?.reason, .activity)
+    }
+
+    func testConflictingReferencesCannotChangeBaselineWithOrdering() {
+        let history = reference + reference.map { PersonalMinuteStress.Reference(end: $0.end, meanHR: 110) }
+        let a = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(), from: start, to: start + 600, history: history)
+        let b = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(), from: start, to: start + 600, history: Array(history.reversed()))
+        XCTAssertEqual(a, b)
+        XCTAssertEqual(a.last?.reason, .baselineUnavailable)
+    }
 }
