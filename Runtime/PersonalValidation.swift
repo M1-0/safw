@@ -286,7 +286,7 @@ final class PersonalValidation: NSObject, ObservableObject, ASWebAuthenticationP
         let settings = keys.map { key in
             "\(key)=\(String(describing: UserDefaults.standard.object(forKey: key)))"
         }.joined(separator: "\n")
-        return "noop-12.0.0@9f98f811/validation-v1/" + String(digest(settings).prefix(16))
+        return "noop-12.0.0@9f98f811/safw-recovery-v2/validation-v1/" + String(digest(settings).prefix(16))
     }
 }
 

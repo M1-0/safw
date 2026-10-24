@@ -75,10 +75,10 @@ try:
     capture('19-quiet-liquidtoday', '--demo-seed', '--demo-screen', 'liquidtoday', '-noop.quietMotion', 'YES', synthetic=True)
     for screen in ['breathe', 'scoringguide', 'scoringcharge', 'scoringeffort', 'scoringrest',
                    'deeptimeline', 'customizetoday', 'customizemetrics', 'customizecards',
-                   'applehealth', 'storage', 'backup', 'hydration', 'hrvsnapshot', 'validation']:
+                   'applehealth', 'storage', 'backup', 'hydration', 'hrvsnapshot', 'validation', 'healthinsights', 'glucose']:
         capture('flow-' + screen, '--demo-seed', '--demo-screen', screen, synthetic=True)
     sim('ui', device, 'content_size', 'extra-extra-extra-large')
-    for screen in ['liquidtoday', 'stress', 'datasources', 'breathe', 'customizetoday', 'scoringcharge', 'validation']:
+    for screen in ['liquidtoday', 'stress', 'datasources', 'breathe', 'customizetoday', 'scoringcharge', 'validation', 'healthinsights', 'glucose']:
         capture('large-' + screen, '--demo-seed', '--demo-screen', screen, synthetic=True)
     capture('large-first-launch')
 finally:

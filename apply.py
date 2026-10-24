@@ -162,7 +162,10 @@ def apply(root):
     customize438.apply(root, replace, catalog_keys)
     import customize_validation
     customize_validation.apply(root, replace, catalog_keys)
+    import customize440
+    customize440.apply(root, replace, catalog_keys)
     translations = json.loads((HERE / "ar.json").read_text())
+    translations.update(json.loads((HERE / "Audit/health-440-ar.json").read_text()))
     for name in CATALOGS:
         p = root / name
         source = p.read_text()
