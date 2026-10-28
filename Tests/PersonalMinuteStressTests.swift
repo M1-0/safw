@@ -135,4 +135,43 @@ final class PersonalMinuteStressTests: XCTestCase {
         XCTAssertEqual(a, b)
         XCTAssertEqual(a.last?.reason, .baselineUnavailable)
     }
+
+    func testLateSleepClassificationRemovesOldCalibrationWindows() {
+        let sleep = PersonalMinuteStress.Exclusion(start: start - 7200, end: start)
+        let before = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 600, history: reference)
+        let after = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 600, history: reference, excluding: [sleep])
+        XCTAssertNotNil(before.last?.level)
+        XCTAssertNil(after.last?.level)
+        XCTAssertEqual(after.last?.reason, .baselineUnavailable)
+        XCTAssertEqual(after.last?.baselineWindows, 1)
+    }
+
+    func testHistoricalExclusionChecksOverlapNotJustEndpoint() {
+        // Each exclusion overlaps only the FIRST second of an old five-minute window.
+        let partial = reference.map {
+            PersonalMinuteStress.Exclusion(start: $0.end - 300, end: $0.end - 299)
+        }
+        let p = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 600, history: reference, excluding: partial)
+        XCTAssertEqual(p.last?.reason, .baselineUnavailable)
+    }
+
+    func testExclusionTouchingHistoricalBoundaryDoesNotRemoveAdjacentRest() {
+        let one = PersonalMinuteStress.Reference(end: start - 600, meanHR: 50)
+        let p = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 60, history: [one],
+            excluding: [.init(start: start - 1200, end: start - 900),
+                        .init(start: start - 600, end: start - 300)])
+        XCTAssertEqual(p.first?.baselineWindows, 1)
+        XCTAssertEqual(p.first?.baseline, 50)
+    }
+
+    func testMalformedOrUnboundedAnalysisCannotOverflow() {
+        for bounds in [(Int.min, Int.max), (0, Int.max), (100, 99), (0, 48 * 3600 + 1)] {
+            XCTAssertTrue(PersonalMinuteStress.analyze(hr: [], gravity: [],
+                from: bounds.0, to: bounds.1).isEmpty)
+        }
+    }
 }

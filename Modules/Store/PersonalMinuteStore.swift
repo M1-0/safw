@@ -80,4 +80,23 @@ public actor PersonalMinuteStore {
             }
         }
     }
+
+    // Read current classifications, including a night that STARTED before the query boundary.
+    // No LIMIT: silently truncating exclusions would make old sleep eligible as daytime rest.
+    public func personalSleepExclusions(deviceID: String, from: Int, to: Int) async throws -> [PersonalMinuteStress.Exclusion] {
+        guard from >= 0, to > from else { return [] }
+        return try syncRead { db in
+            try Row.fetchAll(db, sql: """
+                SELECT COALESCE(startTsAdjusted, startTs) AS effectiveStart, endTs
+                FROM sleepSession
+                WHERE deviceId IN (?, ?)
+                  AND COALESCE(startTsAdjusted, startTs) >= 0
+                  AND endTs > COALESCE(startTsAdjusted, startTs)
+                  AND COALESCE(startTsAdjusted, startTs) < ? AND endTs > ?
+                ORDER BY effectiveStart, endTs
+                """, arguments: [deviceID, deviceID + "-noop", to, from]).map {
+                    PersonalMinuteStress.Exclusion(start: $0["effectiveStart"], end: $0["endTs"])
+                }
+        }
+    }
 }

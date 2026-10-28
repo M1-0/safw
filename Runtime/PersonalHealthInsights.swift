@@ -12,8 +12,8 @@ struct PersonalHealthInsightsShortcut: View {
                     Image(systemName: "waveform.path.ecg").font(StrandFont.title2)
                         .foregroundStyle(StrandPalette.accent)
                     VStack(alignment: .leading, spacing: NoopMetrics.space1) {
-                        Text("Signal quality and glucose").font(StrandFont.headline)
-                        Text("Sleep coverage and readings from Apple Health")
+                        Text("Signal quality").font(StrandFont.headline)
+                        Text("Coverage and gaps in recorded sleep data")
                             .font(StrandFont.footnote).foregroundStyle(StrandPalette.textSecondary)
                     }
                     Spacer(minLength: 0)
@@ -31,6 +31,7 @@ struct PersonalHealthInsightsView: View {
     @State private var sourceID = ""
     @State private var failed = false
     @State private var loading = false
+    @State private var generation = 0
 
     var body: some View {
         ScrollView {
@@ -59,31 +60,23 @@ struct PersonalHealthInsightsView: View {
                             .font(StrandFont.footnote).foregroundStyle(StrandPalette.textSecondary)
                     }
                 }
-                NavigationLink { PersonalGlucoseView() } label: {
-                    NoopCard {
-                        HStack(spacing: NoopMetrics.cardInnerSpacing) {
-                            VStack(alignment: .leading, spacing: NoopMetrics.space1) {
-                                Text("Blood glucose history").font(StrandFont.headline)
-                                Text("Optional, read-only Apple Health connection")
-                                    .font(StrandFont.footnote).foregroundStyle(StrandPalette.textSecondary)
-                            }
-                            Spacer(minLength: 0)
-                            Image(systemName: "chevron.forward")
-                        }
-                    }
-                }.buttonStyle(.plain)
             }.padding(NoopMetrics.cardPadding)
         }
-        .navigationTitle("Signal quality and glucose")
+        .navigationTitle("Signal quality")
         .task(id: "\(repo.deviceId)|\(repo.refreshSeq)") { await refresh() }
         .refreshable { await refresh() }
     }
 
     @MainActor private func refresh() async {
+        generation += 1
+        let request = generation
         let source = repo.deviceId
         sourceID = source; report = nil; night = nil; failed = false; loading = true
-        defer { if sourceID == source { loading = false } }
-        guard let store = await repo.storeHandle() else { failed = true; return }
+        defer { if generation == request { loading = false } }
+        guard let store = await repo.storeHandle() else {
+            if generation == request { failed = true }
+            return
+        }
         do {
             let now = Int(Date().timeIntervalSince1970)
             let computed = try await store.sleepSessions(deviceId: source + "-noop", from: now - 7 * 86_400, to: now, limit: 100)
@@ -95,10 +88,10 @@ struct PersonalHealthInsightsView: View {
             let result = await runUnescalated(priority: .utility) {
                 PersonalSignalCoverage.analyze(samples, from: latest.effectiveStartTs, to: latest.endTs)
             }
-            guard !Task.isCancelled, repo.deviceId == source, sourceID == source else { return }
+            guard !Task.isCancelled, generation == request, repo.deviceId == source, sourceID == source else { return }
             report = result; night = latest
         } catch {
-            guard !Task.isCancelled, repo.deviceId == source else { return }
+            guard !Task.isCancelled, generation == request, repo.deviceId == source else { return }
             failed = true; report = nil; night = nil
         }
     }

@@ -1,5 +1,8 @@
 # Safw 440 — signal quality and measured glucose history
 
+Historical scope for build 440. Build 441 removes glucose history and supersedes this release;
+see [SAFW-441.md](SAFW-441.md). The 440 full build passed run 40118707939.
+
 ## Changes
 
 - Minute stress research v2 rejects conflicting gravity/reference timestamps regardless of input

@@ -7,12 +7,13 @@ import StrandAnalytics
 // is shared; the formula is a provisional HR-only deviation measure. Wrist daytime
 // RMSSD is intentionally omitted until artifact rejection has independent validation.
 public enum PersonalMinuteStress {
-    public static let version = "mynoop.minute.hr.v2"
+    public static let version = "mynoop.minute.hr.v3"
     public static let window = 300
     public static let step = 60
     public static let cooldown = 15 * 60
     // Replay enough completed windows to retain activity suppression across day/batch boundaries.
     public static let warmup = window + cooldown
+    public static let historySeconds = 14 * 86_400
 
     public enum Reason: String, Codable, Sendable {
         case estimate, insufficientSignal, motionUnavailable, activity, excluded, baselineUnavailable
@@ -43,14 +44,18 @@ public enum PersonalMinuteStress {
     public static func references(_ points: [Point]) -> [Reference] {
         points.compactMap { p in
             guard p.end % window == 0, p.reason == .estimate || p.reason == .baselineUnavailable,
-                  let mean = p.meanHR else { return nil }
+                  p.end >= window, p.coverage.isFinite, (0.8...1).contains(p.coverage),
+                  p.motionCoverage.isFinite, (0.6...1).contains(p.motionCoverage),
+                  let mean = p.meanHR, mean.isFinite, (30...220).contains(mean) else { return nil }
             return Reference(end: p.end, meanHR: mean)
         }
     }
 
     public static func analyze(hr: [HRSample], gravity: [GravitySample], from: Int, to: Int,
                                history: [Reference] = [], excluding: [Exclusion] = []) -> [Point] {
-        guard to > from else { return [] }
+        guard from >= 0, to > from, to <= Int.max - warmup - window,
+              to - from <= 48 * 3_600 else { return [] }
+        let exclusions = excluding.filter { $0.start >= 0 && $0.end > $0.start }
         // Conflicting HR observations at one second are missing, not votes. Duplicate
         // packets cannot create coverage or push a window over a signal gate.
         var hrBySecond: [Int: Int] = [:]
@@ -81,7 +86,11 @@ public enum PersonalMinuteStress {
         }
         var refs: [Int: Double] = [:]
         var referenceConflicts = Set<Int>()
-        for r in history where r.end <= from && r.end % window == 0 && r.meanHR.isFinite && (30...220).contains(r.meanHR) {
+        for r in history where r.end >= window && r.end <= from && r.end >= from - historySeconds
+            && r.end % window == 0 && r.meanHR.isFinite && (30...220).contains(r.meanHR) {
+            // Sleep/workout classifications can arrive after these windows were recorded.
+            // Recheck the entire historical window, not just its endpoint, on every replay.
+            guard !exclusions.contains(where: { $0.start < r.end && $0.end > r.end - window }) else { continue }
             if let old = refs[r.end], old != r.meanHR { referenceConflicts.insert(r.end) }
             refs[r.end] = r.meanHR
         }
@@ -116,11 +125,11 @@ public enum PersonalMinuteStress {
                 missingRun = hrBySecond[ts] == nil ? missingRun + 1 : 0
                 longestGap = max(longestGap, missingRun)
             }
-            let eligible = refs.filter { $0.key <= start && $0.key >= end - 14 * 86_400 }.values.sorted()
+            let eligible = refs.filter { $0.key <= start && $0.key >= end - historySeconds }.values.sorted()
             let center = eligible.isEmpty ? nil : median(eligible)
             var reason: Reason
             var level: Double?
-            if excluding.contains(where: { $0.start < end && $0.end > start }) {
+            if exclusions.contains(where: { $0.start < end && $0.end > start }) {
                 reason = .excluded
             } else if coverage < 0.8 || longestGap > 15 || latest.count < 30 || (latest.last ?? 0) < end - 10 {
                 reason = .insufficientSignal

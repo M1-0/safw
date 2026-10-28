@@ -1,4 +1,4 @@
-"""Build 440: data-quality fixes and read-only iOS health surfaces."""
+"""Build 440: data-quality fixes and iOS sleep-signal coverage."""
 import json
 import shutil
 from pathlib import Path
@@ -7,7 +7,7 @@ HERE = Path(__file__).resolve().parent
 
 
 def apply(root, replace, catalog_keys):
-    for name in ["PersonalSignalCoverageTests.swift", "PersonalGlucoseHistoryTests.swift"]:
+    for name in ["PersonalSignalCoverageTests.swift"]:
         shutil.copy2(HERE / "Tests" / name, root / "Personal/Research/Tests/SafwResearchTests" / name)
     shutil.copy2(HERE / "Tests/PersonalRecoveryValidityTests.swift",
                  root / "Packages/StrandAnalytics/Tests/StrandAnalyticsTests/PersonalRecoveryValidityTests.swift")

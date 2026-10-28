@@ -1,10 +1,16 @@
 # صفو · Safw
 
-Build 440 adds signal-quality fixes to minute stress and recovery, a measured sleep-signal
-coverage screen, and optional read-only Apple Health glucose history. See
-[the 440 change and validation scope](Audit/SAFW-440.md). It does not estimate glucose or diabetes
-risk from WHOOP. Real physiological accuracy and HealthKit/device synchronization remain unvalidated.
-Build 439 below is the last previously verified release; 440 build results are recorded separately.
+Build 441 focuses on signal integrity: delayed sleep/workout exclusions are rechecked across
+minute-stress calibration history; uncalibrated or stale optional recovery baselines are omitted
+from the score, driver rows and trace. The sleep-signal coverage screen remains, and the comparison
+view now shows HRV/resting-HR differences and signed bias alongside recovery/stage totals.
+The experimental glucose feature has been removed from this release. No diabetes-risk or glucose
+inference is implemented. See [the 441 scope and validation protocol](Audit/SAFW-441.md).
+
+The preceding 440 source `ef3c43641928bb8f7c0cc29d59068249cac9d6b5` passed
+[the complete public workflow](https://github.com/M1-0/safw/actions/runs/40118707939).
+Build 441 must pass its own package, app, IPA and simulator checks before delivery; software tests
+do not establish real physiological accuracy or superiority over WHOOP.
 
 Build 439 prepares a clean public source snapshot and freezes the first timely nightly comparison.
 The public source has no WHOOP exports or imported Git history. The combined workflow checks Python,
@@ -48,7 +54,7 @@ bash build.sh "$PWD/noop"
 
 Run `apply.py` once on a clean checkout. It rejects a different upstream commit and changed source seams rather than silently guessing. `project.yml` is untouched; XcodeGen receives `project.personal.generated.yml`. Do not commit generated Xcode projects.
 
-The output is `noop/build/personal-dist/Safw-12.0.0-440-unsigned.ipa`, **only after an actual successful Apple build**. The manifest records the upstream/customization commits and IPA SHA-256. SideStore supplies device signing. The app uses `app.m1.mynoop.noop`; the widget uses `app.m1.mynoop.noop.widgets`. Both use the independent personal App Group. The upstream sideload preparation script preserves HealthKit and widget entitlement requests. Watch embedding is stripped in line with upstream sideload releases.
+The output is `noop/build/personal-dist/Safw-12.0.0-441-unsigned.ipa`, **only after an actual successful Apple build**. The manifest records the upstream/customization commits and IPA SHA-256. SideStore supplies device signing. The app uses `app.m1.mynoop.noop`; the widget uses `app.m1.mynoop.noop.widgets`. Both use the independent personal App Group. The upstream sideload preparation script preserves HealthKit and widget entitlement requests. Watch embedding is stripped in line with upstream sideload releases.
 
 ## Implemented customizations
 

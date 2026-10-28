@@ -286,7 +286,7 @@ final class PersonalValidation: NSObject, ObservableObject, ASWebAuthenticationP
         let settings = keys.map { key in
             "\(key)=\(String(describing: UserDefaults.standard.object(forKey: key)))"
         }.joined(separator: "\n")
-        return "noop-12.0.0@9f98f811/safw-recovery-v2/validation-v1/" + String(digest(settings).prefix(16))
+        return "noop-12.0.0@9f98f811/safw-recovery-v3/validation-v1/" + String(digest(settings).prefix(16))
     }
 }
 
@@ -403,6 +403,10 @@ struct PersonalValidationView: View {
                                 Text("Matched nights: \(group.matched)").font(StrandFont.subhead)
                                 Text("Unmatched or ambiguous: \(group.unmatched + group.ambiguous)").font(StrandFont.footnote)
                                 Text("Quality exclusions: \(group.quality_excluded)").font(StrandFont.footnote)
+                                Text("Mean absolute difference from WHOOP")
+                                    .font(StrandFont.footnote).foregroundStyle(StrandPalette.textSecondary)
+                                metric("HRV difference (ms)", group.metrics["hrv"])
+                                metric("Resting HR difference (bpm)", group.metrics["rhr"])
                                 metric("Recovery difference (points)", group.metrics["recovery"])
                                 metric("Deep sleep difference (min)", group.metrics["deep"])
                                 metric("REM difference (min)", group.metrics["rem"])
@@ -437,6 +441,13 @@ struct PersonalValidationView: View {
                 } else { Text("Not enough paired data") }
             }
             if let value, value.n > 0 { Text("Paired measurements: \(value.n)") }
+            if let value, value.n > 0, let bias = value.bias {
+                HStack {
+                    Text("Mean signed difference (Safw minus WHOOP)")
+                    Spacer()
+                    Text(bias.formatted(.number.precision(.fractionLength(1))))
+                }.foregroundStyle(StrandPalette.textSecondary)
+            }
         }.font(StrandFont.footnote)
     }
 }

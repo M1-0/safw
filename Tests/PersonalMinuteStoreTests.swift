@@ -56,4 +56,29 @@ final class PersonalMinuteStoreTests: XCTestCase {
         XCTAssertEqual(h.count, 1)
         XCTAssertEqual(h.first?.bpm, 64)
     }
+
+    func testSleepExclusionsUseCurrentIntervalsAndOnlySelectedDevice() async throws {
+        let store = try await WhoopStore.inMemory()
+        let minutes = PersonalMinuteStore(store: store)
+        let empty = try await minutes.personalSleepExclusions(deviceID: "a", from: 1000, to: 2000)
+        XCTAssertTrue(empty.isEmpty)
+        try await store.registryWriter.write { db in
+            // Starts before the lower bound, but overlaps it; imported and computed both count.
+            try db.execute(sql: "INSERT INTO sleepSession(deviceId,startTs,endTs) VALUES ('a',800,1200)")
+            try db.execute(sql: "INSERT INTO sleepSession(deviceId,startTs,endTs,startTsAdjusted) VALUES ('a-noop',1400,1700,1300)")
+            try db.execute(sql: "INSERT INTO sleepSession(deviceId,startTs,endTs) VALUES ('b-noop',1100,1800)")
+            try db.execute(sql: "INSERT INTO sleepSession(deviceId,startTs,endTs) VALUES ('a',500,1000)")
+            try db.execute(sql: "INSERT INTO sleepSession(deviceId,startTs,endTs) VALUES ('a',2000,2500)")
+            try db.execute(sql: "INSERT INTO sleepSession(deviceId,startTs,endTs) VALUES ('a',1900,1800)")
+        }
+        let rows = try await minutes.personalSleepExclusions(deviceID: "a", from: 1000, to: 2000)
+        XCTAssertEqual(rows.map(\.start), [800, 1300])
+        XCTAssertEqual(rows.map(\.end), [1200, 1700])
+        // A correction arriving later is read afresh; no stale materialized exclusion cache.
+        try await store.registryWriter.write { db in
+            try db.execute(sql: "UPDATE sleepSession SET startTsAdjusted=1600 WHERE deviceId='a-noop'")
+        }
+        let updated = try await minutes.personalSleepExclusions(deviceID: "a", from: 1000, to: 2000)
+        XCTAssertEqual(updated.map(\.start), [800, 1600])
+    }
 }

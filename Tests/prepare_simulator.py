@@ -13,7 +13,6 @@ extra = '''
         case "datasources": return AnyView(DataSourcesView())
         case "validation": return AnyView(PersonalValidationView())
         case "healthinsights": return AnyView(PersonalHealthInsightsView())
-        case "glucose": return AnyView(PersonalGlucoseView())
         case "onboarding": return AnyView(OnboardingWizard(onFinished: {}))
         case "waterstates": return AnyView(PersonalWaterAuditView())
         case "breathe": return AnyView(BreathingView())
