@@ -29,7 +29,13 @@ bounds, source isolation, malformed intervals, usable and unusable recovery base
 between the recovery score, its driver rows and its diagnostic trace. These are synthetic software
 tests, not measured physiological accuracy. The full public workflow additionally tests the upstream
 packages and macOS app, builds the actual Release iOS IPA, and launches normal/large-text simulator
-screens. Results and exact source SHA must be recorded after execution.
+screens. Source `64b68aa96a43de5eda3b7997f61b5c3dd8867e5d` passed
+[workflow 40677344405](https://github.com/M1-0/safw/actions/runs/40677344405), including the final
+aggregate gate, on attempt two. The first simulator job timed out during diagnostic collection
+after all 46 captures; its retry completed on unchanged source. The successful package/app jobs
+and Release IPA remain from attempt one. [build-441.json](build-441.json) records the test counts,
+job IDs, visual-review boundary and exact IPA hash. Subsequent evidence-only documentation edits
+do not change the tested executable source.
 
 This is the personal iOS overlay. Shared Swift recovery hardening is applied during its Apple build;
 the separately released upstream Android application is not changed or claimed to be updated.
