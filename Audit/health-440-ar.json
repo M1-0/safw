@@ -1,0 +1,17 @@
+{
+  "Last recorded sleep signal": "بيانات آخر فترة نوم مسجلة",
+  "Measured HR coverage": "تغطية قياسات النبض",
+  "Longest HR gap": "أطول انقطاع في قياس النبض",
+  "Conflicting seconds": "ثوانٍ ذات قراءات متعارضة",
+  "Sleep staging has sparse motion data.": "تصنيف مراحل النوم يعتمد على بيانات حركة قليلة.",
+  "Only measured heart-rate seconds from the selected strap are counted. Imported scores and optical estimates do not fill gaps.": "تُحسب فقط ثواني النبض المقاسة من السوار المحدد. لا تُملأ الفجوات بالنتائج المستوردة أو التقديرات الضوئية.",
+  "Could not read sleep signal history.": "تعذّرت قراءة سجل بيانات النوم.",
+  "No completed sleep with signal history in the last seven days.": "لا توجد فترة نوم مكتملة متاحة للتحليل خلال الأيام السبعة الماضية.",
+  "Coverage describes available data, not sleep-stage accuracy. High coverage does not validate REM, deep sleep, or recovery.": "التغطية تصف كمية البيانات المتاحة، وليست دقة مراحل النوم. اكتمال البيانات لا يثبت دقة النوم العميق أو نوم الأحلام أو التعافي.",
+  "Signal quality": "جودة البيانات",
+  "Coverage and gaps in recorded sleep data": "تغطية بيانات النوم المسجلة وفجواتها",
+  "Mean absolute difference from WHOOP": "متوسط الفرق المطلق عن ووب",
+  "HRV difference (ms)": "فرق تباين النبض (مللي ثانية)",
+  "Resting HR difference (bpm)": "فرق نبض الراحة (نبضة/دقيقة)",
+  "Mean signed difference (Safw minus WHOOP)": "متوسط الفرق باتجاهه (صفو ناقص ووب)"
+}

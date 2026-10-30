@@ -1,5 +1,18 @@
 # صفو · Safw
 
+Build 441 focuses on signal integrity: delayed sleep/workout exclusions are rechecked across
+minute-stress calibration history; uncalibrated or stale optional recovery baselines are omitted
+from the score, driver rows and trace. The sleep-signal coverage screen remains, and the comparison
+view now shows HRV/resting-HR differences and signed bias alongside recovery/stage totals.
+The experimental glucose feature has been removed from this release. No diabetes-risk or glucose
+inference is implemented. See [the 441 scope and validation protocol](Audit/SAFW-441.md).
+
+Build 441 source `64b68aa96a43de5eda3b7997f61b5c3dd8867e5d` passed
+[the complete public workflow](https://github.com/M1-0/safw/actions/runs/40677344405)
+on its second attempt, including the final aggregate gate, actual Release IPA and 46 simulator
+captures. See [the exact build evidence](Audit/build-441.json). Software tests do not establish
+real physiological accuracy or superiority over WHOOP.
+
 Build 439 prepares a clean public source snapshot and freezes the first timely nightly comparison.
 The public source has no WHOOP exports or imported Git history. The combined workflow checks Python,
 Swift packages, both Apple targets, and iPhone 13 simulator launches; it produces an unsigned IPA
@@ -11,7 +24,7 @@ Build 438 work is documented in [Audit/SAFW-438.md](Audit/SAFW-438.md). It prese
 
 The optional [automatic personal comparison](Validation/README.md) collects local computed results
 and compares them with the owner's official WHOOP reference without daily transcription. Its receiver
-tests and Apple compilation pass in public CI; build 439 is available as an unsigned IPA. A real
+tests and Apple compilation pass in public CI; build 441 is available as an unsigned IPA. A real
 WHOOP account connection and physical strap remain untested. It requires one-time receiver/TLS/OAuth
 setup and explicit phone opt-in. The receiver
 is user-owned; neither this repository nor the assistant provides an always-running hosted service.
@@ -42,7 +55,7 @@ bash build.sh "$PWD/noop"
 
 Run `apply.py` once on a clean checkout. It rejects a different upstream commit and changed source seams rather than silently guessing. `project.yml` is untouched; XcodeGen receives `project.personal.generated.yml`. Do not commit generated Xcode projects.
 
-The output is `noop/build/personal-dist/Safw-12.0.0-439-unsigned.ipa`, **only after an actual successful Apple build**. The manifest records the upstream/customization commits and IPA SHA-256. SideStore supplies device signing. The app uses `app.m1.mynoop.noop`; the widget uses `app.m1.mynoop.noop.widgets`. Both use the independent personal App Group. The upstream sideload preparation script preserves HealthKit and widget entitlement requests. Watch embedding is stripped in line with upstream sideload releases.
+The output is `noop/build/personal-dist/Safw-12.0.0-441-unsigned.ipa`, **only after an actual successful Apple build**. The manifest records the upstream/customization commits and IPA SHA-256. SideStore supplies device signing. The app uses `app.m1.mynoop.noop`; the widget uses `app.m1.mynoop.noop.widgets`. Both use the independent personal App Group. The upstream sideload preparation script preserves HealthKit and widget entitlement requests. Watch embedding is stripped in line with upstream sideload releases.
 
 ## Implemented customizations
 
@@ -61,16 +74,23 @@ Keep the original remote. Fetch and review a selected release in a separate work
 
 ## Status and acceptance
 
-Build 439 passed [public CI run 39654069505](https://github.com/M1-0/safw/actions/runs/39654069505) on source `ff20035c20de6e703af5a5dbf3e8cdce9889e57a`:
-31 personal Python tests, 338 upstream Tools tests, 234 capture-tool tests, both Swift-package
-matrix jobs, upstream macOS app tests, runtime/language checks, the synthetic import round trip,
-Release iOS packaging and the simulator job. The final aggregate gate passed.
+Build 441 passed [public CI run 40677344405](https://github.com/M1-0/safw/actions/runs/40677344405)
+on source `64b68aa96a43de5eda3b7997f61b5c3dd8867e5d`: 31 personal Python tests, 338 upstream
+Tools tests, 234 capture-tool tests (one skipped), 4430 Swift-package tests (two skipped), and
+2267 macOS app tests (two skipped), with no test failures. Runtime/language checks, the synthetic
+import round trip, Release iOS packaging, simulator job and final aggregate gate passed. The
+37 targeted signal/recovery regression tests are included in these suites, not additional tests.
 
-The iPhone 13 simulator used iOS 26.5, retained Arabic defaults and captured 44 screens after
-checking each launch survived eight seconds. Four representative Today, Sleep and comparison
-captures were visually reviewed, including large comparison text. This is not an interaction
-test of every screen, a complete Arabic rollout, real OAuth validation, hardware validation or
-physiological accuracy evidence. Static catalog coverage is 2659/4490 (59.22%).
+The first simulator attempt reached its 45-minute job limit during diagnostic collection after
+all 46 captures. Rerunning that job on the same source completed successfully; no source change
+or reduced test scope was needed. The other successful jobs and the IPA came from attempt one.
+
+The iPhone 13 simulator used iOS 26.5, retained Arabic defaults and captured 46 screens after
+checking each launch survived eight seconds, using empty or synthetic data. Eight representative
+captures from the first attempt were visually reviewed, including normal/large signal coverage
+and comparison settings. This is not an interaction test of every screen, a complete Arabic
+rollout, a visual test of populated comparison results, real OAuth validation, hardware validation
+or physiological accuracy evidence. The audit records the exact IPA hash and verification scope.
 
 The IPA has the existing personal bundle id and a new build number. SideStore signs it for the
 owner's phone. Comparison remains disabled until its receiver and WHOOP authorization are

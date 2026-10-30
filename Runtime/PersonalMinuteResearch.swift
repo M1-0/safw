@@ -26,7 +26,7 @@ import SafwResearch
         guard UserDefaults.standard.bool(forKey: Self.preference), !busy else { return }
         guard repo.activeStrapIsWhoop5() else { points = []; return }
         let now = Int(Date().timeIntervalSince1970)
-        let key = "\(source)|\(now / 60)"
+        let key = "\(source)|\(now / 60)|\(repo.refreshSeq)"
         guard force || key != lastKey else { return }
         busy = true
         defer { busy = false }
@@ -37,14 +37,18 @@ import SafwResearch
             let midnight = Calendar.current.startOfDay(for: Date())
             let start = Int(midnight.timeIntervalSince1970)
             let earlier = try await minutes.personalMinutes(deviceID: source, algorithm: PersonalMinuteStress.version,
-                                                           from: start - 14 * 86_400, to: start)
+                                                           from: start - PersonalMinuteStress.historySeconds, to: start)
             let history = try earlier.map { try JSONDecoder().decode(PersonalMinuteStress.Point.self, from: Data($0.payload.utf8)) }
             // One device and one measured stream: no Apple/import/PPG blending.
             let hr = try await minutes.personalMeasuredHR(deviceID: source, from: start - 300, to: now)
-            let gravity = try await store.gravitySamples(deviceId: source, from: start - 301, to: now, limit: 200_000)
-            let sleeps = await repo.sleepSessions(from: start - 86_400, to: now, limit: 100)
-            let workouts = await repo.workoutRows(days: 2)
-            let excluded = sleeps.map { PersonalMinuteStress.Exclusion(start: $0.effectiveStartTs, end: $0.endTs) }
+            let gravity = try await store.gravitySamples(deviceId: source,
+                from: start - PersonalMinuteStress.warmup - PersonalMinuteStress.window - 1, to: now, limit: 200_000)
+            // The imported-only repository API omits Bluetooth-computed nights. Exclude both
+            // source partitions; a local night must never train the daytime baseline.
+            let sleeps = try await minutes.personalSleepExclusions(deviceID: source,
+                from: start - PersonalMinuteStress.historySeconds - PersonalMinuteStress.window, to: now)
+            let workouts = await repo.workoutRows(days: 16)
+            let excluded = sleeps
                 + workouts.map { PersonalMinuteStress.Exclusion(start: $0.startTs, end: $0.endTs + 15 * 60) }
             let calculated = await runUnescalated(priority: .utility) {
                 PersonalMinuteStress.analyze(hr: hr, gravity: gravity, from: start, to: now,

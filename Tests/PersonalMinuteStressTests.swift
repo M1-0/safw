@@ -94,4 +94,84 @@ final class PersonalMinuteStressTests: XCTestCase {
         let b = PersonalMinuteStress.analyze(hr: Array(heart(70).reversed()), gravity: Array(motion().reversed()), from: start, to: start + 600, history: Array(reference.reversed()))
         XCTAssertEqual(a, b)
     }
+
+    func testConflictingGravityIsMissingInBothOrders() {
+        let conflicting = motion() + motion(moving: true)
+        let a = PersonalMinuteStress.analyze(hr: heart(80), gravity: conflicting, from: start, to: start + 600, history: reference)
+        let b = PersonalMinuteStress.analyze(hr: heart(80), gravity: Array(conflicting.reversed()), from: start, to: start + 600, history: reference)
+        XCTAssertEqual(a, b)
+        XCTAssertEqual(a.last?.reason, .motionUnavailable)
+    }
+
+    func testStaleMotionCannotLookLikeCurrentStillness() {
+        let stale = motion().filter { $0.ts < start + 550 }
+        let p = PersonalMinuteStress.analyze(hr: heart(80), gravity: stale, from: start, to: start + 600, history: reference)
+        XCTAssertGreaterThan(p.last!.motionCoverage, 0.6)
+        XCTAssertEqual(p.last?.reason, .motionUnavailable)
+    }
+
+    func testMovementBeforeBoundaryStillSuppressesQuietMinutes() {
+        let g = (-1501..<600).map { offset in
+            GravitySample(ts: start + offset, x: offset < -300 && offset % 2 == 0 ? 1 : 0, y: 0, z: 1)
+        }
+        let p = PersonalMinuteStress.analyze(hr: heart(90), gravity: g, from: start, to: start + 600, history: reference)
+        XCTAssertEqual(p.last?.reason, .activity)
+        XCTAssertNil(p.last?.level)
+    }
+
+    func testMissingHRDuringMovementDoesNotDisableCooldown() {
+        let g = motion(seconds: 1200).map { p in
+            GravitySample(ts: p.ts, x: p.ts < start + 300 && p.ts % 2 == 0 ? 1 : 0, y: 0, z: 1)
+        }
+        let h = heart(90, seconds: 1200).filter { $0.ts >= start + 400 }
+        let p = PersonalMinuteStress.analyze(hr: h, gravity: g, from: start, to: start + 1200, history: reference)
+        XCTAssertEqual(p.last?.reason, .activity)
+    }
+
+    func testConflictingReferencesCannotChangeBaselineWithOrdering() {
+        let history = reference + reference.map { PersonalMinuteStress.Reference(end: $0.end, meanHR: 110) }
+        let a = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(), from: start, to: start + 600, history: history)
+        let b = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(), from: start, to: start + 600, history: Array(history.reversed()))
+        XCTAssertEqual(a, b)
+        XCTAssertEqual(a.last?.reason, .baselineUnavailable)
+    }
+
+    func testLateSleepClassificationRemovesOldCalibrationWindows() {
+        let sleep = PersonalMinuteStress.Exclusion(start: start - 7200, end: start)
+        let before = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 600, history: reference)
+        let after = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 600, history: reference, excluding: [sleep])
+        XCTAssertNotNil(before.last?.level)
+        XCTAssertNil(after.last?.level)
+        XCTAssertEqual(after.last?.reason, .baselineUnavailable)
+        XCTAssertEqual(after.last?.baselineWindows, 1)
+    }
+
+    func testHistoricalExclusionChecksOverlapNotJustEndpoint() {
+        // Each exclusion overlaps only the FIRST second of an old five-minute window.
+        let partial = reference.map {
+            PersonalMinuteStress.Exclusion(start: $0.end - 300, end: $0.end - 299)
+        }
+        let p = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 600, history: reference, excluding: partial)
+        XCTAssertEqual(p.last?.reason, .baselineUnavailable)
+    }
+
+    func testExclusionTouchingHistoricalBoundaryDoesNotRemoveAdjacentRest() {
+        let one = PersonalMinuteStress.Reference(end: start - 600, meanHR: 50)
+        let p = PersonalMinuteStress.analyze(hr: heart(80), gravity: motion(),
+            from: start, to: start + 60, history: [one],
+            excluding: [.init(start: start - 1200, end: start - 900),
+                        .init(start: start - 600, end: start - 300)])
+        XCTAssertEqual(p.first?.baselineWindows, 1)
+        XCTAssertEqual(p.first?.baseline, 50)
+    }
+
+    func testMalformedOrUnboundedAnalysisCannotOverflow() {
+        for bounds in [(Int.min, Int.max), (0, Int.max), (100, 99), (0, 48 * 3600 + 1)] {
+            XCTAssertTrue(PersonalMinuteStress.analyze(hr: [], gravity: [],
+                from: bounds.0, to: bounds.1).isEmpty)
+        }
+    }
 }

@@ -12,6 +12,7 @@ assert s.count(anchor) == 1, 'Upstream debug-screen seam changed'
 extra = '''
         case "datasources": return AnyView(DataSourcesView())
         case "validation": return AnyView(PersonalValidationView())
+        case "healthinsights": return AnyView(PersonalHealthInsightsView())
         case "onboarding": return AnyView(OnboardingWizard(onFinished: {}))
         case "waterstates": return AnyView(PersonalWaterAuditView())
         case "breathe": return AnyView(BreathingView())
